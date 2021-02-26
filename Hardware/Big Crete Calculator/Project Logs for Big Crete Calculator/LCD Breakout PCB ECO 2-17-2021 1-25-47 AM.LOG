@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=NetJ1_28 Pin=P?-2
+Removed Pin From Net: NetName=NetJ1_27 Pin=P?-4
+Removed Pin From Net: NetName=NetJ1_26 Pin=P?-6
+Removed Pin From Net: NetName=NetJ1_25 Pin=P?-8
+Removed Pin From Net: NetName=NetJ1_24 Pin=P?-10
+Removed Pin From Net: NetName=NetJ1_23 Pin=P?-12
+Removed Pin From Net: NetName=NetJ1_22 Pin=P?-14
+Removed Pin From Net: NetName=NetJ1_21 Pin=P?-16
+Removed Pin From Net: NetName=NetJ1_20 Pin=P?-18
+Removed Pin From Net: NetName=NetJ1_19 Pin=P?-20
+Removed Pin From Net: NetName=NetJ1_18 Pin=P?-22
+Removed Pin From Net: NetName=NetJ1_17 Pin=P?-24
+Added Pin To Net: NetName=NetJ1_17 Pin=P?-2
+Added Pin To Net: NetName=NetJ1_18 Pin=P?-4
+Added Pin To Net: NetName=NetJ1_19 Pin=P?-6
+Added Pin To Net: NetName=NetJ1_20 Pin=P?-8
+Added Pin To Net: NetName=NetJ1_21 Pin=P?-10
+Added Pin To Net: NetName=NetJ1_22 Pin=P?-12
+Added Pin To Net: NetName=NetJ1_23 Pin=P?-14
+Added Pin To Net: NetName=NetJ1_24 Pin=P?-16
+Added Pin To Net: NetName=NetJ1_25 Pin=P?-18
+Added Pin To Net: NetName=NetJ1_26 Pin=P?-20
+Added Pin To Net: NetName=NetJ1_27 Pin=P?-22
+Added Pin To Net: NetName=NetJ1_28 Pin=P?-24
+Added Room: Name=LCD Breakout (4DLCD-43480272)

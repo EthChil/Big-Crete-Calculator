@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Feb  7 19:44:13 2021
+# Process ID: 2800
+# Current directory: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.runs/RamBuf_synth_1
+# Command line: vivado.exe -log RamBuf.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RamBuf.tcl
+# Log file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.runs/RamBuf_synth_1/RamBuf.vds
+# Journal file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.runs/RamBuf_synth_1\vivado.jou
+#-----------------------------------------------------------
+source RamBuf.tcl -notrace

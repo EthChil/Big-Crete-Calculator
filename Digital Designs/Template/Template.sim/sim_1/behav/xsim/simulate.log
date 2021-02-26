@@ -1,0 +1,98 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Error: Fail
+Time: 1 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 2 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 4 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 5 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 6 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 7 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 8 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 10 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 11 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 13 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 16 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Note: Test done.
+Time: 19 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 1 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 2 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 4 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 5 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 6 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 7 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 8 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 10 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 11 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 13 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 16 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Note: Test done.
+Time: 19 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 1 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 2 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 4 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 5 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 6 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 7 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 8 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 10 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 11 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 13 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 16 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Note: Test done.
+Time: 19 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 1 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 2 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 4 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 5 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 6 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 7 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 8 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 10 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 11 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 13 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Error: Fail
+Time: 16 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
+Note: Test done.
+Time: 19 ns  Iteration: 0  Process: /testbench/line__33  File: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sim_1/new/testbench.vhd
