@@ -1,80 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a200tfbg484-1" LaunchTime="1613520317">
-  <File Type="BITSTR-BMM" Name="RamInterface_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="RamInterface_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="RamInterface_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR" Name="RamInterface_power_routed.rpt"/>
   <File Type="PA-TCL" Name="RamInterface.tcl"/>
-  <File Type="OPT-TIMING" Name="RamInterface_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="RamInterface_opt.dcp"/>
-  <File Type="ROUTE-PWR-SUM" Name="RamInterface_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="RamInterface_reports.tcl"/>
-  <File Type="OPT-DRC" Name="RamInterface_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="RamInterface.hwdef"/>
-  <File Type="PWROPT-DCP" Name="RamInterface_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="RamInterface_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="RamInterface_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="RamInterface_placed.dcp"/>
-  <File Type="PLACE-IO" Name="RamInterface_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="RamInterface_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="RamInterface_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="RamInterface_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="RamInterface_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="RamInterface_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="RamInterface_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="RamInterface_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="RamInterface_postplace_pwropt.dcp"/>
-  <File Type="BG-BIN" Name="RamInterface.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="RamInterface_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="RamInterface_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="RamInterface_drc_physopted.rpt"/>
   <File Type="BITSTR-MSK" Name="RamInterface.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="RamInterface_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="RamInterface_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="RamInterface_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="RamInterface_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="RamInterface_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="RamInterface_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="RamInterface_drc_routed.rpx"/>
-  <File Type="BITSTR-MMI" Name="RamInterface.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="RamInterface_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="RamInterface_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="RamInterface_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="RamInterface_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="RamInterface_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="RamInterface_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="RamInterface_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="RamInterface_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="RamInterface_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="RamInterface_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="RamInterface_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="RamInterface_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="RamInterface_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="RamInterface_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="RamInterface_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="RamInterface_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="RamInterface_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="RamInterface_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="RamInterface_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="RamInterface_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="RamInterface_bus_skew_postroute_physopted.pb"/>
+  <File Type="RDI-RDI" Name="RamInterface.vdi"/>
   <File Type="BG-BIT" Name="RamInterface.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="RamInterface_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-DRC" Name="RamInterface.drc"/>
+  <File Type="BG-BGN" Name="RamInterface.bgn"/>
+  <File Type="BG-BIN" Name="RamInterface.bin"/>
   <File Type="BITSTR-RBT" Name="RamInterface.rbt"/>
   <File Type="BITSTR-NKY" Name="RamInterface.nky"/>
+  <File Type="BITSTR-BMM" Name="RamInterface_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="RamInterface.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="RamInterface.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="RamInterface.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="RamInterface.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="RamInterface_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="RamInterface_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="RamInterface_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="RamInterface_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="RamInterface_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="RamInterface_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="RamInterface_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="RamInterface_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="RamInterface_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="RamInterface_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="RamInterface_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="RamInterface_postroute_physopt_bb.dcp"/>
   <File Type="PDI-FILE" Name="RamInterface.pdi"/>
   <File Type="RCFI_FILE" Name="RamInterface.rcfi"/>
   <File Type="CFI_FILE" Name="RamInterface.cfi"/>
   <File Type="RNPI_FILE" Name="RamInterface.rnpi"/>
   <File Type="NPI_FILE" Name="RamInterface.npi"/>
   <File Type="RBD_FILE" Name="RamInterface.rbd"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="RamInterface.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="RamInterface.sysdef"/>
-  <File Type="BG-BGN" Name="RamInterface.bgn"/>
-  <File Type="BG-DRC" Name="RamInterface.drc"/>
-  <File Type="RDI-RDI" Name="RamInterface.vdi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Ram Interface.v">
@@ -131,6 +91,7 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="RamBuf"/>
 </GenRun>

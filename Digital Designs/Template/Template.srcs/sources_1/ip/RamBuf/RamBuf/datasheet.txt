@@ -50,7 +50,7 @@ Controller Options :
 
    Memory Type                   : SODIMMs
 
-   Memory Part                   : MT16JTF51264HZ-1G4
+   Memory Part                   : MT8KTF51264HZ-1G9
 
    Equivalent Part(s)            : --
 
@@ -82,10 +82,11 @@ Memory Options:
 
    Read Burst Type (MR0[3])         : Sequential
 
-   CAS Latency (MR0[6:4])           : 5
+   CAS Latency (MR0[6:4])           : 6
 
    Output Drive Strength (MR1[5,1]) : RZQ/7
 
+   Controller CS option             : Enable
 
    Rtt_NOM - ODT (MR1[9,6,2])       : RZQ/4
 
@@ -102,8 +103,8 @@ Bank Selections:
 		Byte Group T2:	DQ[48-55]
 		Byte Group T3:	DQ[56-63]
 	Bank: 15
-		Byte Group T0:	Address/Ctrl-1
-		Byte Group T1:	Address/Ctrl-0
+		Byte Group T0:	Address/Ctrl-0
+		Byte Group T1:	Address/Ctrl-1
 		Byte Group T2:	Address/Ctrl-2
 		Byte Group T3:	DQ[32-39]
 	Bank: 16

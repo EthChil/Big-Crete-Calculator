@@ -80,15 +80,15 @@ module RamBuf_mig #
    //***************************************************************************
    parameter BANK_WIDTH            = 3,
                                      // # of memory Bank Address bits.
-   parameter CK_WIDTH              = 2,
+   parameter CK_WIDTH              = 1,
                                      // # of CK/CK# outputs to memory.
    parameter COL_WIDTH             = 10,
                                      // # of memory Column Address bits.
-   parameter CS_WIDTH              = 2,
+   parameter CS_WIDTH              = 1,
                                      // # of unique CS outputs to memory.
    parameter nCS_PER_RANK          = 1,
                                      // # of unique CS outputs per rank for phy
-   parameter CKE_WIDTH             = 2,
+   parameter CKE_WIDTH             = 1,
                                      // # of CKE outputs to memory.
    parameter DATA_BUF_ADDR_WIDTH   = 5,
    parameter DQ_CNT_WIDTH          = 6,
@@ -116,13 +116,13 @@ module RamBuf_mig #
       
    //parameter nBANK_MACHS           = 4,
    parameter nBANK_MACHS           = 4,
-   parameter RANKS                 = 2,
+   parameter RANKS                 = 1,
                                      // # of Ranks.
-   parameter ODT_WIDTH             = 2,
+   parameter ODT_WIDTH             = 1,
                                      // # of ODT outputs to memory.
-   parameter ROW_WIDTH             = 15,
+   parameter ROW_WIDTH             = 16,
                                      // # of memory Row Address bits.
-   parameter ADDR_WIDTH            = 29,
+   parameter ADDR_WIDTH            = 30,
                                      // # = RANK_WIDTH + BANK_WIDTH
                                      //     + ROW_WIDTH + COL_WIDTH;
                                      // Chip Select is always tied to low for
@@ -153,10 +153,10 @@ module RamBuf_mig #
    parameter PHY_CONTROL_MASTER_BANK = 1,
                                      // The bank index where master PHY_CONTROL resides,
                                      // equal to the PLL residing bank
-   parameter MEM_DENSITY           = "2Gb",
+   parameter MEM_DENSITY           = "4Gb",
                                      // Indicates the density of the Memory part
                                      // Added for the sake of Vivado simulations
-   parameter MEM_SPEEDGRADE        = "15E",
+   parameter MEM_SPEEDGRADE        = "107E",
                                      // Indicates the Speed grade of Memory Part
                                      // Added for the sake of Vivado simulations
    parameter MEM_DEVICE_WIDTH      = 8,
@@ -187,7 +187,7 @@ module RamBuf_mig #
                                      // DDR2 SDRAM: Burst Type (Mode Register).
                                      // # = "SEQ" - (Sequential),
                                      //   = "INT" - (Interleaved).
-   parameter CL                    = 5,
+   parameter CL                    = 6,
                                      // in number of clock cycles
                                      // DDR3 SDRAM: CAS Latency (Mode Register 0).
                                      // DDR2 SDRAM: CAS Latency (Mode Register).
@@ -253,23 +253,23 @@ module RamBuf_mig #
    // Memory Timing Parameters. These parameters varies based on the selected
    // memory part.
    //***************************************************************************
-   parameter tCKE                  = 5625,
+   parameter tCKE                  = 5000,
                                      // memory tCKE paramter in pS
-   parameter tFAW                  = 30000,
+   parameter tFAW                  = 27000,
                                      // memory tRAW paramter in pS.
    parameter tPRDI                 = 1_000_000,
                                      // memory tPRDI paramter in pS.
-   parameter tRAS                  = 36000,
+   parameter tRAS                  = 34000,
                                      // memory tRAS paramter in pS.
-   parameter tRCD                  = 13500,
+   parameter tRCD                  = 13910,
                                      // memory tRCD paramter in pS.
    parameter tREFI                 = 7800000,
                                      // memory tREFI paramter in pS.
-   parameter tRFC                  = 160000,
+   parameter tRFC                  = 260000,
                                      // memory tRFC paramter in pS.
-   parameter tRP                   = 13500,
+   parameter tRP                   = 13910,
                                      // memory tRP paramter in pS.
-   parameter tRRD                  = 6000,
+   parameter tRRD                  = 5000,
                                      // memory tRRD paramter in pS.
    parameter tRTP                  = 7500,
                                      // memory tRTP paramter in pS.
@@ -334,34 +334,34 @@ module RamBuf_mig #
                                      // or control Byte lane. '1' in a bit
                                      // position indicates a data byte lane and
                                      // a '0' indicates a control byte lane
-   parameter PHY_0_BITLANES        = 48'h1FE_1FE_3DE_1FE,
-   parameter PHY_1_BITLANES        = 48'hC3F_FFF_C3E_1FE,
-   parameter PHY_2_BITLANES        = 48'h000_1FE_3DE_1FE,
+   parameter PHY_0_BITLANES        = 48'h3FC_3FC_0FF_3FC,
+   parameter PHY_1_BITLANES        = 48'h3FF_FFF_C20_3FC,
+   parameter PHY_2_BITLANES        = 48'h000_3FC_0FF_3FC,
 
    // control/address/data pin mapping parameters
    parameter CK_BYTE_MAP
-     = 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_13_13,
+     = 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_13,
    parameter ADDR_MAP
-     = 192'h000_13B_13A_135_134_133_132_131_130_129_128_127_126_12B_12A_125,
-   parameter BANK_MAP   = 36'h124_123_122,
-   parameter CAS_MAP    = 12'h120,
+     = 192'h139_138_137_136_135_134_133_132_131_130_129_128_127_126_12B_12A,
+   parameter BANK_MAP   = 36'h125_124_123,
+   parameter CAS_MAP    = 12'h121,
    parameter CKE_ODT_BYTE_MAP = 8'h00,
-   parameter CKE_MAP    = 96'h000_000_000_000_000_000_113_114,
-   parameter ODT_MAP    = 96'h000_000_000_000_000_000_111_112,
-   parameter CS_MAP     = 120'h000_000_000_000_000_000_000_000_115_11A,
+   parameter CKE_MAP    = 96'h000_000_000_000_000_000_000_11A,
+   parameter ODT_MAP    = 96'h000_000_000_000_000_000_000_115,
+   parameter CS_MAP     = 120'h000_000_000_000_000_000_000_000_000_11B,
    parameter PARITY_MAP = 12'h000,
-   parameter RAS_MAP    = 12'h121,
-   parameter WE_MAP     = 12'h11B,
+   parameter RAS_MAP    = 12'h122,
+   parameter WE_MAP     = 12'h120,
    parameter DQS_BYTE_MAP
      = 144'h00_00_00_00_00_00_00_00_00_00_20_21_22_10_00_01_02_03,
-   parameter DATA0_MAP  = 96'h031_032_033_034_035_036_037_038,
-   parameter DATA1_MAP  = 96'h021_022_023_024_025_026_027_028,
-   parameter DATA2_MAP  = 96'h011_012_013_014_016_017_018_019,
-   parameter DATA3_MAP  = 96'h001_002_003_004_005_006_007_008,
-   parameter DATA4_MAP  = 96'h101_102_103_104_105_106_107_108,
-   parameter DATA5_MAP  = 96'h221_222_223_224_225_226_227_228,
-   parameter DATA6_MAP  = 96'h211_212_213_214_216_217_218_219,
-   parameter DATA7_MAP  = 96'h201_202_203_204_205_206_207_208,
+   parameter DATA0_MAP  = 96'h032_033_034_035_036_037_038_039,
+   parameter DATA1_MAP  = 96'h022_023_024_025_026_027_028_029,
+   parameter DATA2_MAP  = 96'h010_011_012_013_014_015_016_017,
+   parameter DATA3_MAP  = 96'h002_003_004_005_006_007_008_009,
+   parameter DATA4_MAP  = 96'h102_103_104_105_106_107_108_109,
+   parameter DATA5_MAP  = 96'h222_223_224_225_226_227_228_229,
+   parameter DATA6_MAP  = 96'h210_211_212_213_214_215_216_217,
+   parameter DATA7_MAP  = 96'h202_203_204_205_206_207_208_209,
    parameter DATA8_MAP  = 96'h000_000_000_000_000_000_000_000,
    parameter DATA9_MAP  = 96'h000_000_000_000_000_000_000_000,
    parameter DATA10_MAP = 96'h000_000_000_000_000_000_000_000,
@@ -375,7 +375,7 @@ module RamBuf_mig #
    parameter MASK0_MAP  = 108'h000_000_000_000_000_000_000_000_000,
    parameter MASK1_MAP  = 108'h000_000_000_000_000_000_000_000_000,
 
-   parameter SLOT_0_CONFIG         = 8'b0000_0011,
+   parameter SLOT_0_CONFIG         = 8'b0000_0001,
                                      // Mapping of Ranks.
    parameter SLOT_1_CONFIG         = 8'b0000_0000,
                                      // Mapping of Ranks.

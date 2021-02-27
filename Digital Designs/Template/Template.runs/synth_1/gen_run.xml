@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a200tfbg484-1" LaunchTime="1613520257">
   <File Type="PA-TCL" Name="RamInterface.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="RamInterface_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="RamInterface_reports.tcl"/>
   <File Type="RDS-RDS" Name="RamInterface.vds"/>
   <File Type="RDS-UTIL" Name="RamInterface_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="RamInterface_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="RamInterface.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="RamInterface_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="RamInterface_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Ram Interface.v">

@@ -153,7 +153,7 @@ verilog  work  ../RamBuf_ex.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ui/m
 verilog  work  ../RamBuf_ex.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/RamBuf.v
 verilog  work  ../RamBuf_ex.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/RamBuf_mig_sim.v
 verilog  work  $XILINX_VIVADO/data/verilog/src/glbl.v
-sv  work ddr3_model.sv -d x2Gb -d sg15E -d x8 
+sv  work ddr3_model.sv -d x4Gb -d sg107E -d x8 
 verilog  work  wiredly.v
 verilog  work  sim_tb_top.v
 

@@ -72,12 +72,12 @@
   RamBuf u_RamBuf (
 
     // Memory interface ports
-    .ddr3_addr                      (ddr3_addr),  // output [14:0]		ddr3_addr
+    .ddr3_addr                      (ddr3_addr),  // output [15:0]		ddr3_addr
     .ddr3_ba                        (ddr3_ba),  // output [2:0]		ddr3_ba
     .ddr3_cas_n                     (ddr3_cas_n),  // output			ddr3_cas_n
-    .ddr3_ck_n                      (ddr3_ck_n),  // output [1:0]		ddr3_ck_n
-    .ddr3_ck_p                      (ddr3_ck_p),  // output [1:0]		ddr3_ck_p
-    .ddr3_cke                       (ddr3_cke),  // output [1:0]		ddr3_cke
+    .ddr3_ck_n                      (ddr3_ck_n),  // output [0:0]		ddr3_ck_n
+    .ddr3_ck_p                      (ddr3_ck_p),  // output [0:0]		ddr3_ck_p
+    .ddr3_cke                       (ddr3_cke),  // output [0:0]		ddr3_cke
     .ddr3_ras_n                     (ddr3_ras_n),  // output			ddr3_ras_n
     .ddr3_reset_n                   (ddr3_reset_n),  // output			ddr3_reset_n
     .ddr3_we_n                      (ddr3_we_n),  // output			ddr3_we_n
@@ -86,10 +86,10 @@
     .ddr3_dqs_p                     (ddr3_dqs_p),  // inout [7:0]		ddr3_dqs_p
     .init_calib_complete            (init_calib_complete),  // output			init_calib_complete
       
-	.ddr3_cs_n                      (ddr3_cs_n),  // output [1:0]		ddr3_cs_n
-    .ddr3_odt                       (ddr3_odt),  // output [1:0]		ddr3_odt
+	.ddr3_cs_n                      (ddr3_cs_n),  // output [0:0]		ddr3_cs_n
+    .ddr3_odt                       (ddr3_odt),  // output [0:0]		ddr3_odt
     // Application interface ports
-    .app_addr                       (app_addr),  // input [28:0]		app_addr
+    .app_addr                       (app_addr),  // input [29:0]		app_addr
     .app_cmd                        (app_cmd),  // input [2:0]		app_cmd
     .app_en                         (app_en),  // input				app_en
     .app_wdf_data                   (app_wdf_data),  // input [511:0]		app_wdf_data

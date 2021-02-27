@@ -107,7 +107,7 @@ module sim_tb_top;
    //***************************************************************************
    parameter COL_WIDTH             = 10;
                                      // # of memory Column Address bits.
-   parameter CS_WIDTH              = 2;
+   parameter CS_WIDTH              = 1;
                                      // # of unique CS outputs to memory.
    parameter DM_WIDTH              = 8;
                                      // # of DM (data mask)
@@ -119,13 +119,13 @@ module sim_tb_top;
    parameter DRAM_WIDTH            = 8;
                                      // # of DQ per DQS
    parameter ECC                   = "OFF";
-   parameter RANKS                 = 2;
+   parameter RANKS                 = 1;
                                      // # of Ranks.
-   parameter ODT_WIDTH             = 2;
+   parameter ODT_WIDTH             = 1;
                                      // # of ODT outputs to memory.
-   parameter ROW_WIDTH             = 15;
+   parameter ROW_WIDTH             = 16;
                                      // # of memory Row Address bits.
-   parameter ADDR_WIDTH            = 29;
+   parameter ADDR_WIDTH            = 30;
                                      // # = RANK_WIDTH + BANK_WIDTH
                                      //     + ROW_WIDTH + COL_WIDTH;
                                      // Chip Select is always tied to low for
@@ -250,9 +250,9 @@ module sim_tb_top;
   wire                               ddr3_ras_n_fpga;
   wire                               ddr3_cas_n_fpga;
   wire                               ddr3_we_n_fpga;
-  wire [2-1:0]               ddr3_cke_fpga;
-  wire [2-1:0]                ddr3_ck_p_fpga;
-  wire [2-1:0]                ddr3_ck_n_fpga;
+  wire [1-1:0]               ddr3_cke_fpga;
+  wire [1-1:0]                ddr3_ck_p_fpga;
+  wire [1-1:0]                ddr3_ck_n_fpga;
     
   
   wire                               init_calib_complete;
@@ -278,12 +278,12 @@ module sim_tb_top;
   reg                                ddr3_we_n_sdram;
   wire [(CS_WIDTH*1)-1:0] ddr3_cs_n_sdram;
   wire [ODT_WIDTH-1:0]               ddr3_odt_sdram;
-  reg [2-1:0]                ddr3_cke_sdram;
+  reg [1-1:0]                ddr3_cke_sdram;
   wire [DM_WIDTH-1:0]                ddr3_dm_sdram;
   wire [DQS_WIDTH-1:0]               ddr3_dqs_p_sdram;
   wire [DQS_WIDTH-1:0]               ddr3_dqs_n_sdram;
-  reg [2-1:0]                 ddr3_ck_p_sdram;
-  reg [2-1:0]                 ddr3_ck_n_sdram;
+  reg [1-1:0]                 ddr3_ck_p_sdram;
+  reg [1-1:0]                 ddr3_ck_n_sdram;
   
     
 

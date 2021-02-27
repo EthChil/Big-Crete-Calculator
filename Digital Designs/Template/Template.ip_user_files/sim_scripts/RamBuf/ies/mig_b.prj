@@ -42,11 +42,11 @@
   </FPGADevice>
 
   <Controller number="0">
-    <MemoryDevice>DDR3_SDRAM/SODIMMs/MT16JTF51264HZ-1G4</MemoryDevice>
+    <MemoryDevice>DDR3_SDRAM/SODIMMs/MT8KTF51264HZ-1G9</MemoryDevice>
     <TimePeriod>3075</TimePeriod>
     <VccAuxIO>1.8V</VccAuxIO>
     <PHYRatio>4:1</PHYRatio>
-    <InputClkFreq>200.125</InputClkFreq>
+    <InputClkFreq>325.203</InputClkFreq>
     <UIExtraClocks>0</UIExtraClocks>
     <MMCM_VCO>650</MMCM_VCO>
     <MMCMClkOut0> 1.000</MMCMClkOut0>
@@ -55,14 +55,14 @@
     <MMCMClkOut3>1</MMCMClkOut3>
     <MMCMClkOut4>1</MMCMClkOut4>
     <DataWidth>64</DataWidth>
-    <DeepMemory>2</DeepMemory>
-    <DataMask>1</DataMask>
+    <DeepMemory>1</DeepMemory>
+    <DataMask>0</DataMask>
     <ECC>Disabled</ECC>
     <Ordering>Strict</Ordering>
     <BankMachineCnt>4</BankMachineCnt>
     <CustomPart>FALSE</CustomPart>
     <NewPartName/>
-    <RowAddress>15</RowAddress>
+    <RowAddress>16</RowAddress>
     <ColAddress>10</ColAddress>
     <BankAddress>3</BankAddress>
     <MemoryVoltage>1.5V</MemoryVoltage>
@@ -81,17 +81,18 @@
       <Pin Bank="Select Bank" PADName="No connect" name="tg_compare_error"/>
     </System_Control>
     <TimingParameters>
-      <Parameters tcke="5.625" tfaw="30" tras="36" trcd="13.5" trefi="7.8" trfc="160" trp="13.5" trrd="6" trtp="7.5" twtr="7.5"/>
+      <Parameters tcke="5" tfaw="27" tras="34" trcd="13.91" trefi="7.8" trfc="260" trp="13.91" trrd="5" trtp="7.5" twtr="7.5"/>
     </TimingParameters>
     <mrBurstLength name="Burst Length">8 - Fixed</mrBurstLength>
     <mrBurstType name="Read Burst Type and Length">Sequential</mrBurstType>
-    <mrCasLatency name="CAS Latency">5</mrCasLatency>
+    <mrCasLatency name="CAS Latency">6</mrCasLatency>
     <mrMode name="Mode">Normal</mrMode>
     <mrDllReset name="DLL Reset">No</mrDllReset>
     <mrPdMode name="DLL control for precharge PD">Slow Exit</mrPdMode>
     <emrDllEnable name="DLL Enable">Enable</emrDllEnable>
     <emrOutputDriveStrength name="Output Driver Impedance Control">RZQ/7</emrOutputDriveStrength>
     <emrMirrorSelection name="Address Mirroring">Disable</emrMirrorSelection>
+    <emrCSSelection name="Controller Chip Select Pin">Enable</emrCSSelection>
     <emrRTT name="RTT (nominal) - On Die Termination (ODT)">RZQ/4</emrRTT>
     <emrPosted name="Additive Latency (AL)">0</emrPosted>
     <emrOCD name="Write Leveling Enable">Disabled</emrOCD>

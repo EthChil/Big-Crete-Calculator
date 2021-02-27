@@ -106,19 +106,19 @@ module example_top #
    //***************************************************************************
    // The following parameters refer to width of various ports
    //***************************************************************************
-   parameter CK_WIDTH              = 2,
+   parameter CK_WIDTH              = 1,
                                      // # of CK/CK# outputs to memory.
    parameter nCS_PER_RANK          = 1,
                                      // # of unique CS outputs per rank for phy
-   parameter CKE_WIDTH             = 2,
+   parameter CKE_WIDTH             = 1,
                                      // # of CKE outputs to memory.
-   parameter ODT_WIDTH             = 2,
+   parameter ODT_WIDTH             = 1,
                                      // # of ODT outputs to memory.
    parameter BANK_WIDTH            = 3,
                                      // # of memory Bank Address bits.
    parameter COL_WIDTH             = 10,
                                      // # of memory Column Address bits.
-   parameter CS_WIDTH              = 2,
+   parameter CS_WIDTH              = 1,
                                      // # of unique CS outputs to memory.
    parameter DQ_WIDTH              = 64,
                                      // # of DQ (data)
@@ -131,11 +131,11 @@ module example_top #
    parameter ECC_TEST              = "OFF",
    //parameter nBANK_MACHS           = 4,
    parameter nBANK_MACHS           = 4,
-   parameter RANKS                 = 2,
+   parameter RANKS                 = 1,
                                      // # of Ranks.
-   parameter ROW_WIDTH             = 15,
+   parameter ROW_WIDTH             = 16,
                                      // # of memory Row Address bits.
-   parameter ADDR_WIDTH            = 29,
+   parameter ADDR_WIDTH            = 30,
                                      // # = RANK_WIDTH + BANK_WIDTH
                                      //     + ROW_WIDTH + COL_WIDTH;
                                      // Chip Select is always tied to low for
@@ -222,20 +222,20 @@ module example_top #
    inout [7:0]                        ddr3_dqs_p,
 
    // Outputs
-   output [14:0]                       ddr3_addr,
+   output [15:0]                       ddr3_addr,
    output [2:0]                      ddr3_ba,
    output                                       ddr3_ras_n,
    output                                       ddr3_cas_n,
    output                                       ddr3_we_n,
    output                                       ddr3_reset_n,
-   output [1:0]                        ddr3_ck_p,
-   output [1:0]                        ddr3_ck_n,
-   output [1:0]                       ddr3_cke,
+   output [0:0]                        ddr3_ck_p,
+   output [0:0]                        ddr3_ck_n,
+   output [0:0]                       ddr3_cke,
    
-   output [1:0]           ddr3_cs_n,
+   output [0:0]           ddr3_cs_n,
    
    
-   output [1:0]                       ddr3_odt,
+   output [0:0]                       ddr3_odt,
    
 
    // Inputs

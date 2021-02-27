@@ -87,7 +87,7 @@ set_property ip_output_repo {c:/Users/ethan/Documents/GitHub/Big-Crete-Calculato
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet {{c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf.xci}}
+read_ip -quiet {{C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf.xci}}
 set_property used_in_implementation false [get_files -all {{c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf.xdc}}]
 set_property used_in_implementation false [get_files -all {{c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf_ooc.xdc}}]
 
