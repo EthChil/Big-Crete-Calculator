@@ -14,7 +14,7 @@ relates to [[FPGA Board]]
 | Vss      | 35      | 0V                   |
 | Vss      | 41      | 0V                   |
 | Vss      | 47      | 0V                   |
-| Vss      | 52      | 0V                   |
+| Vss      | 53      | 0V                   |
 | Vss      | 61      | 0V                   |
 | Vss      | 67      | 0V                   |
 | CB0      | 69      | Checkbit             |
