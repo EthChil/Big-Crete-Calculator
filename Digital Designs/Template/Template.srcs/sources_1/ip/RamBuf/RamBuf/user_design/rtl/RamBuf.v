@@ -83,7 +83,6 @@ module RamBuf (
   output [1:0]       ddr3_ck_n,
   output [1:0]       ddr3_cke,
   output [1:0]        ddr3_cs_n,
-  output [7:0]     ddr3_dm,
   output [1:0]       ddr3_odt,
   // Inputs
   // Single-ended system clock
@@ -94,7 +93,6 @@ module RamBuf (
   input             app_en,
   input [511:0]        app_wdf_data,
   input             app_wdf_end,
-  input [63:0]        app_wdf_mask,
   input             app_wdf_wren,
   output [511:0]       app_rd_data,
   output            app_rd_data_end,
@@ -141,7 +139,6 @@ module RamBuf (
     .init_calib_complete            (init_calib_complete),
       
     .ddr3_cs_n                      (ddr3_cs_n),
-    .ddr3_dm                        (ddr3_dm),
     .ddr3_odt                       (ddr3_odt),
     // Application interface ports
     .app_addr                       (app_addr),
@@ -163,7 +160,6 @@ module RamBuf (
     .app_zq_ack                     (app_zq_ack),
     .ui_clk                         (ui_clk),
     .ui_clk_sync_rst                (ui_clk_sync_rst),
-    .app_wdf_mask                   (app_wdf_mask),
     // System Clock Ports
     .sys_clk_i                       (sys_clk_i),
        .device_temp            (device_temp),

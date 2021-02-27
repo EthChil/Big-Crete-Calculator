@@ -94,8 +94,6 @@ module RamBuf_mig #
    parameter DQ_CNT_WIDTH          = 6,
                                      // = ceil(log2(DQ_WIDTH))
    parameter DQ_PER_DM             = 8,
-   parameter DM_WIDTH              = 8,
-                                     // # of DM (data mask)
    parameter DQ_WIDTH              = 64,
                                      // # of DQ (data)
    parameter DQS_WIDTH             = 8,
@@ -134,7 +132,7 @@ module RamBuf_mig #
                                      //   = 0, When Chip Select (CS#) output is disabled
                                      // If CS_N disabled, user must connect
                                      // DRAM CS_N input(s) to ground
-   parameter USE_DM_PORT           = 1,
+   parameter USE_DM_PORT           = 0,
                                      // # = 1, When Data Mask option is enabled
                                      //   = 0, When Data Mask option is disbaled
                                      // When Data Mask option is disabled in
@@ -228,11 +226,11 @@ module RamBuf_mig #
    // The following parameters are multiplier and divisor factors for PLLE2.
    // Based on the selected design frequency these parameters vary.
    //***************************************************************************
-   parameter CLKIN_PERIOD          = 4997,
+   parameter CLKIN_PERIOD          = 3075,
                                      // Input Clock Period
-   parameter CLKFBOUT_MULT         = 13,
+   parameter CLKFBOUT_MULT         = 4,
                                      // write PLL VCO multiplier
-   parameter DIVCLK_DIVIDE         = 2,
+   parameter DIVCLK_DIVIDE         = 1,
                                      // write PLL VCO divisor
    parameter CLKOUT0_PHASE         = 0.0,
                                      // Phase for PLL output clock (CLKOUT0)
@@ -336,9 +334,9 @@ module RamBuf_mig #
                                      // or control Byte lane. '1' in a bit
                                      // position indicates a data byte lane and
                                      // a '0' indicates a control byte lane
-   parameter PHY_0_BITLANES        = 48'h3FE_3FE_3FE_3FE,
-   parameter PHY_1_BITLANES        = 48'hC3F_FFF_C3E_3FE,
-   parameter PHY_2_BITLANES        = 48'h000_3FE_3FE_3FE,
+   parameter PHY_0_BITLANES        = 48'h1FE_1FE_3DE_1FE,
+   parameter PHY_1_BITLANES        = 48'hC3F_FFF_C3E_1FE,
+   parameter PHY_2_BITLANES        = 48'h000_1FE_3DE_1FE,
 
    // control/address/data pin mapping parameters
    parameter CK_BYTE_MAP
@@ -374,7 +372,7 @@ module RamBuf_mig #
    parameter DATA15_MAP = 96'h000_000_000_000_000_000_000_000,
    parameter DATA16_MAP = 96'h000_000_000_000_000_000_000_000,
    parameter DATA17_MAP = 96'h000_000_000_000_000_000_000_000,
-   parameter MASK0_MAP  = 108'h000_209_215_229_109_009_015_029_039,
+   parameter MASK0_MAP  = 108'h000_000_000_000_000_000_000_000_000,
    parameter MASK1_MAP  = 108'h000_000_000_000_000_000_000_000_000,
 
    parameter SLOT_0_CONFIG         = 8'b0000_0011,
@@ -511,7 +509,6 @@ module RamBuf_mig #
    
    output [(CS_WIDTH*nCS_PER_RANK)-1:0]           ddr3_cs_n,
    
-   output [DM_WIDTH-1:0]                        ddr3_dm,
    
    output [ODT_WIDTH-1:0]                       ddr3_odt,
    
@@ -528,7 +525,6 @@ module RamBuf_mig #
    input                                        app_en,
    input [(nCK_PER_CLK*2*PAYLOAD_WIDTH)-1:0]    app_wdf_data,
    input                                        app_wdf_end,
-   input [((nCK_PER_CLK*2*PAYLOAD_WIDTH)/8)-1:0]  app_wdf_mask,
    input                                        app_wdf_wren,
    output [(nCK_PER_CLK*2*PAYLOAD_WIDTH)-1:0]   app_rd_data,
    output                                       app_rd_data_end,
@@ -634,6 +630,8 @@ module RamBuf_mig #
   
   wire [(2*nCK_PER_CLK)-1:0]            app_ecc_multiple_err;
   wire [(2*nCK_PER_CLK)-1:0]            app_ecc_single_err;
+  wire [APP_MASK_WIDTH-1:0]             app_wdf_mask;
+      
   wire                                ddr3_parity;
       
 
@@ -731,6 +729,7 @@ module RamBuf_mig #
   assign ui_clk = clk;
   assign ui_clk_sync_rst = rst;
   
+  assign app_wdf_mask = {APP_MASK_WIDTH{1'b0}};
   assign sys_clk_p = 1'b0;
   assign sys_clk_n = 1'b0;
   assign clk_ref_i = 1'b0;
@@ -881,7 +880,6 @@ module RamBuf_mig #
      .CKE_WIDTH                        (CKE_WIDTH),
      .DATA_WIDTH                       (DATA_WIDTH),
      .DATA_BUF_ADDR_WIDTH              (DATA_BUF_ADDR_WIDTH),
-     .DM_WIDTH                         (DM_WIDTH),
      .DQ_CNT_WIDTH                     (DQ_CNT_WIDTH),
      .DQ_WIDTH                         (DQ_WIDTH),
      .DQS_CNT_WIDTH                    (DQS_CNT_WIDTH),
@@ -1033,7 +1031,7 @@ module RamBuf_mig #
        .ddr_ck                           (ddr3_ck_p),
        .ddr_cke                          (ddr3_cke),
        .ddr_cs_n                         (ddr3_cs_n),
-       .ddr_dm                           (ddr3_dm),
+       .ddr_dm                           (),
        .ddr_odt                          (ddr3_odt),
        .ddr_ras_n                        (ddr3_ras_n),
        .ddr_reset_n                      (ddr3_reset_n),

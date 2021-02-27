@@ -87,7 +87,6 @@
     .init_calib_complete            (init_calib_complete),  // output			init_calib_complete
       
 	.ddr3_cs_n                      (ddr3_cs_n),  // output [1:0]		ddr3_cs_n
-    .ddr3_dm                        (ddr3_dm),  // output [7:0]		ddr3_dm
     .ddr3_odt                       (ddr3_odt),  // output [1:0]		ddr3_odt
     // Application interface ports
     .app_addr                       (app_addr),  // input [28:0]		app_addr
@@ -109,7 +108,6 @@
     .app_zq_ack                     (app_zq_ack),  // output			app_zq_ack
     .ui_clk                         (ui_clk),  // output			ui_clk
     .ui_clk_sync_rst                (ui_clk_sync_rst),  // output			ui_clk_sync_rst
-    .app_wdf_mask                   (app_wdf_mask),  // input [63:0]		app_wdf_mask
     // System Clock Ports
     .sys_clk_i                       (sys_clk_i),  // input			sys_clk_i
     .sys_rst                        (sys_rst) // input sys_rst

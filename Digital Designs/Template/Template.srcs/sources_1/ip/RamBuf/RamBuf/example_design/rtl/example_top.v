@@ -112,8 +112,6 @@ module example_top #
                                      // # of unique CS outputs per rank for phy
    parameter CKE_WIDTH             = 2,
                                      // # of CKE outputs to memory.
-   parameter DM_WIDTH              = 8,
-                                     // # of DM (data mask)
    parameter ODT_WIDTH             = 2,
                                      // # of ODT outputs to memory.
    parameter BANK_WIDTH            = 3,
@@ -159,11 +157,11 @@ module example_top #
    // The following parameters are multiplier and divisor factors for PLLE2.
    // Based on the selected design frequency these parameters vary.
    //***************************************************************************
-   parameter CLKIN_PERIOD          = 4997,
+   parameter CLKIN_PERIOD          = 3075,
                                      // Input Clock Period
-   parameter CLKFBOUT_MULT         = 13,
+   parameter CLKFBOUT_MULT         = 4,
                                      // write PLL VCO multiplier
-   parameter DIVCLK_DIVIDE         = 2,
+   parameter DIVCLK_DIVIDE         = 1,
                                      // write PLL VCO divisor
    parameter CLKOUT0_PHASE         = 0.0,
                                      // Phase for PLL output clock (CLKOUT0)
@@ -236,7 +234,6 @@ module example_top #
    
    output [1:0]           ddr3_cs_n,
    
-   output [7:0]                        ddr3_dm,
    
    output [1:0]                       ddr3_odt,
    
@@ -407,7 +404,6 @@ function integer clogb2 (input integer size);
        .init_calib_complete            (init_calib_complete),
       
        .ddr3_cs_n                      (ddr3_cs_n),
-       .ddr3_dm                        (ddr3_dm),
        .ddr3_odt                       (ddr3_odt),
 // Application interface ports
        .app_addr                       (app_addr),
@@ -429,8 +425,6 @@ function integer clogb2 (input integer size);
        .app_zq_ack                     (app_zq_ack),
        .ui_clk                         (clk),
        .ui_clk_sync_rst                (rst),
-      
-       .app_wdf_mask                   (app_wdf_mask),
       
        
 // System Clock Ports

@@ -8,8 +8,11 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "DDR3 to FPGA connection.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -66,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DDR3 to FPGA connection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +88,14 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "047d0ee3db47a1db",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ]
       }
@@ -94,8 +106,8 @@
   "lastOpenFiles": [
     "DDR3 to FPGA connection.md",
     "FPGA Board.md",
-    "Untitled.md",
+    "Top Level Electrical.md",
     "SPI Memory.md",
-    "Top Level Electrical.md"
+    "Untitled.md"
   ]
 }
