@@ -86,7 +86,7 @@ module RamBuf (
   output [0:0]       ddr3_odt,
   // Inputs
   // Single-ended system clock
-  input         sys_clk_i,
+  input             sys_clk_i,
   // user interface signals
   input [29:0]       app_addr,
   input [2:0]       app_cmd,

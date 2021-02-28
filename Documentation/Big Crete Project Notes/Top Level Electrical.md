@@ -7,6 +7,17 @@
 - FPGA config board (over PCIE x1)
 - Potential expansion through a ribbon connector (external boards outside scope of V1 design)
 
+## TODO
+### Documentation / Design
+- Create pinout for M.2
+- Start rough sketches of physical design
+- Create master BOM in excel
+- Create active BOM in Altium
+
+### RTL
+- Generate template with simple example code to determine IO
+- Estimate power with some form of reasonably complex example code
+
 ### Prototype Boards
 - Power delivery (items below could be designed as seperate dev boards)
 	- should contain all the required rails (that are on the motherboard)

@@ -420,7 +420,7 @@ module RamBuf_mig #
                                      // It is associated to a set of IODELAYs with
                                      // an IDELAYCTRL that have same IODELAY CONTROLLER
                                      // clock frequency (300MHz/400MHz).
-   parameter SYSCLK_TYPE           = "SINGLE_ENDED",
+   parameter SYSCLK_TYPE           = "NO_BUFFER",
                                      // System clock type DIFFERENTIAL, SINGLE_ENDED,
                                      // NO_BUFFER
    parameter REFCLK_TYPE           = "USE_SYSTEM_CLOCK",
@@ -459,7 +459,7 @@ module RamBuf_mig #
    parameter nCK_PER_CLK           = 4,
    // # of memory CKs per fabric CLK
    
-   parameter DIFF_TERM_SYSCLK      = "FALSE",
+   parameter DIFF_TERM_SYSCLK      = "TRUE",
                                      // Differential Termination for System
                                      // clock input pins
       

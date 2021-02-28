@@ -21,7 +21,7 @@
 
   <Version>4.2</Version>
 
-  <SystemClock>Single-Ended</SystemClock>
+  <SystemClock>No Buffer</SystemClock>
 
   <ReferenceClock>Use System Clock</ReferenceClock>
 
@@ -70,9 +70,6 @@
       <Bank T0="Address/Ctrl-0" T1="Address/Ctrl-1" T2="Address/Ctrl-2" T3="DQ[32-39]" name="15"/>
       <Bank T1="DQ[40-47]" T2="DQ[48-55]" T3="DQ[56-63]" name="14"/>
     </BankSelection>
-    <System_Clock>
-      <Pin Bank="15" PADName="K18(MRCC_P)" name="sys_clk_i"/>
-    </System_Clock>
     <System_Control>
       <Pin Bank="Select Bank" PADName="No connect" name="sys_rst"/>
       <Pin Bank="Select Bank" PADName="No connect" name="init_calib_complete"/>

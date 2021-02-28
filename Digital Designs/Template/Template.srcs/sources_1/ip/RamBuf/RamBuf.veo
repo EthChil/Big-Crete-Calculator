@@ -109,7 +109,7 @@
     .ui_clk                         (ui_clk),  // output			ui_clk
     .ui_clk_sync_rst                (ui_clk_sync_rst),  // output			ui_clk_sync_rst
     // System Clock Ports
-    .sys_clk_i                       (sys_clk_i),  // input			sys_clk_i
+    .sys_clk_i                       (sys_clk_i),
     .sys_rst                        (sys_rst) // input sys_rst
     );
 

@@ -1,3 +1,9 @@
+-makelib xcelium_lib/xpm -sv \
+  "I:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+-endlib
+-makelib xcelium_lib/xpm \
+  "I:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_VCOMP.vhd" \
+-endlib
 -makelib xcelium_lib/xil_defaultlib \
   "../../../../Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/clocking/mig_7series_v4_2_clk_ibuf.v" \
   "../../../../Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/clocking/mig_7series_v4_2_infrastructure.v" \

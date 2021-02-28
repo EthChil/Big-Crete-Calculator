@@ -2,8 +2,8 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Sat Feb 27 15:06:37 2021
-# Process ID: 19604
+# Start of session at: Sun Feb 28 00:49:26 2021
+# Process ID: 25044
 # Current directory: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.runs/RamBuf_synth_1
 # Command line: vivado.exe -log RamBuf.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RamBuf.tcl
 # Log file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.runs/RamBuf_synth_1/RamBuf.vds
@@ -17,9 +17,9 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200
 INFO: [Device 21-403] Loading part xc7a200tfbg484-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 19632
+INFO: [Synth 8-7075] Helper process launched with PID 23096
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1107.070 ; gain = 26.383
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1105.898 ; gain = 25.844
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'RamBuf' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/RamBuf.v:70]
 INFO: [Synth 8-6157] synthesizing module 'RamBuf_mig' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/RamBuf_mig.v:75]
@@ -158,7 +158,7 @@ INFO: [Synth 8-6157] synthesizing module 'RamBuf_mig' [c:/Users/ethan/Documents/
 	Parameter PI_VAL_ADJ bound to: OFF - type: string 
 	Parameter IODELAY_GRP0 bound to: RAMBUF_IODELAY_MIG0 - type: string 
 	Parameter IODELAY_GRP1 bound to: RAMBUF_IODELAY_MIG1 - type: string 
-	Parameter SYSCLK_TYPE bound to: SINGLE_ENDED - type: string 
+	Parameter SYSCLK_TYPE bound to: NO_BUFFER - type: string 
 	Parameter REFCLK_TYPE bound to: USE_SYSTEM_CLOCK - type: string 
 	Parameter SYS_RST_PORT bound to: FALSE - type: string 
 	Parameter FPGA_SPEED_GRADE bound to: 1 - type: integer 
@@ -171,7 +171,7 @@ INFO: [Synth 8-6157] synthesizing module 'RamBuf_mig' [c:/Users/ethan/Documents/
 	Parameter DIFF_TERM_REFCLK bound to: TRUE - type: string 
 	Parameter tCK bound to: 3075 - type: integer 
 	Parameter nCK_PER_CLK bound to: 4 - type: integer 
-	Parameter DIFF_TERM_SYSCLK bound to: FALSE - type: string 
+	Parameter DIFF_TERM_SYSCLK bound to: TRUE - type: string 
 	Parameter DEBUG_PORT bound to: OFF - type: string 
 	Parameter TEMP_MON_CONTROL bound to: INTERNAL - type: string 
 	Parameter FPGA_VOLT_TYPE bound to: N - type: string 
@@ -237,35 +237,27 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_iodelay_ctrl' [c:/Use
 	Parameter IODELAY_GRP0 bound to: RAMBUF_IODELAY_MIG0 - type: string 
 	Parameter IODELAY_GRP1 bound to: RAMBUF_IODELAY_MIG1 - type: string 
 	Parameter REFCLK_TYPE bound to: USE_SYSTEM_CLOCK - type: string 
-	Parameter SYSCLK_TYPE bound to: SINGLE_ENDED - type: string 
+	Parameter SYSCLK_TYPE bound to: NO_BUFFER - type: string 
 	Parameter SYS_RST_PORT bound to: FALSE - type: string 
 	Parameter RST_ACT_LOW bound to: 1 - type: integer 
 	Parameter DIFF_TERM_REFCLK bound to: TRUE - type: string 
 	Parameter FPGA_SPEED_GRADE bound to: 1 - type: integer 
 	Parameter REF_CLK_MMCM_IODELAY_CTRL bound to: FALSE - type: string 
 	Parameter RST_SYNC_NUM bound to: 15 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'BUFG' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1083]
-INFO: [Synth 8-6155] done synthesizing module 'BUFG' (3#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1083]
 INFO: [Synth 8-6157] synthesizing module 'IDELAYCTRL' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35056]
 	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'IDELAYCTRL' (4#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35056]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_iodelay_ctrl' (5#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/clocking/mig_7series_v4_2_iodelay_ctrl.v:80]
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYCTRL' (3#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35056]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_iodelay_ctrl' (4#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/clocking/mig_7series_v4_2_iodelay_ctrl.v:80]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_clk_ibuf' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/clocking/mig_7series_v4_2_clk_ibuf.v:68]
-	Parameter SYSCLK_TYPE bound to: SINGLE_ENDED - type: string 
-	Parameter DIFF_TERM_SYSCLK bound to: FALSE - type: string 
-INFO: [Synth 8-6157] synthesizing module 'IBUFG' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:33444]
-	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
-	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
-	Parameter IBUF_LOW_PWR bound to: FALSE - type: string 
-	Parameter IOSTANDARD bound to: DEFAULT - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'IBUFG' (6#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:33444]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_clk_ibuf' (7#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/clocking/mig_7series_v4_2_clk_ibuf.v:68]
+	Parameter SYSCLK_TYPE bound to: NO_BUFFER - type: string 
+	Parameter DIFF_TERM_SYSCLK bound to: TRUE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_clk_ibuf' (5#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/clocking/mig_7series_v4_2_clk_ibuf.v:68]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_infrastructure' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/clocking/mig_7series_v4_2_infrastructure.v:78]
 	Parameter SIMULATION bound to: FALSE - type: string 
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter CLKIN_PERIOD bound to: 3075 - type: integer 
 	Parameter nCK_PER_CLK bound to: 4 - type: integer 
-	Parameter SYSCLK_TYPE bound to: SINGLE_ENDED - type: string 
+	Parameter SYSCLK_TYPE bound to: NO_BUFFER - type: string 
 	Parameter UI_EXTRA_CLOCKS bound to: FALSE - type: string 
 	Parameter CLKFBOUT_MULT bound to: 4 - type: integer 
 	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
@@ -357,7 +349,9 @@ INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [I:/Xilinx/Vivado/2020.1/s
 	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
 	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
 	Parameter STARTUP_WAIT bound to: FALSE - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (8#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39994]
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (6#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39994]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (7#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1083]
 INFO: [Synth 8-6157] synthesizing module 'PLLE2_ADV' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61519]
 	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
 	Parameter CLKFBOUT_MULT bound to: 4 - type: integer 
@@ -390,10 +384,10 @@ INFO: [Synth 8-6157] synthesizing module 'PLLE2_ADV' [I:/Xilinx/Vivado/2020.1/sc
 	Parameter REF_JITTER1 bound to: 0.010000 - type: double 
 	Parameter REF_JITTER2 bound to: 0.010000 - type: double 
 	Parameter STARTUP_WAIT bound to: FALSE - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'PLLE2_ADV' (9#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61519]
+INFO: [Synth 8-6155] done synthesizing module 'PLLE2_ADV' (8#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61519]
 INFO: [Synth 8-6157] synthesizing module 'BUFH' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1319]
-INFO: [Synth 8-6155] done synthesizing module 'BUFH' (10#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1319]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_infrastructure' (11#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/clocking/mig_7series_v4_2_infrastructure.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'BUFH' (9#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1319]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_infrastructure' (10#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/clocking/mig_7series_v4_2_infrastructure.v:78]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_memc_ui_top_std' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ip_top/mig_7series_v4_2_memc_ui_top_std.v:72]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter DDR3_VDD_OP_VOLT bound to: 150 - type: string 
@@ -831,9 +825,9 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_rank_cntrl' [c:/Users
 INFO: [Synth 8-6157] synthesizing module 'SRLC32E' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:78209]
 	Parameter INIT bound to: 32'b00000000000000000000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-6155] done synthesizing module 'SRLC32E' (12#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:78209]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC32E' (11#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:78209]
 WARNING: [Synth 8-567] referenced signal 'periodic_rd_generation.periodic_rd_timer_one' should be on the sensitivity list [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_rank_cntrl.v:509]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_rank_cntrl' (13#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_rank_cntrl.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_rank_cntrl' (12#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_rank_cntrl.v:79]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_rank_common' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_rank_common.v:72]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter DRAM_TYPE bound to: DDR3 - type: string 
@@ -857,14 +851,14 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_round_robin_arb' [c:/
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter WIDTH bound to: 3 - type: integer 
 	Parameter ONE bound to: 4 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_round_robin_arb' (14#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_round_robin_arb.v:121]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_round_robin_arb' (13#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_round_robin_arb.v:121]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_round_robin_arb__parameterized0' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_round_robin_arb.v:121]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter WIDTH bound to: 1 - type: integer 
 	Parameter ONE bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_round_robin_arb__parameterized0' (14#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_round_robin_arb.v:121]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_rank_common' (15#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_rank_common.v:72]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_rank_mach' (16#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_rank_mach.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_round_robin_arb__parameterized0' (13#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_round_robin_arb.v:121]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_rank_common' (14#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_rank_common.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_rank_mach' (15#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_rank_mach.v:71]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_mach' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_mach.v:72]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter EVEN_CWL_2T_MODE bound to: OFF - type: string 
@@ -950,7 +944,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_compare' [c:/Use
 	Parameter RANKS bound to: 1 - type: integer 
 	Parameter ROW_WIDTH bound to: 16 - type: integer 
 	Parameter ONE bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_compare' (17#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_compare.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_compare' (16#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_compare.v:74]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_state' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_state.v:141]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter ADDR_CMD_MODE bound to: 1T - type: string 
@@ -989,7 +983,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_state' [c:/Users
 	Parameter RP_TIMER_WIDTH bound to: 1 - type: integer 
 	Parameter STARVE_LIMIT_CNT bound to: 8 - type: integer 
 	Parameter STARVE_LIMIT_WIDTH bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_state' (18#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_state.v:141]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_state' (17#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_state.v:141]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_queue' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_queue.v:174]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter BM_CNT_WIDTH bound to: 2 - type: integer 
@@ -1000,8 +994,8 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_queue' [c:/Users
 	Parameter ONE bound to: 1 - type: integer 
 	Parameter BM_CNT_ZERO bound to: 2'b00 
 	Parameter BM_CNT_ONE bound to: 2'b01 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_queue' (19#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_queue.v:174]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_cntrl' (20#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_cntrl.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_queue' (18#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_queue.v:174]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_cntrl' (19#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_cntrl.v:70]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_cntrl__parameterized0' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_cntrl.v:70]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter ADDR_CMD_MODE bound to: 1T - type: string 
@@ -1066,7 +1060,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_state__parameter
 	Parameter RP_TIMER_WIDTH bound to: 1 - type: integer 
 	Parameter STARVE_LIMIT_CNT bound to: 8 - type: integer 
 	Parameter STARVE_LIMIT_WIDTH bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_state__parameterized0' (20#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_state.v:141]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_state__parameterized0' (19#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_state.v:141]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_queue__parameterized0' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_queue.v:174]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter BM_CNT_WIDTH bound to: 2 - type: integer 
@@ -1077,8 +1071,8 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_queue__parameter
 	Parameter ONE bound to: 1 - type: integer 
 	Parameter BM_CNT_ZERO bound to: 2'b00 
 	Parameter BM_CNT_ONE bound to: 2'b01 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_queue__parameterized0' (20#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_queue.v:174]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_cntrl__parameterized0' (20#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_cntrl.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_queue__parameterized0' (19#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_queue.v:174]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_cntrl__parameterized0' (19#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_cntrl.v:70]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_cntrl__parameterized1' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_cntrl.v:70]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter ADDR_CMD_MODE bound to: 1T - type: string 
@@ -1143,7 +1137,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_state__parameter
 	Parameter RP_TIMER_WIDTH bound to: 1 - type: integer 
 	Parameter STARVE_LIMIT_CNT bound to: 8 - type: integer 
 	Parameter STARVE_LIMIT_WIDTH bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_state__parameterized1' (20#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_state.v:141]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_state__parameterized1' (19#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_state.v:141]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_queue__parameterized1' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_queue.v:174]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter BM_CNT_WIDTH bound to: 2 - type: integer 
@@ -1154,8 +1148,8 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_queue__parameter
 	Parameter ONE bound to: 1 - type: integer 
 	Parameter BM_CNT_ZERO bound to: 2'b00 
 	Parameter BM_CNT_ONE bound to: 2'b01 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_queue__parameterized1' (20#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_queue.v:174]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_cntrl__parameterized1' (20#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_cntrl.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_queue__parameterized1' (19#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_queue.v:174]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_cntrl__parameterized1' (19#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_cntrl.v:70]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_cntrl__parameterized2' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_cntrl.v:70]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter ADDR_CMD_MODE bound to: 1T - type: string 
@@ -1220,7 +1214,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_state__parameter
 	Parameter RP_TIMER_WIDTH bound to: 1 - type: integer 
 	Parameter STARVE_LIMIT_CNT bound to: 8 - type: integer 
 	Parameter STARVE_LIMIT_WIDTH bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_state__parameterized2' (20#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_state.v:141]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_state__parameterized2' (19#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_state.v:141]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_queue__parameterized2' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_queue.v:174]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter BM_CNT_WIDTH bound to: 2 - type: integer 
@@ -1231,8 +1225,8 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_queue__parameter
 	Parameter ONE bound to: 1 - type: integer 
 	Parameter BM_CNT_ZERO bound to: 2'b00 
 	Parameter BM_CNT_ONE bound to: 2'b01 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_queue__parameterized2' (20#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_queue.v:174]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_cntrl__parameterized2' (20#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_cntrl.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_queue__parameterized2' (19#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_queue.v:174]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_cntrl__parameterized2' (19#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_cntrl.v:70]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_common' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_common.v:73]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter BM_CNT_WIDTH bound to: 2 - type: integer 
@@ -1255,7 +1249,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_bank_common' [c:/User
 	Parameter nXSDLL_CLKS bound to: 128 - type: integer 
 	Parameter RFC_ZQ_TIMER_WIDTH bound to: 8 - type: integer 
 	Parameter THREE bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_common' (21#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_common.v:73]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_common' (20#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_common.v:73]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_arb_mux' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_arb_mux.v:69]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter EVEN_CWL_2T_MODE bound to: OFF - type: string 
@@ -1304,8 +1298,8 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_round_robin_arb__para
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter WIDTH bound to: 4 - type: integer 
 	Parameter ONE bound to: 8 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_round_robin_arb__parameterized1' (21#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_round_robin_arb.v:121]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_arb_row_col' (22#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_arb_row_col.v:83]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_round_robin_arb__parameterized1' (20#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_round_robin_arb.v:121]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_arb_row_col' (21#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_arb_row_col.v:83]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_arb_select' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_arb_select.v:75]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter EVEN_CWL_2T_MODE bound to: OFF - type: string 
@@ -1337,9 +1331,9 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_arb_select' [c:/Users
 	Parameter SLOT_1_CONFIG bound to: 8'b00000000 
 	Parameter OUT_CMD_WIDTH bound to: 23 - type: integer 
 	Parameter ONE bound to: 1'b1 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_arb_select' (23#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_arb_select.v:75]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_arb_mux' (24#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_arb_mux.v:69]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_mach' (25#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_mach.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_arb_select' (22#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_arb_select.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_arb_mux' (23#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_arb_mux.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_bank_mach' (24#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_bank_mach.v:72]
 WARNING: [Synth 8-7071] port 'idle' of module 'mig_7series_v4_2_bank_mach' is unconnected for instance 'bank_mach0' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_mc.v:670]
 WARNING: [Synth 8-7023] instance 'bank_mach0' of module 'mig_7series_v4_2_bank_mach' has 74 connections declared, but only 73 given [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_mc.v:670]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_col_mach' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_col_mach.v:88]
@@ -1372,9 +1366,9 @@ INFO: [Synth 8-6157] synthesizing module 'RAM32M' [I:/Xilinx/Vivado/2020.1/scrip
 	Parameter INIT_C bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_D bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
 	Parameter IS_WCLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-6155] done synthesizing module 'RAM32M' (26#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:70128]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_col_mach' (27#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_col_mach.v:88]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_mc' (28#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_mc.v:73]
+INFO: [Synth 8-6155] done synthesizing module 'RAM32M' (25#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:70128]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_col_mach' (26#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_col_mach.v:88]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_mc' (27#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/controller/mig_7series_v4_2_mc.v:73]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_phy_top' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_top.v:70]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter DDR3_VDD_OP_VOLT bound to: 150 - type: string 
@@ -1633,7 +1627,7 @@ INFO: [Synth 8-6157] synthesizing module 'OBUF' [I:/Xilinx/Vivado/2020.1/scripts
 	Parameter DRIVE bound to: 12 - type: integer 
 	Parameter IOSTANDARD bound to: DEFAULT - type: string 
 	Parameter SLEW bound to: SLOW - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'OBUF' (29#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:46314]
+INFO: [Synth 8-6155] done synthesizing module 'OBUF' (28#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:46314]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF_INTERMDISABLE' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:36878]
 	Parameter DRIVE bound to: 12 - type: integer 
 	Parameter IBUF_LOW_PWR bound to: FALSE - type: string 
@@ -1641,7 +1635,7 @@ INFO: [Synth 8-6157] synthesizing module 'IOBUF_INTERMDISABLE' [I:/Xilinx/Vivado
 	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SLEW bound to: SLOW - type: string 
 	Parameter USE_IBUFDISABLE bound to: TRUE - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'IOBUF_INTERMDISABLE' (30#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:36878]
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF_INTERMDISABLE' (29#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:36878]
 INFO: [Synth 8-6157] synthesizing module 'IOBUFDS_INTERMDISABLE' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:36454]
 	Parameter DIFF_TERM bound to: FALSE - type: string 
 	Parameter DQS_BIAS bound to: TRUE - type: string 
@@ -1650,14 +1644,14 @@ INFO: [Synth 8-6157] synthesizing module 'IOBUFDS_INTERMDISABLE' [I:/Xilinx/Viva
 	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SLEW bound to: SLOW - type: string 
 	Parameter USE_IBUFDISABLE bound to: TRUE - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'IOBUFDS_INTERMDISABLE' (31#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:36454]
+INFO: [Synth 8-6155] done synthesizing module 'IOBUFDS_INTERMDISABLE' (30#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:36454]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_of_pre_fifo' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_of_pre_fifo.v:76]
 	Parameter TCQ bound to: 25 - type: integer 
 	Parameter DEPTH bound to: 8 - type: integer 
 	Parameter WIDTH bound to: 32 - type: integer 
 	Parameter PTR_BITS bound to: 3 - type: integer 
 	Parameter ALMOST_FULL_VALUE bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_of_pre_fifo' (32#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_of_pre_fifo.v:76]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_of_pre_fifo' (31#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_of_pre_fifo.v:76]
 WARNING: [Synth 8-7071] port 'afull' of module 'mig_7series_v4_2_ddr_of_pre_fifo' is unconnected for instance 'phy_ctl_pre_fifo_0' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v:1428]
 WARNING: [Synth 8-7023] instance 'phy_ctl_pre_fifo_0' of module 'mig_7series_v4_2_ddr_of_pre_fifo' has 8 connections declared, but only 7 given [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v:1428]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_of_pre_fifo__parameterized0' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_of_pre_fifo.v:76]
@@ -1666,7 +1660,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_of_pre_fifo__para
 	Parameter WIDTH bound to: 6 - type: integer 
 	Parameter PTR_BITS bound to: 3 - type: integer 
 	Parameter ALMOST_FULL_VALUE bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_of_pre_fifo__parameterized0' (32#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_of_pre_fifo.v:76]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_of_pre_fifo__parameterized0' (31#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_of_pre_fifo.v:76]
 WARNING: [Synth 8-7071] port 'afull' of module 'mig_7series_v4_2_ddr_of_pre_fifo' is unconnected for instance 'phy_ctl_pre_fifo_1' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v:1445]
 WARNING: [Synth 8-7023] instance 'phy_ctl_pre_fifo_1' of module 'mig_7series_v4_2_ddr_of_pre_fifo' has 8 connections declared, but only 7 given [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v:1445]
 WARNING: [Synth 8-7071] port 'afull' of module 'mig_7series_v4_2_ddr_of_pre_fifo' is unconnected for instance 'phy_ctl_pre_fifo_2' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v:1462]
@@ -2225,14 +2219,14 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_if_post_fifo' [c:
 	Parameter WIDTH bound to: 80 - type: integer 
 	Parameter PTR_BITS bound to: 2 - type: integer 
 INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_if_post_fifo.v:110]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_if_post_fifo' (33#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_if_post_fifo.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_if_post_fifo' (32#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_if_post_fifo.v:68]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_of_pre_fifo__parameterized1' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_of_pre_fifo.v:76]
 	Parameter TCQ bound to: 25 - type: integer 
 	Parameter DEPTH bound to: 9 - type: integer 
 	Parameter WIDTH bound to: 80 - type: integer 
 	Parameter PTR_BITS bound to: 4 - type: integer 
 	Parameter ALMOST_FULL_VALUE bound to: 4 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_of_pre_fifo__parameterized1' (33#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_of_pre_fifo.v:76]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_of_pre_fifo__parameterized1' (32#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_of_pre_fifo.v:76]
 INFO: [Synth 8-6157] synthesizing module 'PHASER_IN_PHY' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61205]
 	Parameter BURST_MODE bound to: TRUE - type: string 
 	Parameter CLKOUT_DIV bound to: 2 - type: integer 
@@ -2249,13 +2243,13 @@ INFO: [Synth 8-6157] synthesizing module 'PHASER_IN_PHY' [I:/Xilinx/Vivado/2020.
 	Parameter SEL_CLK_OFFSET bound to: 6 - type: integer 
 	Parameter SYNC_IN_DIV_RST bound to: TRUE - type: string 
 	Parameter WR_CYCLES bound to: FALSE - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'PHASER_IN_PHY' (34#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61205]
+INFO: [Synth 8-6155] done synthesizing module 'PHASER_IN_PHY' (33#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61205]
 INFO: [Synth 8-6157] synthesizing module 'IN_FIFO' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:36170]
 	Parameter ALMOST_EMPTY_VALUE bound to: 1 - type: integer 
 	Parameter ALMOST_FULL_VALUE bound to: 1 - type: integer 
 	Parameter ARRAY_MODE bound to: ARRAY_MODE_4_X_8 - type: string 
 	Parameter SYNCHRONOUS_MODE bound to: FALSE - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'IN_FIFO' (35#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:36170]
+INFO: [Synth 8-6155] done synthesizing module 'IN_FIFO' (34#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:36170]
 INFO: [Synth 8-6157] synthesizing module 'PHASER_OUT_PHY' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61342]
 	Parameter CLKOUT_DIV bound to: 2 - type: integer 
 	Parameter COARSE_BYPASS bound to: FALSE - type: string 
@@ -2272,14 +2266,14 @@ INFO: [Synth 8-6157] synthesizing module 'PHASER_OUT_PHY' [I:/Xilinx/Vivado/2020
 	Parameter PO bound to: 3'b111 
 	Parameter REFCLK_PERIOD bound to: 1.537500 - type: double 
 	Parameter SYNC_IN_DIV_RST bound to: TRUE - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'PHASER_OUT_PHY' (36#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61342]
+INFO: [Synth 8-6155] done synthesizing module 'PHASER_OUT_PHY' (35#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61342]
 INFO: [Synth 8-6157] synthesizing module 'OUT_FIFO' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:50506]
 	Parameter ALMOST_EMPTY_VALUE bound to: 1 - type: integer 
 	Parameter ALMOST_FULL_VALUE bound to: 1 - type: integer 
 	Parameter ARRAY_MODE bound to: ARRAY_MODE_8_X_4 - type: string 
 	Parameter OUTPUT_DISABLE bound to: FALSE - type: string 
 	Parameter SYNCHRONOUS_MODE bound to: FALSE - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'OUT_FIFO' (37#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:50506]
+INFO: [Synth 8-6155] done synthesizing module 'OUT_FIFO' (36#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:50506]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_byte_group_io' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v:69]
 	Parameter BITLANES bound to: 12'b001111111100 
 	Parameter BITLANES_OUTONLY bound to: 12'b000000000000 
@@ -2341,7 +2335,7 @@ INFO: [Synth 8-6157] synthesizing module 'IDELAYE2' [I:/Xilinx/Vivado/2020.1/scr
 	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
 	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
 	Parameter SIM_DELAY_D bound to: 0 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2' (38#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2' (37#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
 INFO: [Synth 8-6157] synthesizing module 'ISERDESE2' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:38616]
 	Parameter DATA_RATE bound to: DDR - type: string 
 	Parameter DATA_WIDTH bound to: 4 - type: integer 
@@ -2367,7 +2361,7 @@ INFO: [Synth 8-6157] synthesizing module 'ISERDESE2' [I:/Xilinx/Vivado/2020.1/sc
 	Parameter SRVAL_Q2 bound to: 1'b0 
 	Parameter SRVAL_Q3 bound to: 1'b0 
 	Parameter SRVAL_Q4 bound to: 1'b0 
-INFO: [Synth 8-6155] done synthesizing module 'ISERDESE2' (39#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:38616]
+INFO: [Synth 8-6155] done synthesizing module 'ISERDESE2' (38#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:38616]
 INFO: [Synth 8-6157] synthesizing module 'OSERDESE2' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:50391]
 	Parameter DATA_RATE_OQ bound to: DDR - type: string 
 	Parameter DATA_RATE_TQ bound to: DDR - type: string 
@@ -2394,7 +2388,7 @@ INFO: [Synth 8-6157] synthesizing module 'OSERDESE2' [I:/Xilinx/Vivado/2020.1/sc
 	Parameter TBYTE_CTL bound to: TRUE - type: string 
 	Parameter TBYTE_SRC bound to: TRUE - type: string 
 	Parameter TRISTATE_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2' (40#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:50391]
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2' (39#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:50391]
 INFO: [Synth 8-6157] synthesizing module 'OSERDESE2__parameterized0' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:50391]
 	Parameter DATA_RATE_OQ bound to: DDR - type: string 
 	Parameter DATA_RATE_TQ bound to: DDR - type: string 
@@ -2421,7 +2415,7 @@ INFO: [Synth 8-6157] synthesizing module 'OSERDESE2__parameterized0' [I:/Xilinx/
 	Parameter TBYTE_CTL bound to: TRUE - type: string 
 	Parameter TBYTE_SRC bound to: FALSE - type: string 
 	Parameter TRISTATE_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2__parameterized0' (40#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:50391]
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2__parameterized0' (39#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:50391]
 INFO: [Synth 8-6157] synthesizing module 'ODDR' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:49784]
 	Parameter DDR_CLK_EDGE bound to: SAME_EDGE - type: string 
 	Parameter INIT bound to: 1'b0 
@@ -2429,9 +2423,9 @@ INFO: [Synth 8-6157] synthesizing module 'ODDR' [I:/Xilinx/Vivado/2020.1/scripts
 	Parameter IS_D1_INVERTED bound to: 1'b0 
 	Parameter IS_D2_INVERTED bound to: 1'b0 
 	Parameter SRTYPE bound to: SYNC - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'ODDR' (41#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:49784]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_group_io' (42#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v:69]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_lane' (43#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'ODDR' (40#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:49784]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_group_io' (41#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_lane' (42#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized0' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
 	Parameter ABCD bound to: B - type: string 
 	Parameter PO_DATA_CTL bound to: TRUE - type: string 
@@ -2542,8 +2536,8 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_byte_group_io__pa
 	Parameter OSERDES_DQS_DATA_WIDTH bound to: 4 - type: integer 
 	Parameter ODDR_CLK_EDGE bound to: SAME_EDGE - type: string 
 	Parameter OSERDES_TBYTE_CTL bound to: TRUE - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_group_io__parameterized0' (43#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v:69]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized0' (43#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_group_io__parameterized0' (42#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized0' (42#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized1' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
 	Parameter ABCD bound to: C - type: string 
 	Parameter PO_DATA_CTL bound to: TRUE - type: string 
@@ -2606,7 +2600,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parame
 	Parameter PO_DCD_SETTING bound to: 3'b111 
 	Parameter DQS_AUTO_RECAL bound to: 1 - type: integer 
 	Parameter DQS_FIND_PATTERN bound to: 001 - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized1' (43#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized1' (42#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized2' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
 	Parameter ABCD bound to: D - type: string 
 	Parameter PO_DATA_CTL bound to: TRUE - type: string 
@@ -2669,9 +2663,9 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parame
 	Parameter PO_DCD_SETTING bound to: 3'b111 
 	Parameter DQS_AUTO_RECAL bound to: 1 - type: integer 
 	Parameter DQS_FIND_PATTERN bound to: 001 - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized2' (43#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized2' (42#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
 INFO: [Synth 8-6157] synthesizing module 'BUFIO' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1344]
-INFO: [Synth 8-6155] done synthesizing module 'BUFIO' (44#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1344]
+INFO: [Synth 8-6155] done synthesizing module 'BUFIO' (43#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1344]
 INFO: [Synth 8-6157] synthesizing module 'PHY_CONTROL' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61433]
 	Parameter AO_TOGGLE bound to: 1 - type: integer 
 	Parameter AO_WRLVL_EN bound to: 0 - type: integer 
@@ -2707,13 +2701,13 @@ INFO: [Synth 8-6157] synthesizing module 'PHY_CONTROL' [I:/Xilinx/Vivado/2020.1/
 	Parameter WR_DURATION_1 bound to: 7 - type: integer 
 	Parameter WR_DURATION_2 bound to: 7 - type: integer 
 	Parameter WR_DURATION_3 bound to: 7 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'PHY_CONTROL' (45#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61433]
+INFO: [Synth 8-6155] done synthesizing module 'PHY_CONTROL' (44#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61433]
 INFO: [Synth 8-226] default block is never used [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_4lanes.v:1557]
 INFO: [Synth 8-6157] synthesizing module 'PHASER_REF' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61417]
 	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
 	Parameter IS_RST_INVERTED bound to: 1'b0 
-INFO: [Synth 8-6155] done synthesizing module 'PHASER_REF' (46#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61417]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_4lanes' (47#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_4lanes.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'PHASER_REF' (45#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61417]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_4lanes' (46#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_4lanes.v:72]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_phy_4lanes__parameterized0' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_4lanes.v:72]
 	Parameter GENERATE_IDELAYCTRL bound to: FALSE - type: string 
 	Parameter IODELAY_GRP bound to: RAMBUF_IODELAY_MIG0 - type: string 
@@ -2958,7 +2952,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parame
 	Parameter PO_DCD_SETTING bound to: 3'b111 
 	Parameter DQS_AUTO_RECAL bound to: 1 - type: integer 
 	Parameter DQS_FIND_PATTERN bound to: 001 - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized3' (47#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized3' (46#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized4' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
 	Parameter ABCD bound to: B - type: string 
 	Parameter PO_DATA_CTL bound to: FALSE - type: string 
@@ -3037,14 +3031,14 @@ INFO: [Synth 8-6157] synthesizing module 'PHASER_OUT_PHY__parameterized0' [I:/Xi
 	Parameter PO bound to: 3'b111 
 	Parameter REFCLK_PERIOD bound to: 1.537500 - type: double 
 	Parameter SYNC_IN_DIV_RST bound to: TRUE - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'PHASER_OUT_PHY__parameterized0' (47#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61342]
+INFO: [Synth 8-6155] done synthesizing module 'PHASER_OUT_PHY__parameterized0' (46#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61342]
 INFO: [Synth 8-6157] synthesizing module 'OUT_FIFO__parameterized0' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:50506]
 	Parameter ALMOST_EMPTY_VALUE bound to: 1 - type: integer 
 	Parameter ALMOST_FULL_VALUE bound to: 1 - type: integer 
 	Parameter ARRAY_MODE bound to: ARRAY_MODE_4_X_4 - type: string 
 	Parameter OUTPUT_DISABLE bound to: FALSE - type: string 
 	Parameter SYNCHRONOUS_MODE bound to: FALSE - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'OUT_FIFO__parameterized0' (47#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:50506]
+INFO: [Synth 8-6155] done synthesizing module 'OUT_FIFO__parameterized0' (46#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:50506]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_byte_group_io__parameterized1' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v:69]
 	Parameter BITLANES bound to: 12'b110000100000 
 	Parameter BITLANES_OUTONLY bound to: 12'b000000000000 
@@ -3119,9 +3113,9 @@ INFO: [Synth 8-6157] synthesizing module 'OSERDESE2__parameterized1' [I:/Xilinx/
 	Parameter TBYTE_CTL bound to: FALSE - type: string 
 	Parameter TBYTE_SRC bound to: FALSE - type: string 
 	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2__parameterized1' (47#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:50391]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_group_io__parameterized1' (47#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v:69]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized4' (47#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2__parameterized1' (46#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:50391]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_group_io__parameterized1' (46#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized4' (46#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized5' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
 	Parameter ABCD bound to: C - type: string 
 	Parameter PO_DATA_CTL bound to: FALSE - type: string 
@@ -3232,8 +3226,8 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_byte_group_io__pa
 	Parameter OSERDES_DQS_DATA_WIDTH bound to: 4 - type: integer 
 	Parameter ODDR_CLK_EDGE bound to: SAME_EDGE - type: string 
 	Parameter OSERDES_TBYTE_CTL bound to: TRUE - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_group_io__parameterized2' (47#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v:69]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized5' (47#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_group_io__parameterized2' (46#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized5' (46#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized6' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
 	Parameter ABCD bound to: D - type: string 
 	Parameter PO_DATA_CTL bound to: FALSE - type: string 
@@ -3300,7 +3294,7 @@ INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [I:/Xilinx/Vivado/2020.1/scrip
 	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
 	Parameter IOSTANDARD bound to: DEFAULT - type: string 
 	Parameter SLEW bound to: SLOW - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (48#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:46328]
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (47#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:46328]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_byte_group_io__parameterized3' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v:69]
 	Parameter BITLANES bound to: 12'b001111111111 
 	Parameter BITLANES_OUTONLY bound to: 12'b000000000000 
@@ -3349,8 +3343,8 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_byte_group_io__pa
 	Parameter OSERDES_DQS_DATA_WIDTH bound to: 4 - type: integer 
 	Parameter ODDR_CLK_EDGE bound to: SAME_EDGE - type: string 
 	Parameter OSERDES_TBYTE_CTL bound to: TRUE - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_group_io__parameterized3' (48#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v:69]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized6' (48#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_group_io__parameterized3' (47#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_byte_lane__parameterized6' (47#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v:70]
 INFO: [Synth 8-6157] synthesizing module 'PHY_CONTROL__parameterized0' [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61433]
 	Parameter AO_TOGGLE bound to: 1 - type: integer 
 	Parameter AO_WRLVL_EN bound to: 0 - type: integer 
@@ -3386,9 +3380,9 @@ INFO: [Synth 8-6157] synthesizing module 'PHY_CONTROL__parameterized0' [I:/Xilin
 	Parameter WR_DURATION_1 bound to: 7 - type: integer 
 	Parameter WR_DURATION_2 bound to: 7 - type: integer 
 	Parameter WR_DURATION_3 bound to: 7 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'PHY_CONTROL__parameterized0' (48#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61433]
+INFO: [Synth 8-6155] done synthesizing module 'PHY_CONTROL__parameterized0' (47#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61433]
 INFO: [Synth 8-226] default block is never used [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_4lanes.v:1557]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_4lanes__parameterized0' (48#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_4lanes.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_4lanes__parameterized0' (47#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_4lanes.v:72]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_phy_4lanes__parameterized1' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_4lanes.v:72]
 	Parameter GENERATE_IDELAYCTRL bound to: FALSE - type: string 
 	Parameter IODELAY_GRP bound to: RAMBUF_IODELAY_MIG0 - type: string 
@@ -3606,9 +3600,9 @@ INFO: [Synth 8-6157] synthesizing module 'PHY_CONTROL__parameterized1' [I:/Xilin
 	Parameter WR_DURATION_1 bound to: 7 - type: integer 
 	Parameter WR_DURATION_2 bound to: 7 - type: integer 
 	Parameter WR_DURATION_3 bound to: 7 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'PHY_CONTROL__parameterized1' (48#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61433]
+INFO: [Synth 8-6155] done synthesizing module 'PHY_CONTROL__parameterized1' (47#1) [I:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:61433]
 INFO: [Synth 8-226] default block is never used [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_4lanes.v:1557]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_4lanes__parameterized1' (48#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_4lanes.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_4lanes__parameterized1' (47#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_4lanes.v:72]
 WARNING: [Synth 8-689] width (240) of port connection 'phy_din' does not match port width (320) of module 'mig_7series_v4_2_ddr_phy_4lanes__parameterized1' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:1578]
 WARNING: [Synth 8-689] width (36) of port connection 'mem_dq_out' does not match port width (48) of module 'mig_7series_v4_2_ddr_phy_4lanes__parameterized1' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:1582]
 WARNING: [Synth 8-689] width (36) of port connection 'mem_dq_ts' does not match port width (48) of module 'mig_7series_v4_2_ddr_phy_4lanes__parameterized1' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:1583]
@@ -3616,12 +3610,12 @@ WARNING: [Synth 8-689] width (3) of port connection 'mem_dqs_out' does not match
 WARNING: [Synth 8-689] width (3) of port connection 'mem_dqs_ts' does not match port width (4) of module 'mig_7series_v4_2_ddr_phy_4lanes__parameterized1' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:1586]
 WARNING: [Synth 8-689] width (3) of port connection 'pi_phase_locked_lanes' does not match port width (4) of module 'mig_7series_v4_2_ddr_phy_4lanes__parameterized1' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:1626]
 WARNING: [Synth 8-689] width (3) of port connection 'pi_dqs_found_lanes' does not match port width (4) of module 'mig_7series_v4_2_ddr_phy_4lanes__parameterized1' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:1627]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_mc_phy' (49#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_mc_phy' (48#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:70]
 WARNING: [Synth 8-689] width (12) of port connection 'pi_dqs_found_lanes' does not match port width (11) of module 'mig_7series_v4_2_ddr_mc_phy' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v:1671]
 WARNING: [Synth 8-689] width (12) of port connection 'pi_phase_locked_lanes' does not match port width (11) of module 'mig_7series_v4_2_ddr_mc_phy' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v:1679]
 WARNING: [Synth 8-7071] port 'of_data_a_full' of module 'mig_7series_v4_2_ddr_mc_phy' is unconnected for instance 'u_ddr_mc_phy' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v:1579]
 WARNING: [Synth 8-7023] instance 'u_ddr_mc_phy' of module 'mig_7series_v4_2_ddr_mc_phy' has 89 connections declared, but only 88 given [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v:1579]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_mc_phy_wrapper' (50#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_mc_phy_wrapper' (49#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v:71]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_calib_top' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_calib_top.v:82]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter nCK_PER_CLK bound to: 4 - type: integer 
@@ -3749,7 +3743,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_phy_wrlvl' [c:/Us
 	Parameter FAST_CAL_COARSE bound to: 2 - type: integer 
 	Parameter REDO_COARSE bound to: 5 - type: integer 
 INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrlvl.v:797]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_wrlvl' (51#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrlvl.v:90]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_wrlvl' (50#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrlvl.v:90]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay.v:68]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter tCK bound to: 3075 - type: integer 
@@ -3762,7 +3756,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_phy_ck_addr_cmd_d
 	Parameter CALC_TAP_CNT bound to: 350 - type: integer 
 	Parameter TAP_CNT bound to: 0 - type: integer 
 	Parameter TAP_DEC bound to: 29 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay' (52#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay' (51#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay.v:68]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_phy_dqs_found_cal_hr' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_dqs_found_cal_hr.v:79]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter nCK_PER_CLK bound to: 4 - type: integer 
@@ -3811,7 +3805,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_phy_dqs_found_cal
 	Parameter FINE_DEC_PREWAIT bound to: 4'b1101 
 	Parameter FINAL_WAIT bound to: 4'b1110 
 	Parameter FINE_ADJ_DONE bound to: 4'b1111 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_dqs_found_cal_hr' (53#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_dqs_found_cal_hr.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_dqs_found_cal_hr' (52#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_dqs_found_cal_hr.v:79]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_phy_rdlvl' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_rdlvl.v:81]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter nCK_PER_CLK bound to: 4 - type: integer 
@@ -3872,7 +3866,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_phy_rdlvl' [c:/Us
 	Parameter CAL1_RD_STOP_FOR_PI_INC bound to: 6'b100001 
 	Parameter CAL1_CENTER_WAIT bound to: 6'b100010 
 INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_rdlvl.v:2746]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_rdlvl' (54#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_rdlvl.v:81]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_rdlvl' (53#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_rdlvl.v:81]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_prbs_gen' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_prbs_gen.v:92]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter PRBS_WIDTH bound to: 64 - type: integer 
@@ -3887,7 +3881,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_prbs_gen' [c:/Use
 	Parameter BRAM_ADDR_WIDTH bound to: 8 - type: integer 
 	Parameter BRAM_DATA_WIDTH bound to: 18 - type: integer 
 	Parameter BRAM_DEPTH bound to: 256 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_prbs_gen' (55#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_prbs_gen.v:92]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_prbs_gen' (54#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_prbs_gen.v:92]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_phy_init' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_init.v:89]
 	Parameter tCK bound to: 3075 - type: integer 
 	Parameter TCQ bound to: 100 - type: integer 
@@ -4047,7 +4041,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_phy_init' [c:/Use
 	Parameter INIT_RDLVL_COMPLEX_PI_WAIT bound to: 7'b1000011 
 	Parameter INIT_SKIP_CALIB_WAIT bound to: 7'b1000100 
 INFO: [Synth 8-226] default block is never used [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_init.v:5273]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_init' (56#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_init.v:89]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_init' (55#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_init.v:89]
 WARNING: [Synth 8-7071] port 'complex_oclk_prech_req' of module 'mig_7series_v4_2_ddr_phy_init' is unconnected for instance 'u_ddr_phy_init' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_calib_top.v:1367]
 WARNING: [Synth 8-7023] instance 'u_ddr_phy_init' of module 'mig_7series_v4_2_ddr_phy_init' has 131 connections declared, but only 130 given [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_calib_top.v:1367]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_phy_wrcal' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrcal.v:77]
@@ -4075,7 +4069,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_phy_wrcal' [c:/Us
 	Parameter CAL2_SANITY_WAIT bound to: 4'b0111 
 	Parameter CAL2_ERR bound to: 4'b1000 
 INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrcal.v:1130]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_wrcal' (57#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrcal.v:77]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_wrcal' (56#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrcal.v:77]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_phy_tempmon' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_tempmon.v:69]
 	Parameter SKIP_CALIB bound to: FALSE - type: string 
 	Parameter TCQ bound to: 100 - type: integer 
@@ -4096,11 +4090,11 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ddr_phy_tempmon' [c:/
 	Parameter TWO_DEC bound to: 11'b00100000000 
 	Parameter THREE_DEC bound to: 11'b01000000000 
 	Parameter FOUR_DEC bound to: 11'b10000000000 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_tempmon' (58#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_tempmon.v:69]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_calib_top' (59#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_calib_top.v:82]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_tempmon' (57#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_tempmon.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_calib_top' (58#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_calib_top.v:82]
 WARNING: [Synth 8-689] width (12) of port connection 'pi_dqs_found_lanes' does not match port width (11) of module 'mig_7series_v4_2_ddr_calib_top' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_top.v:1340]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_top' (60#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_top.v:70]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_mem_intfc' (61#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ip_top/mig_7series_v4_2_mem_intfc.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ddr_phy_top' (59#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_top.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_mem_intfc' (60#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ip_top/mig_7series_v4_2_mem_intfc.v:70]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ui_top' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ui/mig_7series_v4_2_ui_top.v:71]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter APP_DATA_WIDTH bound to: 512 - type: integer 
@@ -4130,7 +4124,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ui_cmd' [c:/Users/eth
 	Parameter ROW_WIDTH bound to: 16 - type: integer 
 	Parameter RANKS bound to: 1 - type: integer 
 	Parameter MEM_ADDR_ORDER bound to: BANK_ROW_COLUMN - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ui_cmd' (62#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ui/mig_7series_v4_2_ui_cmd.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ui_cmd' (61#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ui/mig_7series_v4_2_ui_cmd.v:70]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ui_wr_data' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ui/mig_7series_v4_2_ui_wr_data.v:131]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter APP_DATA_WIDTH bound to: 512 - type: integer 
@@ -4147,9 +4141,8 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ui_wr_data' [c:/Users
 	Parameter RAM_WIDTH bound to: 576 - type: integer 
 INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ui/mig_7series_v4_2_ui_wr_data.v:342]
 INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ui/mig_7series_v4_2_ui_wr_data.v:380]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ui_wr_data' (63#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ui/mig_7series_v4_2_ui_wr_data.v:131]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ui_wr_data' (62#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ui/mig_7series_v4_2_ui_wr_data.v:131]
 INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_2_ui_rd_data' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ui/mig_7series_v4_2_ui_rd_data.v:140]
-INFO: [Common 17-14] Message 'Synth 8-6157' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter APP_DATA_WIDTH bound to: 512 - type: integer 
 	Parameter DATA_BUF_ADDR_WIDTH bound to: 5 - type: integer 
@@ -4161,28 +4154,26 @@ INFO: [Common 17-14] Message 'Synth 8-6157' appears 100 times and further instan
 	Parameter REMAINDER bound to: 2 - type: integer 
 	Parameter RAM_CNT bound to: 86 - type: integer 
 	Parameter RAM_WIDTH bound to: 516 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ui_rd_data' (64#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ui/mig_7series_v4_2_ui_rd_data.v:140]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ui_top' (65#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ui/mig_7series_v4_2_ui_top.v:71]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_memc_ui_top_std' (66#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ip_top/mig_7series_v4_2_memc_ui_top_std.v:72]
-INFO: [Synth 8-6155] done synthesizing module 'RamBuf_mig' (67#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/RamBuf_mig.v:75]
-INFO: [Synth 8-6155] done synthesizing module 'RamBuf' (68#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/RamBuf.v:70]
-INFO: [Common 17-14] Message 'Synth 8-6155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ui_rd_data' (63#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ui/mig_7series_v4_2_ui_rd_data.v:140]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_ui_top' (64#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ui/mig_7series_v4_2_ui_top.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_2_memc_ui_top_std' (65#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ip_top/mig_7series_v4_2_memc_ui_top_std.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'RamBuf_mig' (66#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/RamBuf_mig.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'RamBuf' (67#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/RamBuf.v:70]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1450.336 ; gain = 369.648
+Finished RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1451.156 ; gain = 371.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 1470.648 ; gain = 389.961
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1471.484 ; gain = 391.430
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 1470.648 ; gain = 389.961
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1471.484 ; gain = 391.430
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.746 . Memory (MB): peak = 1470.648 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 322 Unisim elements for replacement
-WARNING: [Netlist 29-432] The IBUFG primitive 'u_RamBuf_mig/u_ddr3_clk_ibuf/se_input_clk.u_ibufg_sys_clk' has been retargeted to an IBUF primitive only. No BUFG will be added. If a global buffer is intended, please instantiate an available global clock primitive from the current architecture.
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.705 . Memory (MB): peak = 1471.484 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 321 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -4190,32 +4181,31 @@ Initializing timing engine
 Parsing XDC File [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf_ooc.xdc]
 Finished Parsing XDC File [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf_ooc.xdc]
 Parsing XDC File [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf.xdc]
-WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf.xdc:747]
-WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf.xdc:754]
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf.xdc:743]
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf.xdc:750]
 Finished Parsing XDC File [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/RamBuf_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/RamBuf_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 INFO: [Timing 38-2] Deriving generated clocks
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1573.258 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1569.898 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 173 instances were transformed.
-  IBUFG => IBUF: 1 instance 
+  A total of 172 instances were transformed.
   IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT(x2), INV, OBUFTDS(x2)): 8 instances
   IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 64 instances
   RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 100 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.413 . Memory (MB): peak = 1573.336 ; gain = 0.078
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.357 . Memory (MB): peak = 1569.957 ; gain = 0.059
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:42 ; elapsed = 00:00:49 . Memory (MB): peak = 1573.336 ; gain = 492.648
+Finished Constraint Validation : Time (s): cpu = 00:00:41 ; elapsed = 00:00:41 . Memory (MB): peak = 1569.957 ; gain = 489.902
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a200tfbg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:42 ; elapsed = 00:00:49 . Memory (MB): peak = 1573.336 ; gain = 492.648
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:41 ; elapsed = 00:00:41 . Memory (MB): peak = 1569.957 ; gain = 489.902
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -4223,7 +4213,7 @@ Start Applying 'set_property' XDC Constraints
 Applied set_property IO_BUFFER_TYPE = NONE for ddr3_ck_n[0]. (constraint file  {c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf.xdc}, line 27).
 Applied set_property IO_BUFFER_TYPE = NONE for ddr3_ck_p[0]. (constraint file  {c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf.xdc}, line 28).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:50 . Memory (MB): peak = 1573.336 ; gain = 492.648
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1569.957 ; gain = 489.902
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'xadc_supplied_temperature.tempmon_state_reg' in module 'mig_7series_v4_2_tempmon'
 INFO: [Synth 8-802] inferred FSM for state register 'wl_state_r_reg' in module 'mig_7series_v4_2_ddr_phy_wrlvl'
@@ -4339,7 +4329,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'cal1_state_r_reg' using en
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3898] No Re-encoding of one hot register 'tempmon_state_reg' in module 'mig_7series_v4_2_ddr_phy_tempmon'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:02 ; elapsed = 00:01:11 . Memory (MB): peak = 1573.336 ; gain = 492.648
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:01 ; elapsed = 00:01:03 . Memory (MB): peak = 1569.957 ; gain = 489.902
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -4493,7 +4483,7 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:35 ; elapsed = 00:02:48 . Memory (MB): peak = 1587.066 ; gain = 506.379
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:32 ; elapsed = 00:02:36 . Memory (MB): peak = 1588.918 ; gain = 508.863
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -4540,15 +4530,15 @@ Finished ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3321] set_false_path : Empty through list for constraint at line 760 of {c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf.xdc}. [{c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf.xdc}:760]
+WARNING: [Synth 8-3321] set_false_path : Empty through list for constraint at line 756 of {c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf.xdc}. [{c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf.xdc}:756]
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:44 ; elapsed = 00:02:57 . Memory (MB): peak = 1587.066 ; gain = 506.379
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:40 ; elapsed = 00:02:44 . Memory (MB): peak = 1588.918 ; gain = 508.863
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:50 ; elapsed = 00:03:03 . Memory (MB): peak = 1587.066 ; gain = 506.379
+Finished Timing Optimization : Time (s): cpu = 00:02:43 ; elapsed = 00:02:47 . Memory (MB): peak = 1588.918 ; gain = 508.863
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -4586,7 +4576,7 @@ Finished ROM, RAM, DSP and Shift Register Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:57 ; elapsed = 00:03:10 . Memory (MB): peak = 1587.066 ; gain = 506.379
+Finished Technology Mapping : Time (s): cpu = 00:02:50 ; elapsed = 00:02:54 . Memory (MB): peak = 1588.918 ; gain = 508.863
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -4604,37 +4594,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:03:03 ; elapsed = 00:03:16 . Memory (MB): peak = 1587.066 ; gain = 506.379
+Finished IO Insertion : Time (s): cpu = 00:02:55 ; elapsed = 00:03:00 . Memory (MB): peak = 1588.918 ; gain = 508.863
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:03:03 ; elapsed = 00:03:16 . Memory (MB): peak = 1587.066 ; gain = 506.379
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:55 ; elapsed = 00:03:00 . Memory (MB): peak = 1588.918 ; gain = 508.863
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:06 ; elapsed = 00:03:19 . Memory (MB): peak = 1587.066 ; gain = 506.379
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:58 ; elapsed = 00:03:03 . Memory (MB): peak = 1588.918 ; gain = 508.863
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:03:06 ; elapsed = 00:03:19 . Memory (MB): peak = 1587.066 ; gain = 506.379
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:58 ; elapsed = 00:03:03 . Memory (MB): peak = 1588.918 ; gain = 508.863
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:03:06 ; elapsed = 00:03:19 . Memory (MB): peak = 1587.066 ; gain = 506.379
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:59 ; elapsed = 00:03:03 . Memory (MB): peak = 1588.918 ; gain = 508.863
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:03:06 ; elapsed = 00:03:19 . Memory (MB): peak = 1587.066 ; gain = 506.379
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:59 ; elapsed = 00:03:03 . Memory (MB): peak = 1588.918 ; gain = 508.863
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -4644,6 +4634,12 @@ Static Shift Register Report:
 +------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
 |Module Name | RTL Name                                                                                                                                                                                | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
 +------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/ddr_byte_group_io/rst_r4_reg | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/rclk_delay_reg[11]                                           | 12     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/rclk_delay_reg[11]                                           | 12     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/ddr_byte_group_io/rst_r4_reg | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/rclk_delay_reg[11]                                           | 12     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/ddr_byte_group_io/rst_r4_reg | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
 |RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/mb_wrlvl_inst.u_ddr_phy_wrlvl/phy_ctl_ready_r5_reg                                                               | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
 |RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/mb_wrlvl_inst.u_ddr_phy_ck_addr_cmd_delay/delay_done_r4_reg                                                      | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
 |RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr/init_dqsfound_done_r5_reg                                          | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
@@ -4654,12 +4650,6 @@ Static Shift Register Report:
 |RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/u_ddr_phy_wrcal/gen_pat_match_div4.pat_data_match_valid_r_reg                                                    | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
 |RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/u_ddr_phy_wrcal/wrcal_pat_resume_reg                                                                             | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
 |RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/reset_if_r9_reg                                                                                                  | 9      | 1     | NO           | NO                 | YES               | 1      | 0       | 
-|RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/ddr_byte_group_io/rst_r4_reg | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
-|RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/rclk_delay_reg[11]                                           | 12     | 1     | NO           | NO                 | YES               | 1      | 0       | 
-|RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/ddr_byte_group_io/rst_r4_reg | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
-|RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/ddr_byte_group_io/rst_r4_reg | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
-|RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/rclk_delay_reg[11]                                           | 12     | 1     | NO           | NO                 | YES               | 1      | 0       | 
-|RamBuf      | u_RamBuf_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/rclk_delay_reg[11]                                           | 12     | 1     | NO           | NO                 | YES               | 1      | 0       | 
 +------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
 
 ---------------------------------------------------------------------------------
@@ -4679,7 +4669,7 @@ Report Cell Usage:
 +------+----------------------+------+
 |      |Cell                  |Count |
 +------+----------------------+------+
-|1     |BUFG                  |     4|
+|1     |BUFG                  |     3|
 |2     |BUFH                  |     1|
 |3     |BUFIO                 |     3|
 |4     |CARRY4                |   112|
@@ -4687,12 +4677,12 @@ Report Cell Usage:
 |6     |IDELAYE2              |    64|
 |7     |IN_FIFO               |     8|
 |8     |ISERDESE2             |    64|
-|9     |LUT1                  |   435|
-|10    |LUT2                  |   544|
-|11    |LUT3                  |  1837|
-|12    |LUT4                  |  1163|
+|9     |LUT1                  |   436|
+|10    |LUT2                  |   546|
+|11    |LUT3                  |  1839|
+|12    |LUT4                  |  1162|
 |13    |LUT5                  |  1243|
-|14    |LUT6                  |  1757|
+|14    |LUT6                  |  1760|
 |15    |MMCME2_ADV            |     1|
 |16    |MUXF7                 |   176|
 |17    |ODDR                  |    17|
@@ -4709,48 +4699,45 @@ Report Cell Usage:
 |32    |XADC                  |     1|
 |33    |FDCE                  |     4|
 |34    |FDPE                  |    78|
-|35    |FDRE                  |  5208|
-|36    |FDSE                  |    96|
-|37    |IBUFG                 |     1|
-|38    |IOBUFDS_INTERMDISABLE |     8|
-|39    |IOBUF_INTERMDISABLE   |    64|
-|40    |OBUF                  |    26|
-|41    |OBUFDS                |     1|
+|35    |FDRE                  |  5209|
+|36    |FDSE                  |    95|
+|37    |IOBUFDS_INTERMDISABLE |     8|
+|38    |IOBUF_INTERMDISABLE   |    64|
+|39    |OBUF                  |    26|
+|40    |OBUFDS                |     1|
 +------+----------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:03:06 ; elapsed = 00:03:19 . Memory (MB): peak = 1587.066 ; gain = 506.379
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:59 ; elapsed = 00:03:03 . Memory (MB): peak = 1588.918 ; gain = 508.863
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:02:30 ; elapsed = 00:03:05 . Memory (MB): peak = 1587.066 ; gain = 403.691
-Synthesis Optimization Complete : Time (s): cpu = 00:03:06 ; elapsed = 00:03:19 . Memory (MB): peak = 1587.066 ; gain = 506.379
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:24 ; elapsed = 00:02:52 . Memory (MB): peak = 1588.918 ; gain = 410.391
+Synthesis Optimization Complete : Time (s): cpu = 00:02:59 ; elapsed = 00:03:03 . Memory (MB): peak = 1588.918 ; gain = 508.863
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.578 . Memory (MB): peak = 1587.066 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 817 Unisim elements for replacement
-WARNING: [Netlist 29-432] The IBUFG primitive 'u_RamBuf_mig/u_ddr3_clk_ibuf/se_input_clk.u_ibufg_sys_clk' has been retargeted to an IBUF primitive only. No BUFG will be added. If a global buffer is intended, please instantiate an available global clock primitive from the current architecture.
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.495 . Memory (MB): peak = 1588.918 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 816 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 8 inverter(s) to 64 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1587.066 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1588.918 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 381 instances were transformed.
-  IBUFG => IBUF: 1 instance 
+  A total of 380 instances were transformed.
   IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT(x2), INV, OBUFTDS(x2)): 8 instances
   IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 64 instances
   OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS(x2)): 1 instance 
   RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 307 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-240 Infos, 29 Warnings, 0 Critical Warnings and 0 Errors encountered.
+236 Infos, 27 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:03:19 ; elapsed = 00:03:45 . Memory (MB): peak = 1587.066 ; gain = 506.379
+synth_design: Time (s): cpu = 00:03:10 ; elapsed = 00:03:17 . Memory (MB): peak = 1588.918 ; gain = 508.863
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.runs/RamBuf_synth_1/RamBuf.dcp' has been generated.
 WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP RamBuf, cache-ID = bcdf7c30c906b8fa
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP RamBuf, cache-ID = 240ede2ec1f73f23
 INFO: [Coretcl 2-1174] Renamed 99 cell refs.
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.runs/RamBuf_synth_1/RamBuf.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file RamBuf_utilization_synth.rpt -pb RamBuf_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Feb 27 15:10:48 2021...
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 28 00:53:07 2021...

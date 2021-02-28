@@ -15,7 +15,7 @@ SET_PREFERENCE flowvendor Other
 SET_PREFERENCE tool vivado
 SET_PREFERENCE compnamestatus 0
 SET_PARAMETER component_name RamBuf
-SET_PARAMETER xml_input_file C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/mig_b.prj
+SET_PARAMETER xml_input_file C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/mig_a.prj
 SET_PARAMETER data_dir_path i:/Xilinx/Vivado/2020.1/data/ip/xilinx/mig_7series_v4_2
 SET_CORE_NAME Memory Interface Generator (MIG 7 Series)
 SET_CORE_VERSION 4.2

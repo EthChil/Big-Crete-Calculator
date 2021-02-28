@@ -3,7 +3,7 @@
 # FPGA Board
 
 ### Main Components
-- SODIMM 204 pin DDR3 ram stick [[DDR3 to FPGA connection]]
+- SODIMM 204 pin DDR3 ram stick [[DDR3 to FPGA connection]] **done**
 - Flash memory 32M SPI Flash [[SPI Memory]]
 - 100Mhz Clock
 - XC7A200T Artix-7 FPGA **detemine speed grade**
@@ -11,7 +11,7 @@
 
 ## Schematic
 ![[Pasted image 20210226184506.png]]
-
+![[Pasted image 20210228022017.png]]
 ## Voltage Rails
 ### DDR3 RAM
 | Rail   | Voltage | Current | Notes                                |

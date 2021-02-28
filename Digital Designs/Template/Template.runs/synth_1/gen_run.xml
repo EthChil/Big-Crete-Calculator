@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a200tfbg484-1" LaunchTime="1613520257">
-  <File Type="PA-TCL" Name="RamInterface.tcl"/>
-  <File Type="REPORTS-TCL" Name="RamInterface_reports.tcl"/>
-  <File Type="RDS-RDS" Name="RamInterface.vds"/>
-  <File Type="RDS-UTIL" Name="RamInterface_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="RamInterface_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="RamInterface.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xc7a200tfbg484-1" LaunchTime="1614496887">
+  <File Type="PA-TCL" Name="Template.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Template_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Template_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Template.vds"/>
+  <File Type="RDS-UTIL" Name="Template_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Template_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Template.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Template_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Template_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Blank.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/Ram Interface.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -29,14 +39,20 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/Config.vh">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="RamInterface"/>
+      <Option Name="TopModule" Val="Template"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="RamBuf_synth_1" LaunchPart="xc7a200tfbg484-1" LaunchTime="1614456392">
+<GenRun Id="RamBuf_synth_1" LaunchPart="xc7a200tfbg484-1" LaunchTime="1614491362">
   <File Type="PA-TCL" Name="RamBuf.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="RamBuf_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="RamBuf_reports.tcl"/>

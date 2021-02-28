@@ -1,9 +1,17 @@
 vlib work
 vlib activehdl
 
+vlib activehdl/xpm
 vlib activehdl/xil_defaultlib
 
+vmap xpm activehdl/xpm
 vmap xil_defaultlib activehdl/xil_defaultlib
+
+vlog -work xpm  -sv2k12 \
+"I:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+
+vcom -work xpm -93 \
+"I:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_VCOMP.vhd" \
 
 vlog -work xil_defaultlib  -v2k5 \
 "../../../../Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/clocking/mig_7series_v4_2_clk_ibuf.v" \
@@ -73,7 +81,6 @@ vlog -work xil_defaultlib  -v2k5 \
 "../../../../Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/ui/mig_7series_v4_2_ui_wr_data.v" \
 "../../../../Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/RamBuf_mig_sim.v" \
 "../../../../Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/rtl/RamBuf.v" \
-
 
 vlog -work xil_defaultlib \
 "glbl.v"
