@@ -200,7 +200,7 @@ relates to [[FPGA Board]]
 | ba0       | 109     | J20      | SSTL15                  |
 | ckp0      | 101     | J14      | DIFF_SSTL15             |
 | ckn0      | 103     | H14      | DIFF_SSTL15             |
-| rasn      | 162     | J21      | SSTL15                  |
+| rasn      | 110     | J21      | SSTL15                  |
 | casn      | 115     | J19      | SSTL15                  |
 | wen       | 113     | H19      | SSTL15                  |
 | resetn    | 30      | D14      | LVCMOS15                |
