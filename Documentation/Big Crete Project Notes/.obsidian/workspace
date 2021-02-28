@@ -8,11 +8,8 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Top Level Electrical.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Top Level Electrical.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,18 +93,22 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "lastOpenFiles": [
-    "Top Level Electrical.md",
-    "FPGA Board.md",
-    "DDR3 to FPGA connection.md",
-    "SPI Memory.md",
-    "Untitled.md"
+    "Electrical Design/Motherboard.md",
+    "Electrical Design/FPGA Board.md",
+    "Untitled.md",
+    "Electrical Design/Top Level Electrical.md",
+    "Electrical Design/FPGA Pinout.md",
+    "Electrical Design/Pasted image 20210228130613.png",
+    "Electrical Design/FPGA pins row Y.md",
+    "Electrical Design/FPGA pins row A.md",
+    "Electrical Design/FPGA pins row V 1.md",
+    "Electrical Design/FPGA pins row S.md"
   ]
 }

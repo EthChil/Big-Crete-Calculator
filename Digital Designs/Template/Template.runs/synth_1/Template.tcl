@@ -70,7 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a200tfbg484-1
 
@@ -99,8 +98,8 @@ set_property used_in_implementation false [get_files -all {{c:/Users/ethan/Docum
 set_property used_in_implementation false [get_files -all {{c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc}}]
 
 read_ip -quiet {{C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf.xci}}
-set_property used_in_implementation false [get_files -all c:/Users/ethan/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12064-Tony-Maloney/coregen/RamBuf/RamBuf/user_design/constraints/RamBuf.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/ethan/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12064-Tony-Maloney/coregen/RamBuf/RamBuf/user_design/constraints/RamBuf_ooc.xdc]
+set_property used_in_implementation false [get_files -all {{c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf.xdc}}]
+set_property used_in_implementation false [get_files -all {{c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.srcs/sources_1/ip/RamBuf/RamBuf/user_design/constraints/RamBuf_ooc.xdc}}]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
