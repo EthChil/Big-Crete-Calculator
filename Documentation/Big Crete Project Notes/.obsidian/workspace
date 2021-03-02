@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "ac3715d332b6853e",
+        "id": "5bb117471e4e6ab0",
         "type": "leaf",
         "active": true,
         "state": {
@@ -100,15 +100,15 @@
     "width": 300
   },
   "lastOpenFiles": [
-    "Electrical Design/Motherboard.md",
+    "Electrical Design/SPI Memory.md",
     "Electrical Design/FPGA Board.md",
+    "Electrical Design/DDR3 to FPGA connection.md",
+    "Electrical Design/LED + Driver.md",
+    "Electrical Design/Motherboard.md",
     "Untitled.md",
+    "Electrical Design/LCD Display.md",
     "Electrical Design/Top Level Electrical.md",
     "Electrical Design/FPGA Pinout.md",
-    "Electrical Design/Pasted image 20210228130613.png",
-    "Electrical Design/FPGA pins row Y.md",
-    "Electrical Design/FPGA pins row A.md",
-    "Electrical Design/FPGA pins row V 1.md",
-    "Electrical Design/FPGA pins row S.md"
+    "Electrical Design/Datasheets/4DLCD-43480272-Spec-V1.0-update_201807-10-1608237.pdf"
   ]
 }

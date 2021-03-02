@@ -5,10 +5,12 @@
 
 ### Connection to FPGA Board
 [[FPGA Board]]
-- Connected over M.2 (possibly multiple)
-- Switch inputs (21 switches)
+- Connected over M.2 (will require multiple)
+- Switch inputs (21 Lines)
+- RGB LEDs (63 Lines)
+- Power
 - PCIE Boot card
-- Display 
+- Display (27 Lines)
 
 ### Power **Break this out into it's own document**
 FPGA Rails
@@ -19,6 +21,7 @@ Battery Management
 - Balance (if multiple cells)
 - Undervoltage protection (power down)
 - Charge percentage
+
 **TODO Select Battery**
 
 Display Rails
@@ -28,7 +31,8 @@ LED Driver
 **TODO create document for LEDS**
 
 ### LED + Driver
-- one RGB LED per switch (21 RGB LEDs 63 LEDs (21 x 3))
+[[LED + Driver]]
+- one RGB LED per switch (21 RGB LEDs 63 LEDs (21 x 3)) (consider driving with a decoder and charlieplexed array)
 - Additional RGB around the design
 
 ### Wireless Charger
@@ -48,6 +52,7 @@ LED Driver
 - easily swapped in and out
 
 ### Switches
-- 21 switches + possibly a power switch
+- 21 switches
+- Reed switch for power on power off (switch using a MOSFET)
 - whatever is required to get the switches to interact with the FPGA properly
 
