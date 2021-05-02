@@ -1,6 +1,10 @@
 # Top Level Electrical
 *outlines the eletrical design of V1*
 
+refer to 
+[[Design Journal]]
+for status of everything, below is a top level overview of tasks and roughly where they stand
+
 ### Boards
 - Motherboard (primary board) [[Motherboard]]
 - [[FPGA Board]] (over M.2)
@@ -23,8 +27,8 @@
 	- should contain all the required rails (that are on the motherboard)
 	- wireless charging circuitry
 	- battery control circuitry
-- LED Driver + switches (acts as board to verify mechanical)
-- RAM SPD breakout (allow for ram specs to be verified) **DONE**
+- LED Driver + switches (acts as board to verify mechanical) **should be designed following holo circuit** [[LED + Driver]]
+- RAM SPD breakout (allow for ram specs to be verified) **V1 made follows the DDR3L standard not DDR3 needs to be redone**
 - Display driver (allows selection of LCD) **DONE** **needs to be ordered**
 - Boot card (test gold fingers and signal integrity)
 

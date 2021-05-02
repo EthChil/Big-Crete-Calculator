@@ -6,10 +6,12 @@
       {
         "id": "5bb117471e4e6ab0",
         "type": "leaf",
-        "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Electrical Design/LED + Driver.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -66,9 +68,12 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Electrical Design/LED + Driver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -89,7 +94,7 @@
             "id": "047d0ee3db47a1db",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
+              "type": "empty",
               "state": {}
             }
           }
@@ -99,16 +104,17 @@
     "direction": "horizontal",
     "width": 300
   },
+  "active": "5bb117471e4e6ab0",
   "lastOpenFiles": [
-    "Electrical Design/SPI Memory.md",
-    "Electrical Design/FPGA Board.md",
-    "Electrical Design/DDR3 to FPGA connection.md",
     "Electrical Design/LED + Driver.md",
-    "Electrical Design/Motherboard.md",
-    "Untitled.md",
-    "Electrical Design/LCD Display.md",
     "Electrical Design/Top Level Electrical.md",
-    "Electrical Design/FPGA Pinout.md",
-    "Electrical Design/Datasheets/4DLCD-43480272-Spec-V1.0-update_201807-10-1608237.pdf"
+    "Untitled.md",
+    "Calculator Functions.md",
+    "Electrical Design/FPGA Board.md",
+    "Electrical Design/Motherboard.md",
+    "Electrical Design/SPI Memory.md",
+    "Electrical Design/DDR3 to FPGA connection.md",
+    "Electrical Design/LCD Display.md",
+    "Electrical Design/FPGA Pinout.md"
   ]
 }
