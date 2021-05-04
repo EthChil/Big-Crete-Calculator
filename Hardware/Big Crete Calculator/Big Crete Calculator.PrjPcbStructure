@@ -2,6 +2,5 @@ Record=TopLevelDocument|FileName=FPGA Board Top.SchDoc|SheetNumber=
 Record=SheetSymbol|SourceDocument=FPGA Board Top.SchDoc|Designator=A200T FPGA|SchDesignator=A200T FPGA|FileName=A200T Top Level.SchDoc|SheetNumber= |SymbolType=Normal|RawFileName=A200T Top Level.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=FPGA Board Top.SchDoc|Designator=RAM|SchDesignator=RAM|FileName=FPGA RAM.SchDoc|SheetNumber= |SymbolType=Normal|RawFileName=FPGA RAM.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=NoMainPathDocument|SourceDocument=FPGA Board Top.SchDoc|FileName=DDR3 SODIMM SPD Breakout.SchDoc|SheetNumber= 
-Record=NoMainPathDocument|SourceDocument=FPGA Board Top.SchDoc|FileName=LCD Breakout (4DLCD-43480272).SchDoc|SheetNumber= 
 Record=NoMainPathDocument|SourceDocument=FPGA Board Top.SchDoc|FileName=LED Driver.SchDoc|SheetNumber= 
 Record=NoMainPathDocument|SourceDocument=FPGA Board Top.SchDoc|FileName=Power.SchDoc|SheetNumber= 

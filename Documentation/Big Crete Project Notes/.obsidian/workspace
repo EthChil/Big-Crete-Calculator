@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Electrical Design/LED + Driver.md",
-            "mode": "preview"
+            "file": "Design Journal.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Electrical Design/LED + Driver.md",
+                "file": "Design Journal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +106,7 @@
   },
   "active": "5bb117471e4e6ab0",
   "lastOpenFiles": [
+    "Design Journal.md",
     "Electrical Design/LED + Driver.md",
     "Electrical Design/Top Level Electrical.md",
     "Untitled.md",
@@ -114,7 +115,6 @@
     "Electrical Design/Motherboard.md",
     "Electrical Design/SPI Memory.md",
     "Electrical Design/DDR3 to FPGA connection.md",
-    "Electrical Design/LCD Display.md",
-    "Electrical Design/FPGA Pinout.md"
+    "Electrical Design/LCD Display.md"
   ]
 }
