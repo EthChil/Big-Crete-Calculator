@@ -43,3 +43,8 @@ May 10th, 2021
 
 May 11th
 - I pulled the schematic for the LCD off my previous computer now I guess it's time to restructure the files properly
+- Files have been restructured and I properly laid out the display driver and found some issues with the schematic along the way
+
+May 12th
+- only thing outstanding from the layout was fixing up the silkscreen that is now down and the board is ready to be ordered
+

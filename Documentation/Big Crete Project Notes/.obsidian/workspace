@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Electrical Design/LED + Driver.md",
-            "mode": "preview"
+            "file": "Design Journal.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Electrical Design/LED + Driver.md",
+                "file": "Design Journal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,8 +106,8 @@
   },
   "active": "efdf03d884351678",
   "lastOpenFiles": [
-    "Electrical Design/LED + Driver.md",
     "Design Journal.md",
+    "Electrical Design/LED + Driver.md",
     "Electrical Design/Motherboard.md",
     "Electrical Design/Top Level Electrical.md",
     "Electrical Design/Datasheets/1912111437_BORN-AO3400A_C344010.pdf",
