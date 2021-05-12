@@ -1,0 +1,2 @@
+Record=DiagramHierarchy|SourceDocument=Breakout Assembly.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\LED Driver and Switch Breakout\LED Driver and Switch Breakout.PrjPcb
+Record=SubProject|SourceDocument=Breakout Assembly.MbsDoc|ProjectPath=..\LED Driver and Switch Breakout\LED Driver and Switch Breakout.PrjPcb

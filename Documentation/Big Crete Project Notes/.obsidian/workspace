@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "5bb117471e4e6ab0",
+        "id": "efdf03d884351678",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Design Journal.md",
-            "mode": "source"
+            "file": "Electrical Design/LED + Driver.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Journal.md",
+                "file": "Electrical Design/LED + Driver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +104,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "5bb117471e4e6ab0",
+  "active": "efdf03d884351678",
   "lastOpenFiles": [
-    "Design Journal.md",
     "Electrical Design/LED + Driver.md",
+    "Design Journal.md",
+    "Electrical Design/Motherboard.md",
     "Electrical Design/Top Level Electrical.md",
+    "Electrical Design/Datasheets/1912111437_BORN-AO3400A_C344010.pdf",
     "Untitled.md",
     "Calculator Functions.md",
     "Electrical Design/FPGA Board.md",
-    "Electrical Design/Motherboard.md",
     "Electrical Design/SPI Memory.md",
-    "Electrical Design/DDR3 to FPGA connection.md",
-    "Electrical Design/LCD Display.md"
+    "Electrical Design/DDR3 to FPGA connection.md"
   ]
 }

@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=HSG3 Pin=P1-3
+Removed Pin From Net: NetName=HSG2 Pin=P1-4
+Removed Pin From Net: NetName=HSG1 Pin=P1-5
+Removed Pin From Net: NetName=HSG0 Pin=P1-6
+Added Pin To Net: NetName=HSG0 Pin=P1-3
+Added Pin To Net: NetName=HSG1 Pin=P1-4
+Added Pin To Net: NetName=HSG2 Pin=P1-5
+Added Pin To Net: NetName=HSG3 Pin=P1-6
+Added Room: Name=Designator
+Added Room: Name=LED Driver and Switch Breakout

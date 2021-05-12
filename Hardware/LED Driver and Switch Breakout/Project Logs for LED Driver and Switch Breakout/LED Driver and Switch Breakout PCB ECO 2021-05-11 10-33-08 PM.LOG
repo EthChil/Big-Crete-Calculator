@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=SWH5 Pin=P?-1
+Removed Pin From Net: NetName=SWH4 Pin=P?-2
+Removed Pin From Net: NetName=SWH3 Pin=P?-3
+Removed Pin From Net: NetName=SWH2 Pin=P?-4
+Removed Pin From Net: NetName=SWH1 Pin=P?-5
+Removed Pin From Net: NetName=SWH0 Pin=P?-6
+Added Pin To Net: NetName=SWH0 Pin=P?-1
+Added Pin To Net: NetName=SWH1 Pin=P?-2
+Added Pin To Net: NetName=SWH2 Pin=P?-3
+Added Pin To Net: NetName=SWH3 Pin=P?-4
+Added Pin To Net: NetName=SWH4 Pin=P?-5
+Added Pin To Net: NetName=SWH5 Pin=P?-6
+Added Room: Name=Designator
+Added Room: Name=LED Driver and Switch Breakout

@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=SWL1 Pin=D7-2
+Added Pin To Net: NetName=SWL1 Pin=D12-2
+Added Pin To Net: NetName=SWL1 Pin=D16-2
+Added Room: Name=Designator
+Added Room: Name=LED Driver and Switch Breakout
