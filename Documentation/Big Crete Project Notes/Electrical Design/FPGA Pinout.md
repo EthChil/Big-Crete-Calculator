@@ -1,5 +1,7 @@
 # FPGA Master Pinout
 
+more info on the pinout can be found here
+https://www.xilinx.com/support/packagefiles/a7packages/xc7a200tfbg484pkg.txt
 
 [[FPGA pins row A]]
 [[FPGA pins row B]]

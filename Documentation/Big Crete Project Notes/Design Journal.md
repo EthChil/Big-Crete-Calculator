@@ -48,3 +48,59 @@ May 11th
 May 12th
 - only thing outstanding from the layout was fixing up the silkscreen that is now down and the board is ready to be ordered
 
+	Current tasks 
+	- rewire SPD breakout
+	- prepare gerber for SPD breakout
+	- prepare gerber for LED Driver
+	- prepare required placement files for LED Driver
+	Boards for Breakout Version
+	- SPD Breakout (not part of calculator needed for programming)
+	- LED and Switch breakout
+	- LCD Breakout
+	- Power Breakout (includes BMS circuitry)
+	- Wireless Charging Breakout
+	- Configuration card breakout
+
+May 17th
+- Fixed issue with the keys being incorrectly laid out on the bottom row
+- as a note the issue with the SPD was that I wired it for ECC DDR3L this mistake was not made on the A200T ram
+
+May 23rd
+- I think I forgot to note it in this journal but the SPD breakout was rewired for DDR3L without ECC however I recall some form of issue with the nets not mapping properly to the pcb
+- yea so the issue is that Vtt, Vss, Vrefdq, Vdd aren't mapping onto the pcb
+- just required an import the issue is gone must've been a small bug
+
+	Current tasks 
+	- Layout SPD Breakout
+	- prepare gerber for SPD breakout
+	- prepare gerber for LED Driver
+	- prepare required placement files for LED Driver
+	- finish schematic for FPGA board
+	Boards for Breakout Version
+	- SPD Breakout (not part of calculator needed for programming) (SCHEMATIC DONE)
+	- LED and Switch breakout (LAID OUT)
+	- LCD Breakout (LAID OUT)
+	- Power Breakout (includes BMS circuitry)
+	- Wireless Charging Breakout
+	- Configuration card breakout
+	- FPGA board
+
+May 31st
+- Task for today is to finish the SPD breakout layout
+- clean up the fpga board and highlight what power lines are needed (note this in obsidian for the power board)
+- start designing the power board
+- SPD breakout has been laid out it now just needs gerbers generated and it's good for manufacture
+
+June 1st
+- With the SPD board done the next task is to look over the FPGA board and highlight the power lines that will be fed from the power board
+
+June 4th
+- broke out the lines and created a new power subcircuit document
+- Developed plan for how the rails will be powered and current allowances
+- I also pulled the regulation tolerance data from the datasheets for the components
+- I was going to start looking at components on digikey but the websites filters are having issues
+- contacted jlc and determined speedgrade is -2 and the unit is industrial meaning the voltage is 1V
+
+June 6th 
+- Started selecting power ICs and testing them out in ltspice
+- Running into issues with Digikey (started friday night)

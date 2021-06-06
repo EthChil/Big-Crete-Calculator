@@ -1,6 +1,10 @@
 # LED and Driver
 [[Motherboard]]
 
+| Rail   | Voltage | Current | Notes                       |
+| ------ | ------- | ------- | --------------------------- |
+| Vcc    | 5V      | 2A      | 1.62A should be peak        |
+
 ## LED Array Information
 Switch LEDs
 https://www.adafruit.com/product/2739

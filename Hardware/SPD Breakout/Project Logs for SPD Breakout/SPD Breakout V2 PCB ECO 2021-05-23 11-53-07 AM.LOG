@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=CS0 Pin=P1-7
+Added Pin To Net: NetName=SA1 Pin=P1-8
+Added Pin To Net: NetName=SA0 Pin=P1-9
+Added Pin To Net: NetName=SCL Pin=P1-11
+Added Room: Name=SPD BREAKOUT
+Added Room: Name=SPD Breakout V2

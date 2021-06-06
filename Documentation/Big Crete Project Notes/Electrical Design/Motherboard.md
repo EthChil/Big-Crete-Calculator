@@ -13,8 +13,7 @@
 - Display (27 Lines)
 
 ### Power **Break this out into it's own document**
-FPGA Rails
-[[FPGA Board]]
+
 
 Battery Management
 - Charge
@@ -24,11 +23,48 @@ Battery Management
 
 **TODO Select Battery**
 
-Display Rails
-**TODO create document for display**
+**RAILS**
 
-LED Driver
-**TODO create document for LEDS**
+FPGA Rails
+[[FPGA Board]]
+
+| Rail     | Voltage | Current |
+| -------- | ------- | ------- |
+| Vccint   | 1V      | 328mA   |
+| Vccaux   | 1.8V    | 73mA    |
+| Vccbram  | 1V      | 11mA    |
+| Vcco     | 3.3v    | 5mA     |
+| Vccbat   | 0V      |         |
+| Vmgtavcc | 1V      | 12mA    |
+| Vmgtavtt | 1.2V    | 12mA    |
+| Vccadc   | 1.8V    |         |
+| Vrefp    | 1.25V   | 15uA    |
+
+RAM Rails
+[[FPGA Board]]
+
+| Rail   | Voltage | Current | Notes                                |
+| ------ | ------- | ------- | ------------------------------------ |
+| Vdd    | 1.5V    | 2.3A    | current is peak and varies by module |
+| Vddspd | 3.3V    | 2mA     | likely won't be hooked up            |
+| Vrefca | 0.75V   | 18uA    |                                      |
+| Vrefdq | 0.75V   | 18uA    |                                      |
+| Vtt    | 0.75V   | 600mA   | specifies a min I of -600mA          |
+
+Display Rails
+[[LCD Display]]
+
+| Rail      | Voltage | Current | Notes                    |
+| --------- | ------- | ------- | ------------------------ |
+| Vcc       | 3v3     | 5mA     | 5mA should be peak       |
+| Backlight | 5v      | 30mA    | should be lowe than 30mA |
+
+LED Driver Rails
+[[LED + Driver]]
+
+| Rail | Voltage | Current | Notes                  |
+| ---- | ------- | ------- | ---------------------- |
+| Vcc  | 5V      | 0.5A    | each led is peak 110mA |
 
 ### LED + Driver
 [[LED + Driver]]
