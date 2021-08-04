@@ -130,7 +130,7 @@ module example_top #
    parameter ECC                   = "OFF",
    parameter ECC_TEST              = "OFF",
    //parameter nBANK_MACHS           = 4,
-   parameter nBANK_MACHS           = 4,
+   parameter nBANK_MACHS           = 3,
    parameter RANKS                 = 1,
                                      // # of Ranks.
    parameter ROW_WIDTH             = 16,
@@ -157,7 +157,7 @@ module example_top #
    // The following parameters are multiplier and divisor factors for PLLE2.
    // Based on the selected design frequency these parameters vary.
    //***************************************************************************
-   parameter CLKIN_PERIOD          = 3075,
+   parameter CLKIN_PERIOD          = 3080,
                                      // Input Clock Period
    parameter CLKFBOUT_MULT         = 4,
                                      // write PLL VCO multiplier
@@ -173,7 +173,7 @@ module example_top #
                                      // VCO output divisor for PLL output clock (CLKOUT2)
    parameter CLKOUT3_DIVIDE        = 16,
                                      // VCO output divisor for PLL output clock (CLKOUT3)
-   parameter MMCM_VCO              = 650,
+   parameter MMCM_VCO              = 649,
                                      // Max Freq (MHz) of MMCM VCO
    parameter MMCM_MULT_F           = 8,
                                      // write MMCM VCO multiplier

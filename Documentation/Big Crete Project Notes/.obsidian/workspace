@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "efdf03d884351678",
+        "id": "28e0104db5eb5b5f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Design Journal.md",
+            "file": "Electrical Design/FPGA/Motherboard to FPGA Connection.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 251
   },
   "right": {
     "id": "2fed89ef0af1c0fb",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Journal.md",
+                "file": "Electrical Design/FPGA/Motherboard to FPGA Connection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,17 +113,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "efdf03d884351678",
+  "active": "28e0104db5eb5b5f",
   "lastOpenFiles": [
-    "Design Journal.md",
+    "Electrical Design/FPGA/Motherboard to FPGA Connection.md",
+    "Electrical Design/FPGA/SPI to FPGA Connection.md",
+    "Electrical Design/FPGA/FPGA AC7A200T-1SBG484C Pinout.md",
+    "Electrical Design/Boot SPI to FPGA connection.md",
     "Electrical Design/Power Subcircuit.md",
-    "Electrical Design/Motherboard.md",
-    "Electrical Design/FPGA Board.md",
-    "Electrical Design/FPGA Clock.md",
-    "Electrical Design/FPGA Pinout.md",
-    "Electrical Design/LCD Display.md",
-    "Electrical Design/LED + Driver.md",
-    "Untitled.md",
-    "Electrical Design/SPI Memory.md"
+    "Electrical Design/FPGA/M.2 to FPGA Connection.md",
+    "Design Journal.md",
+    "Electrical Design/FPGA/FPGA Board.md",
+    "To Buy.md",
+    "Electrical Design/Attachments/ds181_Artix_7_Data_Sheet 1.pdf"
   ]
 }

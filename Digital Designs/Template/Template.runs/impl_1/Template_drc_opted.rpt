@@ -1,11 +1,11 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date         : Sun Feb 28 13:01:49 2021
-| Host         : Tony-Maloney running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Jul 12 21:44:48 2021
+| Host         : DESKTOP-2B7MLRV running 64-bit major release  (build 9200)
 | Command      : report_drc -file Template_drc_opted.rpt -pb Template_drc_opted.pb -rpx Template_drc_opted.rpx
 | Design       : Template
-| Device       : xc7a200tfbg484-1
+| Device       : xc7a200tsbg484-1
 | Speed File   : -1
 | Design State : Synthesized
 ---------------------------------------------------------------------------------------------------------------
@@ -61,7 +61,7 @@ Related violations: <none>
 
 REQP-1709#1 Warning
 Clock output buffering  
-PLLE2_ADV connectivity violation. The signal u_RamBuf/u_RamBuf_mig/u_ddr3_infrastructure/pll_clk3_out on the u_RamBuf/u_RamBuf_mig/u_ddr3_infrastructure/plle2_i/CLKOUT3 pin of u_RamBuf/u_RamBuf_mig/u_ddr3_infrastructure/plle2_i does not drive the same kind of BUFFER load as the other CLKOUT pins. Routing from the different buffer types will not be phase aligned.
+PLLE2_ADV connectivity violation. The signal RamBuf/u_mig_7series_0_mig/u_ddr3_infrastructure/pll_clk3_out on the RamBuf/u_mig_7series_0_mig/u_ddr3_infrastructure/plle2_i/CLKOUT3 pin of RamBuf/u_mig_7series_0_mig/u_ddr3_infrastructure/plle2_i does not drive the same kind of BUFFER load as the other CLKOUT pins. Routing from the different buffer types will not be phase aligned.
 Related violations: <none>
 
 

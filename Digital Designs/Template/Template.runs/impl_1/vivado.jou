@@ -1,9 +1,9 @@
 #-----------------------------------------------------------
-# Vivado v2020.1 (64-bit)
-# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
-# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Sun Feb 28 13:00:54 2021
-# Process ID: 15564
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jul 12 21:44:15 2021
+# Process ID: 36408
 # Current directory: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.runs/impl_1
 # Command line: vivado.exe -log Template.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Template.tcl -notrace
 # Log file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.runs/impl_1/Template.vdi

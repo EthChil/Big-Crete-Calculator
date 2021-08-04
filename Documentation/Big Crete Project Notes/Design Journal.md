@@ -104,3 +104,119 @@ June 4th
 June 6th 
 - Started selecting power ICs and testing them out in ltspice
 - Running into issues with Digikey (started friday night)
+
+June 18th
+- Started schematic layout for power board
+- Splitting bms into seperate board
+- adding USB-C power in addition to wireless power (wireless will be fully custom)
+- Adding current and voltage monitoring to power board (mostly for initial debug and bringup)
+- Issue with schematic right now is I'm not exactly using the correct components, I need to get the online library I had reinstalled that was dope
+
+June 19th
+- noticed in LTSpice that some lower voltages cause regulation to drop out on the 5v rail this probably can be fixed by using a smaller inductor, for now UVLO circuitry will be added so the rails dropout at anything below 7V into the regulator (3.5V cell voltage)
+
+June 25th 
+- Deadline for boards to get ordered is this sunday (27th)
+- split up the power boards, at the least I want the power subcircuit board done, followed by bms, then monitoring board
+
+Boards for Order (BRIAN)
+READY: Ram breakout (SPD)
+READY: LCD Display Breakout
+IN-PROGRESS: Power subcircuit (Buck + Linear Reg)
+IN-PROGRESS: Voltage / current breakout (monitoring for 9 rails per [[Power Subcircuit]])
+IN-PROGRESS: BMS subcircuit (USB-C plug, charging IC, passthrough from battery / USB-C)
+
+Boards for Order (ETHAN)
+LED + Driver
+FPGA Board (IN PROGRESS)
+
+Other:
+Wireless charging, (likely for post prototype)
+
+June 26th
+- Starting to go through these items first up is power subcircuit 
+- Power subcircuit schematic appears to be done, I also had to minorly rearchitect for power up sequence and also because my rails were too close to the buck ones for LDOs to work properly 
+- Now working on layout
+- Got about halfway through layout
+
+June 27th
+- Finished layout
+- One issue with VIN is that I didn't leave enough room to route big enough traces
+- as it stands it WILL work but I want to solder patch wires from the caps on the left and right inductors so just make sure you do that before assembly 
+- I also put in mounting holes spaced 1.5" apart and sized for a #4 fastener 
+
+Boards going out for order today
+READY: Ram breakout (SPD)
+READY: LCD Display Breakout
+READY: Power subcircuit (Buck + Linear Reg)
+READY: LED + Driver
+
+
+July 8th
+Got boards in
+Assembled SPD board, reflow seemed to work out fine I had to touch it up with the iron a bit
+
+switch board
+- switches are a bit tight going in this should be investigated for V2
+- enter and plus key collide, check spacing I think the plus key is too low the enter looks fine
+- Stabilizers were missed on this design make sure that's in V2
+
+RAM Notes
+- couldn't find info for Trefi and Tcke timings so 4us is being used for Trefi and 5ns for Tcke
+
+- When redoing the vivado stuff noticed an issue with obsidian linking of RAM connections but there was also an error in altium so double check vivado/atlium/obsidian and make sure they all agree
+
+- Updtaed vivado to meet -2 timing requirments on FPGA and fixed some timing issues with the ram
+
+Notes for next time:
+- Focus on getting FPGA board ordered (Schematic then layout)
+- Verify ram connections are correct (vivado/atlium/obsidian)
+- Get FPGA boards ordered asap maybe order a run of 1 for now then if design verified order another each is like probably ~$200 CAD
+
+
+July 9th
+- Having issues sourcing the FPGA I need, JLC doesn't have it and all A200T FPGAs are out of stock literally everywhere
+- For now I will work under the assumption that I am getting the FPGA I've been designing for, hopefully this will reduce the risk of mistakes in the design
+- For today I will work on routing the FPGA and doing all the schematic related things for it
+
+July 10th
+- Got stuck in a rabit hole looking at pinout info for the chip which sorta exists not really tho
+- Validate ram pinout is top priority 
+- Then deal with all the config pins and what they are and what they should be tied to
+- Determine what other pins are required for what (SPI BOOT, JTAG, SPI Storage, External Interfaces)
+
+July 12th
+- Ordered FPGA from mouser P/N XC7A200T-1SBG484C
+- Vivado was rebuilt for the new part but is giving some warnings
+
+July 13th
+- FPGA arrived a lot smaller than I expected, I don't think I'm putting in any time today but if I do I think the next step is going to be doing the pinout, the challenge with this however is there is the pinout from the board itself, the pinout to the FPGA and the pinout from big parts like SPI and ram. My thinking is to make a sperate pinout document for each device so every component has it's own unified pinout table this means getting rid of the row system I had before. I'll make sure I focus on doing this, once it's done I'll have to redo the schematic anyways with the new circuit element since this FPGA is not the same as JLC and I will also have to look into what PCBWay wants and what their design rules are around BGA components. 
+
+July 15th
+- Ordered syringes for solder paste
+- Redid the schematic for the FPGA to put the new part in and rewired the RAM
+- Created an excel sheet with the pinout info
+- Broke out the SPI configuration pins for boot, this needs to be implemented properly next time, copy the AU design
+- Pins for the M.2 Connection need to be decided on and plumbed
+- testpoint the INIT, PROGRAM, DONE, CFGBVS, and PUDC lines
+- ADD THE OSCILLATOR 100mhz
+
+
+July 16th
+- PCBWAY STUFF (what to get)
+	- 0.25mm (10mil) vias, plated 0.48mm (19mil)
+	- 4-3 mil traces (select 4/4 or 3/3) (4/4 is cheaper)
+	- trace spacing 
+		- One trace 4mil
+		- Two trace 3mil
+
+- REFER to BGA design rules when setting up the board stuff'
+
+https://www.altium.com/documentation/altium-designer/controlled-impedance-routing-ad
+^ controlled impedance routing in altium
+
+July 28th
+- took a bit of a break, I think the current stuff to do is mount the crystal and wire up the boot rom
+
+July 29th
+- so I missed this from yesterdays update but I wired up the boot rom the one thing that is missing is any form of termination resistor this should be fine if you run at a lower frequency since boot time isn't a concern

@@ -115,7 +115,7 @@ module RamBuf_mig #
                                       //            for distributed Addressing.
       
    //parameter nBANK_MACHS           = 4,
-   parameter nBANK_MACHS           = 4,
+   parameter nBANK_MACHS           = 3,
    parameter RANKS                 = 1,
                                      // # of Ranks.
    parameter ODT_WIDTH             = 1,
@@ -226,7 +226,7 @@ module RamBuf_mig #
    // The following parameters are multiplier and divisor factors for PLLE2.
    // Based on the selected design frequency these parameters vary.
    //***************************************************************************
-   parameter CLKIN_PERIOD          = 3075,
+   parameter CLKIN_PERIOD          = 3080,
                                      // Input Clock Period
    parameter CLKFBOUT_MULT         = 4,
                                      // write PLL VCO multiplier
@@ -242,7 +242,7 @@ module RamBuf_mig #
                                      // VCO output divisor for PLL output clock (CLKOUT2)
    parameter CLKOUT3_DIVIDE        = 16,
                                      // VCO output divisor for PLL output clock (CLKOUT3)
-   parameter MMCM_VCO              = 650,
+   parameter MMCM_VCO              = 649,
                                      // Max Freq (MHz) of MMCM VCO
    parameter MMCM_MULT_F           = 8,
                                      // write MMCM VCO multiplier
@@ -255,21 +255,21 @@ module RamBuf_mig #
    //***************************************************************************
    parameter tCKE                  = 5000,
                                      // memory tCKE paramter in pS
-   parameter tFAW                  = 27000,
+   parameter tFAW                  = 30000,
                                      // memory tRAW paramter in pS.
    parameter tPRDI                 = 1_000_000,
                                      // memory tPRDI paramter in pS.
-   parameter tRAS                  = 34000,
+   parameter tRAS                  = 35000,
                                      // memory tRAS paramter in pS.
-   parameter tRCD                  = 13910,
+   parameter tRCD                  = 13125,
                                      // memory tRCD paramter in pS.
-   parameter tREFI                 = 7800000,
+   parameter tREFI                 = 4000000,
                                      // memory tREFI paramter in pS.
    parameter tRFC                  = 260000,
                                      // memory tRFC paramter in pS.
-   parameter tRP                   = 13910,
+   parameter tRP                   = 13125,
                                      // memory tRP paramter in pS.
-   parameter tRRD                  = 5000,
+   parameter tRRD                  = 6000,
                                      // memory tRRD paramter in pS.
    parameter tRTP                  = 7500,
                                      // memory tRTP paramter in pS.
@@ -396,7 +396,7 @@ module RamBuf_mig #
    parameter WRLVL                 = "ON",
                                      // # = "ON" - DDR3 SDRAM
                                      //   = "OFF" - DDR2 SDRAM.
-   parameter ORDERING              = "STRICT",
+   parameter ORDERING              = "NORM",
                                      // # = "NORM", "STRICT", "RELAXED".
    parameter CALIB_ROW_ADD         = 16'h0000,
                                      // Calibration row address will be used for
@@ -430,7 +430,7 @@ module RamBuf_mig #
                                      // "TRUE" - if pin is selected for sys_rst
                                      //          and IBUF will be instantiated.
                                      // "FALSE" - if pin is not selected for sys_rst
-   parameter FPGA_SPEED_GRADE      = 1,
+   parameter FPGA_SPEED_GRADE      = 2,
                                      // FPGA speed grade
       
    parameter CMD_PIPE_PLUS1        = "ON",
@@ -453,7 +453,7 @@ module RamBuf_mig #
    //***************************************************************************
    // System clock frequency parameters
    //***************************************************************************
-   parameter tCK                   = 3075,
+   parameter tCK                   = 3080,
                                      // memory tCK paramter.
                                      // # = Clock Period in pS.
    parameter nCK_PER_CLK           = 4,

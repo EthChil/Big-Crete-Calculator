@@ -2,14 +2,14 @@
 
 Vivado Project Options:
    Target Device                   : xc7a200t-fbg484
-   Speed Grade                     : -1
+   Speed Grade                     : -2
    HDL                             : verilog
    Synthesis Tool                  : VIVADO
 
 MIG Output Options:
    Module Name                     : RamBuf
    No of Controllers               : 1
-   Selected Compatible Device(s)   : xc7a200ti-fbg484
+   Selected Compatible Device(s)   : --
 
 FPGA Options:
    System Clock Type               : No Buffer
@@ -36,11 +36,11 @@ Controller Options :
 
    Interface                     : NATIVE
 
-   Design Clock Frequency        : 3075 ps (  0.00 MHz)
+   Design Clock Frequency        : 3080 ps (  0.00 MHz)
 
    Phy to Controller Clock Ratio : 4:1
 
-   Input Clock Period            : 3075 ps
+   Input Clock Period            : 3080 ps
 
    CLKFBOUT_MULT (PLL)           : 4
 
@@ -50,7 +50,7 @@ Controller Options :
 
    Memory Type                   : SODIMMs
 
-   Memory Part                   : MT8KTF51264HZ-1G9
+   Memory Part                   : CMSO4GX3M1C1600C11
 
    Equivalent Part(s)            : --
 
@@ -60,7 +60,7 @@ Controller Options :
 
    Data Mask                     : disabled
 
-   ORDERING                      : Strict
+   ORDERING                      : Normal
 
 
 
@@ -103,8 +103,8 @@ Bank Selections:
 		Byte Group T2:	DQ[48-55]
 		Byte Group T3:	DQ[56-63]
 	Bank: 15
-		Byte Group T0:	Address/Ctrl-0
-		Byte Group T1:	Address/Ctrl-1
+		Byte Group T0:	Address/Ctrl-1
+		Byte Group T1:	Address/Ctrl-0
 		Byte Group T2:	Address/Ctrl-2
 		Byte Group T3:	DQ[32-39]
 	Bank: 16

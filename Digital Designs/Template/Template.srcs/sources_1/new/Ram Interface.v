@@ -45,6 +45,7 @@ input wire rst
     
     wire locked;
     wire clk_ram;
+    wire ram_ref_clk;
     
     assign app_sr_req = 0;
     assign app_ref_req = 0;
@@ -53,6 +54,7 @@ input wire rst
     clk_wiz_0 clk (
         // Clock out ports
         .clk_out1(clk_ram),
+        .clk_out2(ram_ref_clk),
         
         // Status and control signals
         .reset(rst),
@@ -62,7 +64,7 @@ input wire rst
         .clk_in1(clk100)
     );
 
-    RamBuf u_RamBuf (
+    mig_7series_0 RamBuf (
     // Memory interface ports
     .ddr3_addr                      (ddr3_addr),  // output [15:0]		ddr3_addr
     .ddr3_ba                        (ddr3_ba),  // output [2:0]		ddr3_ba
@@ -104,7 +106,8 @@ input wire rst
     .ui_clk_sync_rst                (ui_clk_sync_rst),  // output			ui_clk_sync_rst
     
     // System Clock Ports
-    .sys_clk_i                       (clk_ram),  //325.25 Mhz
+    .sys_clk_i                      (clk_ram),  //325.25 Mhz
+    .clk_ref_i                      (ram_ref_clk),
     .sys_rst                        (~locked) // input sys_rst
     );
     
