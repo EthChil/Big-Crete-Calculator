@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date             : Mon Jul 12 21:46:15 2021
+| Date             : Wed Aug  4 20:03:34 2021
 | Host             : DESKTOP-2B7MLRV running 64-bit major release  (build 9200)
 | Command          : report_power -file Template_power_routed.rpt -pb Template_power_summary_routed.pb -rpx Template_power_routed.rpx
 | Design           : Template
@@ -30,11 +30,11 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.643        |
+| Total On-Chip Power (W)  | 1.636        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.506        |
-| Device Static (W)        | 0.138        |
+| Dynamic (W)              | 1.482        |
+| Device Static (W)        | 0.154        |
 | Effective TJA (C/W)      | 3.3          |
 | Max Ambient (C)          | 79.6         |
 | Junction Temperature (C) | 30.4         |
@@ -53,22 +53,22 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.030 |       50 |       --- |             --- |
-| Slice Logic              |     0.003 |    14023 |       --- |             --- |
-|   LUT as Logic           |     0.003 |     4925 |    133800 |            3.68 |
-|   Register               |    <0.001 |     4640 |    267600 |            1.73 |
+| Slice Logic              |     0.004 |    14051 |       --- |             --- |
+|   LUT as Logic           |     0.003 |     4944 |    133800 |            3.70 |
+|   Register               |    <0.001 |     4653 |    267600 |            1.74 |
 |   LUT as Distributed RAM |    <0.001 |     1228 |     46200 |            2.66 |
 |   CARRY4                 |    <0.001 |      147 |     33450 |            0.44 |
 |   F7/F8 Muxes            |    <0.001 |      176 |    133800 |            0.13 |
 |   LUT as Shift Register  |    <0.001 |       17 |     46200 |            0.04 |
 |   Others                 |     0.000 |      193 |       --- |             --- |
-| Signals                  |     0.008 |    11590 |       --- |             --- |
-| MMCM                     |     0.195 |        2 |        10 |           20.00 |
+| Signals                  |     0.008 |    11606 |       --- |             --- |
+| MMCM                     |     0.153 |        2 |        10 |           20.00 |
 | PLL                      |     0.000 |        1 |        10 |           10.00 |
-| I/O                      |     0.936 |      111 |       285 |           38.95 |
+| I/O                      |     0.953 |      136 |       285 |           47.72 |
 | PHASER                   |     0.330 |       44 |       --- |             --- |
 | XADC                     |     0.004 |        1 |       --- |             --- |
-| Static Power             |     0.138 |          |           |                 |
-| Total                    |     1.643 |          |           |                 |
+| Static Power             |     0.154 |          |           |                 |
+| Total                    |     1.636 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -78,9 +78,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.170 |       0.133 |      0.037 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.466 |       0.435 |      0.031 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.171 |       0.134 |      0.037 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.444 |       0.413 |      0.031 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.010 |       0.005 |      0.005 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.396 |       0.391 |      0.005 |       NA    | Unspecified | NA         |
@@ -134,7 +134,6 @@ Table of Contents
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
 | Clock                                                                                                                                                     | Domain                                                                                                                                                                                        | Constraint (ns) |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-| clk100                                                                                                                                                    | clk100                                                                                                                                                                                        |            10.0 |
 | clk_out1_clk_wiz_0                                                                                                                                        | clk/inst/clk_out1_clk_wiz_0                                                                                                                                                                   |             3.0 |
 | clk_out2_clk_wiz_0                                                                                                                                        | clk/inst/clk_out2_clk_wiz_0                                                                                                                                                                   |             5.0 |
 | clk_pll_i                                                                                                                                                 | RamBuf/u_mig_7series_0_mig/u_ddr3_infrastructure/clk_pll_i                                                                                                                                    |            12.0 |
@@ -194,14 +193,14 @@ Table of Contents
 +----------------------------------+-----------+
 | Name                             | Power (W) |
 +----------------------------------+-----------+
-| Template                         |     1.506 |
+| Template                         |     1.482 |
 |   RamBuf                         |     1.397 |
 |     u_mig_7series_0_mig          |     1.397 |
 |       temp_mon_enabled.u_tempmon |     0.007 |
 |       u_ddr3_infrastructure      |     0.090 |
 |       u_memc_ui_top_std          |     1.300 |
-|   clk                            |     0.108 |
-|     inst                         |     0.108 |
+|   clk                            |     0.067 |
+|     inst                         |     0.067 |
 +----------------------------------+-----------+
 
 

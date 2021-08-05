@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Electrical Design/FPGA/Motherboard to FPGA Connection.md",
-            "mode": "source"
+            "file": "Electrical Design/LCD Display.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Electrical Design/FPGA/Motherboard to FPGA Connection.md",
+                "file": "Electrical Design/LCD Display.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,15 +115,15 @@
   },
   "active": "28e0104db5eb5b5f",
   "lastOpenFiles": [
+    "Electrical Design/LCD Display.md",
+    "Electrical Design/FPGA/FPGA AC7A200T-1SBG484C Pinout.md",
     "Electrical Design/FPGA/Motherboard to FPGA Connection.md",
     "Electrical Design/FPGA/SPI to FPGA Connection.md",
-    "Electrical Design/FPGA/FPGA AC7A200T-1SBG484C Pinout.md",
     "Electrical Design/Boot SPI to FPGA connection.md",
     "Electrical Design/Power Subcircuit.md",
     "Electrical Design/FPGA/M.2 to FPGA Connection.md",
     "Design Journal.md",
     "Electrical Design/FPGA/FPGA Board.md",
-    "To Buy.md",
-    "Electrical Design/Attachments/ds181_Artix_7_Data_Sheet 1.pdf"
+    "To Buy.md"
   ]
 }

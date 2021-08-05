@@ -1,6 +1,7 @@
 `default_nettype none
 
 module Template(
+//RAM Connection
 output wire [15:0] ddr3_addr,
 output wire [2:0] ddr3_ba,
 output wire ddr3_cas_n,
@@ -17,11 +18,24 @@ output wire init_calib_complete,
 output wire ddr3_cs_n,
 output wire ddr3_odt,
 
+//Display
+output reg [7:0]Red,
+output reg [7:0]Green,
+output reg [7:0]Blue,
+output reg DCLK, //10Mhz
+
 input wire clk100, //100Mhz
 input wire rst
 );
     
-
+    reg [3:0] count_ten = 4'b0;
+    
+    initial begin
+        DCLK <= 0;
+        Red <= 0;
+        Green <= 0;
+        Blue <= 0;
+    end
 
     reg [29:0] app_addr;  
     reg [2:0] app_cmd; 
@@ -50,6 +64,18 @@ input wire rst
     assign app_sr_req = 0;
     assign app_ref_req = 0;
     assign app_zq_req = 0;
+    
+    //Handle DCLK (10 MHz)
+    always @(posedge clk100) begin
+        if(count_ten == 4'd10) begin
+            count_ten <= 0;
+            DCLK <= ~DCLK;
+            Red <= Red + 1;
+            Blue <= Blue + 1;
+            Green <= Green + 1;
+        end
+        count_ten <= count_ten + 1;
+    end
     
     clk_wiz_0 clk (
         // Clock out ports
