@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=WE Pin=U1-18
+Removed Pin From Net: NetName=WE Pin=U2-AA16
+Change Net Name : Old Net Name=GND New Net Name=DM0
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 51, 204) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 51, 204) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 51, 204) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 51, 204) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 51, 204) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 51, 204) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 51, 204) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 51, 204) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 51, 204) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 51, 204) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Change Net Color : Old Net Color=RGB(96, 96, 96) New Net Color=Default
+Added Pin To Net: NetName=WE_NAND Pin=U1-18
+Added Pin To Net: NetName=WE_NAND Pin=U2-AA16
+Added Net: Name=WE_NAND
+Added Member To Class: ClassName=RAM (DDR3L) Member=Component J1 2013289-1
+Added Member To Class: ClassName=A200T FPGA Member=Component U2 XC7A200T-1SBG484C
+Added Room: Name=A200T FPGA
+Added Room: Name=FPGA Board Top
+Added Room: Name=RAM (DDR3L)
+Added Room: Name=SODIMM Motherboard Connector

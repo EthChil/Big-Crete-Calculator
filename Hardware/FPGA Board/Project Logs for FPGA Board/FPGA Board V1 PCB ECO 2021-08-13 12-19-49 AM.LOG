@@ -1,0 +1,17 @@
+Removed Member From Class: ClassName=DG_1 Member=DQ7
+Removed Member From Class: ClassName=DG_2 Member=DQ15
+Removed Member From Class: ClassName=DG_3 Member=DQ23
+Removed Member From Class: ClassName=DG_5 Member=DQ39
+Removed Member From Class: ClassName=DG_6 Member=DQ47
+Removed Member From Class: ClassName=DG_7 Member=DQ55
+Removed Member From Class: ClassName=DG_1 Member=DQS0_N
+Removed Member From Class: ClassName=DG_2 Member=DQS1_N
+Removed Member From Class: ClassName=DG_3 Member=DQS2_N
+Removed Member From Class: ClassName=DG_4 Member=DQS3_N
+Removed Member From Class: ClassName=DG_5 Member=DQS4_N
+Removed Member From Class: ClassName=DG_6 Member=DQS5_N
+Removed Member From Class: ClassName=DG_7 Member=DQS6_N
+Added Room: Name=A200T FPGA
+Added Room: Name=FPGA Board Top
+Added Room: Name=RAM (DDR3L)
+Added Room: Name=SODIMM Motherboard Connector

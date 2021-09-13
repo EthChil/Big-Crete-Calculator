@@ -56,6 +56,34 @@ MGTPRXN(X) - GTP transciever rx, X = group num 0-3
 
 
 ## Pinout
+| FPGA Pin | GPIO Pin |
+| -------- | -------- |
+| T3       | 1        |
+| T1       | 2        |
+| U2       |          |
+| V2       |          |
+| R3       |          |
+| R2       |          |
+| W2       |          |
+| Y2       |          |
+| W1       |          |
+| Y1       |          |
+| U3       |          |
+| V3       |          |
+| AA1      |          |
+| AB1      |          |
+| AB3      |          |
+| AB2      |          |
+| Y3       |          |
+| AA3      |          |
+| AA5      |          |
+| AB5      |          |
+| Y4       |          |
+| AA4      |          |
+| V4       |          |
+| W4       |          |
+|          |          |
+
 | FPGA Pin | Pin Name           | Function   | Hookup Notes | External Device Link |
 | -------- | ------------------ | ---------- | ------------ | -------------------- |
 | A1       | IO_L1N_T0_AD4N_35  | General IO |              |                      |

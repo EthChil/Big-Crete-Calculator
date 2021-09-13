@@ -220,3 +220,40 @@ July 28th
 
 July 29th
 - so I missed this from yesterdays update but I wired up the boot rom the one thing that is missing is any form of termination resistor this should be fine if you run at a lower frequency since boot time isn't a concern
+
+August 11th
+- Finished wiring up the FPGA pretty much, a few notes 
+	- The wiring for things that go to GPIO such as the switch board and the display will need a more robust writeup on which gpio is which
+	- pretty much every GPIO got wired and about half the EIOs got wired
+	- should probably do the breakout board for the FPGA before actually laying the FPGA out since the layout will take a long time and the schematics should be done first
+
+August 12th
+- Did some mechanical stackup for the calculator, created new boards
+- Switch board holds LED drivers, test points, mechanical mounts (mechanical support structure)
+- Motherboard is above switch board and has power delivery, boot card, USB-C connection, Display connection, battery hookup, FPGA hookup
+- Started putting rules together in the altium
+
+Notes on Rules set
+min hole size = 0.25mm (XILINX DOC)
+routing width and spacing 4/4 (XILINX DOC) space for one trace between balls
+6 layer stackup
+
+
+August 15th
+- routing has begun on the FPGA, assembled the power breakout and started testing found the following issue
+	- Rt, the resistor that tunes the frequency was 26.3 ohms it should have been 26.3k ohms I ordered a 26.7k ohm resistor to swap it out with
+
+
+August 18th
+- After swapping resistor still having issues wasn't seeing any switching on the output to the inductor
+- so I removed the chip from the board and swapped it with a new one
+- Preliminary tests showed the 5v and 1v8 lines working as intended
+- I also severed the connection from the TRKSS2 to PG3 which was required for the sequencing this doesn't affect 3v3 as it will still come up but it does mean that it will come up probably before the 1v8 line which is technically the wrong sequence just be aware of it
+
+August 19th
+- Checked the 3v3 and 1v5 lines they seem to be working. The voltages don't seem to be very accurate so this will need to be validated and potentially tuned
+-
+August 28th 
+- Went into altium and fixed the issue that was causing the keys to collide the + and enter keys. This will be carried forward to the next rev of the board
+- Added 3D switch model to PCB so I can do some mechanical CAD
+- 

@@ -7,10 +7,9 @@
         "id": "28e0104db5eb5b5f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "Electrical Design/LCD Display.md",
-            "mode": "preview"
+            "file": "Mechanical Design/Mechanical Stackup FPGA UP.png"
           }
         }
       }
@@ -68,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Electrical Design/LCD Display.md",
+                "file": "Mechanical Design/Mechanical Stackup FPGA UP.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,15 +114,15 @@
   },
   "active": "28e0104db5eb5b5f",
   "lastOpenFiles": [
-    "Electrical Design/LCD Display.md",
-    "Electrical Design/FPGA/FPGA AC7A200T-1SBG484C Pinout.md",
-    "Electrical Design/FPGA/Motherboard to FPGA Connection.md",
-    "Electrical Design/FPGA/SPI to FPGA Connection.md",
-    "Electrical Design/Boot SPI to FPGA connection.md",
-    "Electrical Design/Power Subcircuit.md",
-    "Electrical Design/FPGA/M.2 to FPGA Connection.md",
+    "Mechanical Design/Mechanical Stackup FPGA UP.png",
+    "Mechanical Design/Mechanical Stackup.png",
     "Design Journal.md",
-    "Electrical Design/FPGA/FPGA Board.md",
-    "To Buy.md"
+    "Electrical Design/FPGA/DDR3 to FPGA connection.md",
+    "Electrical Design/Power Subcircuit.md",
+    "Electrical Design/LED + Driver.md",
+    "Electrical Design/FPGA/Motherboard to FPGA Connection.md",
+    "Electrical Design/Attachments/Ceridian.pdf",
+    "To Buy.md",
+    "Electrical Design/FPGA/FPGA Clock.md"
   ]
 }

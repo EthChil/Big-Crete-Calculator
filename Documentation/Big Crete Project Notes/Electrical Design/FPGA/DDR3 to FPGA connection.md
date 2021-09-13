@@ -2,6 +2,82 @@
 
 relates to [[FPGA Board]]
 
+## IMPEDANCE NOTES
+
+https://resources.altium.com/p/how-to-route-ddr3-memory-and-cpu-fan-out
+https://www.micron.com/support/~/media/D546161C2C6140BCB0BAEE954AA53433.pdf
+https://www.altium.com/documentation/altium-designer/controlled-impedance-routing-ad
+
+Pin Groups
+DQ (63 - 0)
+A (15 - 0)
+BA (2 - 0)
+DQS (8 differential pairs)
+CK (1 differential pair)
+RAS
+CAS
+WE
+RESET
+CKE0
+ODT0
+CS0
+
+Route Command signals (DQ and DQS)
+
+Group into byte groups
+Length matching only applies to byte lanes
+DQ(7:0) DQS0
+DQ(15:8) DQS1
+DQ(23:16) DQS2
+DQ(31:24) DQS3
+DQ(39:32) DQS4
+DQ(47:40) DQS5
+DQ(55:48) DQS6
+DQ(63:56) DQS7
+
+DQS difference in lenght between pair is +/- 20 mil
+100 mil on byte lanes? I think that's 100 mil difference try to match them up as close as possible
+
+DATA GROUP
+Data (DQ) 1.9 inch minimum
+7.9 mil width: target impedance 40 ohm
+trace space = 11.8 mils (between wires?)
+trace space from DIMM pins = 7 mil (not sure what this means?)
+trace space to other signal groups = 12 mils
+
+Strobe (DQS) 1.9 inch minimum
+7.9 mil width: target impedance 40 ohm
+trace space = 4 mil between pair
+trace space to other signal groups = 15.8 mils
+
+CLOCK GROUP
+Memory Clock(CK) 1.9 inch minimum
+4 mils length difference between pair
+9.9 mils pair to pair (2 pairs)
+width 8 mils target 40 ohm trace impedance 80 ohm differential impedance
+trace space 5 mil
+trace space to other groups 20 mil
+
+CONTROL GROUP
+Control Group (CKE, ODT, CS, RESET) 1.9 inch minimum
+20 mil length difference from memory clock (clock group)
+width 5 mil target 40 ohm impedance
+trace space 12 to 15 mil (except at dimm)
+trace space from dimm 7 mil
+trace space to other signal groups 25 mil
+
+ADDRESS GROUP
+Address Group (BA, RAS, CAS, WE, A) 1.9 inch minimum
+20 mil length difference from memory clock (clock group)
+width 5 mil target 40 ohm impedance
+trace space 12 to 15 mil (except at dimm)
+trace space from dimm 7 mil
+trace space to other signal groups 25 mil
+
+
+
+
+
 ## Other DDR Pins
 | Pin Name | RAM Pin | Function             |
 | -------- | ------- | -------------------- |
