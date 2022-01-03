@@ -9,7 +9,7 @@
         "state": {
           "type": "image",
           "state": {
-            "file": "Mechanical Design/Mechanical Stackup FPGA UP.png"
+            "file": "Mechanical Design/Mechanical Stackup.png"
           }
         }
       }
@@ -67,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mechanical Design/Mechanical Stackup FPGA UP.png",
+                "file": "Mechanical Design/Mechanical Stackup.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,14 +90,6 @@
             }
           },
           {
-            "id": "047d0ee3db47a1db",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "48d550c7af973520",
             "type": "leaf",
             "state": {
@@ -106,23 +98,24 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "28e0104db5eb5b5f",
   "lastOpenFiles": [
-    "Mechanical Design/Mechanical Stackup FPGA UP.png",
     "Mechanical Design/Mechanical Stackup.png",
-    "Design Journal.md",
-    "Electrical Design/FPGA/DDR3 to FPGA connection.md",
     "Electrical Design/Power Subcircuit.md",
+    "Electrical Design/Top Level Electrical.md",
+    "Electrical Design/Boot SPI to FPGA connection.md",
+    "Electrical Design/Motherboard.md",
     "Electrical Design/LED + Driver.md",
-    "Electrical Design/FPGA/Motherboard to FPGA Connection.md",
-    "Electrical Design/Attachments/Ceridian.pdf",
-    "To Buy.md",
-    "Electrical Design/FPGA/FPGA Clock.md"
+    "Design Journal.md",
+    "Mechanical Design/Mechanical Stackup FPGA UP.png",
+    "Electrical Design/LCD Display.md",
+    "Electrical Design/Datasheets/2032020d-1dc4-4283-95de-47f034540884.pdf"
   ]
 }

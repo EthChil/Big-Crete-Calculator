@@ -256,4 +256,10 @@ August 19th
 August 28th 
 - Went into altium and fixed the issue that was causing the keys to collide the + and enter keys. This will be carried forward to the next rev of the board
 - Added 3D switch model to PCB so I can do some mechanical CAD
-- 
+
+October 13th
+- to simplify initial calculator plan using the AU in place of the custom FPGA board I was designing
+- Also plans to make a mass market version based on the numworks calculator https://github.com/numworks/epsilon/tree/version-16
+
+October 14th 
+- weird battery is 3.2ish volts discharged
