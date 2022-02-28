@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "2bf12f7eb8fc4881",
+    "type": "split",
+    "children": [
+      {
+        "id": "ddc3f3c7aac59ce8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Big Crete Project Notes/Architecture/Architecture Overview.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f6012d6ca7326857",
+    "type": "split",
+    "children": [
+      {
+        "id": "9fda5420ec076016",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97ea50a3f44c5c29",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1cb1ec29b192e3c6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2ed12094ecfaa238",
+    "type": "split",
+    "children": [
+      {
+        "id": "08639ee9c4f2011c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74b6eeef74a2e32b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Big Crete Project Notes/Architecture/Architecture Overview.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ddc3f3c7aac59ce8",
+  "lastOpenFiles": [
+    "Big Crete Project Notes/Architecture/Architecture Overview.md",
+    "Big Crete Project Notes/Architecture/Battery Circuit.md",
+    "Big Crete Project Notes/High Level Scope.md",
+    "Big Crete Project Notes/Design Journal.md"
+  ]
+}
