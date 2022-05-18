@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Big Crete Project Notes/Architecture/Architecture Overview.md",
+            "file": "Big Crete Project Notes/Architecture/Battery Circuit.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Big Crete Project Notes/Architecture/Architecture Overview.md",
+                "file": "Big Crete Project Notes/Architecture/Battery Circuit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +89,13 @@
   },
   "active": "ddc3f3c7aac59ce8",
   "lastOpenFiles": [
-    "Big Crete Project Notes/Architecture/Architecture Overview.md",
     "Big Crete Project Notes/Architecture/Battery Circuit.md",
+    "Big Crete Project Notes/Architecture/Endpoints.md",
+    "Big Crete Project Notes/Electrical Design/LCD Display.md",
+    "Big Crete Project Notes/Electrical Design/LED + Driver.md",
+    "Big Crete Project Notes/Architecture/Architecture Overview.md",
+    "Big Crete Project Notes/Electrical Design/Motherboard.md",
+    "Big Crete Project Notes/Electrical Design/Top Level Electrical.md",
     "Big Crete Project Notes/High Level Scope.md",
     "Big Crete Project Notes/Design Journal.md"
   ]

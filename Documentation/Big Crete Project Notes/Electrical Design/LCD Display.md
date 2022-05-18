@@ -7,7 +7,7 @@
 | Rail      | Voltage | Current | Notes                    |
 | --------- | ------- | ------- | ------------------------ |
 | Vcc       | 3v3     | 5mA     | 5mA should be peak       |
-| Backlight | 5v      | 30mA    | should be lowe than 30mA |
+| Backlight | 5v      | 30mA    | should be lower than 30mA |
 
 Current Display ![[2032020d-1dc4-4283-95de-47f034540884.pdf]]
 P/N: 4DLCD-43480272
