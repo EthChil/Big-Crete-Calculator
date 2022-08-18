@@ -1,0 +1,178 @@
+*************************************************************
+FileName = BuckDev.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Layer
+      File : BuckDev.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : BuckDev.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : BuckDev.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D36
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : BuckDev.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : BuckDev.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : BuckDev.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : BuckDev.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : BuckDev.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : BuckDev.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : BuckDev.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D41
+*************************************************************
+

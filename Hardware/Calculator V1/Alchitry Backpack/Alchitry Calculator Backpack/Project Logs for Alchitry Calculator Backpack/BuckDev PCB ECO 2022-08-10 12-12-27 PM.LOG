@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C10
+Change Component Designator: OldDesignator=C? NewDesignator=C11
+Added Member To Class: ClassName=BuckCircuit Member=Component C10 10000 pF
+Added Room: Name=BuckCircuit

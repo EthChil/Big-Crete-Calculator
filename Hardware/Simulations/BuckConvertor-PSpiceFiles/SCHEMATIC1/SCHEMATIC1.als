@@ -1,0 +1,3 @@
+.ALIASES
+_    _(GND_0=0)
+.ENDALIASES

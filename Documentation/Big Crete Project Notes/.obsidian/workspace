@@ -7,9 +7,11 @@
         "id": "28e0104db5eb5b5f",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "Mechanical Design/Mechanical Stackup.png"
+            "file": "Design Journal.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mechanical Design/Mechanical Stackup.png",
+                "file": "Design Journal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,15 +109,15 @@
   },
   "active": "28e0104db5eb5b5f",
   "lastOpenFiles": [
-    "Mechanical Design/Mechanical Stackup.png",
+    "Alchitry Backpack Redesign/TOP Design.md",
+    "Electrical Design/LED + Driver.md",
+    "Electrical Design/Motherboard.md",
     "Electrical Design/Power Subcircuit.md",
     "Electrical Design/Top Level Electrical.md",
-    "Electrical Design/Boot SPI to FPGA connection.md",
-    "Electrical Design/Motherboard.md",
-    "Electrical Design/LED + Driver.md",
     "Design Journal.md",
+    "Mechanical Design/Mechanical Stackup.png",
+    "Electrical Design/Boot SPI to FPGA connection.md",
     "Mechanical Design/Mechanical Stackup FPGA UP.png",
-    "Electrical Design/LCD Display.md",
-    "Electrical Design/Datasheets/2032020d-1dc4-4283-95de-47f034540884.pdf"
+    "Electrical Design/LCD Display.md"
   ]
 }

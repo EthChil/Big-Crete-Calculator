@@ -1,0 +1,121 @@
+(ExpressProject "BuckConvertor"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2022 S008-[05/18/22]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "C:\Cadence\PSpiceTI\tools\capture\library\pspice\analog.olb"
+        (DisplayName
+           "C:\Cadence\PSpiceTI\tools\capture\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\PSpiceTI\tools\capture\library\pspice\breakout.olb"
+        (DisplayName
+           "C:\Cadence\PSpiceTI\tools\capture\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\PSpiceTI\tools\capture\library\pspice\source.olb"
+        (DisplayName
+           "C:\Cadence\PSpiceTI\tools\capture\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\PSpiceTI\tools\capture\library\pspice\special.olb"
+        (DisplayName
+           "C:\Cadence\PSpiceTI\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "buckconvertor.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\buckconvertor-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\buckconvertor-pspicefiles\schematic1\bias.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\buckconvertor-pspicefiles\schematic1\bias.sim"
+        (DisplayName "SCHEMATIC1-bias")
+        (Type "PSpice Profile"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (TPS56921PWP_TRANS
+      (FullPartName "TPS56921PWP_TRANS.Normal")
+      (LibraryName "C:\CDS_SPB_HOME\CDSSETUP\PSPTILIBDIR\TPS56921PWP_TRANS.OLB")
+      (DeviceIndex "0"))
+    (TPS56921_AVG
+      (FullPartName "TPS56921_AVG.Normal")
+      (LibraryName "C:\CDS_SPB_HOME\CDSSETUP\PSPTILIBDIR\TPS56921_AVG.OLB")
+      (DeviceIndex "0"))
+    (LM20143_TRANS
+      (FullPartName "LM20143_TRANS.Normal")
+      (LibraryName "C:\CDS_SPB_HOME\CDSSETUP\PSPTILIBDIR\LM20143_TRANS.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "LIBRARY\PSPICE")
+  (MPSSessionName "ethan")
+  (Folder "Logs")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\ethan\Documents\GitHub\Big-Crete-Calculator\Hardware\Simulations\buckconvertor.dsn")
+      (Path "Design Resources"
+         "C:\Users\ethan\Documents\GitHub\Big-Crete-Calculator\Hardware\Simulations\buckconvertor.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs"))
+    (HierarchyView
+      (Select "SCHEMATIC1"))
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1101"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1379 24 1119")
+        (Scroll "-6 -38")
+        (Zoom "137")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ETHAN\DOCUMENTS\GITHUB\BIG-CRETE-CALCULATOR\HARDWARE\SIMULATIONS\BUCKCONVERTOR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

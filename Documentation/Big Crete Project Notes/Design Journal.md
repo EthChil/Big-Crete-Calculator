@@ -263,3 +263,38 @@ October 13th
 
 October 14th 
 - weird battery is 3.2ish volts discharged
+
+
+June 11th (major bruh)
+
+Major things that need to be documented here
+- Battery splitter
+- what is needed to run the display with the AU (minimum just to test)
+- Buck convertor CAD
+
+
+August 16th
+
+Okay so now I'm at home and ready to start real work again, the in progress portions of this that I can work on are as follows
+- Assembled switch board needs to be tested (make up a test plan for this circuit)
+- Unassembled but designed battery splitter (this may have an issue with the charging circuit but it should be tested regardless)
+- adafruit display breakout hookup to alchitry and test screen
+	- Digital design for testing displays needs to be done up
+	- This also needs to be wired
+
+August 17th
+- Work on display driving and validate switch board
+
+Display driver
+- The alchitry has 36 pins soldered to the Br board
+- R1-8, G1-8, B1-8, 5V, GND, ON/OFF, CLK, VSYNC, HSYNC, DE (32 connections)
+- PWM is used to control the shutdown pin on the FAN5333 which would allow for reducing the current I don't think this will be needed
+- Default current is 25mA
+
+Switch board testing
+- solder one line of switches 
+- hook arduino up and read one line of switches 
+- hook one led in 
+- Use arduino to drive LED
+
+For the switch board I soldered on headers one row of switches and populated R1 with 10kOhm and R2 with 58 Ohm this should allow 9mA to flow through the LED when on

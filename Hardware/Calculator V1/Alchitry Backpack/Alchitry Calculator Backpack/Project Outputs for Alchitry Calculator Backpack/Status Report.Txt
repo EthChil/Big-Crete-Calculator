@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Alchitry Calculator Backpack.PrjPcb]
+   Generated File[BuckDev.TXT]
+   Generated File[BuckDev.LDP]
+   Generated File[BuckDev.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 1:48:56 PM On 2022-08-10
