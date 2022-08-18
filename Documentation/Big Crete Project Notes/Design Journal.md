@@ -298,3 +298,14 @@ Switch board testing
 - Use arduino to drive LED
 
 For the switch board I soldered on headers one row of switches and populated R1 with 10kOhm and R2 with 58 Ohm this should allow 9mA to flow through the LED when on
+
+August 18th 
+- Setup new computer which will allow for cleaner work between lab and desk
+- Reorganized hardware folder to show distinction in hardware versions
+- Starting tests on switch board with single line
+- Missing pulldown resistors are causing values to float when highz on high side line, patch pulldowns were added to each of the SWL lines of value 10kOhm
+- Using pulldowns the issue was solved
+
+Running list of issues for Switch and LED Driver
+- keyswitch spacing
+- Pulldowns on SWL lines (add 10ks to each line)
