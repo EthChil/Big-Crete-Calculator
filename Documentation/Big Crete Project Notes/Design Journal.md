@@ -309,3 +309,14 @@ August 18th
 Running list of issues for Switch and LED Driver
 - keyswitch spacing
 - Pulldowns on SWL lines (add 10ks to each line)
+
+August 19th
+- Analyzed the situ with the decoders and I'm moving forward with an initial test running the circuit with enable pulled high to disable them 
+- First test is being done with AN1 and Ca0-2
+- This decodes to HS1 and LS2-4
+- That means on the inputs LSG0 high and HSG 0100 -> 1100 -> 0010
+
+Running list of issues for Switch and LED Driver
+- keyswitch spacing
+- Pulldowns on SWL lines (add 10ks to each line)
+- **new** LS labeling is not consistent with CA labelling, draw out a table and make this consistent

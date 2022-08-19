@@ -32,6 +32,16 @@ NOTE this needs to be redone
 Willson current mirror paired with two transistors for charlieplexing
 Decoders would be used to select MOSFETS to select the diode getting power
 
+
+Gate Decoders are being used to select highside and lowside gates
+
+On the lowside (nch) there are two 74HC238 decoders
+these take 5 control signals HSG0, HSG1, HSG2, HSG3, En
+EN needs to be low to allow for operation, pull high to disable the output and keep all LEDs off 
+
+
+
+
 Components
 
 N Channel Mosfet
