@@ -320,3 +320,14 @@ Running list of issues for Switch and LED Driver
 - keyswitch spacing
 - Pulldowns on SWL lines (add 10ks to each line)
 - **new** LS labeling is not consistent with CA labelling, draw out a table and make this consistent
+- **new** LSG and HSG swapped on inputs to decoder
+- **new** Why does LSG 0->1 on the connector then HSG 3->0 ? idiot
+- **new** Add a petentiometer pad for tuning brightness
+- **new** to prevent human error on decoder add jumper to cut power, this will be helpful for debugging on the alchitry backpack
+
+- tested S6 LED and verified that all colours are working with, 68ohm resistor for current set it's fairly bright I'm not sure if the current needs to be increased further
+- measured 0.59V across 68ohm current set resistor meaning there is 8.67mA of current through the LED
+- Wire up full row of LEDs and do a brightness check PWMing between them
+- Full row wired and tested 
+- Doubled current capacity by adding a second 68ohm in parallel and the LEDs seem brighter but it's hard to say, I think adding a petentiometer would be helpful but I just need to be careful of current through said petentiometer
+- I think the next step is to incorporate these design fixes into the CAD before I forget and rev it up for V2 REV1 for alchitry backpack

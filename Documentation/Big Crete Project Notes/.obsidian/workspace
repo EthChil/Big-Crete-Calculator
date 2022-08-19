@@ -10,8 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Design Journal.md",
-            "mode": "source",
-            "source": false
+            "mode": "source"
           }
         }
       }
@@ -84,18 +83,15 @@
             "id": "8f50fe4c8388fad1",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "48d550c7af973520",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
+              "type": "empty",
               "state": {}
             }
           }
@@ -109,8 +105,8 @@
   },
   "active": "28e0104db5eb5b5f",
   "lastOpenFiles": [
-    "Electrical Design/LED + Driver.md",
     "Design Journal.md",
+    "Electrical Design/LED + Driver.md",
     "Alchitry Backpack Redesign/TOP Design.md",
     "Electrical Design/Motherboard.md",
     "Electrical Design/Power Subcircuit.md",
