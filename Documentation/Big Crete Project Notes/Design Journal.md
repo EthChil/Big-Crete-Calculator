@@ -324,6 +324,7 @@ Running list of issues for Switch and LED Driver
 - **new** Why does LSG 0->1 on the connector then HSG 3->0 ? idiot
 - **new** Add a petentiometer pad for tuning brightness
 - **new** to prevent human error on decoder add jumper to cut power, this will be helpful for debugging on the alchitry backpack
+- earlier from the journal stabilizers need to be considered which are PCB mounted
 
 - tested S6 LED and verified that all colours are working with, 68ohm resistor for current set it's fairly bright I'm not sure if the current needs to be increased further
 - measured 0.59V across 68ohm current set resistor meaning there is 8.67mA of current through the LED
@@ -331,3 +332,31 @@ Running list of issues for Switch and LED Driver
 - Full row wired and tested 
 - Doubled current capacity by adding a second 68ohm in parallel and the LEDs seem brighter but it's hard to say, I think adding a petentiometer would be helpful but I just need to be careful of current through said petentiometer
 - I think the next step is to incorporate these design fixes into the CAD before I forget and rev it up for V2 REV1 for alchitry backpack
+
+- Started work on switch board, I've decided that in the interest of compactness the switchboard will connect via FFC to the mainboard 
+
+Progress on issues
+- keyswitch spacing (plus and enter) (in board)
+- Pulldowns on SWL lines (add 1ks to each line) (in schematic)
+- **new** LS labeling is not consistent with CA labelling, draw out a table and make this consistent (fixed in schematic and board)
+	- **new** LSG and HSG swapped on inputs to decoder (fixed and renamed)
+- **new** Why does LSG 0->1 on the connector then HSG 3->0 ? idiot
+- **new** Add a petentiometer pad for tuning brightness
+- **new** to prevent human error on decoder add jumper to cut power, this will be helpful for debugging on the alchitry backpack
+- earlier from the journal stabilizers need to be considered which are PCB mounted
+
+
+September 4th
+- Started printing mockups to check stabilizer mounting
+- Online cherry plate cutouts don't work for my stabilizers I have a new test print that needs to be made
+- rudimentary stackup was completed in solidworks, it is now a single board design
+- battery count was reduced from 2 to 1 and a boost convertor will be used instead this simplifies the charging circuitry
+- mock board for checking display cable alignment was printed
+- outline for what is needed for the pcb was made, the PCB can now be made 
+- Steps for today are
+
+1. update issue list made for the switchboard breakout
+2. print new top plate to test fit with stabilizers (print a new mock pcb also for a better fit)
+3. document findings on display cable mount
+4. get top panel ready to be cut on the CNC 
+5. test display with adafruit display breakout and alchitry (determine if backlight circuit is adequete)

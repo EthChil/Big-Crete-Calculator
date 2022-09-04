@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=HSG3 Pin=P1-3
+Removed Pin From Net: NetName=HSG2 Pin=P1-4
+Removed Pin From Net: NetName=HSG1 Pin=P1-5
+Removed Pin From Net: NetName=HSG0 Pin=P1-6
+Removed Pin From Net: NetName=LSG2 Pin=P1-7
+Removed Pin From Net: NetName=LSG1 Pin=P1-8
+Removed Pin From Net: NetName=LSG0 Pin=P1-9
+Added Pin To Net: NetName=ALS3 Pin=P1-3
+Added Pin To Net: NetName=ALS2 Pin=P1-4
+Added Pin To Net: NetName=ALS1 Pin=P1-5
+Added Pin To Net: NetName=ALS0 Pin=P1-6
+Added Pin To Net: NetName=AHS2 Pin=P1-7
+Added Pin To Net: NetName=AHS1 Pin=P1-8
+Added Pin To Net: NetName=AHS0 Pin=P1-9

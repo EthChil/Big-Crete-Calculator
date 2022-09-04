@@ -1,0 +1,220 @@
+Removed Pin From Net: NetName=HSG0 Pin=P1-3
+Removed Pin From Net: NetName=HSG1 Pin=P1-4
+Removed Pin From Net: NetName=HSG2 Pin=P1-5
+Removed Pin From Net: NetName=HSG3 Pin=P1-6
+Removed Pin From Net: NetName=SWH0 Pin=P?-1
+Removed Pin From Net: NetName=SWH1 Pin=P?-2
+Removed Pin From Net: NetName=SWH2 Pin=P?-3
+Removed Pin From Net: NetName=SWH3 Pin=P?-4
+Removed Pin From Net: NetName=SWH4 Pin=P?-5
+Removed Pin From Net: NetName=SWH5 Pin=P?-6
+Removed Pin From Net: NetName=SWL0 Pin=P?-7
+Removed Pin From Net: NetName=SWL1 Pin=P?-8
+Removed Pin From Net: NetName=SWL2 Pin=P?-9
+Removed Pin From Net: NetName=SWL3 Pin=P?-10
+Removed Pin From Net: NetName=SWL4 Pin=P?-11
+Removed Pin From Net: NetName=LS0 Pin=T1-1
+Removed Pin From Net: NetName=LS10 Pin=T3-1
+Removed Pin From Net: NetName=LS1 Pin=T4-1
+Removed Pin From Net: NetName=LS11 Pin=T6-1
+Removed Pin From Net: NetName=LS3 Pin=T10-1
+Removed Pin From Net: NetName=LS13 Pin=T12-1
+Removed Pin From Net: NetName=LS4 Pin=T13-1
+Removed Pin From Net: NetName=LS14 Pin=T15-1
+Removed Pin From Net: NetName=HSG0 Pin=U1-1
+Removed Pin From Net: NetName=HSG1 Pin=U1-2
+Removed Pin From Net: NetName=HSG2 Pin=U1-3
+Removed Pin From Net: NetName=HSG3 Pin=U1-4
+Removed Pin From Net: NetName=LSG0 Pin=U2-1
+Removed Pin From Net: NetName=LSG1 Pin=U2-2
+Removed Pin From Net: NetName=LSG2 Pin=U2-3
+Removed Pin From Net: NetName=HSG0 Pin=U3-1
+Removed Pin From Net: NetName=HSG1 Pin=U3-2
+Removed Pin From Net: NetName=HSG2 Pin=U3-3
+Removed Pin From Net: NetName=HSG3 Pin=U3-6
+Removed Member From Class: ClassName=LED Driver and Switch Breakout Member=P?
+Change Component Footprint: Designator=S25 Old Footprint=Gateron Green New Footprint=Gateron Green W/ Stabilizer horizontal
+Change Component Footprint: Designator=S19 Old Footprint=Gateron Green New Footprint=Gateron Green W/ Stabilizer vertical
+Change Component Footprint: Designator=S27 Old Footprint=Gateron Green New Footprint=Gateron Green W/ Stabilizer vertical
+Added Component: Designator=P3(HDR1X11)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=R24(J1-0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "J1-0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R25(J1-0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "J1-0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R26(J1-0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "J1-0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R27(J1-0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "J1-0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R28(J1-0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "J1-0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=TP1(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP2(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP3(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=U4(F305-1A7H1-11040-E100)
+Added Pin To Net: NetName=HSG3 Pin=P1-3
+Added Pin To Net: NetName=HSG2 Pin=P1-4
+Added Pin To Net: NetName=HSG1 Pin=P1-5
+Added Pin To Net: NetName=HSG0 Pin=P1-6
+Added Pin To Net: NetName=SWH0 Pin=P3-1
+Added Pin To Net: NetName=SWH1 Pin=P3-2
+Added Pin To Net: NetName=SWH2 Pin=P3-3
+Added Pin To Net: NetName=SWH3 Pin=P3-4
+Added Pin To Net: NetName=SWH4 Pin=P3-5
+Added Pin To Net: NetName=SWH5 Pin=P3-6
+Added Pin To Net: NetName=SWL0 Pin=P3-7
+Added Pin To Net: NetName=SWL1 Pin=P3-8
+Added Pin To Net: NetName=SWL2 Pin=P3-9
+Added Pin To Net: NetName=SWL3 Pin=P3-10
+Added Pin To Net: NetName=SWL4 Pin=P3-11
+Added Pin To Net: NetName=SWL0 Pin=R24-1
+Added Pin To Net: NetName=GND Pin=R24-2
+Added Pin To Net: NetName=SWL1 Pin=R25-1
+Added Pin To Net: NetName=GND Pin=R25-2
+Added Pin To Net: NetName=SWL2 Pin=R26-1
+Added Pin To Net: NetName=GND Pin=R26-2
+Added Pin To Net: NetName=SWL3 Pin=R27-1
+Added Pin To Net: NetName=GND Pin=R27-2
+Added Pin To Net: NetName=SWL4 Pin=R28-1
+Added Pin To Net: NetName=GND Pin=R28-2
+Added Pin To Net: NetName=LS4 Pin=T1-1
+Added Pin To Net: NetName=LS14 Pin=T3-1
+Added Pin To Net: NetName=LS3 Pin=T4-1
+Added Pin To Net: NetName=LS13 Pin=T6-1
+Added Pin To Net: NetName=LS1 Pin=T10-1
+Added Pin To Net: NetName=LS11 Pin=T12-1
+Added Pin To Net: NetName=LS0 Pin=T13-1
+Added Pin To Net: NetName=LS10 Pin=T15-1
+Added Pin To Net: NetName=En Pin=TP1-1
+Added Pin To Net: NetName=NetR2_2 Pin=TP2-1
+Added Pin To Net: NetName=+5 Pin=TP3-1
+Added Pin To Net: NetName=En Pin=U4-1
+Added Pin To Net: NetName=SWL0 Pin=U4-3
+Added Pin To Net: NetName=SWL1 Pin=U4-4
+Added Pin To Net: NetName=SWL2 Pin=U4-5
+Added Pin To Net: NetName=SWL3 Pin=U4-6
+Added Pin To Net: NetName=SWL4 Pin=U4-7
+Added Pin To Net: NetName=SWH0 Pin=U4-9
+Added Pin To Net: NetName=SWH1 Pin=U4-11
+Added Pin To Net: NetName=SWH2 Pin=U4-13
+Added Pin To Net: NetName=SWH3 Pin=U4-15
+Added Pin To Net: NetName=SWH4 Pin=U4-17
+Added Pin To Net: NetName=SWH5 Pin=U4-19
+Added Pin To Net: NetName=LSG0 Pin=U4-21
+Added Pin To Net: NetName=LSG1 Pin=U4-23
+Added Pin To Net: NetName=LSG2 Pin=U4-25
+Added Pin To Net: NetName=HSG0 Pin=U4-27
+Added Pin To Net: NetName=HSG1 Pin=U4-29
+Added Pin To Net: NetName=HSG2 Pin=U4-31
+Added Pin To Net: NetName=HSG3 Pin=U4-33
+Added Pin To Net: NetName=GND Pin=U4-35
+Added Pin To Net: NetName=GND Pin=U4-36
+Added Pin To Net: NetName=GND Pin=U4-37
+Added Pin To Net: NetName=+5 Pin=U4-39
+Added Pin To Net: NetName=+5 Pin=U4-40
+Added Pin To Net: NetName=AHS0 Pin=U2-1
+Added Net: Name=AHS0
+Added Pin To Net: NetName=AHS1 Pin=U2-2
+Added Net: Name=AHS1
+Added Pin To Net: NetName=AHS2 Pin=U2-3
+Added Net: Name=AHS2
+Added Pin To Net: NetName=ALS0 Pin=U1-1
+Added Pin To Net: NetName=ALS0 Pin=U3-1
+Added Net: Name=ALS0
+Added Pin To Net: NetName=ALS1 Pin=U1-2
+Added Pin To Net: NetName=ALS1 Pin=U3-2
+Added Net: Name=ALS1
+Added Pin To Net: NetName=ALS2 Pin=U1-3
+Added Pin To Net: NetName=ALS2 Pin=U3-3
+Added Net: Name=ALS2
+Added Pin To Net: NetName=ALS3 Pin=U1-4
+Added Pin To Net: NetName=ALS3 Pin=U3-6
+Added Net: Name=ALS3
+Added Class: Name=AHS[2..0]
+Added Class: Name=ALS[3..0]
+Added Member To Class: ClassName=LED Driver and Switch Breakout Member=Component P3 Header 11
+Added Member To Class: ClassName=Designator Member=Component R24 Res3
+Added Member To Class: ClassName=Designator Member=Component R25 Res3
+Added Member To Class: ClassName=Designator Member=Component R26 Res3
+Added Member To Class: ClassName=Designator Member=Component R27 Res3
+Added Member To Class: ClassName=Designator Member=Component R28 Res3
+Added Member To Class: ClassName=Designator Member=Component TP1 5019
+Added Member To Class: ClassName=Designator Member=Component TP2 5019
+Added Member To Class: ClassName=Designator Member=Component TP3 5019
+Added Member To Class: ClassName=LED Driver and Switch Breakout Member=Component U4 FFC 40pos Connector
+Added Room: Name=Designator
+Added Room: Name=LED Driver and Switch Breakout

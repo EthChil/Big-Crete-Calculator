@@ -10,7 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "Design Journal.md",
-            "mode": "source"
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -83,15 +84,18 @@
             "id": "8f50fe4c8388fad1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
             }
           },
           {
             "id": "48d550c7af973520",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
@@ -105,15 +109,15 @@
   },
   "active": "28e0104db5eb5b5f",
   "lastOpenFiles": [
+    "Electrical Design V1/Power Subcircuit.md",
     "Design Journal.md",
-    "Electrical Design/LED + Driver.md",
-    "Alchitry Backpack Redesign/TOP Design.md",
-    "Electrical Design/Motherboard.md",
-    "Electrical Design/Power Subcircuit.md",
-    "Electrical Design/Top Level Electrical.md",
-    "Mechanical Design/Mechanical Stackup.png",
-    "Electrical Design/Boot SPI to FPGA connection.md",
-    "Mechanical Design/Mechanical Stackup FPGA UP.png",
-    "Electrical Design/LCD Display.md"
+    "Mechanical Design V3/Mechanical Stackup FPGA UP.png",
+    "Mechanical Design V3/Mechanical Stackup.png",
+    "Architecture V2/TOP Design.md",
+    "Electrical Design V1/LED + Driver.md",
+    "Electrical Design V1/Motherboard.md",
+    "Electrical Design V1/Top Level Electrical.md",
+    "Electrical Design V1/Boot SPI to FPGA connection.md",
+    "Electrical Design V1/LCD Display.md"
   ]
 }
