@@ -360,3 +360,8 @@ September 4th
 3. document findings on display cable mount
 4. get top panel ready to be cut on the CNC 
 5. test display with adafruit display breakout and alchitry (determine if backlight circuit is adequete)
+
+Findings from screen jig
+FFC from LCD interferes with one of the plugs for the alchitry, best solution is to avoid using this header (verify this is possible)
+gap wire runs through is too long
+forget to account for screen offset for the cable and it doesn't align with the plug

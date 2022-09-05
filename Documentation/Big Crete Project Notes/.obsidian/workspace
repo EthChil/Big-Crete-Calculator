@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Design Journal.md",
+            "file": "Electrical Design V1/FPGA/FPGA Board.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Journal.md",
+                "file": "Electrical Design V1/FPGA/FPGA Board.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,15 +109,15 @@
   },
   "active": "28e0104db5eb5b5f",
   "lastOpenFiles": [
-    "Electrical Design V1/Power Subcircuit.md",
+    "Electrical Design V1/Boot SPI to FPGA connection.md",
     "Design Journal.md",
+    "Electrical Design V1/Power Subcircuit.md",
     "Mechanical Design V3/Mechanical Stackup FPGA UP.png",
     "Mechanical Design V3/Mechanical Stackup.png",
     "Architecture V2/TOP Design.md",
     "Electrical Design V1/LED + Driver.md",
     "Electrical Design V1/Motherboard.md",
     "Electrical Design V1/Top Level Electrical.md",
-    "Electrical Design V1/Boot SPI to FPGA connection.md",
     "Electrical Design V1/LCD Display.md"
   ]
 }
