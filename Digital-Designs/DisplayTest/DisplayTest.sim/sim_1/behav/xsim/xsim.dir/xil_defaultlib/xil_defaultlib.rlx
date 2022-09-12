@@ -1,0 +1,8 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/DisplayTest/Display Test.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v,1662506324,verilog,,C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/DisplayTest/DisplayTest.srcs/sources_1/new/top.v,,clk_wiz_0;clk_wiz_0_clk_wiz_0_clk_wiz;glbl,,uvm,../../../../DisplayTest.srcs/sources_1/new,,,,,
+C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/DisplayTest/DisplayTest.srcs/sim_1/new/topTB.sv,1662658319,systemVerilog,,,C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/DisplayTest/DisplayTest.srcs/sources_1/new/displaySpecs.vh,topTB,,uvm,../../../../DisplayTest.srcs/sources_1/new,,,,,
+C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/DisplayTest/DisplayTest.srcs/sources_1/new/displaySpecs.vh,1662648563,verilog,,,,,,,,,,,,
+C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/DisplayTest/DisplayTest.srcs/sources_1/new/top.v,1662663028,verilog,,,C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/DisplayTest/DisplayTest.srcs/sources_1/new/displaySpecs.vh,top,,uvm,../../../../DisplayTest.srcs/sources_1/new,,,,,

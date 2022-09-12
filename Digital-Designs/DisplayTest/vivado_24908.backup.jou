@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Sep  6 19:11:32 2022
+# Process ID: 24908
+# Current directory: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/DisplayTest
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9888 C:\Users\ethan\Documents\GitHub\Big-Crete-Calculator\Digital Designs\DisplayTest\DisplayTest.xpr
+# Log file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/DisplayTest/vivado.log
+# Journal file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/DisplayTest\vivado.jou
+# Running On: Nikon-DSLR, OS: Windows, CPU Frequency: 3800 MHz, CPU Physical cores: 16, Host memory: 17097 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/DisplayTest/DisplayTest.xpr}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/DisplayTest/DisplayTest.srcs/utils_1/imports/synth_1/top.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/DisplayTest/DisplayTest.srcs/utils_1/imports/synth_1/top.dcp}}
+reset_run clk_wiz_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1

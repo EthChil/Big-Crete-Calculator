@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="topTB_func_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="topTB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2,928.958425 us"></ZoomStartTime>
+      <ZoomEndTime time="4,757.848981 us"></ZoomEndTime>
+      <Cursor1Time time="4,453.033888 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="386"></NameColumnWidth>
+      <ValueColumnWidth column_width="122"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/topTB/red" type="logic">
+      <obj_property name="ElementShortName">red</obj_property>
+      <obj_property name="ObjectShortName">red</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/green" type="logic">
+      <obj_property name="ElementShortName">green</obj_property>
+      <obj_property name="ObjectShortName">green</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/blue" type="logic">
+      <obj_property name="ElementShortName">blue</obj_property>
+      <obj_property name="ObjectShortName">blue</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/pxClk" type="logic">
+      <obj_property name="ElementShortName">pxClk</obj_property>
+      <obj_property name="ObjectShortName">pxClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/disp" type="logic">
+      <obj_property name="ElementShortName">disp</obj_property>
+      <obj_property name="ObjectShortName">disp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/HSync" type="logic">
+      <obj_property name="ElementShortName">HSync</obj_property>
+      <obj_property name="ObjectShortName">HSync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/VSync" type="logic">
+      <obj_property name="ElementShortName">VSync</obj_property>
+      <obj_property name="ObjectShortName">VSync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/DE" type="logic">
+      <obj_property name="ElementShortName">DE</obj_property>
+      <obj_property name="ObjectShortName">DE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/clk100" type="logic">
+      <obj_property name="ElementShortName">clk100</obj_property>
+      <obj_property name="ObjectShortName">clk100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/H_length" type="array">
+      <obj_property name="ElementShortName">H_length[31:0]</obj_property>
+      <obj_property name="ObjectShortName">H_length[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/H_pulseWidth" type="array">
+      <obj_property name="ElementShortName">H_pulseWidth[31:0]</obj_property>
+      <obj_property name="ObjectShortName">H_pulseWidth[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/H_displayPeriod" type="array">
+      <obj_property name="ElementShortName">H_displayPeriod[31:0]</obj_property>
+      <obj_property name="ObjectShortName">H_displayPeriod[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/H_backPorch" type="array">
+      <obj_property name="ElementShortName">H_backPorch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">H_backPorch[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/H_frontPorch" type="array">
+      <obj_property name="ElementShortName">H_frontPorch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">H_frontPorch[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/Vstage" type="array">
+      <obj_property name="ElementShortName">Vstage[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Vstage[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/V_length" type="array">
+      <obj_property name="ElementShortName">V_length[31:0]</obj_property>
+      <obj_property name="ObjectShortName">V_length[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/V_pulseWidth" type="array">
+      <obj_property name="ElementShortName">V_pulseWidth[31:0]</obj_property>
+      <obj_property name="ObjectShortName">V_pulseWidth[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/V_displayPeriod" type="array">
+      <obj_property name="ElementShortName">V_displayPeriod[31:0]</obj_property>
+      <obj_property name="ObjectShortName">V_displayPeriod[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/V_backPorch" type="array">
+      <obj_property name="ElementShortName">V_backPorch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">V_backPorch[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/V_frontPorch" type="array">
+      <obj_property name="ElementShortName">V_frontPorch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">V_frontPorch[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/DUT/hPix" type="array">
+      <obj_property name="ElementShortName">hPix[9:0]</obj_property>
+      <obj_property name="ObjectShortName">hPix[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/DUT/vPix_reg" type="array">
+      <obj_property name="ElementShortName">vPix_reg[8:0]</obj_property>
+      <obj_property name="ObjectShortName">vPix_reg[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/topTB/DUT/\frameCTR[2]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\frameCTR[2]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\frameCTR[2]_i_1_n_0 </obj_property>
+   </wvobject>
+</wave_config>

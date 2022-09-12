@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Display Test/Display Test.sim/sim_1/synth/timing/xsim/topTB_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Display Test/Display Test.srcs/sim_1/new/topTB.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module topTB

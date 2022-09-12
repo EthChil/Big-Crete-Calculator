@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Sep  6 19:17:43 2022
+# Process ID: 21120
+# Current directory: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/DisplayTest
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3732 C:\Users\ethan\Documents\GitHub\Big-Crete-Calculator\Digital-Designs\DisplayTest\DisplayTest.xpr
+# Log file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/DisplayTest/vivado.log
+# Journal file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/DisplayTest\vivado.jou
+# Running On: Nikon-DSLR, OS: Windows, CPU Frequency: 3800 MHz, CPU Physical cores: 16, Host memory: 17097 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/DisplayTest/DisplayTest.xpr

@@ -365,3 +365,15 @@ Findings from screen jig
 FFC from LCD interferes with one of the plugs for the alchitry, best solution is to avoid using this header (verify this is possible)
 gap wire runs through is too long
 forget to account for screen offset for the cable and it doesn't align with the plug
+
+
+Sept 5th 
+
+- Hooked up display to adafruit controller and backlight is clearly illuminating, this is a great sign
+- In theory I can hook the remainder of the wires and start drawing shapes
+- using breadboard that arrived today I finished hooking the display up I have full colour control minus 3 wires on blue, this should be fine for initial tests
+
+Sept 6th
+- Verilog code to test the display is looking good ready for initial test
+- so looks like the display is damaged, this is likely from the shorted pin on a previous test PCB
+- From digging through datasheets it's being driven correctly i verified this with my oscilloscope and still no luck
