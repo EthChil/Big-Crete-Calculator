@@ -1,0 +1,89 @@
+01 //SWRESET
+00
+
+B9 //SETC
+03
+FF
+83
+57
+
+FF //DELAY
+FA
+
+B3 //SETRGB
+04
+00
+00
+06
+06
+
+B6 //SETCOM
+01
+25
+
+B0 //SETOSC
+01
+85
+
+CC //SETPANEL
+01
+05
+
+B1 //SETPWR1
+06
+00
+15
+1C
+1C
+83
+AA
+
+C0 //SETSTBA
+06
+50
+50
+01
+3C
+1E
+08
+
+B4 //SETCYC
+07
+02
+40
+00
+2A
+2A
+0D
+78
+
+3A //COLMOD
+01
+55 //16bit per pixel (lame)
+
+36 //MADCTL
+01
+00
+
+35 //TEON
+01
+00
+
+44 //TEARLINE
+02
+00
+02
+
+11 //SLPOUT
+00
+
+FF //DELAY
+96
+
+29 //DISPON
+00
+
+FF //DELAY
+32
+
+00 //END of startup

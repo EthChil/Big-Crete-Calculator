@@ -1,9 +1,0 @@
-# compile verilog/system verilog design source files
-verilog xil_defaultlib  --include "../../../../../DisplayTest.srcs/sources_1/new" \
-"topTB_func_synth.v" \
-
-sv xil_defaultlib  --include "../../../../../DisplayTest.srcs/sources_1/new" \
-"../../../../../DisplayTest.srcs/sim_1/new/topTB.sv" \
-
-# Do not sort compile order
-nosort

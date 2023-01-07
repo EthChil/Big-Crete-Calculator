@@ -2,12 +2,12 @@
 # Vivado v2022.1 (64-bit)
 # SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
 # IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-# Start of session at: Thu Sep  8 23:42:58 2022
-# Process ID: 9060
+# Start of session at: Fri Jan  6 21:38:12 2023
+# Process ID: 11260
 # Current directory: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/DisplayTest/DisplayTest.runs/impl_1
-# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
-# Log file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/DisplayTest/DisplayTest.runs/impl_1/top.vdi
+# Command line: vivado.exe -log HX8357.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source HX8357.tcl -notrace
+# Log file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/DisplayTest/DisplayTest.runs/impl_1/HX8357.vdi
 # Journal file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/DisplayTest/DisplayTest.runs/impl_1\vivado.jou
-# Running On: Nikon-DSLR, OS: Windows, CPU Frequency: 3800 MHz, CPU Physical cores: 16, Host memory: 17097 MB
+# Running On: Nikon-DSLR, OS: Windows, CPU Frequency: 3800 MHz, CPU Physical cores: 16, Host memory: 34277 MB
 #-----------------------------------------------------------
-source top.tcl -notrace
+source HX8357.tcl -notrace

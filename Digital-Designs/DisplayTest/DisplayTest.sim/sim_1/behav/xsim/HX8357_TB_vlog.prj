@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../DisplayTest.srcs/sources_1/new" \
+"../../../../DisplayTest.srcs/sources_1/new/HX8357.v" \
+"../../../../DisplayTest.srcs/sources_1/new/top_gram.v" \
+
+sv xil_defaultlib  --include "../../../../DisplayTest.srcs/sources_1/new" \
+"../../../../DisplayTest.srcs/sim_1/new/HX8357_TB.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

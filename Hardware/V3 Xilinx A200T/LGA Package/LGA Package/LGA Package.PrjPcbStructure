@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=Top.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=A200T FPGA|SchDesignator=A200T FPGA|FileName=A200T FPGA.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=A200T FPGA.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=LGA Interposer|SchDesignator=LGA Interposer|FileName=Connector Array.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=Connector Array.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

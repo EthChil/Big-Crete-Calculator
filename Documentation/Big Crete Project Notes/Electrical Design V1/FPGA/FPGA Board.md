@@ -1,4 +1,4 @@
-[[Top Level Electrical]]
+	[[Top Level Electrical]]
 
 # FPGA Board
 
@@ -53,6 +53,7 @@ Boot SPI to M.2 to FPGA connection
 ### A200T FPGA
 for more accurate current values use the XPE (xilinx power estimator)
 
+FOR XC7A200T-1SBG484C (1C)
 | Rail     | Voltage | Current     | Notes                        | Min/Max      | %    |
 | -------- | ------- | ----------- | ---------------------------- | ------------ | ---- |
 | Vccint   | 1V      | 328mA       | dependent on speed grade     | 0.95 - 1.05V | 5%   |
@@ -65,6 +66,26 @@ for more accurate current values use the XPE (xilinx power estimator)
 | Vmgtavtt | 1.2V    | 12mA        | Requires special filtering   | 1.17 - 1.23  | 2.5% |
 | Vccadc   | 1.8V    |             |                              | 1.71 - 1.89  | 5%   |
 | Vrefp    | 1.25V   | 15uA        |                              | 1.2-1.3      | 4%   |
+
+FOR XC7A200T-2FBG484I (2I)
+| Rail     | Voltage | Current     | Notes                        | Min/Max      | %    |
+| -------- | ------- | ----------- | ---------------------------- | ------------ | ---- |
+| Vccint   | 1V      | 328mA       | dependent on speed grade     | 0.95 - 1.05V | 5%   |
+| Vccaux   | 1.8V    | 73mA        |                              | 1.71 - 1.89  | 5%   |
+| Vccbram  | 1V      | 11mA        | dependent on speed grade     | 0.95 - 1.05V | 5%   |
+| Vcco     | 3.3v    | 5mA         |                              | 1.14 - 3.465 | 5%   |
+| Vin      | 3.3V    | 10mA x pins | this is the I/O sink voltage | -0.2 - 3.5   | 6%   |
+| Vccbat   | 0V      |             |                              |              |      |
+| Vmgtavcc | 1V      | 12mA        | Requires special filtering   | 0.97 - 1.03  | 3%   |
+| Vmgtavtt | 1.2V    | 12mA        | Requires special filtering   | 1.17 - 1.23  | 2.5% |
+| Vccadc   | 1.8V    |             |                              | 1.71 - 1.89  | 5%   |
+| Vrefp    | 1.25V   | 15uA        |                              | 1.2-1.3      | 4%   |
+
+capacitor requirements
+![[Pasted image 20221022230442.png]]
+cap specs
+![[Pasted image 20221022230642.png]]
+body size is just an upper bound so I'll def go smaller
 
 See below for special filtering requirements on Vmgtavcc and Vmgtavtt
 ![[ug482_7Series_GTP_Transceivers-2 1.pdf]]

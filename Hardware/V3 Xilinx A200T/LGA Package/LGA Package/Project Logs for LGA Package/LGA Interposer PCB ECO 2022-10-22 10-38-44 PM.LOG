@@ -1,0 +1,2049 @@
+Added Component: Designator=*(2319757-1  LGA Socket)
+Added Component: Designator=C7(CAP 0603_1608)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://katalog.we-online.de/pbs/datasheet/885012106015.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/w-rth-elektronik/885012106015/732-7912-1-ND/5454539"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:03:18 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "885012106015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "11963"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "WCAP-CSGP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-7912-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.037" (0.95mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C8(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C9(CAP 0603_1608)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://katalog.we-online.de/pbs/datasheet/885012106015.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/w-rth-elektronik/885012106015/732-7912-1-ND/5454539"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:03:18 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "885012106015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "11963"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "WCAP-CSGP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-7912-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.037" (0.95mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C10(CAP 0603_1608)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://katalog.we-online.de/pbs/datasheet/885012106015.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/w-rth-elektronik/885012106015/732-7912-1-ND/5454539"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:03:18 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "885012106015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "11963"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "WCAP-CSGP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-7912-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.037" (0.95mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C11(CAP 0603_1608)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://katalog.we-online.de/pbs/datasheet/885012106015.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/w-rth-elektronik/885012106015/732-7912-1-ND/5454539"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:03:18 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "885012106015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "11963"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "WCAP-CSGP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-7912-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.037" (0.95mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C12(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C13(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C14(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C15(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C16(CAP 0603_1608)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://katalog.we-online.de/pbs/datasheet/885012106015.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/w-rth-elektronik/885012106015/732-7912-1-ND/5454539"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:03:18 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "885012106015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "11963"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "WCAP-CSGP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-7912-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.037" (0.95mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C17(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C18(CAP 0603_1608)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://katalog.we-online.de/pbs/datasheet/885012106015.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/w-rth-elektronik/885012106015/732-7912-1-ND/5454539"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:03:18 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "885012106015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "11963"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "WCAP-CSGP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-7912-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.037" (0.95mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C19(CAP 0603_1608)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://katalog.we-online.de/pbs/datasheet/885012106015.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/w-rth-elektronik/885012106015/732-7912-1-ND/5454539"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:03:18 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "885012106015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "11963"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "WCAP-CSGP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-7912-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.037" (0.95mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C20(CAP 0603_1608)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://katalog.we-online.de/pbs/datasheet/885012106015.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/w-rth-elektronik/885012106015/732-7912-1-ND/5454539"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:03:18 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "885012106015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "11963"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "WCAP-CSGP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-7912-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.037" (0.95mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C21(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C22(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C23(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C24(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C25(CAP 0603_1608)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://katalog.we-online.de/pbs/datasheet/885012106015.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/w-rth-elektronik/885012106015/732-7912-1-ND/5454539"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:03:18 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "885012106015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "11963"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "WCAP-CSGP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-7912-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.037" (0.95mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C26(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C27(CAP 0603_1608)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://katalog.we-online.de/pbs/datasheet/885012106015.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/w-rth-elektronik/885012106015/732-7912-1-ND/5454539"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:03:18 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "885012106015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "11963"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "WCAP-CSGP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-7912-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.037" (0.95mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C28(CAP 0603_1608)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://katalog.we-online.de/pbs/datasheet/885012106015.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/w-rth-elektronik/885012106015/732-7912-1-ND/5454539"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:03:18 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "885012106015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "11963"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "WCAP-CSGP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-7912-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.037" (0.95mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C29(CAP 0603_1608)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://katalog.we-online.de/pbs/datasheet/885012106015.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/w-rth-elektronik/885012106015/732-7912-1-ND/5454539"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:03:18 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "885012106015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "11963"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "WCAP-CSGP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-7912-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.037" (0.95mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C30(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C31(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C32(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C33(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C34(CAP 0603_1608)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://katalog.we-online.de/pbs/datasheet/885012106015.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/w-rth-elektronik/885012106015/732-7912-1-ND/5454539"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:03:18 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "885012106015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "11963"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "WCAP-CSGP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-7912-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.037" (0.95mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C35(CAP 0603_1608)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://katalog.we-online.de/pbs/datasheet/885012106015.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/w-rth-elektronik/885012106015/732-7912-1-ND/5454539"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:03:18 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "885012106015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "11963"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "WCAP-CSGP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-7912-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.037" (0.95mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C36(CAP 0603_1608)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://katalog.we-online.de/pbs/datasheet/885012106015.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/w-rth-elektronik/885012106015/732-7912-1-ND/5454539"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:03:18 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "885012106015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "11963"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "WCAP-CSGP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-7912-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.037" (0.95mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C37(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C38(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C39(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C40(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-09-02 1:04:38 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR61A476ME15L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "4627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-9961-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=P1(HDR1X3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P2(HDR1X3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P3(HDR1X3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P4(HDR1X4)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P5(HDR1X3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(SiT8008 2.5x2)
+Added Component: Designator=TP1(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP2(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP3(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP4(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP5(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP6(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP7(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP8(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP9(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=U2(FBG484)
+Add component (AddParameter): Name = "Block RAM Blocks (18Kb)"; Value = "730"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Block RAM Blocks (36Kb)"; Value = "365"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Block RAM Blocks (Max Kb)"; Value = "13140"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CLBs (Max Distributed RAM Kb)"; Value = "2888"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CLBs (Slices)"; Value = "33650"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Clock Mgmt Tiles (CMTs)"; Value = "10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-034"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.xilinx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.xilinx.com/support/documentation/data_sheets/ds180_7Series_Overview.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "DC and Switching Characteristics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "http://www.xilinx.com/support/documentation/data_sheets/ds181_Artix_7_Data_Sheet.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5Description"; Value = "Package File"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5URL"; Value = "http://www.xilinx.com/support/packagefiles/a7packages/xc7a200tfbg484pkg.txt"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink6Description"; Value = "Packaging and Pinout"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink6URL"; Value = "http://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "v1.12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DSP48E1 Slices"; Value = "740"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Generic Part Number"; Value = "XC7A200T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Logic Cells"; Value = "215360"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Xilinx"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max User I/O"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexusDeviceID"; Value = "XC7A200T-2FBG484I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Flip-Chip Lidless BGA, Body 23 x 23 mm, 1.0 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "FBG484"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev 1.8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "XC7A200T-2FBG484I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Speed Grade"; Value = "-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "122-1866-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Vccbat Pin=*-1
+Added Pin To Net: NetName=EIO7 Pin=*-2
+Added Pin To Net: NetName=EIO6 Pin=*-3
+Added Pin To Net: NetName=EIO5 Pin=*-4
+Added Pin To Net: NetName=EIO4 Pin=*-5
+Added Pin To Net: NetName=Vccbat Pin=*-6
+Added Pin To Net: NetName=EIO3 Pin=*-7
+Added Pin To Net: NetName=EIO2 Pin=*-8
+Added Pin To Net: NetName=EIO1 Pin=*-9
+Added Pin To Net: NetName=EIO0 Pin=*-10
+Added Pin To Net: NetName=Vccbat Pin=*-11
+Added Pin To Net: NetName=Vrefp Pin=*-12
+Added Pin To Net: NetName=Vccbat Pin=*-13
+Added Pin To Net: NetName=Vccbram Pin=*-14
+Added Pin To Net: NetName=Vccbat Pin=*-15
+Added Pin To Net: NetName=Vmgtavcc Pin=*-16
+Added Pin To Net: NetName=Vccbat Pin=*-17
+Added Pin To Net: NetName=Vccadc Pin=*-18
+Added Pin To Net: NetName=Vccbat Pin=*-19
+Added Pin To Net: NetName=Vcco Pin=*-20
+Added Pin To Net: NetName=Vccbram Pin=*-21
+Added Pin To Net: NetName=Vccadc Pin=*-22
+Added Pin To Net: NetName=Vccbram Pin=*-23
+Added Pin To Net: NetName=Vccbat Pin=*-24
+Added Pin To Net: NetName=Vccbat Pin=*-25
+Added Pin To Net: NetName=GPIO21 Pin=*-26
+Added Pin To Net: NetName=GPIO20 Pin=*-27
+Added Pin To Net: NetName=Vccbat Pin=*-28
+Added Pin To Net: NetName=GPIO19 Pin=*-29
+Added Pin To Net: NetName=GPIO18 Pin=*-30
+Added Pin To Net: NetName=GPIO17 Pin=*-31
+Added Pin To Net: NetName=GPIO16 Pin=*-32
+Added Pin To Net: NetName=Vccbat Pin=*-33
+Added Pin To Net: NetName=GPIO15 Pin=*-34
+Added Pin To Net: NetName=GPIO14 Pin=*-35
+Added Pin To Net: NetName=GPIO13 Pin=*-36
+Added Pin To Net: NetName=GPIO12 Pin=*-37
+Added Pin To Net: NetName=Vccbat Pin=*-38
+Added Pin To Net: NetName=GPIO11 Pin=*-39
+Added Pin To Net: NetName=GPIO10 Pin=*-40
+Added Pin To Net: NetName=GPIO9 Pin=*-41
+Added Pin To Net: NetName=GPIO8 Pin=*-42
+Added Pin To Net: NetName=Vccbat Pin=*-43
+Added Pin To Net: NetName=GPIO7 Pin=*-44
+Added Pin To Net: NetName=GPIO6 Pin=*-45
+Added Pin To Net: NetName=GPIO5 Pin=*-46
+Added Pin To Net: NetName=GPIO4 Pin=*-47
+Added Pin To Net: NetName=Vccbat Pin=*-48
+Added Pin To Net: NetName=GPIO3 Pin=*-49
+Added Pin To Net: NetName=GPIO2 Pin=*-50
+Added Pin To Net: NetName=GPIO1 Pin=*-51
+Added Pin To Net: NetName=GPIO0 Pin=*-52
+Added Pin To Net: NetName=Vccbat Pin=*-53
+Added Pin To Net: NetName=Vccbat Pin=*-54
+Added Pin To Net: NetName=GPIO74 Pin=*-55
+Added Pin To Net: NetName=GPIO73 Pin=*-56
+Added Pin To Net: NetName=GPIO72 Pin=*-57
+Added Pin To Net: NetName=Vccbat Pin=*-58
+Added Pin To Net: NetName=GPIO71 Pin=*-59
+Added Pin To Net: NetName=GPIO70 Pin=*-60
+Added Pin To Net: NetName=GPIO69 Pin=*-61
+Added Pin To Net: NetName=GPIO68 Pin=*-62
+Added Pin To Net: NetName=Vccbat Pin=*-63
+Added Pin To Net: NetName=GPIO67 Pin=*-64
+Added Pin To Net: NetName=GPIO66 Pin=*-65
+Added Pin To Net: NetName=GPIO65 Pin=*-66
+Added Pin To Net: NetName=GPIO64 Pin=*-67
+Added Pin To Net: NetName=Vccbat Pin=*-68
+Added Pin To Net: NetName=GPIO63 Pin=*-69
+Added Pin To Net: NetName=GPIO62 Pin=*-70
+Added Pin To Net: NetName=GPIO61 Pin=*-71
+Added Pin To Net: NetName=GPIO60 Pin=*-72
+Added Pin To Net: NetName=Vccbat Pin=*-73
+Added Pin To Net: NetName=GPIO29 Pin=*-74
+Added Pin To Net: NetName=GPIO28 Pin=*-75
+Added Pin To Net: NetName=GPIO27 Pin=*-76
+Added Pin To Net: NetName=GPIO26 Pin=*-77
+Added Pin To Net: NetName=Vccbat Pin=*-78
+Added Pin To Net: NetName=GPIO25 Pin=*-79
+Added Pin To Net: NetName=GPIO24 Pin=*-80
+Added Pin To Net: NetName=GPIO23 Pin=*-81
+Added Pin To Net: NetName=GPIO22 Pin=*-82
+Added Pin To Net: NetName=Vccbat Pin=*-83
+Added Pin To Net: NetName=EIO10 Pin=*-84
+Added Pin To Net: NetName=EIO9 Pin=*-85
+Added Pin To Net: NetName=Vccbat Pin=*-86
+Added Pin To Net: NetName=EIO8 Pin=*-87
+Added Pin To Net: NetName=DONE Pin=*-88
+Added Pin To Net: NetName=EIO13 Pin=*-89
+Added Pin To Net: NetName=EIO12 Pin=*-90
+Added Pin To Net: NetName=Vccbat Pin=*-91
+Added Pin To Net: NetName=EIO11 Pin=*-92
+Added Pin To Net: NetName=INIT Pin=*-93
+Added Pin To Net: NetName=EIO16 Pin=*-94
+Added Pin To Net: NetName=EIO15 Pin=*-95
+Added Pin To Net: NetName=Vccbat Pin=*-96
+Added Pin To Net: NetName=EIO14 Pin=*-97
+Added Pin To Net: NetName=PROGRAM Pin=*-98
+Added Pin To Net: NetName=GPIO76 Pin=*-99
+Added Pin To Net: NetName=GPIO75 Pin=*-100
+Added Pin To Net: NetName=Vccbat Pin=*-101
+Added Pin To Net: NetName=EIO17 Pin=*-102
+Added Pin To Net: NetName=CFGBVS Pin=*-103
+Added Pin To Net: NetName=GPIO79 Pin=*-104
+Added Pin To Net: NetName=GPIO78 Pin=*-105
+Added Pin To Net: NetName=Vccbat Pin=*-106
+Added Pin To Net: NetName=GPIO77 Pin=*-107
+Added Pin To Net: NetName=D2 Pin=*-108
+Added Pin To Net: NetName=Vccbat Pin=*-109
+Added Pin To Net: NetName=DXN Pin=*-110
+Added Pin To Net: NetName=DXP Pin=*-111
+Added Pin To Net: NetName=A15 Pin=*-112
+Added Pin To Net: NetName=A14 Pin=*-113
+Added Pin To Net: NetName=A13 Pin=*-114
+Added Pin To Net: NetName=A12 Pin=*-115
+Added Pin To Net: NetName=D3 Pin=*-116
+Added Pin To Net: NetName=Vccbat Pin=*-117
+Added Pin To Net: NetName=MISO Pin=*-118
+Added Pin To Net: NetName=MOSI Pin=*-119
+Added Pin To Net: NetName=A11 Pin=*-120
+Added Pin To Net: NetName=A10 Pin=*-121
+Added Pin To Net: NetName=Vccbat Pin=*-122
+Added Pin To Net: NetName=A9 Pin=*-123
+Added Pin To Net: NetName=FCS Pin=*-124
+Added Pin To Net: NetName=Vccbat Pin=*-125
+Added Pin To Net: NetName=PUDC Pin=*-126
+Added Pin To Net: NetName=CCLK Pin=*-127
+Added Pin To Net: NetName=A8 Pin=*-128
+Added Pin To Net: NetName=A7 Pin=*-129
+Added Pin To Net: NetName=Vccbat Pin=*-130
+Added Pin To Net: NetName=A6 Pin=*-131
+Added Pin To Net: NetName=VN Pin=*-132
+Added Pin To Net: NetName=VP Pin=*-133
+Added Pin To Net: NetName=Vccbat Pin=*-134
+Added Pin To Net: NetName=GPIO80 Pin=*-135
+Added Pin To Net: NetName=A5 Pin=*-136
+Added Pin To Net: NetName=A4 Pin=*-137
+Added Pin To Net: NetName=Vccbat Pin=*-138
+Added Pin To Net: NetName=A3 Pin=*-139
+Added Pin To Net: NetName=DQ47 Pin=*-140
+Added Pin To Net: NetName=DQ46 Pin=*-141
+Added Pin To Net: NetName=DQ45 Pin=*-142
+Added Pin To Net: NetName=DQ44 Pin=*-143
+Added Pin To Net: NetName=A2 Pin=*-144
+Added Pin To Net: NetName=A1 Pin=*-145
+Added Pin To Net: NetName=Vccbat Pin=*-146
+Added Pin To Net: NetName=A0 Pin=*-147
+Added Pin To Net: NetName=Vccbat Pin=*-148
+Added Pin To Net: NetName=DQS5_P Pin=*-149
+Added Pin To Net: NetName=DQS5_N Pin=*-150
+Added Pin To Net: NetName=Vccbat Pin=*-151
+Added Pin To Net: NetName=M0 Pin=*-152
+Added Pin To Net: NetName=DQ43 Pin=*-153
+Added Pin To Net: NetName=DQ42 Pin=*-154
+Added Pin To Net: NetName=DQ41 Pin=*-155
+Added Pin To Net: NetName=DQ40 Pin=*-156
+Added Pin To Net: NetName=M1 Pin=*-157
+Added Pin To Net: NetName=DQ23 Pin=*-158
+Added Pin To Net: NetName=DQ22 Pin=*-159
+Added Pin To Net: NetName=DQ21 Pin=*-160
+Added Pin To Net: NetName=DQ20 Pin=*-161
+Added Pin To Net: NetName=M2 Pin=*-162
+Added Pin To Net: NetName=Vccbat Pin=*-163
+Added Pin To Net: NetName=DQS2_P Pin=*-164
+Added Pin To Net: NetName=DQS2_N Pin=*-165
+Added Pin To Net: NetName=Vccbat Pin=*-166
+Added Pin To Net: NetName=Vccbat Pin=*-167
+Added Pin To Net: NetName=DQ19 Pin=*-168
+Added Pin To Net: NetName=DQ18 Pin=*-169
+Added Pin To Net: NetName=DQ17 Pin=*-170
+Added Pin To Net: NetName=DQ16 Pin=*-171
+Added Pin To Net: NetName=Vccbat Pin=*-172
+Added Pin To Net: NetName=RESET Pin=*-173
+Added Pin To Net: NetName=WE Pin=*-174
+Added Pin To Net: NetName=CAS Pin=*-175
+Added Pin To Net: NetName=RAS Pin=*-176
+Added Pin To Net: NetName=CK0_P Pin=*-177
+Added Pin To Net: NetName=CK0_N Pin=*-178
+Added Pin To Net: NetName=Vccbat Pin=*-179
+Added Pin To Net: NetName=DQ15 Pin=*-180
+Added Pin To Net: NetName=DQ14 Pin=*-181
+Added Pin To Net: NetName=DQ13 Pin=*-182
+Added Pin To Net: NetName=DQ12 Pin=*-183
+Added Pin To Net: NetName=DQS1_P Pin=*-184
+Added Pin To Net: NetName=DQS1_N Pin=*-185
+Added Pin To Net: NetName=DQ11 Pin=*-186
+Added Pin To Net: NetName=DQ10 Pin=*-187
+Added Pin To Net: NetName=DQ9 Pin=*-188
+Added Pin To Net: NetName=DQ8 Pin=*-189
+Added Pin To Net: NetName=Vccbat Pin=*-190
+Added Pin To Net: NetName=DQ7 Pin=*-191
+Added Pin To Net: NetName=DQ6 Pin=*-192
+Added Pin To Net: NetName=DQ5 Pin=*-193
+Added Pin To Net: NetName=DQ4 Pin=*-194
+Added Pin To Net: NetName=DQS0_P Pin=*-195
+Added Pin To Net: NetName=DQS0_N Pin=*-196
+Added Pin To Net: NetName=DQ3 Pin=*-197
+Added Pin To Net: NetName=DQ2 Pin=*-198
+Added Pin To Net: NetName=DQ1 Pin=*-199
+Added Pin To Net: NetName=DQ0 Pin=*-200
+Added Pin To Net: NetName=Vccbat Pin=*-201
+Added Pin To Net: NetName=Vccbat Pin=*-202
+Added Pin To Net: NetName=BA0 Pin=*-203
+Added Pin To Net: NetName=BA1 Pin=*-204
+Added Pin To Net: NetName=BA2 Pin=*-205
+Added Pin To Net: NetName=CKE0 Pin=*-206
+Added Pin To Net: NetName=CS0 Pin=*-207
+Added Pin To Net: NetName=ODT0 Pin=*-208
+Added Pin To Net: NetName=Vccbat Pin=*-209
+Added Pin To Net: NetName=DQ39 Pin=*-210
+Added Pin To Net: NetName=DQ38 Pin=*-211
+Added Pin To Net: NetName=DQ37 Pin=*-212
+Added Pin To Net: NetName=DQ36 Pin=*-213
+Added Pin To Net: NetName=DQS4_P Pin=*-214
+Added Pin To Net: NetName=DQS4_N Pin=*-215
+Added Pin To Net: NetName=DQ35 Pin=*-216
+Added Pin To Net: NetName=DQ34 Pin=*-217
+Added Pin To Net: NetName=DQ33 Pin=*-218
+Added Pin To Net: NetName=DQ32 Pin=*-219
+Added Pin To Net: NetName=Vccbat Pin=*-220
+Added Pin To Net: NetName=DQ31 Pin=*-221
+Added Pin To Net: NetName=DQ30 Pin=*-222
+Added Pin To Net: NetName=DQ29 Pin=*-223
+Added Pin To Net: NetName=DQ28 Pin=*-224
+Added Pin To Net: NetName=DQS3_P Pin=*-225
+Added Pin To Net: NetName=DQS3_N Pin=*-226
+Added Pin To Net: NetName=DQ27 Pin=*-227
+Added Pin To Net: NetName=DQ26 Pin=*-228
+Added Pin To Net: NetName=DQ25 Pin=*-229
+Added Pin To Net: NetName=DQ24 Pin=*-230
+Added Pin To Net: NetName=Vccbat Pin=*-231
+Added Pin To Net: NetName=Vccbat Pin=*-232
+Added Pin To Net: NetName=DQ63 Pin=*-233
+Added Pin To Net: NetName=DQ62 Pin=*-234
+Added Pin To Net: NetName=DQ61 Pin=*-235
+Added Pin To Net: NetName=DQ60 Pin=*-236
+Added Pin To Net: NetName=DQS7_P Pin=*-237
+Added Pin To Net: NetName=DQS7_N Pin=*-238
+Added Pin To Net: NetName=DQ59 Pin=*-239
+Added Pin To Net: NetName=DQ58 Pin=*-240
+Added Pin To Net: NetName=DQ57 Pin=*-241
+Added Pin To Net: NetName=DQ56 Pin=*-242
+Added Pin To Net: NetName=Vccbat Pin=*-243
+Added Pin To Net: NetName=Vccbat Pin=*-244
+Added Pin To Net: NetName=Vccbat Pin=*-245
+Added Pin To Net: NetName=Vccbat Pin=*-246
+Added Pin To Net: NetName=DQ55 Pin=*-247
+Added Pin To Net: NetName=DQ54 Pin=*-248
+Added Pin To Net: NetName=DQ53 Pin=*-249
+Added Pin To Net: NetName=DQ52 Pin=*-250
+Added Pin To Net: NetName=DQS6_P Pin=*-251
+Added Pin To Net: NetName=DQS6_N Pin=*-252
+Added Pin To Net: NetName=DQ51 Pin=*-253
+Added Pin To Net: NetName=DQ50 Pin=*-254
+Added Pin To Net: NetName=DQ49 Pin=*-255
+Added Pin To Net: NetName=DQ48 Pin=*-256
+Added Pin To Net: NetName=Vccbat Pin=*-257
+Added Pin To Net: NetName=Vccbat Pin=C7-1
+Added Pin To Net: NetName=Vccbram Pin=C7-2
+Added Pin To Net: NetName=Vccbat Pin=C8-1
+Added Pin To Net: NetName=Vccbram Pin=C8-2
+Added Pin To Net: NetName=Vccbat Pin=C9-1
+Added Pin To Net: NetName=Vccbram Pin=C9-2
+Added Pin To Net: NetName=Vccbat Pin=C10-1
+Added Pin To Net: NetName=Vccbram Pin=C10-2
+Added Pin To Net: NetName=Vccbat Pin=C11-1
+Added Pin To Net: NetName=Vccbram Pin=C11-2
+Added Pin To Net: NetName=Vccbat Pin=C12-1
+Added Pin To Net: NetName=Vccbram Pin=C12-2
+Added Pin To Net: NetName=Vccbat Pin=C13-1
+Added Pin To Net: NetName=Vccbram Pin=C13-2
+Added Pin To Net: NetName=Vccbat Pin=C14-1
+Added Pin To Net: NetName=Vccbram Pin=C14-2
+Added Pin To Net: NetName=Vccbat Pin=C15-1
+Added Pin To Net: NetName=Vccbram Pin=C15-2
+Added Pin To Net: NetName=Vccbat Pin=C16-1
+Added Pin To Net: NetName=Vccadc Pin=C16-2
+Added Pin To Net: NetName=Vccbat Pin=C17-1
+Added Pin To Net: NetName=Vccadc Pin=C17-2
+Added Pin To Net: NetName=Vccbat Pin=C18-1
+Added Pin To Net: NetName=Vccadc Pin=C18-2
+Added Pin To Net: NetName=Vccbat Pin=C19-1
+Added Pin To Net: NetName=Vccadc Pin=C19-2
+Added Pin To Net: NetName=Vccbat Pin=C20-1
+Added Pin To Net: NetName=Vccadc Pin=C20-2
+Added Pin To Net: NetName=Vccbat Pin=C21-1
+Added Pin To Net: NetName=Vccadc Pin=C21-2
+Added Pin To Net: NetName=Vccbat Pin=C22-1
+Added Pin To Net: NetName=Vccadc Pin=C22-2
+Added Pin To Net: NetName=Vccbat Pin=C23-1
+Added Pin To Net: NetName=Vccadc Pin=C23-2
+Added Pin To Net: NetName=Vccbat Pin=C24-1
+Added Pin To Net: NetName=Vccadc Pin=C24-2
+Added Pin To Net: NetName=Vccbat Pin=C25-1
+Added Pin To Net: NetName=Vccbram Pin=C25-2
+Added Pin To Net: NetName=Vccbat Pin=C26-1
+Added Pin To Net: NetName=Vccbram Pin=C26-2
+Added Pin To Net: NetName=Vccbat Pin=C27-1
+Added Pin To Net: NetName=Vcco Pin=C27-2
+Added Pin To Net: NetName=Vccbat Pin=C28-1
+Added Pin To Net: NetName=Vcco Pin=C28-2
+Added Pin To Net: NetName=Vccbat Pin=C29-1
+Added Pin To Net: NetName=Vcco Pin=C29-2
+Added Pin To Net: NetName=Vccbat Pin=C30-1
+Added Pin To Net: NetName=Vcco Pin=C30-2
+Added Pin To Net: NetName=Vccbat Pin=C31-1
+Added Pin To Net: NetName=Vcco Pin=C31-2
+Added Pin To Net: NetName=Vccbat Pin=C32-1
+Added Pin To Net: NetName=Vcco Pin=C32-2
+Added Pin To Net: NetName=Vccbat Pin=C33-1
+Added Pin To Net: NetName=Vcco Pin=C33-2
+Added Pin To Net: NetName=Vccbat Pin=C34-1
+Added Pin To Net: NetName=Vcco Pin=C34-2
+Added Pin To Net: NetName=Vccbat Pin=C35-1
+Added Pin To Net: NetName=Vcco Pin=C35-2
+Added Pin To Net: NetName=Vccbat Pin=C36-1
+Added Pin To Net: NetName=Vcco Pin=C36-2
+Added Pin To Net: NetName=Vccbat Pin=C37-1
+Added Pin To Net: NetName=Vcco Pin=C37-2
+Added Pin To Net: NetName=Vccbat Pin=C38-1
+Added Pin To Net: NetName=Vcco Pin=C38-2
+Added Pin To Net: NetName=Vccbat Pin=C39-1
+Added Pin To Net: NetName=Vcco Pin=C39-2
+Added Pin To Net: NetName=Vccbat Pin=C40-1
+Added Pin To Net: NetName=Vcco Pin=C40-2
+Added Pin To Net: NetName=Vcco Pin=P1-1
+Added Pin To Net: NetName=M2 Pin=P1-2
+Added Pin To Net: NetName=Vccbat Pin=P1-3
+Added Pin To Net: NetName=Vcco Pin=P2-1
+Added Pin To Net: NetName=M1 Pin=P2-2
+Added Pin To Net: NetName=Vccbat Pin=P2-3
+Added Pin To Net: NetName=Vcco Pin=P3-1
+Added Pin To Net: NetName=M0 Pin=P3-2
+Added Pin To Net: NetName=Vccbat Pin=P3-3
+Added Pin To Net: NetName=TDO Pin=P4-1
+Added Pin To Net: NetName=TCK Pin=P4-2
+Added Pin To Net: NetName=TDI Pin=P4-3
+Added Pin To Net: NetName=TMS Pin=P4-4
+Added Pin To Net: NetName=CLK0 Pin=P5-2
+Added Pin To Net: NetName=Vcco Pin=Q1-1
+Added Pin To Net: NetName=Vccbat Pin=Q1-2
+Added Pin To Net: NetName=CLK0 Pin=Q1-3
+Added Pin To Net: NetName=Vcco Pin=Q1-4
+Added Pin To Net: NetName=Vccbat Pin=TP1-1
+Added Pin To Net: NetName=Vcco Pin=TP5-1
+Added Pin To Net: NetName=Vccbram Pin=TP6-1
+Added Pin To Net: NetName=Vrefp Pin=TP7-1
+Added Pin To Net: NetName=Vmgtavcc Pin=TP8-1
+Added Pin To Net: NetName=Vccadc Pin=TP9-1
+Added Pin To Net: NetName=GPIO51 Pin=U2-A1
+Added Pin To Net: NetName=Vccbat Pin=U2-A2
+Added Pin To Net: NetName=Vccbat Pin=U2-A3
+Added Pin To Net: NetName=Vccbat Pin=U2-A5
+Added Pin To Net: NetName=Vccbat Pin=U2-A7
+Added Pin To Net: NetName=Vccbat Pin=U2-A9
+Added Pin To Net: NetName=Vccbat Pin=U2-A11
+Added Pin To Net: NetName=Vccbat Pin=U2-A12
+Added Pin To Net: NetName=DQ12 Pin=U2-A13
+Added Pin To Net: NetName=DQ13 Pin=U2-A14
+Added Pin To Net: NetName=DQS1_P Pin=U2-A15
+Added Pin To Net: NetName=DQS1_N Pin=U2-A16
+Added Pin To Net: NetName=Vcco Pin=U2-A17
+Added Pin To Net: NetName=DQ20 Pin=U2-A18
+Added Pin To Net: NetName=DQ21 Pin=U2-A19
+Added Pin To Net: NetName=DQ19 Pin=U2-A20
+Added Pin To Net: NetName=DQS3_N Pin=U2-A21
+Added Pin To Net: NetName=Vccbat Pin=U2-A22
+Added Pin To Net: NetName=GPIO13 Pin=U2-AA1
+Added Pin To Net: NetName=Vccbat Pin=U2-AA2
+Added Pin To Net: NetName=GPIO18 Pin=U2-AA3
+Added Pin To Net: NetName=GPIO22 Pin=U2-AA4
+Added Pin To Net: NetName=GPIO19 Pin=U2-AA5
+Added Pin To Net: NetName=GPIO35 Pin=U2-AA6
+Added Pin To Net: NetName=Vcco Pin=U2-AA7
+Added Pin To Net: NetName=GPIO42 Pin=U2-AA8
+Added Pin To Net: NetName=GPIO99 Pin=U2-AA9
+Added Pin To Net: NetName=GPIO101 Pin=U2-AA10
+Added Pin To Net: NetName=GPIO102 Pin=U2-AA11
+Added Pin To Net: NetName=Vccbat Pin=U2-AA12
+Added Pin To Net: NetName=RE Pin=U2-AA13
+Added Pin To Net: NetName=IO4 Pin=U2-AA14
+Added Pin To Net: NetName=IO7 Pin=U2-AA15
+Added Pin To Net: NetName=WE_NAND Pin=U2-AA16
+Added Pin To Net: NetName=Vcco Pin=U2-AA17
+Added Pin To Net: NetName=DQ52 Pin=U2-AA18
+Added Pin To Net: NetName=DQS6_P Pin=U2-AA19
+Added Pin To Net: NetName=DQ42 Pin=U2-AA20
+Added Pin To Net: NetName=DQ43 Pin=U2-AA21
+Added Pin To Net: NetName=Vccbat Pin=U2-AA22
+Added Pin To Net: NetName=GPIO14 Pin=U2-AB1
+Added Pin To Net: NetName=GPIO16 Pin=U2-AB2
+Added Pin To Net: NetName=GPIO15 Pin=U2-AB3
+Added Pin To Net: NetName=Vcco Pin=U2-AB4
+Added Pin To Net: NetName=GPIO20 Pin=U2-AB5
+Added Pin To Net: NetName=GPIO39 Pin=U2-AB6
+Added Pin To Net: NetName=GPIO38 Pin=U2-AB7
+Added Pin To Net: NetName=GPIO43 Pin=U2-AB8
+Added Pin To Net: NetName=Vccbat Pin=U2-AB9
+Added Pin To Net: NetName=GPIO100 Pin=U2-AB10
+Added Pin To Net: NetName=IO1 Pin=U2-AB11
+Added Pin To Net: NetName=IO0 Pin=U2-AB12
+Added Pin To Net: NetName=CE Pin=U2-AB13
+Added Pin To Net: NetName=Vcco Pin=U2-AB14
+Added Pin To Net: NetName=IO6 Pin=U2-AB15
+Added Pin To Net: NetName=WP Pin=U2-AB16
+Added Pin To Net: NetName=Busy Pin=U2-AB17
+Added Pin To Net: NetName=DQ53 Pin=U2-AB18
+Added Pin To Net: NetName=Vccbat Pin=U2-AB19
+Added Pin To Net: NetName=DQS6_N Pin=U2-AB20
+Added Pin To Net: NetName=DQ44 Pin=U2-AB21
+Added Pin To Net: NetName=DQ45 Pin=U2-AB22
+Added Pin To Net: NetName=GPIO50 Pin=U2-B1
+Added Pin To Net: NetName=GPIO53 Pin=U2-B2
+Added Pin To Net: NetName=Vccbat Pin=U2-B3
+Added Pin To Net: NetName=Vmgtavcc Pin=U2-B5
+Added Pin To Net: NetName=Vmgtavcc Pin=U2-B7
+Added Pin To Net: NetName=Vmgtavcc Pin=U2-B9
+Added Pin To Net: NetName=Vmgtavcc Pin=U2-B11
+Added Pin To Net: NetName=Vccbat Pin=U2-B12
+Added Pin To Net: NetName=DQ11 Pin=U2-B13
+Added Pin To Net: NetName=Vcco Pin=U2-B14
+Added Pin To Net: NetName=DQ8 Pin=U2-B15
+Added Pin To Net: NetName=DQ9 Pin=U2-B16
+Added Pin To Net: NetName=DQ14 Pin=U2-B17
+Added Pin To Net: NetName=DQ15 Pin=U2-B18
+Added Pin To Net: NetName=Vccbat Pin=U2-B19
+Added Pin To Net: NetName=DQ18 Pin=U2-B20
+Added Pin To Net: NetName=DQS3_P Pin=U2-B21
+Added Pin To Net: NetName=DQ27 Pin=U2-B22
+Added Pin To Net: NetName=Vcco Pin=U2-C1
+Added Pin To Net: NetName=GPIO52 Pin=U2-C2
+Added Pin To Net: NetName=Vccbat Pin=U2-C3
+Added Pin To Net: NetName=Vmgtavcc Pin=U2-C4
+Added Pin To Net: NetName=Vccbat Pin=U2-C6
+Added Pin To Net: NetName=Vmgtavcc Pin=U2-C8
+Added Pin To Net: NetName=Vccbat Pin=U2-C10
+Added Pin To Net: NetName=Vccbat Pin=U2-C12
+Added Pin To Net: NetName=DQ10 Pin=U2-C13
+Added Pin To Net: NetName=DQS0_P Pin=U2-C14
+Added Pin To Net: NetName=DQS0_N Pin=U2-C15
+Added Pin To Net: NetName=Vccbat Pin=U2-C16
+Added Pin To Net: NetName=EIO16 Pin=U2-C17
+Added Pin To Net: NetName=EIO17 Pin=U2-C18
+Added Pin To Net: NetName=EIO18 Pin=U2-C19
+Added Pin To Net: NetName=DQ25 Pin=U2-C20
+Added Pin To Net: NetName=Vcco Pin=U2-C21
+Added Pin To Net: NetName=DQ26 Pin=U2-C22
+Added Pin To Net: NetName=GPIO55 Pin=U2-D1
+Added Pin To Net: NetName=GPIO57 Pin=U2-D2
+Added Pin To Net: NetName=Vccbat Pin=U2-D3
+Added Pin To Net: NetName=Vccbat Pin=U2-D4
+Added Pin To Net: NetName=Vccbram Pin=U2-D6
+Added Pin To Net: NetName=Vccbat Pin=U2-D8
+Added Pin To Net: NetName=Vccbram Pin=U2-D10
+Added Pin To Net: NetName=Vccbat Pin=U2-D12
+Added Pin To Net: NetName=Vccbat Pin=U2-D13
+Added Pin To Net: NetName=RESET Pin=U2-D14
+Added Pin To Net: NetName=EIO14 Pin=U2-D15
+Added Pin To Net: NetName=DQ7 Pin=U2-D16
+Added Pin To Net: NetName=EIO15 Pin=U2-D17
+Added Pin To Net: NetName=Vcco Pin=U2-D18
+Added Pin To Net: NetName=DQ17 Pin=U2-D19
+Added Pin To Net: NetName=DQ24 Pin=U2-D20
+Added Pin To Net: NetName=DQ31 Pin=U2-D21
+Added Pin To Net: NetName=DQ29 Pin=U2-D22
+Added Pin To Net: NetName=GPIO54 Pin=U2-E1
+Added Pin To Net: NetName=GPIO56 Pin=U2-E2
+Added Pin To Net: NetName=GPIO61 Pin=U2-E3
+Added Pin To Net: NetName=Vccbat Pin=U2-E4
+Added Pin To Net: NetName=Vccbat Pin=U2-E5
+Added Pin To Net: NetName=Vccbat Pin=U2-E7
+Added Pin To Net: NetName=Vccbram Pin=U2-E8
+Added Pin To Net: NetName=Vccbat Pin=U2-E9
+Added Pin To Net: NetName=Vccbat Pin=U2-E11
+Added Pin To Net: NetName=Vccbat Pin=U2-E12
+Added Pin To Net: NetName=DQ4 Pin=U2-E13
+Added Pin To Net: NetName=DQ5 Pin=U2-E14
+Added Pin To Net: NetName=Vcco Pin=U2-E15
+Added Pin To Net: NetName=DQ6 Pin=U2-E16
+Added Pin To Net: NetName=DQ3 Pin=U2-E17
+Added Pin To Net: NetName=DQS2_N Pin=U2-E18
+Added Pin To Net: NetName=DQ16 Pin=U2-E19
+Added Pin To Net: NetName=Vccbat Pin=U2-E20
+Added Pin To Net: NetName=DQ30 Pin=U2-E21
+Added Pin To Net: NetName=DQ28 Pin=U2-E22
+Added Pin To Net: NetName=GPIO59 Pin=U2-F1
+Added Pin To Net: NetName=Vcco Pin=U2-F2
+Added Pin To Net: NetName=GPIO60 Pin=U2-F3
+Added Pin To Net: NetName=GPIO49 Pin=U2-F4
+Added Pin To Net: NetName=Vccbat Pin=U2-F5
+Added Pin To Net: NetName=Vccbram Pin=U2-F7
+Added Pin To Net: NetName=Vccbram Pin=U2-F9
+Added Pin To Net: NetName=Vccbat Pin=U2-F11
+Added Pin To Net: NetName=Vcco Pin=U2-F12
+Added Pin To Net: NetName=DQ0 Pin=U2-F13
+Added Pin To Net: NetName=DQ1 Pin=U2-F14
+Added Pin To Net: NetName=EIO13 Pin=U2-F15
+Added Pin To Net: NetName=DQ2 Pin=U2-F16
+Added Pin To Net: NetName=Vccbat Pin=U2-F17
+Added Pin To Net: NetName=DQS2_P Pin=U2-F18
+Added Pin To Net: NetName=DQ22 Pin=U2-F19
+Added Pin To Net: NetName=DQ23 Pin=U2-F20
+Added Pin To Net: NetName=EIO21 Pin=U2-F21
+Added Pin To Net: NetName=Vcco Pin=U2-F22
+Added Pin To Net: NetName=GPIO58 Pin=U2-G1
+Added Pin To Net: NetName=GPIO65 Pin=U2-G2
+Added Pin To Net: NetName=GPIO71 Pin=U2-G3
+Added Pin To Net: NetName=GPIO73 Pin=U2-G4
+Added Pin To Net: NetName=Vccbat Pin=U2-G5
+Added Pin To Net: NetName=Vccbat Pin=U2-G6
+Added Pin To Net: NetName=Vccbat Pin=U2-G7
+Added Pin To Net: NetName=Vccbat Pin=U2-G8
+Added Pin To Net: NetName=Vccbat Pin=U2-G9
+Added Pin To Net: NetName=Vccbat Pin=U2-G10
+Added Pin To Net: NetName=DONE Pin=U2-G11
+Added Pin To Net: NetName=Vccbat Pin=U2-G12
+Added Pin To Net: NetName=A14 Pin=U2-G13
+Added Pin To Net: NetName=Vccbat Pin=U2-G14
+Added Pin To Net: NetName=A13 Pin=U2-G15
+Added Pin To Net: NetName=A12 Pin=U2-G16
+Added Pin To Net: NetName=A11 Pin=U2-G17
+Added Pin To Net: NetName=A10 Pin=U2-G18
+Added Pin To Net: NetName=Vcco Pin=U2-G19
+Added Pin To Net: NetName=A2 Pin=U2-G20
+Added Pin To Net: NetName=EIO19 Pin=U2-G21
+Added Pin To Net: NetName=EIO20 Pin=U2-G22
+Added Pin To Net: NetName=Vccbat Pin=U2-H1
+Added Pin To Net: NetName=GPIO64 Pin=U2-H2
+Added Pin To Net: NetName=GPIO70 Pin=U2-H3
+Added Pin To Net: NetName=GPIO72 Pin=U2-H4
+Added Pin To Net: NetName=GPIO69 Pin=U2-H5
+Added Pin To Net: NetName=Vcco Pin=U2-H6
+Added Pin To Net: NetName=Vccbat Pin=U2-H7
+Added Pin To Net: NetName=Vccbram Pin=U2-H8
+Added Pin To Net: NetName=Vccbat Pin=U2-H9
+Added Pin To Net: NetName=Vccbram Pin=U2-H10
+Added Pin To Net: NetName=Vccbat Pin=U2-H11
+Added Pin To Net: NetName=Vccadc Pin=U2-H12
+Added Pin To Net: NetName=A15 Pin=U2-H13
+Added Pin To Net: NetName=CK0_N Pin=U2-H14
+Added Pin To Net: NetName=A8 Pin=U2-H15
+Added Pin To Net: NetName=Vcco Pin=U2-H16
+Added Pin To Net: NetName=A7 Pin=U2-H17
+Added Pin To Net: NetName=A6 Pin=U2-H18
+Added Pin To Net: NetName=WE Pin=U2-H19
+Added Pin To Net: NetName=A3 Pin=U2-H20
+Added Pin To Net: NetName=Vccbat Pin=U2-H21
+Added Pin To Net: NetName=A4 Pin=U2-H22
+Added Pin To Net: NetName=GPIO63 Pin=U2-J1
+Added Pin To Net: NetName=GPIO67 Pin=U2-J2
+Added Pin To Net: NetName=Vcco Pin=U2-J3
+Added Pin To Net: NetName=GPIO75 Pin=U2-J4
+Added Pin To Net: NetName=GPIO68 Pin=U2-J5
+Added Pin To Net: NetName=GPIO83 Pin=U2-J6
+Added Pin To Net: NetName=Vccbram Pin=U2-J7
+Added Pin To Net: NetName=Vccbat Pin=U2-J8
+Added Pin To Net: NetName=Vccbram Pin=U2-J9
+Added Pin To Net: NetName=Vccbat Pin=U2-J10
+Added Pin To Net: NetName=Vccbram Pin=U2-J11
+Added Pin To Net: NetName=Vccbat Pin=U2-J12
+Added Pin To Net: NetName=Vcco Pin=U2-J13
+Added Pin To Net: NetName=CK0_P Pin=U2-J14
+Added Pin To Net: NetName=A9 Pin=U2-J15
+Added Pin To Net: NetName=EIO0 Pin=U2-J16
+Added Pin To Net: NetName=DQS4_N Pin=U2-J17
+Added Pin To Net: NetName=Vccbat Pin=U2-J18
+Added Pin To Net: NetName=CAS Pin=U2-J19
+Added Pin To Net: NetName=BA0 Pin=U2-J20
+Added Pin To Net: NetName=RAS Pin=U2-J21
+Added Pin To Net: NetName=A5 Pin=U2-J22
+Added Pin To Net: NetName=GPIO62 Pin=U2-K1
+Added Pin To Net: NetName=GPIO66 Pin=U2-K2
+Added Pin To Net: NetName=GPIO77 Pin=U2-K3
+Added Pin To Net: NetName=GPIO74 Pin=U2-K4
+Added Pin To Net: NetName=Vccbat Pin=U2-K5
+Added Pin To Net: NetName=GPIO82 Pin=U2-K6
+Added Pin To Net: NetName=Vccbat Pin=U2-K7
+Added Pin To Net: NetName=Vccbram Pin=U2-K8
+Added Pin To Net: NetName=Vccbat Pin=U2-K9
+Added Pin To Net: NetName=Vccadc Pin=U2-K10
+Added Pin To Net: NetName=Vccbat Pin=U2-K11
+Added Pin To Net: NetName=Vccadc Pin=U2-K12
+Added Pin To Net: NetName=DQ32 Pin=U2-K13
+Added Pin To Net: NetName=DQ33 Pin=U2-K14
+Added Pin To Net: NetName=Vccbat Pin=U2-K15
+Added Pin To Net: NetName=DQ39 Pin=U2-K16
+Added Pin To Net: NetName=DQS4_P Pin=U2-K17
+Added Pin To Net: NetName=EIO1 Pin=U2-K18
+Added Pin To Net: NetName=EIO2 Pin=U2-K19
+Added Pin To Net: NetName=Vcco Pin=U2-K20
+Added Pin To Net: NetName=A1 Pin=U2-K21
+Added Pin To Net: NetName=A0 Pin=U2-K22
+Added Pin To Net: NetName=GPIO79 Pin=U2-L1
+Added Pin To Net: NetName=Vccbat Pin=U2-L2
+Added Pin To Net: NetName=GPIO76 Pin=U2-L3
+Added Pin To Net: NetName=GPIO85 Pin=U2-L4
+Added Pin To Net: NetName=GPIO84 Pin=U2-L5
+Added Pin To Net: NetName=GPIO98 Pin=U2-L6
+Added Pin To Net: NetName=Vccbram Pin=U2-L7
+Added Pin To Net: NetName=Vccbat Pin=U2-L8
+Added Pin To Net: NetName=Vccbat Pin=U2-L9
+Added Pin To Net: NetName=VP Pin=U2-L10
+Added Pin To Net: NetName=Vccbram Pin=U2-L11
+Added Pin To Net: NetName=CCLK Pin=U2-L12
+Added Pin To Net: NetName=DQ35 Pin=U2-L13
+Added Pin To Net: NetName=DQ36 Pin=U2-L14
+Added Pin To Net: NetName=DQ37 Pin=U2-L15
+Added Pin To Net: NetName=DQ38 Pin=U2-L16
+Added Pin To Net: NetName=Vcco Pin=U2-L17
+Added Pin To Net: NetName=EIO5 Pin=U2-L18
+Added Pin To Net: NetName=EIO3 Pin=U2-L19
+Added Pin To Net: NetName=EIO4 Pin=U2-L20
+Added Pin To Net: NetName=BA1 Pin=U2-L21
+Added Pin To Net: NetName=Vccbat Pin=U2-L22
+Added Pin To Net: NetName=GPIO78 Pin=U2-M1
+Added Pin To Net: NetName=GPIO81 Pin=U2-M2
+Added Pin To Net: NetName=GPIO80 Pin=U2-M3
+Added Pin To Net: NetName=Vcco Pin=U2-M4
+Added Pin To Net: NetName=GPIO95 Pin=U2-M5
+Added Pin To Net: NetName=GPIO94 Pin=U2-M6
+Added Pin To Net: NetName=Vccbat Pin=U2-M7
+Added Pin To Net: NetName=Vccbram Pin=U2-M8
+Added Pin To Net: NetName=VN Pin=U2-M9
+Added Pin To Net: NetName=Vrefp Pin=U2-M10
+Added Pin To Net: NetName=Vccbat Pin=U2-M11
+Added Pin To Net: NetName=Vccadc Pin=U2-M12
+Added Pin To Net: NetName=DQ34 Pin=U2-M13
+Added Pin To Net: NetName=Vcco Pin=U2-M14
+Added Pin To Net: NetName=EIO10 Pin=U2-M15
+Added Pin To Net: NetName=EIO11 Pin=U2-M16
+Added Pin To Net: NetName=EIO12 Pin=U2-M17
+Added Pin To Net: NetName=ODT0 Pin=U2-M18
+Added Pin To Net: NetName=Vccbat Pin=U2-M19
+Added Pin To Net: NetName=EIO9 Pin=U2-M20
+Added Pin To Net: NetName=BA2 Pin=U2-M21
+Added Pin To Net: NetName=CKE0 Pin=U2-M22
+Added Pin To Net: NetName=Vcco Pin=U2-N1
+Added Pin To Net: NetName=GPIO93 Pin=U2-N2
+Added Pin To Net: NetName=GPIO87 Pin=U2-N3
+Added Pin To Net: NetName=GPIO86 Pin=U2-N4
+Added Pin To Net: NetName=GPIO97 Pin=U2-N5
+Added Pin To Net: NetName=Vccbat Pin=U2-N6
+Added Pin To Net: NetName=Vccbram Pin=U2-N7
+Added Pin To Net: NetName=Vccbat Pin=U2-N8
+Added Pin To Net: NetName=DXN Pin=U2-N9
+Added Pin To Net: NetName=DXP Pin=U2-N10
+Added Pin To Net: NetName=Vccbram Pin=U2-N11
+Added Pin To Net: NetName=PROGRAM Pin=U2-N12
+Added Pin To Net: NetName=DQ62 Pin=U2-N13
+Added Pin To Net: NetName=DQ63 Pin=U2-N14
+Added Pin To Net: NetName=EIO35 Pin=U2-N15
+Added Pin To Net: NetName=Vccbat Pin=U2-N16
+Added Pin To Net: NetName=DQS7_P Pin=U2-N17
+Added Pin To Net: NetName=EIO6 Pin=U2-N18
+Added Pin To Net: NetName=EIO7 Pin=U2-N19
+Added Pin To Net: NetName=EIO8 Pin=U2-N20
+Added Pin To Net: NetName=Vcco Pin=U2-N21
+Added Pin To Net: NetName=CS0 Pin=U2-N22
+Added Pin To Net: NetName=GPIO89 Pin=U2-P1
+Added Pin To Net: NetName=GPIO92 Pin=U2-P2
+Added Pin To Net: NetName=Vccbat Pin=U2-P3
+Added Pin To Net: NetName=GPIO91 Pin=U2-P4
+Added Pin To Net: NetName=GPIO90 Pin=U2-P5
+Added Pin To Net: NetName=GPIO96 Pin=U2-P6
+Added Pin To Net: NetName=Vccbat Pin=U2-P7
+Added Pin To Net: NetName=Vccbram Pin=U2-P8
+Added Pin To Net: NetName=Vccbat Pin=U2-P9
+Added Pin To Net: NetName=Vccbram Pin=U2-P10
+Added Pin To Net: NetName=Vccbat Pin=U2-P11
+Added Pin To Net: NetName=Vccadc Pin=U2-P12
+Added Pin To Net: NetName=Vccbat Pin=U2-P13
+Added Pin To Net: NetName=DQ56 Pin=U2-P14
+Added Pin To Net: NetName=DQ60 Pin=U2-P15
+Added Pin To Net: NetName=EIO33 Pin=U2-P16
+Added Pin To Net: NetName=DQS7_N Pin=U2-P17
+Added Pin To Net: NetName=Vcco Pin=U2-P18
+Added Pin To Net: NetName=EIO26 Pin=U2-P19
+Added Pin To Net: NetName=EIO22 Pin=U2-P20
+Added Pin To Net: NetName=D2 Pin=U2-P21
+Added Pin To Net: NetName=MOSI Pin=U2-P22
+Added Pin To Net: NetName=GPIO88 Pin=U2-R1
+Added Pin To Net: NetName=GPIO6 Pin=U2-R2
+Added Pin To Net: NetName=GPIO5 Pin=U2-R3
+Added Pin To Net: NetName=GPIO25 Pin=U2-R4
+Added Pin To Net: NetName=Vcco Pin=U2-R5
+Added Pin To Net: NetName=GPIO32 Pin=U2-R6
+Added Pin To Net: NetName=Vccbram Pin=U2-R7
+Added Pin To Net: NetName=Vccbat Pin=U2-R8
+Added Pin To Net: NetName=Vccbram Pin=U2-R9
+Added Pin To Net: NetName=Vccbat Pin=U2-R10
+Added Pin To Net: NetName=Vccadc Pin=U2-R11
+Added Pin To Net: NetName=Vccbat Pin=U2-R12
+Added Pin To Net: NetName=TDI Pin=U2-R13
+Added Pin To Net: NetName=DQ57 Pin=U2-R14
+Added Pin To Net: NetName=Vcco Pin=U2-R15
+Added Pin To Net: NetName=DQ61 Pin=U2-R16
+Added Pin To Net: NetName=EIO34 Pin=U2-R17
+Added Pin To Net: NetName=DQ58 Pin=U2-R18
+Added Pin To Net: NetName=EIO27 Pin=U2-R19
+Added Pin To Net: NetName=Vccbat Pin=U2-R20
+Added Pin To Net: NetName=D3 Pin=U2-R21
+Added Pin To Net: NetName=MISO Pin=U2-R22
+Added Pin To Net: NetName=GPIO1 Pin=U2-T1
+Added Pin To Net: NetName=Vcco Pin=U2-T2
+Added Pin To Net: NetName=GPIO0 Pin=U2-T3
+Added Pin To Net: NetName=GPIO26 Pin=U2-T4
+Added Pin To Net: NetName=CLK0 Pin=U2-T5
+Added Pin To Net: NetName=GPIO33 Pin=U2-T6
+Added Pin To Net: NetName=Vccbat Pin=U2-T7
+Added Pin To Net: NetName=Vccbram Pin=U2-T8
+Added Pin To Net: NetName=Vccbat Pin=U2-T9
+Added Pin To Net: NetName=Vccbram Pin=U2-T10
+Added Pin To Net: NetName=Vccbat Pin=U2-T11
+Added Pin To Net: NetName=Vcco Pin=U2-T12
+Added Pin To Net: NetName=TMS Pin=U2-T13
+Added Pin To Net: NetName=GPIO113 Pin=U2-T14
+Added Pin To Net: NetName=GPIO114 Pin=U2-T15
+Added Pin To Net: NetName=GPIO117 Pin=U2-T16
+Added Pin To Net: NetName=Vccbat Pin=U2-T17
+Added Pin To Net: NetName=DQ59 Pin=U2-T18
+Added Pin To Net: NetName=FCS Pin=U2-T19
+Added Pin To Net: NetName=EIO28 Pin=U2-T20
+Added Pin To Net: NetName=EIO24 Pin=U2-T21
+Added Pin To Net: NetName=Vcco Pin=U2-T22
+Added Pin To Net: NetName=GPIO2 Pin=U2-U1
+Added Pin To Net: NetName=GPIO3 Pin=U2-U2
+Added Pin To Net: NetName=GPIO11 Pin=U2-U3
+Added Pin To Net: NetName=Vccbat Pin=U2-U4
+Added Pin To Net: NetName=GPIO27 Pin=U2-U5
+Added Pin To Net: NetName=GPIO30 Pin=U2-U6
+Added Pin To Net: NetName=GPIO48 Pin=U2-U7
+Added Pin To Net: NetName=CFGBVS Pin=U2-U8
+Added Pin To Net: NetName=M2 Pin=U2-U9
+Added Pin To Net: NetName=M1 Pin=U2-U10
+Added Pin To Net: NetName=M0 Pin=U2-U11
+Added Pin To Net: NetName=INIT Pin=U2-U12
+Added Pin To Net: NetName=TDO Pin=U2-U13
+Added Pin To Net: NetName=Vccbat Pin=U2-U14
+Added Pin To Net: NetName=GPIO111 Pin=U2-U15
+Added Pin To Net: NetName=GPIO118 Pin=U2-U16
+Added Pin To Net: NetName=DQ54 Pin=U2-U17
+Added Pin To Net: NetName=DQ55 Pin=U2-U18
+Added Pin To Net: NetName=Vcco Pin=U2-U19
+Added Pin To Net: NetName=DQ46 Pin=U2-U20
+Added Pin To Net: NetName=EIO25 Pin=U2-U21
+Added Pin To Net: NetName=PUDC Pin=U2-U22
+Added Pin To Net: NetName=Vccbat Pin=U2-V1
+Added Pin To Net: NetName=GPIO4 Pin=U2-V2
+Added Pin To Net: NetName=GPIO12 Pin=U2-V3
+Added Pin To Net: NetName=GPIO23 Pin=U2-V4
+Added Pin To Net: NetName=GPIO31 Pin=U2-V5
+Added Pin To Net: NetName=Vcco Pin=U2-V6
+Added Pin To Net: NetName=GPIO36 Pin=U2-V7
+Added Pin To Net: NetName=GPIO41 Pin=U2-V8
+Added Pin To Net: NetName=GPIO40 Pin=U2-V9
+Added Pin To Net: NetName=GPIO103 Pin=U2-V10
+Added Pin To Net: NetName=Vccbat Pin=U2-V11
+Added Pin To Net: NetName=TCK Pin=U2-V12
+Added Pin To Net: NetName=GPIO109 Pin=U2-V13
+Added Pin To Net: NetName=GPIO110 Pin=U2-V14
+Added Pin To Net: NetName=GPIO112 Pin=U2-V15
+Added Pin To Net: NetName=Vcco Pin=U2-V16
+Added Pin To Net: NetName=DQ50 Pin=U2-V17
+Added Pin To Net: NetName=DQ48 Pin=U2-V18
+Added Pin To Net: NetName=DQ49 Pin=U2-V19
+Added Pin To Net: NetName=DQ47 Pin=U2-V20
+Added Pin To Net: NetName=Vccbat Pin=U2-V21
+Added Pin To Net: NetName=EIO23 Pin=U2-V22
+Added Pin To Net: NetName=GPIO9 Pin=U2-W1
+Added Pin To Net: NetName=GPIO7 Pin=U2-W2
+Added Pin To Net: NetName=Vcco Pin=U2-W3
+Added Pin To Net: NetName=GPIO24 Pin=U2-W4
+Added Pin To Net: NetName=GPIO29 Pin=U2-W5
+Added Pin To Net: NetName=GPIO28 Pin=U2-W6
+Added Pin To Net: NetName=GPIO37 Pin=U2-W7
+Added Pin To Net: NetName=Vccbat Pin=U2-W8
+Added Pin To Net: NetName=GPIO46 Pin=U2-W9
+Added Pin To Net: NetName=GPIO104 Pin=U2-W10
+Added Pin To Net: NetName=GPIO107 Pin=U2-W11
+Added Pin To Net: NetName=GPIO108 Pin=U2-W12
+Added Pin To Net: NetName=Vcco Pin=U2-W13
+Added Pin To Net: NetName=IO3 Pin=U2-W14
+Added Pin To Net: NetName=GPIO115 Pin=U2-W15
+Added Pin To Net: NetName=GPIO116 Pin=U2-W16
+Added Pin To Net: NetName=DQ51 Pin=U2-W17
+Added Pin To Net: NetName=Vccbat Pin=U2-W18
+Added Pin To Net: NetName=EIO29 Pin=U2-W19
+Added Pin To Net: NetName=EIO30 Pin=U2-W20
+Added Pin To Net: NetName=DQ40 Pin=U2-W21
+Added Pin To Net: NetName=DQ41 Pin=U2-W22
+Added Pin To Net: NetName=GPIO10 Pin=U2-Y1
+Added Pin To Net: NetName=GPIO8 Pin=U2-Y2
+Added Pin To Net: NetName=GPIO17 Pin=U2-Y3
+Added Pin To Net: NetName=GPIO21 Pin=U2-Y4
+Added Pin To Net: NetName=Vccbat Pin=U2-Y5
+Added Pin To Net: NetName=GPIO34 Pin=U2-Y6
+Added Pin To Net: NetName=GPIO45 Pin=U2-Y7
+Added Pin To Net: NetName=GPIO44 Pin=U2-Y8
+Added Pin To Net: NetName=GPIO47 Pin=U2-Y9
+Added Pin To Net: NetName=Vcco Pin=U2-Y10
+Added Pin To Net: NetName=GPIO105 Pin=U2-Y11
+Added Pin To Net: NetName=GPIO106 Pin=U2-Y12
+Added Pin To Net: NetName=IO5 Pin=U2-Y13
+Added Pin To Net: NetName=IO2 Pin=U2-Y14
+Added Pin To Net: NetName=Vccbat Pin=U2-Y15
+Added Pin To Net: NetName=ALE Pin=U2-Y16
+Added Pin To Net: NetName=CLE Pin=U2-Y17
+Added Pin To Net: NetName=EIO31 Pin=U2-Y18
+Added Pin To Net: NetName=EIO32 Pin=U2-Y19
+Added Pin To Net: NetName=Vcco Pin=U2-Y20
+Added Pin To Net: NetName=DQS5_P Pin=U2-Y21
+Added Pin To Net: NetName=DQS5_N Pin=U2-Y22
+Add Net: Net with name "CLK0" already exists
+Add Net: Net with name "DONE" already exists
+Add Net: Net with name "INIT" already exists
+Add Net: Net with name "PROGRAM" already exists
+Added Member To Class: ClassName=LGA Interposer Member=Component * 2319757-1  Socket
+Added Member To Class: ClassName=A200T FPGA Member=Component C7 0.47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C8 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C9 0.47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C10 0.47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C11 0.47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C12 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C13 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C14 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C15 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C16 0.47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C17 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C18 0.47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C19 0.47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C20 0.47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C21 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C22 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C23 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C24 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C25 0.47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C26 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C27 0.47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C28 0.47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C29 0.47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C30 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C31 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C32 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C33 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C34 0.47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C35 0.47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C36 0.47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C37 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C38 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C39 47µF
+Added Member To Class: ClassName=A200T FPGA Member=Component C40 47µF
+Added Member To Class: ClassName=Top Member=Component P1 Header 3
+Added Member To Class: ClassName=Top Member=Component P2 Header 3
+Added Member To Class: ClassName=Top Member=Component P3 Header 3
+Added Member To Class: ClassName=Top Member=Component P4 Header 4
+Added Member To Class: ClassName=Top Member=Component P5 Header 3
+Added Member To Class: ClassName=Top Member=Component Q1 SiT8008 Oscillator
+Added Member To Class: ClassName=Top Member=Component TP1 5019
+Added Member To Class: ClassName=Top Member=Component TP2 5019
+Added Member To Class: ClassName=Top Member=Component TP3 5019
+Added Member To Class: ClassName=Top Member=Component TP4 5019
+Added Member To Class: ClassName=Top Member=Component TP5 5019
+Added Member To Class: ClassName=Top Member=Component TP6 5019
+Added Member To Class: ClassName=Top Member=Component TP7 5019
+Added Member To Class: ClassName=Top Member=Component TP8 5019
+Added Member To Class: ClassName=Top Member=Component TP9 5019
+Added Member To Class: ClassName=A200T FPGA Member=Component U2 XC7A200T-2FBG484I
+Added Room: Name=A200T FPGA
+Added Room: Name=LGA Interposer
+Added Room: Name=Top

@@ -1,0 +1,7 @@
+Running: xsim.dir/HX8357_TB_func_impl/xsimk.exe -simmode gui -wdb HX8357_TB_func_impl.wdb -simrunnum 0 -socket 56283
+Design successfully loaded
+Design Loading Memory Usage: 8992 KB (Peak: 8992 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 18548 KB (Peak: 18548 KB)
+Simulation CPU Usage: 1869514 ms
