@@ -377,3 +377,10 @@ Sept 6th
 - Verilog code to test the display is looking good ready for initial test
 - so looks like the display is damaged, this is likely from the shorted pin on a previous test PCB
 - From digging through datasheets it's being driven correctly i verified this with my oscilloscope and still no luck
+
+Jan 6th, 2023
+- Switched to a new display this one is working now. This uses a chip that handles the sketchy timing and allows me to interface over a custom MCU interface. Pretty fire tbh. 
+- Next steps are to do a quick overview of untested electrical pieces mostly the power converter circuit and the BMS. The display driver plus switchboard is pretty much verified at this point.
+- Battery circuit plus power circuitry is all that is outstanding. consider one of 2 topologies
+	- 3.2-4.2V battery stepped up to 5V with a boost then a battery charging circuit (preferred for now)
+	- 6.4-8.4V battery stepped down to 5V with a buck and BMS

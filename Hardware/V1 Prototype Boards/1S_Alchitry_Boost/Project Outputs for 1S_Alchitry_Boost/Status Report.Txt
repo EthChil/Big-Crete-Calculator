@@ -1,0 +1,29 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [1S_Alchitry_Boost.PrjPcb]
+   Generated File[BoostBreakoutV1_Copper_Signal_Top.gbr]
+   Generated File[BoostBreakoutV1_Copper_Signal_Bot.gbr]
+   Generated File[BoostBreakoutV1_Pads_Bot.gbr]
+   Generated File[BoostBreakoutV1_Pads_Top.gbr]
+   Generated File[BoostBreakoutV1_Soldermask_Bot.gbr]
+   Generated File[BoostBreakoutV1_Legend_Top.gbr]
+   Generated File[BoostBreakoutV1_Paste_Top.gbr]
+   Generated File[BoostBreakoutV1_Soldermask_Top.gbr]
+   Generated File[BoostBreakoutV1_Top_3D_Body.gbr]
+   Generated File[BoostBreakoutV1_Top_Assembly.gbr]
+   Generated File[BoostBreakoutV1_Top_Component_Center.gbr]
+   Generated File[BoostBreakoutV1_Top_Courtyard.gbr]
+   Generated File[BoostBreakoutV1_Profile.gbr]
+   Generated File[BoostBreakoutV1_NPTH_Drill.gbr]
+   Generated File[BoostBreakoutV1_PTH_Drill.gbr]
+   Generated File[BoostBreakoutV1_Drawing_1.gbr]
+   Generated File[BoostBreakoutV1_Drillmap_1.gbr]
+   Generated File[BoostBreakoutV1.RUL]
+   Generated File[BoostBreakoutV1.EXTREP]
+   Generated File[BoostBreakoutV1.REP]
+
+
+Files Generated   : 20
+Documents Printed : 0
+
+Finished Output Generation At 9:39:05 PM On 2023-01-07

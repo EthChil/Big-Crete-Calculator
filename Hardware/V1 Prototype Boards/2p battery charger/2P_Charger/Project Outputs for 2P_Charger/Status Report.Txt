@@ -1,0 +1,25 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [2P_Charger.PrjPcb]
+   Generated File[BreakoutV1_Copper_Signal_Top.gbr]
+   Generated File[BreakoutV1_Copper_Signal_Bot.gbr]
+   Generated File[BreakoutV1_Pads_Bot.gbr]
+   Generated File[BreakoutV1_Pads_Top.gbr]
+   Generated File[BreakoutV1_Soldermask_Bot.gbr]
+   Generated File[BreakoutV1_Legend_Top.gbr]
+   Generated File[BreakoutV1_Paste_Top.gbr]
+   Generated File[BreakoutV1_Soldermask_Top.gbr]
+   Generated File[BreakoutV1_Profile.gbr]
+   Generated File[BreakoutV1_NPTH_Drill.gbr]
+   Generated File[BreakoutV1_PTH_Drill.gbr]
+   Generated File[BreakoutV1_Drawing_1.gbr]
+   Generated File[BreakoutV1_Drillmap_1.gbr]
+   Generated File[BreakoutV1.RUL]
+   Generated File[BreakoutV1.EXTREP]
+   Generated File[BreakoutV1.REP]
+
+
+Files Generated   : 16
+Documents Printed : 0
+
+Finished Output Generation At 12:36:59 AM On 2023-01-07

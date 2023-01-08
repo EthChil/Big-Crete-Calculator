@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Electrical Design V1/FPGA/FPGA Board.md",
+                "file": "Design Journal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b169ecd8e648159e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Electrical Design V2/Power Architecture V2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Electrical Design V1/FPGA/FPGA Board.md",
+                "file": "Electrical Design V2/Power Architecture V2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,11 +142,11 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "72d048a4e61e24a8",
+  "active": "b169ecd8e648159e",
   "lastOpenFiles": [
-    "Electrical Design V1/FPGA/FPGA Clock.md",
     "Design Journal.md",
     "Electrical Design V1/FPGA/FPGA Board.md",
+    "Electrical Design V1/FPGA/FPGA Clock.md",
     "Electrical Design V1/Boot SPI to FPGA connection.md",
     "Electrical Design V1/Power Subcircuit.md",
     "Mechanical Design V3/Mechanical Stackup FPGA UP.png",
