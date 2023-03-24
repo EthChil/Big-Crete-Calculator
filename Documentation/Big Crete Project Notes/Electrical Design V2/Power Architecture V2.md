@@ -19,12 +19,19 @@ BATT - add output capacitor and hook into cells
 
 Boost circuit
 TLV61070A - 5V output with 2.7V to 4.35V on input which is within lipo range
+This circuit is capped at 1A continous so 5W delivery (for now put two of these in parallel at 1.5A each)
+if this isn't sufficient swap to these https://www.ti.com/lit/ds/symlink/tps61033.pdf?ts=1677895328479&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS61033
 
 
 
 Continous power circuit
 
 Make brekaout PCBs for ICs that are breadboard mountable 
+
+Battery
+
+Power Consumption document
+https://docs.google.com/spreadsheets/d/19ptPP8tYTS9Z_lMBAoifKPtHAU-QfR65nrqQTcai4M8/edit?usp=sharing
 
 
 

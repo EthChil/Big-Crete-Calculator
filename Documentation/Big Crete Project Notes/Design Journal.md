@@ -384,3 +384,44 @@ Jan 6th, 2023
 - Battery circuit plus power circuitry is all that is outstanding. consider one of 2 topologies
 	- 3.2-4.2V battery stepped up to 5V with a boost then a battery charging circuit (preferred for now)
 	- 6.4-8.4V battery stepped down to 5V with a buck and BMS
+
+Jan 10th
+- ordered final testboards for BMS and Boost circuit
+- started working on the full motherboard integration
+- using this new display the calculator width and height can be shrunk a bit but it extrudes from the frame, to resolve this I think I'm going to oversize the cutout and add a 3d printed bezel after the fact which I can slowly modify to fit
+- Steps for tomorrow are as follows
+	- focus on the mechanical integration and get the top panel in a shape that makes sense
+	- shrink the top panel (switch plate) axes so that it nicely fits the display and minimizes the size of the calculator
+	- once this is complete refit the alchitry into the design
+	- after that cad up the new batteries and mock them into the design as well make sure to add a blocked between the exposed through hole pins and the battery
+	- once this is complete shrink the height of the device
+	- once the positions look good redesign the pcb mock 
+	- NOTE there is no really good documentation on the alchitry header pinout so maybe take a closer look at what exists prior to tapeout to ensure this isn't a disaster
+
+Jan 11th 
+- decent amount of cad work fitting everything in
+- display is poking out in current configuration and USBC doesn't really have a place to go
+- A cutout will be made in the PCB to allow the components space this will require a more detailed model of the display 
+- it's unclear where all the circuits will go they aren't terribly large but there also isn't much space 
+- I want to try to keep the alchitry where it is in that upper section beneath the display and find some method to get the USBC connector in there as well
+
+Jan 12th
+- mechanical stackup is looking good the design has been split into two different boards. one will be the switchboard with all the led driver and switch decoding electronics everything else will be handled by the main board
+- Usb-C will go back to the regular flat connector which should work fine
+
+Feb 3rd
+- I have the prorotype switch boards
+- I also assembled the test boards for the boost convertor and battery charger, the boost circuit appears to be fine it can handle a modest load but without a proper load box it's hard to characterize it properly. One major challenge I noticed is that the current output of the boost isn't sized correctly to power all the LEDs, the display and the alchitry
+
+Mar 13
+- link to sheet with data on power consumption the big deliverables for tonight are firming up the power architecture and making required schematic modifications and at least lay out the LCD board, bms and power circuit. I should try to order that tonight if possible or at least have it ready to order. https://docs.google.com/spreadsheets/d/19ptPP8tYTS9Z_lMBAoifKPtHAU-QfR65nrqQTcai4M8/edit?usp=sharing
+
+Mar 14
+- Based on the power budget the 1A circuit should be sufficient for the display plus FPGA which is a good sign
+- The LED circuit will be redesigned following the work in [[Current Mirror Power Analysis]] 
+- I created a document to keep notes on LTSpice techniques in [[LTSpice Master Notes]]
+- Next step is to redo the LED driver circuit and resolve problems spotted in the main power board
+- Main power board should be able to put out enough power but it needs to be rewired to provide voltage from the batteries direct to the LED circuit and I think some of the LED circuitry should be shifted on to it given that it is the mainboard... (doing this would mean more connections between the two boards)
+
+Mar 15
+- for the led driver the decoders are going to need to be redone to handle this since we need to address 0-5 that requires 3 bits of binary meaning an additional decoder with each decoder having a dedicated address line

@@ -2,10 +2,10 @@
 
 This is a single board that is the minimum required to make a calculator with the alchitry
 
+
 # External Devices
 
 ## Alchitry
-
 
 ## Battery
 
@@ -15,7 +15,6 @@ This is a single board that is the minimum required to make a calculator with th
 
 ## Screen
 
-
 ## USB-C Port
 
 
@@ -23,12 +22,15 @@ This is a single board that is the minimum required to make a calculator with th
 
 ## USB-C Port
 
-## Screen Backlight Driver
+## Screen
+Adafruit Display that handles driving, backlight, voltage translation
 
 ## LED Multiplexer
 
 ## Switch Passthrough
 
 ## BMS
+simple single cell charger that takes 5V from USB-C as input
 
-## Buck Regulator 
+## Boost Regulator 
+steps 3.2V-4.2V to a constant 5V

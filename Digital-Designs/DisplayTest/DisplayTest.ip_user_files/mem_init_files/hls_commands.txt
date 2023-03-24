@@ -1,0 +1,5 @@
+
+config_interface -m_axi_conservative_mode
+
+#config_interface -input_reg_mode both -output_reg_mode both -m_axi_addr64
+config_interface -m_axi_addr64=true
