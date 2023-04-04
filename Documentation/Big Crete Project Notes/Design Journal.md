@@ -425,3 +425,13 @@ Mar 14
 
 Mar 15
 - for the led driver the decoders are going to need to be redone to handle this since we need to address 0-5 that requires 3 bits of binary meaning an additional decoder with each decoder having a dedicated address line
+
+Mar 28
+- led driver is actually just going to be connected straight thru for 15 pins to drive the display + the lowside address which is
+- The connector I selected is this set of header pins from harwin which also will act as board spacer https://www.digikey.ca/en/products/detail/harwin-inc/M50-3502042/2264368
+
+Apr 3
+- the next step here is to layout the board
+- With the reduced number of components and tighter connector routing around the connector will become more complex but the board should as a whole become easier
+- I also noticed when doing some MCAD integration that the switches weren't lining up with the front plate I should resolve this prior to redoing the layout on the switch board 
+- This is now resolved I had to move the switches up slightly, there is another issue which seems to be the radii on the switch holes may hit the switches, this can be resolved in post with a precision file set which I will need to order [[To Buy]]

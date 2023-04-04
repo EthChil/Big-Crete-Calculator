@@ -1,4 +1,5 @@
 - More gateron green switches
 - quick swap plugs for switches
-- stabilizers
-- JTAG cable HS2 from digilent
+- precision file set
+- order switchboard (asap)
+- get quote on machining top plate

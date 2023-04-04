@@ -1,0 +1,65 @@
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Change Component Designator: OldDesignator=R? NewDesignator=R6
+Change Component Designator: OldDesignator=T? NewDesignator=T2
+Change Component Designator: OldDesignator=T? NewDesignator=T3
+Change Component Designator: OldDesignator=T? NewDesignator=T5
+Change Component Designator: OldDesignator=T? NewDesignator=T6
+Change Component Designator: OldDesignator=T? NewDesignator=T8
+Change Component Designator: OldDesignator=T? NewDesignator=T9
+Change Component Designator: OldDesignator=T? NewDesignator=T11
+Change Component Designator: OldDesignator=T? NewDesignator=T12
+Change Component Designator: OldDesignator=T? NewDesignator=T14
+Change Component Designator: OldDesignator=T? NewDesignator=T15
+Change Component Designator: OldDesignator=T? NewDesignator=T24
+Change Component Designator: OldDesignator=T? NewDesignator=T25
+Change Component Designator: OldDesignator=T? NewDesignator=T26
+Change Component Designator: OldDesignator=T? NewDesignator=T27
+Change Component Designator: OldDesignator=TP? NewDesignator=TP1
+Change Component Designator: OldDesignator=TP? NewDesignator=TP2
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR1_1
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR3_2
+Change Net Name : Old Net Name=NetT?_2 New Net Name=NetT2_2
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=T25-1
+Added Pin To Net: NetName=NetR2_1 Pin=T27-3
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=R4-3
+Added Pin To Net: NetName=NetR4_2 Pin=R6-2
+Added Pin To Net: NetName=NetR4_2 Pin=T25-2
+Added Pin To Net: NetName=NetR4_2 Pin=T27-1
+Added Pin To Net: NetName=NetR4_2 Pin=TP2-1
+Added Net: Name=NetR4_2
+Added Pin To Net: NetName=NetT3_2 Pin=T3-2
+Added Pin To Net: NetName=NetT3_2 Pin=T6-2
+Added Pin To Net: NetName=NetT3_2 Pin=T9-2
+Added Pin To Net: NetName=NetT3_2 Pin=T12-2
+Added Pin To Net: NetName=NetT3_2 Pin=T15-2
+Added Pin To Net: NetName=NetT3_2 Pin=T25-3
+Added Net: Name=NetT3_2
+Added Member To Class: ClassName=LED Driver and Switches Member=Component R1 Res3
+Added Member To Class: ClassName=LED Driver and Switches Member=Component R3 3362P-1-101LF
+Added Member To Class: ClassName=LED Driver and Switches Member=Component R4 3362P-1-101LF
+Added Member To Class: ClassName=LED Driver and Switches Member=Component R5 Res3
+Added Member To Class: ClassName=LED Driver and Switches Member=Component R6 Res3
+Added Member To Class: ClassName=LED Driver and Switches Member=Component T2 C344010 NCH MOS
+Added Member To Class: ClassName=LED Driver and Switches Member=Component T3 C344010 NCH MOS
+Added Member To Class: ClassName=LED Driver and Switches Member=Component T5 C344010 NCH MOS
+Added Member To Class: ClassName=LED Driver and Switches Member=Component T8 C344010 NCH MOS
+Added Member To Class: ClassName=LED Driver and Switches Member=Component T9 C344010 NCH MOS
+Added Member To Class: ClassName=LED Driver and Switches Member=Component T11 C344010 NCH MOS
+Added Member To Class: ClassName=LED Driver and Switches Member=Component T12 C344010 NCH MOS
+Added Member To Class: ClassName=LED Driver and Switches Member=Component T14 C344010 NCH MOS
+Added Member To Class: ClassName=LED Driver and Switches Member=Component T15 C344010 NCH MOS
+Added Member To Class: ClassName=LED Driver and Switches Member=Component T24 C6749 NPN BJT
+Added Member To Class: ClassName=LED Driver and Switches Member=Component T25 C6749 NPN BJT
+Added Member To Class: ClassName=LED Driver and Switches Member=Component T26 C6749 NPN BJT
+Added Member To Class: ClassName=LED Driver and Switches Member=Component T27 C6749 NPN BJT
+Added Member To Class: ClassName=LED Driver and Switches Member=Component TP2 5019
+Added Room: Name=Connectors
+Added Room: Name=LED Driver and Switches

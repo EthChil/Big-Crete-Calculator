@@ -114,9 +114,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d1e84c0f36c85db1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To Buy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -174,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BMS Notes.md",
+                "file": "To Buy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,14 +234,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9e45e1b57af5974b",
+  "active": "d1e84c0f36c85db1",
   "lastOpenFiles": [
-    "High Level Scope.md",
+    "Design Journal.md",
     "BMS Notes.md",
+    "Electrical Design V2/Current Mirror Power Analysis.md",
+    "Tone 5 bot debug.md",
+    "Attachments/Pasted image 20230327185237.png",
+    "High Level Scope.md",
     "Electrical Design V1/FPGA/FPGA Board.md",
     "Electrical Design V2/LED Driver Board Design Journal.md",
-    "Design Journal.md",
-    "Electrical Design V2/Current Mirror Power Analysis.md",
     "Electrical Design V2/Attachments/Pasted image 20230315141529.png",
     "Electrical Design V2/Untitled 1.md",
     "Electrical Design V2/Power Architecture V2.md",
@@ -243,7 +257,6 @@
     "Attachments/Pasted image 20230314142118.png",
     "Electrical Design V1/LED + Driver.md",
     "Attachments/Pasted image 20230314140208.png",
-    "Attachments/Pasted image 20230314135408.png",
     "Untitled.canvas",
     "Electrical Design V1/Power Subcircuit.md",
     "Architecture V2/TOP Design.md",
