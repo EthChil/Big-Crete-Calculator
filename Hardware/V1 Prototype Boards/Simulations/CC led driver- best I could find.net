@@ -1,0 +1,59 @@
+* C:\Users\ethan\Documents\GitHub\Big-Crete-Calculator\Hardware\V1 Prototype Boards\Simulations\CC led driver- best I could find.asc
+R1 N007 0 33
+V1 N005 0 5
+V2 0 N013 5
+V3 N010 0 3.3
+Q1 N019 N021 N007 0 NPN
+Q2 N016 N011 N008 0 PNP
+D1 N016 N019 NSCW100
+V4 N012 0 PULSE(0 3.3 0 0 0 0.005 0.01)
+V5 N022 0 PULSE(5 0 0 0 0 0.005 0.01)
+XU2 N010 N007 N005 N013 N008 level2 Avol=1Meg GBW=10Meg Slew=10Meg Ilimit=25m Rail=0 Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R2 N012 N011 10k
+R3 N022 N021 10k
+Q3 N017 N018 N020 0 2N2222
+Q4 N018 N020 0 0 2N2222
+R4 N001 N018 1000
+R5 N020 0 7
+V6 N001 0 50
+M1 N009 N014 N017 N017 Si7336ADP
+V7 N015 0 PULSE(5 0 0 0 0 0.005 0.01)
+M2 N004 N002 N001 N001 AO6407
+V8 N003 0 PULSE(0 5 0 0 0 0.005 0.01)
+R9 N015 N014 10k
+R10 N003 N002 10k
+D4 N006 0 red_led
+V9 N006 0 PULSE(0 3.791 0 0.05 0.05 0.005 0.01)
+D2 N006 0 green_led
+D5 N006 0 blue_led
+D3 NC_01 NC_02 blue_led
+Q5 N030 N031 N032 0 NPN
+Q6 N031 N032 0 0 NPN
+R6 N023 N031 1000
+R7 N032 0 3
+V10 N023 0 PULSE(3.6 4.2 0.005 0.09 0.1 0.005)
+M3 N027 N028 N030 N030 Si7336ADP
+V11 N029 0 5
+M4 N026 N024 N023 N023 AO6407
+V12 N025 0 0
+R8 N029 N028 10k
+R11 N025 N024 10k
+D6 N026 N027 blue_led
+D7 N004 N009 red_led
+.model D D
+.lib C:\Users\ethan\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\ethan\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\ethan\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 0 0.1 0 0.01
+.model red_led D(Is=0.0000606102 n=13.5699)
+.model green_led D(Is=0.00000257692 n=13.9707)
+.model blue_led D(Is=0.00000257692 n=13.9707)
+* IV DIODE CHECKER
+.TEMP 25
+.lib UniversalOpAmp2.lib
+.backanno
+.end

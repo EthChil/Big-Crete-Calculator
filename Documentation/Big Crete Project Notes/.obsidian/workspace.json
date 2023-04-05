@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To Buy.md",
+                "file": "Design Journal.md",
                 "mode": "source",
                 "source": false
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To Buy.md",
+                "file": "Design Journal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,14 +236,16 @@
   },
   "active": "d1e84c0f36c85db1",
   "lastOpenFiles": [
-    "Design Journal.md",
-    "BMS Notes.md",
     "Electrical Design V2/Current Mirror Power Analysis.md",
+    "Electrical Design V1/LED + Driver.md",
+    "Electrical Design V2/LED Driver Board Design Journal.md",
+    "Design Journal.md",
+    "To Buy.md",
+    "BMS Notes.md",
     "Tone 5 bot debug.md",
     "Attachments/Pasted image 20230327185237.png",
     "High Level Scope.md",
     "Electrical Design V1/FPGA/FPGA Board.md",
-    "Electrical Design V2/LED Driver Board Design Journal.md",
     "Electrical Design V2/Attachments/Pasted image 20230315141529.png",
     "Electrical Design V2/Untitled 1.md",
     "Electrical Design V2/Power Architecture V2.md",
@@ -255,7 +257,6 @@
     "Attachments/Pasted image 20230314145236.png",
     "Attachments/Pasted image 20230314142137.png",
     "Attachments/Pasted image 20230314142118.png",
-    "Electrical Design V1/LED + Driver.md",
     "Attachments/Pasted image 20230314140208.png",
     "Untitled.canvas",
     "Electrical Design V1/Power Subcircuit.md",

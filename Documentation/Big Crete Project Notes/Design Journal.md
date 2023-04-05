@@ -435,3 +435,10 @@ Apr 3
 - With the reduced number of components and tighter connector routing around the connector will become more complex but the board should as a whole become easier
 - I also noticed when doing some MCAD integration that the switches weren't lining up with the front plate I should resolve this prior to redoing the layout on the switch board 
 - This is now resolved I had to move the switches up slightly, there is another issue which seems to be the radii on the switch holes may hit the switches, this can be resolved in post with a precision file set which I will need to order [[To Buy]]
+
+Apr 4
+- Starting to lay out the board and I am now realizing the double stacked hearder is maybe not better than a traditional approach I am going to try sourcing a flat one with the same number of connectors and pitch i expect this to work better than what I have currently selected
+- I was able to find ones that are 20pos but single row, using two of these side by side should resolve the issue https://www.digikey.ca/en/products/detail/harwin-inc/M50-3532042/7044020
+- Time to modify the library to add this in
+- library was modified and pcb was updated
+- some cleaning was done on routing and I started laying the components out one major thing that is missing is the alignment on the header, I'm going to let the Switchboard PCB drive the placement and then this will be handled on the top board after
