@@ -442,3 +442,8 @@ Apr 4
 - Time to modify the library to add this in
 - library was modified and pcb was updated
 - some cleaning was done on routing and I started laying the components out one major thing that is missing is the alignment on the header, I'm going to let the Switchboard PCB drive the placement and then this will be handled on the top board after
+
+Apr 7
+- broke some projects so that will need to be resolved by changing the folder names to have V2 after
+- Finished the switchboard layout it's looking good and ready to order
+- 

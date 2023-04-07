@@ -1,0 +1,28 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [Switchboard.PrjPcb]
+   Generated File[Switchboard V1_Copper_Signal_Top.gbr]
+   Generated File[Switchboard V1_Copper_Signal_Bot.gbr]
+   Generated File[Switchboard V1_Pads_Bot.gbr]
+   Generated File[Switchboard V1_Pads_Top.gbr]
+   Generated File[Switchboard V1_Legend_Bot.gbr]
+   Generated File[Switchboard V1_Soldermask_Bot.gbr]
+   Generated File[Switchboard V1_Paste_Bot.gbr]
+   Generated File[Switchboard V1_Legend_Top.gbr]
+   Generated File[Switchboard V1_Paste_Top.gbr]
+   Generated File[Switchboard V1_Soldermask_Top.gbr]
+   Generated File[Switchboard V1_Keep-out.gbr]
+   Generated File[Switchboard V1_Profile.gbr]
+   Generated File[Switchboard V1_NPTH_Drill.gbr]
+   Generated File[Switchboard V1_PTH_Drill.gbr]
+   Generated File[Switchboard V1_Drawing_1.gbr]
+   Generated File[Switchboard V1_Drillmap_1.gbr]
+   Generated File[Switchboard V1.RUL]
+   Generated File[Switchboard V1.EXTREP]
+   Generated File[Switchboard V1.REP]
+
+
+Files Generated   : 19
+Documents Printed : 0
+
+Finished Output Generation At 12:56:10 AM On 2023-04-07

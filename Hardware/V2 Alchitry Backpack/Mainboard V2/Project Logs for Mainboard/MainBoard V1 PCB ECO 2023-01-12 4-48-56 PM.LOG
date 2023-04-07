@@ -1,0 +1,8 @@
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Change Component Designator: OldDesignator=P? NewDesignator=P5
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Change Net Name : Old Net Name=NetJ?_A5 New Net Name=NetJ1_A5
+Change Net Name : Old Net Name=NetJ?_B5 New Net Name=NetJ1_B5
+Added Member To Class: ClassName=Connectors Member=Component R4 5.1 kOhms
+Added Room: Name=Connectors

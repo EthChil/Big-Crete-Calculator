@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=LED Green Ca4 Pin=T2-3
+Added Pin To Net: NetName=LED Green Ca3 Pin=T5-3
+Added Pin To Net: NetName=LED Green Ca2 Pin=T8-3
+Added Pin To Net: NetName=LED Green Ca1 Pin=T11-3
+Added Pin To Net: NetName=LED Green Ca0 Pin=T14-3
+Added Room: Name=Connectors
+Added Room: Name=LED Driver and Switches

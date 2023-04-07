@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GND Pin=P2-1
+Removed Pin From Net: NetName=Vbatt Pin=P3-2
+Added Pin To Net: NetName=Vbatt Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P3-2
+Change Net Name : Old Net Name=5V New Net Name=+5
+Added Room: Name=5VBoost
+Added Room: Name=BatteryManagement
+Added Room: Name=Connectors
