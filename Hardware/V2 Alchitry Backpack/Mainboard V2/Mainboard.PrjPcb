@@ -83,7 +83,7 @@ GenerateClassCluster=0
 DocumentUniqueId=SRLGMNGL
 
 [Document3]
-DocumentPath=BatteryManagement.SchDoc
+DocumentPath=..\Mainboard\BatteryManagement.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -151,79 +151,79 @@ GenerateClassCluster=0
 DocumentUniqueId=BORJMDCS
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.EXTREP
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.REP
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1.REP
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.RUL
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1_Copper_Signal_Bot.gbr
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1_Copper_Signal_Top.gbr
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1_Drawing_1.gbr
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Drawing_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1_Drillmap_1.gbr
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Drillmap_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1_Keep-out.gbr
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Keep-out.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1_Legend_Bot.gbr
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1_Legend_Top.gbr
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1_NPTH_Drill.gbr
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_NPTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1_Pads_Bot.gbr
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Pads_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1_Pads_Top.gbr
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Pads_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1_Paste_Bot.gbr
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Paste_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1_Paste_Top.gbr
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Paste_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1_Profile.gbr
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Profile.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1_PTH_Drill.gbr
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_PTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1_Soldermask_Bot.gbr
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1_Soldermask_Top.gbr
+DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [Configuration1]
