@@ -446,4 +446,6 @@ Apr 4
 Apr 7
 - broke some projects so that will need to be resolved by changing the folder names to have V2 after
 - Finished the switchboard layout it's looking good and ready to order
-- 
+- top switchboard can be ordered with send cut send for $65 per piece
+- current issue with parts hitting main board, the biggest offenders are the pots which luckily are thru hole so I could just extend the holes through the mainboard
+- The mainboard will require an overhaul to use the new connectors 
