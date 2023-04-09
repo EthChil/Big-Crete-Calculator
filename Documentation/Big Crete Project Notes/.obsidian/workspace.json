@@ -56,18 +56,6 @@
             }
           },
           {
-            "id": "8a402bba8e678aac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Electrical Design V1/Power Subcircuit.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d86e64140a743239",
             "type": "leaf",
             "state": {
@@ -121,14 +109,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Journal.md",
+                "file": "Electrical Design V2/Current Mirror Power Analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -186,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Journal.md",
+                "file": "Electrical Design V2/Current Mirror Power Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +213,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -236,10 +223,10 @@
   },
   "active": "d1e84c0f36c85db1",
   "lastOpenFiles": [
+    "Design Journal.md",
     "Electrical Design V2/Current Mirror Power Analysis.md",
     "Electrical Design V1/LED + Driver.md",
     "Electrical Design V2/LED Driver Board Design Journal.md",
-    "Design Journal.md",
     "To Buy.md",
     "BMS Notes.md",
     "Tone 5 bot debug.md",
