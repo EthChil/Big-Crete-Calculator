@@ -1,5 +1,5 @@
 # Top Level Electrical
-*outlines the eletrical design of V1*
+*outlines the eletrical design of V13
 
 refer to 
 [[Design Journal]]

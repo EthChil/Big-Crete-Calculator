@@ -1,5 +1,3 @@
 - More gateron green switches
-- quick swap plugs for switches
+- quick swap plugs for switches (stretch)
 - precision file set
-- order switchboard (asap)
-- get quote on machining top plate

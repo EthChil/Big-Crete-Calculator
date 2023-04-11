@@ -6,4 +6,4 @@ One big issue is how to change the addressing structure now that blue green and 
 
 ![[Pasted image 20230315141529.png]]
 
-New thought, this should just be handled in the fpga since that's literally what it's for and it has a lot of available pins so a higher density connector should be employed. I think using a tighter pitch or double rows is the solution here. 
+New thought, this should just be handled in the fpga since that's literally what it's for and it has a lot of available pins so a higher density connector should be employed. I think using a tighter pitch or double rows is the solution here. The savings on pins isn't outweighed by the added circuit complexity and honestly just makes a more expensive and complex design.

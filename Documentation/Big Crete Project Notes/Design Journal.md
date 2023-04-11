@@ -1,3 +1,6 @@
+
+Stream of conciousness for project allows me to keep track of what I've done and is a digital scratchpad
+
 April 29th, 2021
 - Doing design work before I start at NVIDIA
 - Current status
@@ -449,3 +452,6 @@ Apr 7
 - top switchboard can be ordered with send cut send for $65 per piece
 - current issue with parts hitting main board, the biggest offenders are the pots which luckily are thru hole so I could just extend the holes through the mainboard
 - The mainboard will require an overhaul to use the new connectors 
+
+Apr 9
+- Spring cleaning, cleaning up the github and reorganizing this documentation
