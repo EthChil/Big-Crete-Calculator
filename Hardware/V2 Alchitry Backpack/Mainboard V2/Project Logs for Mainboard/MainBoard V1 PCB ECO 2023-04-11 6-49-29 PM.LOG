@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=PG Pin=J3-21
+Added Pin To Net: NetName=PG Pin=J2-49
+Added Room: Name=5VBoost
+Added Room: Name=BatteryManagement
+Added Room: Name=Connectors

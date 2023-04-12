@@ -151,162 +151,78 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Design Rule Check - Switchboard V1.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Net Status - Switchboard V1.html
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument5]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1.REP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1.REP
 DItemRevisionGUID=
 
-[GeneratedDocument7]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument8]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument9]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument10]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument11]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument12]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument13]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1_Drawing_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument14]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1_Drawing_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument15]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1_Drillmap_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument16]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1_Drillmap_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument17]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1_Keep-out.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument18]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1_Keep-out.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument19]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument20]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1_Legend_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument21]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument22]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1_Legend_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument23]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1_NPTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument24]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1_NPTH_Drill.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument25]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1_Pads_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument26]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1_Pads_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument27]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1_Pads_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument28]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1_Pads_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument29]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument30]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1_Paste_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument31]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument32]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1_Paste_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument33]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument34]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1_Profile.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument35]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1_PTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument36]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1_PTH_Drill.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument37]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument38]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument39]
-DocumentPath=..\Switchboard\Project Outputs for Switchboard\Switchboard V1_Soldermask_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument40]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for Switchboard\Switchboard V1_Soldermask_Top.gbr
 DItemRevisionGUID=
 

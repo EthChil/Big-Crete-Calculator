@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=SWH0 Pin=J2-9
+Removed Pin From Net: NetName=SWH1 Pin=J2-11
+Removed Pin From Net: NetName=SWH2 Pin=J2-12
+Remove Pin from Net: Failed to remove Pin
+Removed Pin From Net: NetName=SWH4 Pin=J2-15
+Removed Pin From Net: NetName=SWH5 Pin=J2-17
+Added Pin To Net: NetName=SWH5 Pin=J2-9
+Added Pin To Net: NetName=SWH4 Pin=J2-11
+Added Pin To Net: NetName=SWH3 Pin=J2-12
+Added Pin To Net: NetName=SWH2 Pin=J2-14
+Added Pin To Net: NetName=SWH2 Pin=J2-14
+Added Pin To Net: NetName=SWH2 Pin=J2-14
+Added Pin To Net: NetName=SWH1 Pin=J2-15
+Added Pin To Net: NetName=SWH0 Pin=J2-17
+Added Room: Name=5VBoost
+Added Room: Name=Connectors

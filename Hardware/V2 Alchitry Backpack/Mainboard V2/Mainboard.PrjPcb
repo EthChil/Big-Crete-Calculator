@@ -83,23 +83,6 @@ GenerateClassCluster=0
 DocumentUniqueId=SRLGMNGL
 
 [Document3]
-DocumentPath=..\Mainboard\BatteryManagement.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LXTPTYYB
-
-[Document4]
 DocumentPath=..\..\..\..\..\GrabCAD\Altium Projs\Universal Library\2020-09-26_17-27-19.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +99,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IGOAITCV
 
-[Document5]
+[Document4]
 DocumentPath=..\..\..\..\..\GrabCAD\Altium Projs\Universal Library\2020-09-26_17-27-19.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +116,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FKOFSZHG
 
-[Document6]
+[Document5]
 DocumentPath=MainBoard V1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,81 +133,22 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BORJMDCS
 
-[GeneratedDocument1]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1.EXTREP
+[Document6]
+DocumentPath=BatteryManagement.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1.REP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Drawing_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Drillmap_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Keep-out.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_NPTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Pads_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Pads_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_PTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=..\Mainboard\Project Outputs for Mainboard\MainBoard V1_Soldermask_Top.gbr
-DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LXTPTYYB
 
 [Configuration1]
 Name=Sources

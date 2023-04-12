@@ -455,3 +455,7 @@ Apr 7
 
 Apr 9
 - Spring cleaning, cleaning up the github and reorganizing this documentation
+
+Apr 11
+- Continuing work on mainboard pushing to get this ordered prior to exams
+- The mainboard has cutouts integrated and the new connector added and lined up, routing is needed now
