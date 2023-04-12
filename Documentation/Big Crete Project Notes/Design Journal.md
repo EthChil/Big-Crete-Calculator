@@ -459,3 +459,7 @@ Apr 9
 Apr 11
 - Continuing work on mainboard pushing to get this ordered prior to exams
 - The mainboard has cutouts integrated and the new connector added and lined up, routing is needed now
+- Cleaned up mainboard and checked with solidworks model
+- I removed the dummy boards from the solidworks model
+- Currently ordering JLCPCB 
+- JLCPCB order is placed I am now going through and ordering parts on DIGIKEY

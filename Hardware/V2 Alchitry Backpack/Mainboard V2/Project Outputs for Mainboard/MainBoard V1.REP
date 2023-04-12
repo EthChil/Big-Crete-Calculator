@@ -2,37 +2,12 @@
 FileName = MainBoard V1.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Layer
-      File : MainBoard V1_Copper_Signal_Top.gbr
+Generating : Bottom Paste
+      File : MainBoard V1.GBP
 
-    Adding Layer      : Top Layer
+    Adding Layer      : Bottom Paste
 
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : MainBoard V1_Copper_Signal_Bot.gbr
+    Adding Layer      : Board Shape
 
     Adding Layer      : Bottom Layer
 
@@ -40,25 +15,39 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D10
-    D11
-    D12
+    D14
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : MainBoard V1.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Board Shape
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
     D13
     D14
     D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
     D22
     D23
     D24
-    D25
-    D26
-    D27
-    D28
     D29
     D30
     D31
@@ -70,11 +59,61 @@ Used DCodes :
     D37
     D38
     D39
+    D40
+    D41
+    D42
 *************************************************************
 
 *************************************************************
-Generating : Bottom Pad Master
-      File : MainBoard V1_Pads_Bot.gbr
+Generating : Bottom Tenting
+      File : MainBoard V1.GM6
+
+    Adding Layer      : Bottom Tenting
+
+    Adding Layer      : Board Shape
+
+
+Used DCodes :
+    D14
+    D41
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Top Tenting
+      File : MainBoard V1.GM4
+
+    Adding Layer      : Top Tenting
+
+    Adding Layer      : Board Shape
+
+
+Used DCodes :
+    D14
+    D41
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Board Shape
+      File : MainBoard V1.GM7
+
+    Adding Layer      : Board Shape
+
+    Adding Layer      : Board Shape
+
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : MainBoard V1.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Board Shape
 
     Adding Layer      : Bottom Layer
 
@@ -82,7 +121,66 @@ Generating : Bottom Pad Master
 
 
 Used DCodes :
-    D10
+    D14
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D49
+    D56
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+*************************************************************
+
+*************************************************************
+Generating : 5V
+      File : MainBoard V1.G1
+
+    Adding Layer      : 5V
+
+    Adding Layer      : Board Shape
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D34
+    D37
+    D41
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : MainBoard V1.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Board Shape
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
     D16
     D17
     D18
@@ -92,8 +190,128 @@ Used DCodes :
     D22
     D23
     D24
+    D25
+    D26
     D27
     D28
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : MainBoard V1.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Board Shape
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : GND
+      File : MainBoard V1.G2
+
+    Adding Layer      : GND
+
+    Adding Layer      : Board Shape
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D22
+    D23
+    D24
+    D34
+    D35
+    D36
+    D38
+    D42
+    D43
+    D44
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : MainBoard V1.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Board Shape
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : MainBoard V1.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+    Adding Layer      : Board Shape
+
+
+Used DCodes :
+    D14
+    D22
+    D23
+    D24
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : MainBoard V1.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Board Shape
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D22
+    D23
+    D24
     D29
     D30
     D31
@@ -103,64 +321,14 @@ Used DCodes :
     D35
     D36
     D37
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : MainBoard V1_Pads_Top.gbr
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : MainBoard V1_Legend_Bot.gbr
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
+    D38
+    D39
     D40
     D41
     D42
-    D43
     D44
     D45
     D46
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : MainBoard V1_Soldermask_Bot.gbr
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D18
-    D19
-    D20
-    D33
-    D35
     D47
     D48
     D49
@@ -174,142 +342,89 @@ Used DCodes :
     D57
     D58
     D59
-    D60
-    D61
-    D62
-    D63
-    D64
 *************************************************************
 
 *************************************************************
-Generating : Bottom Paste
-      File : MainBoard V1_Paste_Bot.gbr
+Generating : Top Pad Master
+      File : MainBoard V1.GPT
 
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
+    Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
+    Adding Layer      : Board Shape
+
 
 Used DCodes :
-    D10
-    D27
-    D28
-    D29
-    D30
-    D31
+    D14
+    D15
+    D22
+    D23
+    D24
     D32
     D33
     D34
     D35
     D36
     D37
+    D38
+    D39
+    D40
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : MainBoard V1_Legend_Top.gbr
+Generating : Bottom Overlay
+      File : MainBoard V1.GBO
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Bottom Overlay
 
-
-Used DCodes :
-    D41
-    D42
-    D45
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : MainBoard V1_Paste_Top.gbr
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Board Shape
 
 
 Used DCodes :
     D10
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : MainBoard V1_Soldermask_Top.gbr
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D18
-    D19
-    D20
-    D53
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : MainBoard V1_Keep-out.gbr
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Profile
-      File : MainBoard V1_Profile.gbr
-
-
-Used DCodes :
-    D65
-*************************************************************
-
-*************************************************************
-Generating : Non-plated through-hole drill file
-      File : MainBoard V1_NPTH_Drill.gbr
-
-
-Used DCodes :
-    D66
-*************************************************************
-
-*************************************************************
-Generating : Plated through-hole drill file
-      File : MainBoard V1_PTH_Drill.gbr
-
-
-Used DCodes :
-    D67
-    D68
-    D69
+    D11
+    D12
+    D13
+    D14
     D70
     D71
     D72
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : MainBoard V1.GM20
+
+    Adding Layer      : Bottom Assembly
+
+    Adding Layer      : Board Shape
+
+
+Used DCodes :
+    D12
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : MainBoard V1.GM24
+
+    Adding Layer      : Bottom Component Center
+
+    Adding Layer      : Board Shape
+
+
+Used DCodes :
+    D14
     D73
-    D74
-    D75
-    D76
 *************************************************************
 
 *************************************************************
 Generating : Drill Drawing
-      File : MainBoard V1_Drawing_1.gbr
+      File : MainBoard V1.GD1
+
+    Adding Layer      : Board Shape
 
     Adding Drill Pair : Top Layer-Bottom Layer
 
@@ -317,14 +432,17 @@ Generating : Drill Drawing
 
 
 Used DCodes :
-    D78
-    D79
-    D80
+    D14
+    D74
+    D75
+    D76
 *************************************************************
 
 *************************************************************
 Generating : Drill Guide
-      File : MainBoard V1_Drillmap_1.gbr
+      File : MainBoard V1.GG1
+
+    Adding Layer      : Board Shape
 
     Adding Drill Pair : Top Layer-Bottom Layer
 
@@ -332,6 +450,7 @@ Generating : Drill Guide
 
 
 Used DCodes :
-    D78
+    D14
+    D74
 *************************************************************
 

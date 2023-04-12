@@ -2,67 +2,8 @@
 FileName = Switchboard V1.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Layer
-      File : Switchboard V1_Copper_Signal_Top.gbr
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : Switchboard V1_Copper_Signal_Bot.gbr
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-*************************************************************
-
-*************************************************************
 Generating : Bottom Pad Master
-      File : Switchboard V1_Pads_Bot.gbr
+      File : Switchboard V1.GPB
 
     Adding Layer      : Bottom Layer
 
@@ -70,97 +11,28 @@ Generating : Bottom Pad Master
 
 
 Used DCodes :
+    D12
     D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D24
-    D25
     D26
     D27
     D28
     D29
     D30
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : Switchboard V1_Pads_Top.gbr
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : Switchboard V1_Legend_Bot.gbr
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
     D31
     D32
     D33
-    D34
     D35
     D36
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : Switchboard V1_Soldermask_Bot.gbr
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D14
-    D30
     D37
     D38
     D39
     D40
     D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
 *************************************************************
 
 *************************************************************
 Generating : Bottom Paste
-      File : Switchboard V1_Paste_Bot.gbr
+      File : Switchboard V1.GBP
 
     Adding Layer      : Bottom Paste
 
@@ -170,44 +42,77 @@ Generating : Bottom Paste
 
 
 Used DCodes :
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
 *************************************************************
 
 *************************************************************
 Generating : Top Overlay
-      File : Switchboard V1_Legend_Top.gbr
+      File : Switchboard V1.GTO
 
     Adding Layer      : Top Overlay
 
 
 Used DCodes :
-    D35
+    D10
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Switchboard V1.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D48
+    D49
+    D50
     D51
+    D52
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : Switchboard V1_Paste_Top.gbr
+Generating : Bottom Solder
+      File : Switchboard V1.GBS
 
-    Adding Layer      : Top Paste
+    Adding Layer      : Bottom Solder
 
-    Adding Layer      : Top Layer
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
 *************************************************************
 
 *************************************************************
 Generating : Top Solder
-      File : Switchboard V1_Soldermask_Top.gbr
+      File : Switchboard V1.GTS
 
     Adding Layer      : Top Solder
 
@@ -217,87 +122,104 @@ Generating : Top Solder
 
 
 Used DCodes :
+    D12
     D13
     D14
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
 *************************************************************
 
 *************************************************************
-Generating : Keep-Out Layer
-      File : Switchboard V1_Keep-out.gbr
+Generating : Top Pad Master
+      File : Switchboard V1.GPT
 
-    Adding Layer      : Keep-Out Layer
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D12
+    D13
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
 *************************************************************
 
 *************************************************************
-Generating : Profile
-      File : Switchboard V1_Profile.gbr
+Generating : Bottom Layer
+      File : Switchboard V1.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D52
+    D12
+    D13
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
 *************************************************************
 
 *************************************************************
-Generating : Non-plated through-hole drill file
-      File : Switchboard V1_NPTH_Drill.gbr
+Generating : Top Layer
+      File : Switchboard V1.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D53
-    D54
-*************************************************************
-
-*************************************************************
-Generating : Plated through-hole drill file
-      File : Switchboard V1_PTH_Drill.gbr
-
-
-Used DCodes :
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-    D74
-    D75
-    D76
-    D77
-    D78
-    D79
-    D80
-    D81
-    D82
-    D83
+    D12
+    D13
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
 *************************************************************
 
 *************************************************************
 Generating : Drill Drawing
-      File : Switchboard V1_Drawing_1.gbr
+      File : Switchboard V1.GD1
 
     Adding Drill Pair : Top Layer-Bottom Layer
 
@@ -305,14 +227,14 @@ Generating : Drill Drawing
 
 
 Used DCodes :
-    D85
-    D86
-    D87
+    D53
+    D54
+    D55
 *************************************************************
 
 *************************************************************
 Generating : Drill Guide
-      File : Switchboard V1_Drillmap_1.gbr
+      File : Switchboard V1.GG1
 
     Adding Drill Pair : Top Layer-Bottom Layer
 
@@ -320,6 +242,6 @@ Generating : Drill Guide
 
 
 Used DCodes :
-    D85
+    D53
 *************************************************************
 

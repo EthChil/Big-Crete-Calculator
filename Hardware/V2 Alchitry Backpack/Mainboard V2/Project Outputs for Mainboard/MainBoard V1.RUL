@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\ethan\Documents\GitHub\Big-Crete-Calculator\Hardware\V2 Alchitry Backpack\Mainboard\MainBoard V1.PcbDoc
+DRC Rules Export File for PCB: C:\Users\ethan\Documents\GitHub\Big-Crete-Calculator\Hardware\V2 Alchitry Backpack\Mainboard V2\MainBoard V1.PcbDoc
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00

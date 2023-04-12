@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=LS4 Pin=J2-24
-Added Pin To Net: NetName=AHS0 Pin=J2-24
-Added Pin To Net: NetName=LS4 Pin=J3-17
-Added Room: Name=5VBoost
-Added Room: Name=BatteryManagement
-Added Room: Name=Connectors

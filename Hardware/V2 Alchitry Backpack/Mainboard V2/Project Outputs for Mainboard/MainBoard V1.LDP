@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\ethan\Documents\GitHub\Big-Crete-Calculator\Hardware\V2 Alchitry Backpack\Mainboard V2\MainBoard V1.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=mainboard v1-roundholes.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=mainboard v1-slotholes.txt|DrillLayers=gtl,g1,g2,gbl
