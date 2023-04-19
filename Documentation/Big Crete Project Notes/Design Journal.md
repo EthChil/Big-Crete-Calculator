@@ -463,3 +463,25 @@ Apr 11
 - I removed the dummy boards from the solidworks model
 - Currently ordering JLCPCB 
 - JLCPCB order is placed I am now going through and ordering parts on DIGIKEY
+- there is some serious cleanup required in this documentation as well as gitignore work to be done to remove files which have been incorrectly uploaded I also am conflating V2 with revision so it's important that I seperate those moving forwards
+- Master electronics list with what I have and what I need is going in under V2 [[BOM V2 Rev 1 Electronics]]
+
+Apr 13
+- parts were ordered digikey ref #80976678
+
+
+Apr 18
+- kalih box whites are sick but don't work with through hole leds the below ones seem like good SMD equivalents 
+https://www.digikey.ca/en/products/detail/w%C3%BCrth-elektronik/150141M173100/4489960
+
+should probably try to source cheaper ones tho these are pretty expensive
+on V2 of this calculator I should aim to reduce BOM without sacrificing function
+
+Apr 19 **BIG NOTE**
+- modifications discovered (pre-assembly)
+- power switch was completely omitted from design
+	- reset for fpga to prep for flash?
+	- switch on side to solve this?
+	- potential issue when flashing FPGA of leaving an LED turned on (figure out if this is a problem and how to mitigate)
+- smd LEDs are needed for kalih box whites
+- think about what a swap to a microcontroller would look like (changing the motherboard I believe)

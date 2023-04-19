@@ -1,7 +1,8 @@
 {
   "readableLineLength": false,
   "promptDelete": false,
-  "attachmentFolderPath": "./Attachments",
+  "attachmentFolderPath": "Attachments",
   "alwaysUpdateLinks": true,
-  "vimMode": false
+  "vimMode": false,
+  "newLinkFormat": "absolute"
 }

@@ -23,28 +23,13 @@
             "id": "2287e273ad285a54",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "High Level Scope.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1e84c0f36c85db1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Design Journal.md",
-                "mode": "source",
-                "source": false
+                "file": "V1/Electrical Design V1/Datasheets/p2739.pdf"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,17 +108,9 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "48d550c7af973520",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -150,54 +127,53 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d1e84c0f36c85db1",
+  "active": "72d048a4e61e24a8",
   "lastOpenFiles": [
-    "V2/Electrical Design V2/Attachments/Pasted image 20230315141529.png",
-    "V2/Electrical Design V2/Attachments/Pasted image 20230106223113.png",
-    "V2/Electrical Design V2/LED Driver Board Design Journal.md",
-    "V2/Electrical Design V2/Current Mirror Power Analysis.md",
     "V2/Architecture V2/TOP Design.md",
-    "V2/Electrical Design V2/Attachments",
     "V2/Architecture V2/Power Architecture V2.md",
+    "Design Journal.md",
+    "V1/Electrical Design V1/Datasheets/p2739.pdf",
+    "V1/Electrical Design V1/Datasheets/Nexperia-74HC138D-653_C5602.pdf",
+    "V1/Electrical Design V1/Datasheets/Changjiang-Electronics-Tech-CJ-1N4148WS_C2128.pdf",
+    "V1/Electrical Design V1/Datasheets/Alpha-Omega-Semicon-AOS-AO3401A_C15127.pdf",
+    "V1/Electrical Design V1/Datasheets/2005221001_Nexperia-74HC238D-653_C5620.pdf",
+    "V1/Electrical Design V1/Datasheets/1912111437_Slkor-SLKORMICRO-Elec-SS8550_C444726.pdf",
+    "V1/Electrical Design V1/Datasheets/1912111437_BORN-AO3400A_C344010.pdf",
+    "V1/Electrical Design V1/Datasheets/1810051504_Changjiang-Electronics-Tech-CJ-S9013_C6749.pdf",
+    "V1/Electrical Design V1/Datasheets/2032020d-1dc4-4283-95de-47f034540884.pdf",
+    "V1/Electrical Design V1/Datasheets/4DLCD-43480272-Spec-V1.0-update_201807-10-1608237.pdf",
+    "High Level Scope.md",
     "V2/Architecture V2/Architecture Overview.md",
-    "V2/Electrical Design V2",
-    "V2/Architecture V2",
-    "V2",
-    "V1/Electrical Design V1/FPGA/Attachments/Pasted image 20221022230642.png",
-    "V1/Electrical Design V1/FPGA/Attachments/Pasted image 20221022230442.png",
-    "V1/Electrical Design V1/FPGA/Attachments/Pasted image 20210714174230.png",
-    "V1/Electrical Design V1/FPGA/SPI to FPGA Connection.md",
-    "V1/Electrical Design V1/FPGA/SPI Memory.md",
-    "V1/Electrical Design V1/FPGA/Motherboard to FPGA Connection.md",
-    "V1/Electrical Design V1/FPGA/FPGA Board.md",
-    "V1/Electrical Design V1/FPGA/FPGA Clock.md",
-    "V1/Electrical Design V1/FPGA/FPGA AC7A200T-1SBG484C Pinout.md",
-    "V1/Electrical Design V1/FPGA/DDR3 to FPGA connection.md",
-    "V1/Electrical Design V1/FPGA/Corsair DDR3L.md",
-    "V1/Electrical Design V1/FPGA/Attachments",
-    "V1/Electrical Design V1/FPGA",
-    "V3/Mechanical Design V3/Attachments/MX Series.pdf",
-    "V3/Mechanical Design V3/Mechanical Stackup.png",
-    "V3/Mechanical Design V3/Mechanical Stackup FPGA UP.png",
-    "V3/Mechanical Design V3/Attachments",
-    "V3/Electrical Design V3/Top Level Electrical.md",
+    "V2/Electrical Design V2/BOM V2 Rev 1 Electronics.md",
+    "V3/Architecture V3/Architecture Overview.md",
+    "V2/Electrical Design V2/LED Driver Board Design Journal.md",
     "V3/Electrical Design V3/Power Subcircuit.md",
+    "V3/Electrical Design V3/FPGA/FPGA Board.md",
+    "V3/Electrical Design V3/Top Level Electrical.md",
     "V3/Electrical Design V3/Motherboard.md",
-    "V3/Electrical Design V3/LED + Driver.md",
     "V3/Electrical Design V3/LCD Display.md",
     "V3/Electrical Design V3/Boot SPI to FPGA connection.md",
+    "V1/Electrical Design V1/LED + Driver.md",
+    "To Buy.md",
+    "V3/Electrical Design V3/FPGA/Corsair DDR3L.md",
+    "V3/Electrical Design V3/FPGA/Motherboard to FPGA Connection.md",
+    "V2/Electrical Design V2/Current Mirror Power Analysis.md",
+    "V3/Electrical Design V3/FPGA/DDR3 to FPGA connection.md",
+    "V2/Electrical Design V2/Attachments/Pasted image 20230315141529.png",
+    "V2/Electrical Design V2/Attachments/Pasted image 20230106223113.png",
+    "V3/Electrical Design V3/FPGA/Attachments/Pasted image 20221022230642.png",
+    "V3/Electrical Design V3/FPGA/Attachments/Pasted image 20221022230442.png",
+    "V3/Electrical Design V3/FPGA/Attachments/Pasted image 20210714174230.png",
+    "V3/Electrical Design V3/FPGA/SPI to FPGA Connection.md",
+    "V3/Electrical Design V3/FPGA/SPI Memory.md",
+    "V3/Electrical Design V3/FPGA/FPGA Clock.md",
+    "V3/Electrical Design V3/FPGA/FPGA AC7A200T-1SBG484C Pinout.md",
+    "V3/Mechanical Design V3/Mechanical Stackup.png",
+    "V3/Mechanical Design V3/Mechanical Stackup FPGA UP.png",
     "V3/Architecture V3/Endpoints.md",
-    "V3/Architecture V3/Battery Circuit.md",
-    "V3/Architecture V3/Architecture Overview.md",
-    "V3/Mechanical Design V3",
-    "V3/Electrical Design V3",
     "V1/Electrical Design V1/Attachments/Pasted image 20210311220234.png",
-    "Electrical Design V2/Current Mirror Power Analysis.md",
-    "Electrical Design V1/LED + Driver.md",
-    "Electrical Design V2/LED Driver Board Design Journal.md",
     "Attachments/Pasted image 20230327185237.png",
     "Electrical Design V2/Attachments/Pasted image 20230315141529.png",
-    "Attachments/Pasted image 20230314152145.png",
     "Untitled.canvas"
   ]
 }
