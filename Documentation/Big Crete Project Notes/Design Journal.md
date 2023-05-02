@@ -485,3 +485,40 @@ Apr 19 **BIG NOTE**
 	- potential issue when flashing FPGA of leaving an LED turned on (figure out if this is a problem and how to mitigate)
 - smd LEDs are needed for kalih box whites
 - think about what a swap to a microcontroller would look like (changing the motherboard I believe)
+
+Apr 22
+- Parts are here it's assembly time, below is the order of steps for assembly
+	- first off is the fpga board (mainboard) this guy needs to have it's battery circuit and boost circuit assembled and tested. Then the FPGA can be mounted. Some initial digital design work should be done to bringup the FPGA. Once this is good to go the switchboard can be tested in conjunction with the mainboard.
+		- to test the battery circuit I think this will just be a trial by fire where I probe the battery leads and attempt to charge
+		- to test the boost a resistive load on the 5V while I probe it with the batteries hooked up should suffice
+	- The header pins on the display need the plastic removed and also need to be realigned. 
+	- the USB-C partial pass thru needs to be soldered and fit checked with the rest of the design
+
+Website modifications
+- Blog post about SF trip and HF0
+- flesh out project section
+	- big wafer and each project is a die on the wafer
+	- just generate 3d models for new ones and make a (vault) for older ones which is just images?
+		- **Motor controller (3d models)**
+		- **clock (3d models)**
+		- **power convertor (3d models)**
+		- calculator (3d models)
+		- bracket bot (3d models)
+		- 380 robot (3d models)
+		- MAG-Z (3d models)
+		- **pong board (3d models)**
+		- FRC (images)
+		- big crete reflow oven (3d models)
+		- fold3r origami system (3d models)
+		- FPGA board on crack for calculator A200T (3d models)
+		- covid-19 ventillator (3d models)
+		- raytracer (3d models?)
+		- cdot board (images)
+		- 2020 cadathon bot (3d models)
+		- roamer (3d models)
+		- 3d printer cleaner (maybe 3d model otherwise image) (probably skip)
+		- plane? (probaby skip this one)
+- flesh out construction site
+	- try using hugo with quartz to run obsidian on the in progress projects
+	- make documentation repo which is shared among projects to make it easier to handle documentation
+	- 
