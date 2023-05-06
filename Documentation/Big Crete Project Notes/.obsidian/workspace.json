@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "c6d7fb49aa5432d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "V2/Architecture V2/Rev A Issues Log.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b169ecd8e648159e",
             "type": "leaf",
             "state": {
@@ -79,7 +91,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Journal.md",
+                "file": "V2/Architecture V2/Rev A Issues Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,9 +198,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "72d048a4e61e24a8",
+  "active": "c6d7fb49aa5432d2",
   "lastOpenFiles": [
+    "V2/Architecture V2/Architecture Overview.md",
     "V2/Architecture V2/Power Architecture V2.md",
+    "Design Journal.md",
+    "V2/Architecture V2/Rev A Issues Log.md",
+    "High Level Scope.md",
+    "LTSpice Master Notes.md",
+    "V1/Electrical Design V1/Datasheets/p2739.pdf",
+    "V1/Electrical Design V1/Datasheets/1912111437_BORN-AO3400A_C344010.pdf",
+    "V1/Electrical Design V1/Datasheets/1810051504_Changjiang-Electronics-Tech-CJ-S9013_C6749.pdf",
+    "V1/Electrical Design V1/Datasheets/2032020d-1dc4-4283-95de-47f034540884.pdf",
+    "V1/Electrical Design V1/Datasheets/4DLCD-43480272-Spec-V1.0-update_201807-10-1608237.pdf",
+    "V1/Electrical Design V1/Datasheets/001-98283_S25FL128S_S25FL256S_128_Mb_16_MB_256_Mb_32_MB_3.0V_SPI_Flash_Memory.pdf",
+    "V1/Electrical Design V1/Datasheets/1912111437_Slkor-SLKORMICRO-Elec-SS8550_C444726.pdf",
+    "V1/Electrical Design V1/Datasheets/2005221001_Nexperia-74HC238D-653_C5620.pdf",
+    "V1/Electrical Design V1/Datasheets/Alpha-Omega-Semicon-AOS-AO3401A_C15127.pdf",
+    "V1/Electrical Design V1/Datasheets/Changjiang-Electronics-Tech-CJ-1N4148WS_C2128.pdf",
     "V3/Electrical Design V3/FPGA/Attachments/Pasted image 20221022230642.png",
     "V3/Electrical Design V3/FPGA/Attachments/Pasted image 20221022230442.png",
     "V3/Electrical Design V3/FPGA/Attachments/Pasted image 20210714174230.png",
@@ -199,8 +227,6 @@
     "V3/Electrical Design V3/FPGA/FPGA AC7A200T-1SBG484C Pinout.md",
     "V3/Electrical Design V3/FPGA/DDR3 to FPGA connection.md",
     "V3/Electrical Design V3/FPGA/Corsair DDR3L.md",
-    "V3/Electrical Design V3/FPGA/Attachments",
-    "V3/Electrical Design V3/FPGA",
     "V2/Electrical Design V2/BOM V2 Rev 1 Electronics.md",
     "V1/Electrical Design V1/LED + Driver.md",
     "V2/Electrical Design V2/Current Mirror Power Analysis.md",
@@ -210,17 +236,9 @@
     "V3/Electrical Design V3/LCD Display.md",
     "V3/Electrical Design V3/Top Level Electrical.md",
     "V3/Electrical Design V3/Motherboard.md",
-    "V3/Electrical Design V3",
     "V3/Electrical Design V3/Power Subcircuit.md",
     "V3/Architecture V3/Battery Circuit.md",
     "V3/Architecture V3/Endpoints.md",
-    "V3/Architecture V3/Architecture Overview.md",
-    "V3/Electrical Design V3/Boot SPI to FPGA connection.md",
-    "Design Journal.md",
-    "To Buy.md",
-    "V3",
-    "V1",
-    "V2",
     "Attachments/Pasted image 20230327185237.png",
     "V2/Electrical Design V2/Attachments/Pasted image 20230315141529.png",
     "Attachments/Pasted image 20230314152145.png",

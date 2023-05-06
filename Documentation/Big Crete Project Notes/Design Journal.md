@@ -521,4 +521,24 @@ Website modifications
 - flesh out construction site
 	- try using hugo with quartz to run obsidian on the in progress projects
 	- make documentation repo which is shared among projects to make it easier to handle documentation
-	- 
+
+May 5 **BIG NOTE** assembling it now
+- modifications discovered (pre-assembly)
+- power switch was completely omitted from design
+	- reset for fpga to prep for flash?
+	- switch on side to solve this?
+	- potential issue when flashing FPGA of leaving an LED turned on (figure out if this is a problem and how to mitigate)
+- smd LEDs are needed for kalih box whites
+- think about what a swap to a microcontroller would look like (changing the motherboard I believe)
+- the main board had the cells in series not parallel this has been patched
+- a capacitor on the display interferes with the switch board this was desoldered (just a bulking)
+- trimmer pot hits the usbc breakout on alchitry
+- mounting pins on display aren't aligned through all the layers seems to be a switch board issue but unclear
+- switch plate interferes with stabilizers. looks like the fillets are causing issues. I think generally increasing the clearance for these parts makes sense for a future revision
+
+May 6 **BIG NOTE** assembly continuing
+- filing down the switch plate I'm able to get the switches to fit
+	- best method of assembly is putting the led through the switch then inserting it into the board through the metal
+- captive nuts don't go into any of the holes and the holes themselves are tight enough to thread the brass into the plastic of the interposer
+- forgot to mount the termination resistors for the USB and also forgot to put the screws in before mating the boards now this isn't possible
+- issues with V2 Rev A will be tracked in [[V2/Architecture V2/Rev A Issues Log]]
