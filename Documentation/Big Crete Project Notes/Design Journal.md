@@ -542,3 +542,10 @@ May 6 **BIG NOTE** assembly continuing
 - captive nuts don't go into any of the holes and the holes themselves are tight enough to thread the brass into the plastic of the interposer
 - forgot to mount the termination resistors for the USB and also forgot to put the screws in before mating the boards now this isn't possible
 - issues with V2 Rev A will be tracked in [[V2/Architecture V2/Rev A Issues Log]]
+
+May 27
+- finally got a monitor and back onto my computer this weekend the hope is to do initial tests with the calculator. of course it's going to be scary turning it on all things considered. 
+
+May 28
+- without batteries the charger can't provide enough current to boot everything up but with the batteries its good to go so that means the boost regulator is of ample size.
+- pinout mapping will be managed in [[V2/A35T Pin mapping|A35T Pin mapping]]

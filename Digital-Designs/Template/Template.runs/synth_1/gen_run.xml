@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a200tsbg484-1" LaunchTime="1628121656">
+<GenRun Id="synth_1" LaunchPart="xc7a200tsbg484-1" LaunchTime="1695868035">
   <File Type="PA-TCL" Name="Template.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Template_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Template_reports.tcl"/>
   <File Type="RDS-RDS" Name="Template.vds"/>
   <File Type="RDS-UTIL" Name="Template_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="Template_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="Template.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="Template_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="Template_timing_summary_synth.pb"/>
-  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PSRCDIR/sources_1">
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Blank.v">
       <FileInfo>
@@ -35,6 +32,7 @@
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="IsVisible" Val="1"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/ip/mig_7series_0/mig_a.prj">
@@ -45,6 +43,8 @@
     </File>
     <File Path="$PSRCDIR/sources_1/ip/mig_7series_0/mig_b.prj">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/ip/mig_7series_0/mig_b.prj"/>
+        <Attr Name="ImportTime" Val="1626140379"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="ScopedToCell" Val="mig_7series_0"/>
       </FileInfo>
@@ -54,7 +54,7 @@
       <Option Name="TopModule" Val="Template"/>
     </Config>
   </FileSet>
-  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
     <File Path="$PSRCDIR/constrs_1/new/Cons.xdc">
       <FileInfo>
@@ -67,7 +67,7 @@
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>
-  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>

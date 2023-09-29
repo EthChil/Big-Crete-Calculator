@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log HX8357.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source HX8357.tcl
+EAStep vivado -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl

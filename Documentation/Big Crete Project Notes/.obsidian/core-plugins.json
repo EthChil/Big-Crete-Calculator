@@ -10,8 +10,10 @@
   "templates",
   "note-composer",
   "command-palette",
+  "bookmarks",
   "markdown-importer",
   "word-count",
   "slides",
-  "file-recovery"
+  "file-recovery",
+  "sync"
 ]

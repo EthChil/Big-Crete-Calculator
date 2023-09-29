@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=DM0 Pin=C25-1
+Removed Pin From Net: NetName=DM0 Pin=C25-2
+Removed Pin From Net: NetName=DM0 Pin=C26-1
+Removed Pin From Net: NetName=DM0 Pin=C26-2
+Removed Member From Class: ClassName=A200T FPGA Member=C7
+Removed Member From Class: ClassName=A200T FPGA Member=C8
+Removed Member From Class: ClassName=A200T FPGA Member=C9
+Removed Member From Class: ClassName=A200T FPGA Member=C10
+Removed Member From Class: ClassName=A200T FPGA Member=C11
+Removed Member From Class: ClassName=A200T FPGA Member=C25
+Removed Member From Class: ClassName=A200T FPGA Member=C26
+Add Net: Net with name "5v" already exists
+Add Net: Net with name "A1v8" already exists
+Added Room: Name=A200T FPGA
+Added Room: Name=Designator
+Added Room: Name=FPGA Board Top
+Added Room: Name=RAM (DDR3L)
+Added Room: Name=SODIMM Motherboard Connector
