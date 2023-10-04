@@ -35,7 +35,10 @@ IsProjectConflictPreventionWarningsEnabled=0
 IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
-ManagedProjectGUID=
+ManagedProjectGUID=F4DE8F60-B763-4168-A2D8-543444D36CC3
+VaultGUID=BECE2D31-D15E-4A90-89E1-F12558B71851
+ReleaseVaultName=Ethan Childerhose
+ItemGUID=F4DE8F60-B763-4168-A2D8-543444D36CC3
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
 CrossRefLocationStyle=1
@@ -433,6 +436,18 @@ OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=PCBDrawing
+OutputName14=Draftsman
+OutputDocumentPath14=
+OutputVariantName14=[No Variations]
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType15=PCBDrawing
+OutputName15=Draftsman
+OutputDocumentPath15=
+OutputVariantName15=[No Variations]
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -588,6 +603,12 @@ OutputName8=Report Single Pin Nets
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
+OutputType9=Project History
+OutputName9=Project History
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -801,6 +822,11 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -933,6 +959,17 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
+Type121=1
+Type122=1
+Type123=1
+Type124=1
+Type125=1
+Type126=1
+Type127=1
+Type128=1
+Type129=1
+Type130=1
 
 [Difference Levels]
 Type1=1
@@ -1003,6 +1040,12 @@ Type65=1
 Type66=1
 Type67=1
 Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1131,6 +1174,30 @@ Type124=1
 Type125=1
 Type126=1
 Type127=1
+Type128=2
+Type129=2
+Type130=2
+Type131=2
+Type132=2
+Type133=2
+Type134=2
+Type135=2
+Type136=2
+Type137=2
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=2
+Type148=2
+Type149=2
+Type150=2
+Type151=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
