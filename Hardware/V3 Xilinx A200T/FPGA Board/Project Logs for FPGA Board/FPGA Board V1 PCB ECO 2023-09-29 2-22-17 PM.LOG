@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=A1v8 Pin=C123-2
+Removed Pin From Net: NetName=A1v8 Pin=FB2-1
+Removed Pin From Net: NetName=GPIO50 Pin=J2-103
+Removed Pin From Net: NetName=GPIO51 Pin=J2-104
+Removed Pin From Net: NetName=GPIO52 Pin=J2-106
+Removed Pin From Net: NetName=GPIO53 Pin=J2-107
+Removed Pin From Net: NetName=GPIO54 Pin=J2-108
+Removed Pin From Net: NetName=GPIO55 Pin=J2-109
+Removed Pin From Net: NetName=GPIO56 Pin=J2-111
+Removed Pin From Net: NetName=GPIO58 Pin=J2-113
+Removed Pin From Net: NetName=GPIO113 Pin=J2-182
+Removed Pin From Net: NetName=GPIO115 Pin=J2-184
+Removed Pin From Net: NetName=GPIO116 Pin=J2-186
+Removed Pin From Net: NetName=GPIO118 Pin=J2-188
+Added Pin To Net: NetName=A1v8 Pin=C145-1
+Added Pin To Net: NetName=Vdd Pin=J2-107
+Added Pin To Net: NetName=Vdd Pin=J2-109
+Added Pin To Net: NetName=Vtt Pin=J2-111
+Added Pin To Net: NetName=Vrefca Pin=J2-113
+Added Pin To Net: NetName=A1v8 Pin=R24-1
+Added Pin To Net: NetName=A1v8 Pin=TP11-1
+Added Pin To Net: NetName=A1v8 Pin=U6-7
+Change Net Name : Old Net Name=1v8 New Net Name=Vccaux
+Change Net Name : Old Net Name=1v New Net Name=Vccbram
+Added Pin To Net: NetName=1v8 Pin=C140-2
+Added Pin To Net: NetName=1v8 Pin=L1-1
+Added Pin To Net: NetName=1v8 Pin=R17-1
+Added Pin To Net: NetName=1v8 Pin=TP9-1
+Added Net: Name=1v8
+Added Pin To Net: NetName=1v Pin=C154-2
+Added Pin To Net: NetName=1v Pin=C155-2
+Added Pin To Net: NetName=1v Pin=L4-2
+Added Pin To Net: NetName=1v Pin=R18-2
+Added Pin To Net: NetName=1v Pin=R36-2
+Added Pin To Net: NetName=1v Pin=TP19-1
+Added Net: Name=1v
+Add Net: Net with name "5v" already exists
+Add Net: Net with name "A1v8" already exists
+Added Room: Name=A200T FPGA
+Added Room: Name=Designator
+Added Room: Name=FPGA Board Top
+Added Room: Name=RAM (DDR3L)
+Added Room: Name=SODIMM Motherboard Connector

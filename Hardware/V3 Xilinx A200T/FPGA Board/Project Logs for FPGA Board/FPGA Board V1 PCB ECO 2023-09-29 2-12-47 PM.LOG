@@ -1,0 +1,98 @@
+Added Component: Designator=MOSFET1(SOIC8_751EB_ONS)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number_1"; Value = "FDS9926ATR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number_2"; Value = "FDS9926ACT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number_3"; Value = "FDS9926ADKR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number_4"; Value = "2156-FDS9926A-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FDS9926A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U6(CP_48_13_ADI)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number_1"; Value = "ADP5052ACPZ-R7CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number_2"; Value = "ADP5052ACPZ-R7DKR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number_3"; Value = "ADP5052ACPZ-R7TR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ADP5052ACPZ-R7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Analog Devices Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetMOSFET1_1 Pin=MOSFET1-1
+Added Pin To Net: NetName=NetMOSFET1_2 Pin=MOSFET1-2
+Added Pin To Net: NetName=NetMOSFET1_1 Pin=MOSFET1-3
+Added Pin To Net: NetName=NetMOSFET1_4 Pin=MOSFET1-4
+Added Pin To Net: NetName=NetC153_2 Pin=MOSFET1-5
+Added Pin To Net: NetName=NetC153_2 Pin=MOSFET1-6
+Added Pin To Net: NetName=NetC151_2 Pin=MOSFET1-7
+Added Pin To Net: NetName=NetC151_2 Pin=MOSFET1-8
+Added Pin To Net: NetName=3v3 Pin=R1-2
+Added Pin To Net: NetName=NetC139_2 Pin=U6-1
+Added Pin To Net: NetName=DM0 Pin=U6-2
+Added Pin To Net: NetName=NetC139_1 Pin=U6-3
+Added Pin To Net: NetName=5v Pin=U6-4
+Added Pin To Net: NetName=EN1_5 Pin=U6-5
+Added Pin To Net: NetName=NetR21_2 Pin=U6-6
+Added Pin To Net: NetName=3v3 Pin=U6-8
+Added Pin To Net: NetName=5v Pin=U6-9
+Added Pin To Net: NetName=NetC149_1 Pin=U6-10
+Added Pin To Net: NetName=DM0 Pin=U6-11
+Added Pin To Net: NetName=NetC149_2 Pin=U6-12
+Added Pin To Net: NetName=DM0 Pin=U6-13
+Added Pin To Net: NetName=NetR29_1 Pin=U6-14
+Added Pin To Net: NetName=NetR31_2 Pin=U6-15
+Added Pin To Net: NetName=NetR32_2 Pin=U6-16
+Added Pin To Net: NetName=DM0 Pin=U6-17
+Added Pin To Net: NetName=DM0 Pin=U6-18
+Added Pin To Net: NetName=DM0 Pin=U6-19
+Added Pin To Net: NetName=NetTP34_1 Pin=U6-20
+Added Pin To Net: NetName=FB2 Pin=U6-21
+Added Pin To Net: NetName=NetR35_2 Pin=U6-22
+Added Pin To Net: NetName=5v Pin=U6-23
+Added Pin To Net: NetName=5v Pin=U6-24
+Added Pin To Net: NetName=5v Pin=U6-25
+Added Pin To Net: NetName=NetC153_2 Pin=U6-26
+Added Pin To Net: NetName=NetC153_2 Pin=U6-27
+Added Pin To Net: NetName=NetC153_1 Pin=U6-28
+Added Pin To Net: NetName=NetMOSFET1_4 Pin=U6-29
+Added Pin To Net: NetName=DM0 Pin=U6-30
+Added Pin To Net: NetName=NetMOSFET1_2 Pin=U6-31
+Added Pin To Net: NetName=NetC151_1 Pin=U6-32
+Added Pin To Net: NetName=NetC151_2 Pin=U6-33
+Added Pin To Net: NetName=NetC151_2 Pin=U6-34
+Added Pin To Net: NetName=5v Pin=U6-35
+Added Pin To Net: NetName=5v Pin=U6-36
+Added Pin To Net: NetName=EN1_5 Pin=U6-37
+Added Pin To Net: NetName=DM0 Pin=U6-38
+Added Pin To Net: NetName=NetR28_1 Pin=U6-39
+Added Pin To Net: NetName=NetR25_1 Pin=U6-40
+Added Pin To Net: NetName=NetR26_1 Pin=U6-41
+Added Pin To Net: NetName=NetC144_1 Pin=U6-42
+Added Pin To Net: NetName=VREG Pin=U6-43
+Added Pin To Net: NetName=VREG Pin=U6-44
+Added Pin To Net: NetName=FB3 Pin=U6-45
+Added Pin To Net: NetName=NetR22_1 Pin=U6-46
+Added Pin To Net: NetName=VREG Pin=U6-47
+Added Pin To Net: NetName=NetR18_1 Pin=U6-48
+Added Pin To Net: NetName=DM0 Pin=U6-HTAB
+Add Net: Net with name "1v8" already exists
+Add Net: Net with name "1v" already exists
+Add Net: Net with name "A1v8" already exists
+Added Member To Class: ClassName=Designator Member=Component MOSFET1 FDS9926A
+Added Member To Class: ClassName=Designator Member=Component U6 ADP5052ACPZ-R7
+Added Member To Class: ClassName=EIO[0..30] Member=Element[18]: EIO
+Added Member To Class: ClassName=EIO[0..30] Member=Element[19]: EIO
+Added Member To Class: ClassName=EIO[0..30] Member=Element[20]: EIO
+Added Member To Class: ClassName=EIO[0..30] Member=Element[21]: EIO
+Added Member To Class: ClassName=EIO[0..30] Member=Element[22]: EIO
+Added Member To Class: ClassName=EIO[0..30] Member=Element[23]: EIO
+Added Member To Class: ClassName=EIO[0..30] Member=Element[25]: EIO
+Added Member To Class: ClassName=EIO[0..30] Member=Element[26]: EIO
+Added Member To Class: ClassName=EIO[0..30] Member=Element[27]: EIO
+Added Member To Class: ClassName=EIO[0..30] Member=Element[28]: EIO
+Added Member To Class: ClassName=EIO[0..30] Member=Element[29]: EIO
+Added Member To Class: ClassName=EIO[0..30] Member=Element[30]: EIO
+Added Room: Name=A200T FPGA
+Added Room: Name=Designator
+Added Room: Name=FPGA Board Top
+Added Room: Name=RAM (DDR3L)
+Added Room: Name=SODIMM Motherboard Connector

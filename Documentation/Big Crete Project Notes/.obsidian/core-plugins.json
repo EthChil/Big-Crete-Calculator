@@ -14,5 +14,6 @@
   "markdown-importer",
   "word-count",
   "slides",
-  "file-recovery"
+  "file-recovery",
+  "sync"
 ]

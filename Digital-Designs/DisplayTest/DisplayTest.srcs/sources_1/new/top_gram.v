@@ -34,7 +34,7 @@ module top_gram #(
   input wire clk,
   input wire rst,
   
-  output reg [7:0] state,
+  output reg [2:0] state,
     
   // LCD SIGNALS
   output wire [7:0] data, // data to the LCD

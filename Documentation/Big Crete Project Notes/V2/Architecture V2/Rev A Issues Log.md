@@ -15,4 +15,4 @@ Minor Qualms
 - more space than expected to the display electronics 
 - how exactly does the puck on the back attach?
 - power switch location needs to be determined
-- 
+- on bank A there are 2 pins missing a NC DRC tag

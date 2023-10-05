@@ -1,0 +1,8 @@
+Removed Member From Class: ClassName=FPGA Board Top Member=D2
+Add Net: Net with name "5v" already exists
+Add Net: Net with name "A1v8" already exists
+Added Room: Name=A200T FPGA
+Added Room: Name=Designator
+Added Room: Name=FPGA Board Top
+Added Room: Name=RAM (DDR3L)
+Added Room: Name=SODIMM Motherboard Connector

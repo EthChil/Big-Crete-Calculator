@@ -1,0 +1,229 @@
+Removed Pin From Net: NetName=Vrefn Pin=TP1-1
+Removed Pin From Net: NetName=Vrefp Pin=TP2-1
+Removed Pin From Net: NetName=Vccadc Pin=TP4-1
+Removed Pin From Net: NetName=DM0 Pin=TP6-1
+Removed Pin From Net: NetName=1v35 Pin=TP7-1
+Removed Pin From Net: NetName=Vccaux Pin=TP8-1
+Removed Pin From Net: NetName=Vccbram Pin=TP10-1
+Removed Pin From Net: NetName=A1v8 Pin=TP11-1
+Removed Pin From Net: NetName=Vccbram Pin=TP12-1
+Removed Pin From Net: NetName=DM0 Pin=TP14-1
+Removed Pin From Net: NetName=5v Pin=TP15-1
+Removed Pin From Net: NetName=DM0 Pin=TP16-1
+Removed Pin From Net: NetName=3v3 Pin=TP17-1
+Removed Pin From Net: NetName=3v3 Pin=TP18-1
+Removed Member From Class: ClassName=FPGA Board Top Member=TP1
+Removed Member From Class: ClassName=FPGA Board Top Member=TP2
+Removed Member From Class: ClassName=FPGA Board Top Member=TP3
+Removed Member From Class: ClassName=FPGA Board Top Member=TP4
+Removed Member From Class: ClassName=FPGA Board Top Member=TP5
+Removed Member From Class: ClassName=FPGA Board Top Member=TP6
+Removed Member From Class: ClassName=FPGA Board Top Member=TP7
+Removed Member From Class: ClassName=FPGA Board Top Member=TP8
+Removed Member From Class: ClassName=FPGA Board Top Member=TP9
+Removed Member From Class: ClassName=FPGA Board Top Member=TP10
+Removed Member From Class: ClassName=FPGA Board Top Member=TP11
+Removed Member From Class: ClassName=FPGA Board Top Member=TP12
+Removed Member From Class: ClassName=FPGA Board Top Member=TP13
+Removed Member From Class: ClassName=FPGA Board Top Member=TP14
+Removed Member From Class: ClassName=FPGA Board Top Member=TP15
+Removed Member From Class: ClassName=FPGA Board Top Member=TP16
+Removed Member From Class: ClassName=FPGA Board Top Member=TP17
+Removed Member From Class: ClassName=FPGA Board Top Member=TP18
+Removed Member From Class: ClassName=FPGA Board Top Member=TP19
+Added Component: Designator=TP?(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(KSTN-5019_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1357"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "1-Pin Surface Mount Device, Body 3.81 x 2.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "5019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=A1v8 Pin=C123-2
+Added Pin To Net: NetName=Vtt Pin=C126-2
+Added Pin To Net: NetName=Vtt Pin=C127-2
+Added Pin To Net: NetName=Vtt Pin=C128-2
+Added Pin To Net: NetName=Vrefca Pin=C129-2
+Added Pin To Net: NetName=Vdd Pin=C130-2
+Added Pin To Net: NetName=Vdd Pin=C131-2
+Added Pin To Net: NetName=Vdd Pin=C134-1
+Added Pin To Net: NetName=Vccaux Pin=C140-2
+Added Pin To Net: NetName=Vccbram Pin=C154-2
+Added Pin To Net: NetName=Vccbram Pin=C155-2
+Added Pin To Net: NetName=A1v8 Pin=FB2-1
+Added Pin To Net: NetName=5v Pin=J2-7
+Added Pin To Net: NetName=5v Pin=J2-8
+Added Pin To Net: NetName=A1v8 Pin=J2-21
+Added Pin To Net: NetName=5v Pin=J2-103
+Added Pin To Net: NetName=5v Pin=J2-104
+Added Pin To Net: NetName=5v Pin=J2-106
+Added Pin To Net: NetName=5v Pin=J2-108
+Added Pin To Net: NetName=5v Pin=J2-182
+Added Pin To Net: NetName=5v Pin=J2-184
+Added Pin To Net: NetName=5v Pin=J2-186
+Added Pin To Net: NetName=5v Pin=J2-188
+Added Pin To Net: NetName=Vccaux Pin=L1-1
+Added Pin To Net: NetName=Vccbram Pin=L4-2
+Added Pin To Net: NetName=Vdd Pin=R13-1
+Added Pin To Net: NetName=Vccaux Pin=R17-1
+Added Pin To Net: NetName=Vccbram Pin=R18-2
+Added Pin To Net: NetName=Vccbram Pin=R36-2
+Added Pin To Net: NetName=1v35 Pin=TP?-1
+Added Pin To Net: NetName=3v3 Pin=TP?-1
+Added Pin To Net: NetName=5v Pin=TP?-1
+Added Pin To Net: NetName=A1v8 Pin=TP?-1
+Added Pin To Net: NetName=Vccaux Pin=TP?-1
+Added Pin To Net: NetName=Vccbram Pin=TP?-1
+Added Pin To Net: NetName=Vdd Pin=TP?-1
+Added Pin To Net: NetName=Vrefca Pin=TP?-1
+Added Pin To Net: NetName=Vtt Pin=TP?-1
+Added Pin To Net: NetName=Vdd Pin=U4-2
+Added Pin To Net: NetName=Vtt Pin=U4-3
+Added Pin To Net: NetName=Vtt Pin=U4-5
+Added Pin To Net: NetName=Vrefca Pin=U4-6
+Added Pin To Net: NetName=Vdd Pin=U5-C1
+Added Pin To Net: NetName=Vdd Pin=U5-D1
+Added Pin To Net: NetName=Vdd Pin=U5-D2
+Added Pin To Net: NetName=Vdd Pin=U5-E1
+Added Pin To Net: NetName=Vdd Pin=U5-E2
+Added Member To Class: ClassName=Designator Member=Component TP? 5019
+Added Member To Class: ClassName=Designator Member=Component TP? 5019
+Added Member To Class: ClassName=Designator Member=Component TP? 5019
+Added Member To Class: ClassName=Designator Member=Component TP? 5019
+Added Member To Class: ClassName=Designator Member=Component TP? 5019
+Added Member To Class: ClassName=Designator Member=Component TP? 5019
+Added Member To Class: ClassName=Designator Member=Component TP? 5019
+Added Member To Class: ClassName=Designator Member=Component TP? 5019
+Added Member To Class: ClassName=Designator Member=Component TP? 5019
+Added Room: Name=A200T FPGA
+Added Room: Name=Designator
+Added Room: Name=FPGA Board Top
+Added Room: Name=RAM (DDR3L)
+Added Room: Name=SODIMM Motherboard Connector

@@ -1,12 +1,14 @@
 #-----------------------------------------------------------
-# Vivado v2020.2 (64-bit)
-# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
-# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Mon Jul 12 21:40:09 2021
-# Process ID: 28376
-# Current directory: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.runs/mig_7series_0_synth_1
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Sep 29 12:58:06 2023
+# Process ID: 16676
+# Current directory: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/mig_7series_0_synth_1
 # Command line: vivado.exe -log mig_7series_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mig_7series_0.tcl
-# Log file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.runs/mig_7series_0_synth_1/mig_7series_0.vds
-# Journal file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital Designs/Template/Template.runs/mig_7series_0_synth_1\vivado.jou
+# Log file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/mig_7series_0_synth_1/mig_7series_0.vds
+# Journal file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/mig_7series_0_synth_1\vivado.jou
+# Running On: Nikon-DSLR, OS: Windows, CPU Frequency: 3800 MHz, CPU Physical cores: 16, Host memory: 34277 MB
 #-----------------------------------------------------------
 source mig_7series_0.tcl -notrace
