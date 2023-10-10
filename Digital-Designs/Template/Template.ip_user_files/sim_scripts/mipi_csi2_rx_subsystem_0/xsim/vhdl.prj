@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_1/sim/bd_639e_0_r_sync_0.vhd" \
+
+# Do not sort compile order
+nosort

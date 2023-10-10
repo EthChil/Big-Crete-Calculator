@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Oct  4 10:49:46 2023
+# Process ID: 20892
+# Current directory: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/mipi_csi2_rx_subsystem_0_synth_1
+# Command line: vivado.exe -log mipi_csi2_rx_subsystem_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mipi_csi2_rx_subsystem_0.tcl
+# Log file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/mipi_csi2_rx_subsystem_0_synth_1/mipi_csi2_rx_subsystem_0.vds
+# Journal file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/mipi_csi2_rx_subsystem_0_synth_1\vivado.jou
+# Running On: Nikon-DSLR, OS: Windows, CPU Frequency: 3800 MHz, CPU Physical cores: 16, Host memory: 34277 MB
+#-----------------------------------------------------------
+source mipi_csi2_rx_subsystem_0.tcl -notrace
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mipi_csi2_rx_subsystem_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 8c6b86a11670fd93 to dir: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/mipi_csi2_rx_subsystem_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.cache/ip/2023.1/8/c/8c6b86a11670fd93/mipi_csi2_rx_subsystem_0.dcp to C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/mipi_csi2_rx_subsystem_0_synth_1/mipi_csi2_rx_subsystem_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.cache/ip/2023.1/8/c/8c6b86a11670fd93/mipi_csi2_rx_subsystem_0_sim_netlist.v to C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/mipi_csi2_rx_subsystem_0_synth_1/mipi_csi2_rx_subsystem_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.cache/ip/2023.1/8/c/8c6b86a11670fd93/mipi_csi2_rx_subsystem_0_sim_netlist.vhdl to C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/mipi_csi2_rx_subsystem_0_synth_1/mipi_csi2_rx_subsystem_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.cache/ip/2023.1/8/c/8c6b86a11670fd93/mipi_csi2_rx_subsystem_0_stub.v to C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/mipi_csi2_rx_subsystem_0_synth_1/mipi_csi2_rx_subsystem_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.cache/ip/2023.1/8/c/8c6b86a11670fd93/mipi_csi2_rx_subsystem_0_stub.vhdl to C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/mipi_csi2_rx_subsystem_0_synth_1/mipi_csi2_rx_subsystem_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP mipi_csi2_rx_subsystem_0, cache-ID = 8c6b86a11670fd93.
+INFO: [Common 17-206] Exiting Vivado at Wed Oct  4 10:49:58 2023...

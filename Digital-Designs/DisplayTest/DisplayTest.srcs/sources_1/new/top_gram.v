@@ -161,6 +161,8 @@ module top_gram #(
 
           if(ctr%WIDTH == 10) begin
             pixel <= 16'h0000;
+          end else if(ctr%WIDTH == 30) begin
+            pixel <= 16'h000F;
           end else begin
             pixel <= 16'hFFFF;
           end

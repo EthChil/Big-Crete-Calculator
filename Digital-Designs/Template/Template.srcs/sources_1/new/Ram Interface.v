@@ -89,6 +89,59 @@ input wire rst
        // Clock in ports
         .clk_in1(clk100)
     );
+    
+mipi_csi2_rx_subsystem_0 sony_image_sensor (
+  .lite_aclk(), //AXI Clock
+  .lite_aresetn(), // AXI reset
+  
+  .dphy_clk_200M(), // 200MHZ clock
+  .rxbyteclkhs(), // PPI high-speed receive byte clock
+  .system_rst_out(), // reset indication due to PLL reset (avtice high)
+  
+  .csirxss_csi_irq(), // interrupt active high from CSI-2 RX Controller
+  .video_aclk(), // subsystem clock (input)
+  .video_aresetn(), // subsystem reset active low
+  
+  // video interface axi-4 stream
+  // I think this interface is optional?
+  .csirxss_s_axi_awaddr(),
+  csirxss_s_axi_awprot,
+  csirxss_s_axi_awvalid,
+  csirxss_s_axi_awready,
+  csirxss_s_axi_wdata,
+  csirxss_s_axi_wstrb,
+  csirxss_s_axi_wvalid,
+  csirxss_s_axi_wready,
+  csirxss_s_axi_bresp,
+  csirxss_s_axi_bvalid,
+  csirxss_s_axi_bready,
+  csirxss_s_axi_araddr,
+  csirxss_s_axi_arprot,
+  csirxss_s_axi_arvalid,
+  csirxss_s_axi_arready,
+  csirxss_s_axi_rdata,
+  csirxss_s_axi_rresp,
+  csirxss_s_axi_rvalid,
+  csirxss_s_axi_rready,
+  
+  // AXI4 stream video interface when VFB is present
+  .video_out_tdata,
+  .video_out_tdest,
+  .video_out_tlast,
+  .video_out_tready,
+  .video_out_tuser,
+  .video_out_tvalid,
+  
+  // mipi signals routing in from outside 
+  mipi_phy_if_clk_hs_n,
+  mipi_phy_if_clk_hs_p,
+  mipi_phy_if_clk_lp_n,
+  mipi_phy_if_clk_lp_p,
+  mipi_phy_if_data_hs_n,
+  mipi_phy_if_data_hs_p,
+  mipi_phy_if_data_lp_n,
+  mipi_phy_if_data_lp_p
+);
 
     mig_7series_0 RamBuf (
     // Memory interface ports

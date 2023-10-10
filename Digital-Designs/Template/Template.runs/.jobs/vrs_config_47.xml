@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="bd_639e_0_xbar_0_synth_1" LaunchDir="C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/bd_639e_0_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_639e_0_r_sync_0_synth_1" LaunchDir="C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/bd_639e_0_r_sync_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_639e_0_rx_0_synth_1" LaunchDir="C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/bd_639e_0_rx_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_639e_0_phy_0_synth_1" LaunchDir="C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/bd_639e_0_phy_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_639e_0_vfb_0_0_synth_1" LaunchDir="C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/bd_639e_0_vfb_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mipi_csi2_rx_subsystem_0_synth_1" LaunchDir="C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/mipi_csi2_rx_subsystem_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="bd_639e_0_xbar_0_synth_1"/>
+		<Parent Id="bd_639e_0_r_sync_0_synth_1"/>
+		<Parent Id="bd_639e_0_rx_0_synth_1"/>
+		<Parent Id="bd_639e_0_phy_0_synth_1"/>
+		<Parent Id="bd_639e_0_vfb_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

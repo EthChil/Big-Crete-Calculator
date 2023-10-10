@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Oct  4 10:47:08 2023
+# Process ID: 30788
+# Current directory: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/bd_639e_0_xbar_0_synth_1
+# Command line: vivado.exe -log bd_639e_0_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_639e_0_xbar_0.tcl
+# Log file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/bd_639e_0_xbar_0_synth_1/bd_639e_0_xbar_0.vds
+# Journal file: C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/bd_639e_0_xbar_0_synth_1\vivado.jou
+# Running On: Nikon-DSLR, OS: Windows, CPU Frequency: 3800 MHz, CPU Physical cores: 16, Host memory: 34277 MB
+#-----------------------------------------------------------
+source bd_639e_0_xbar_0.tcl -notrace

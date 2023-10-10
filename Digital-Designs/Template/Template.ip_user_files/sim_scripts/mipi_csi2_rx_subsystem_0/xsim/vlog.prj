@@ -1,0 +1,32 @@
+verilog xil_defaultlib --include "../../../ipstatic/hdl" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_0/sim/bd_639e_0_xbar_0.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_2/sim/bd_639e_0_rx_0.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_3/bd_639e_0_phy_0/support/bd_639e_0_phy_0_support.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_3/bd_639e_0_phy_0_c1.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_3/bd_639e_0_phy_0_core.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_3/bd_639e_0_phy_0.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_0/sim/bd_639e_0_vfb_0_0_axis_converter.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_1/sim/bd_639e_0_vfb_0_0_axisswitch.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_2/sim/bd_639e_0_vfb_0_0_sli.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/sim/bd_639e_0_vfb_0_0_slo.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0/src/verilog/bd_639e_0_vfb_0_0_fifo.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0/src/verilog/bd_639e_0_vfb_0_0_axis_ycomp_dconverter.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0/src/verilog/bd_639e_0_vfb_0_0_fifo_ycomp.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0/src/verilog/bd_639e_0_vfb_0_0_YUV420_DT_Demux.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0/src/verilog/bd_639e_0_vfb_0_0_YUV420_DT_Mux.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0/src/verilog/bd_639e_0_vfb_0_0_YUV420_vc4_mux.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0/src/verilog/bd_639e_0_vfb_0_0_YUV420_vc4_demux.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0/src/verilog/bd_639e_0_vfb_0_0_YUV420_vc16_mux.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0/src/verilog/bd_639e_0_vfb_0_0_YUV420_vc16_demux.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0/src/verilog/bd_639e_0_vfb_0_0_fifo_yuv.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0/src/verilog/bd_639e_0_vfb_0_0_fifo_sb.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0/src/verilog/bd_639e_0_vfb_0_0_axis_dconverter.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0_core.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/bd_0/sim/bd_639e_0.v" \
+"../../../ip/mipi_csi2_rx_subsystem_0/sim/mipi_csi2_rx_subsystem_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

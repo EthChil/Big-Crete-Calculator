@@ -1,0 +1,419 @@
+
+*** Running vivado
+    with args -log bd_639e_0_vfb_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_639e_0_vfb_0_0.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source bd_639e_0_vfb_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 455.391 ; gain = 160.336
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_639e_0_vfb_0_0
+Command: synth_design -top bd_639e_0_vfb_0_0 -part xc7a200tsbg484-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 30564
+INFO: [Synth 8-11241] undeclared symbol 'i_axis_tlast', assumed default net type 'wire' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0/src/verilog/bd_639e_0_vfb_0_0_YUV420_vc16_demux.v:337]
+INFO: [Synth 8-11241] undeclared symbol 'odd_lines_hold', assumed default net type 'wire' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/hdl/vfb_v1_0_syn_rfs.v:610]
+INFO: [Synth 8-11241] undeclared symbol 's_yuv_detector_vc13', assumed default net type 'wire' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0_core.v:1231]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1337.262 ; gain = 409.934
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_639e_0_vfb_0_0' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0.v:52]
+INFO: [Synth 8-6157] synthesizing module 'bd_639e_0_vfb_0_0_core' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0_core.v:52]
+INFO: [Synth 8-6157] synthesizing module 'vfb_v1_0_22_reorder' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/hdl/vfb_v1_0_syn_rfs.v:985]
+	Parameter AXIS_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter AXIS_TUSER_WIDTH bound to: 96 - type: integer 
+	Parameter AXIS_TDEST_WIDTH bound to: 4 - type: integer 
+	Parameter VFB_TU_WIDTH bound to: 1 - type: integer 
+	Parameter VFB_TSB0_WIDTH bound to: 32 - type: integer 
+	Parameter VFB_TSB1_WIDTH bound to: 0 - type: integer 
+	Parameter VFB_TSB2_WIDTH bound to: 3 - type: integer 
+	Parameter VFB_OP_DWIDTH bound to: 16 - type: integer 
+	Parameter VFB_DATA_TYPE bound to: 44 - type: integer 
+	Parameter VFB_VC bound to: 0 - type: integer 
+	Parameter VFB_FILTER_VC bound to: 0 - type: integer 
+	Parameter VFB_REQ_BUFFER bound to: 1 - type: integer 
+	Parameter VFB_REQ_REORDER bound to: 1 - type: integer 
+	Parameter VFB_FIFO_WIDTH bound to: 64 - type: integer 
+	Parameter VFB_DCONV_TUW bound to: 24 - type: integer 
+	Parameter VFB_4PXL_W bound to: 48 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vfb_v1_0_22_reorder' (0#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/hdl/vfb_v1_0_syn_rfs.v:985]
+INFO: [Synth 8-6157] synthesizing module 'bd_639e_0_vfb_0_0_axis_dconverter' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0/src/verilog/bd_639e_0_vfb_0_0_axis_dconverter.v:47]
+INFO: [Synth 8-6157] synthesizing module 'bd_639e_0_vfb_0_0_axis_converter' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_0/synth/bd_639e_0_vfb_0_0_axis_converter.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_27_axis_dwidth_converter' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_0/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_27_axisc_downsizer' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_0/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_27_axisc_downsizer' (0#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_0/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:61]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_28_axis_register_slice' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' (0#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_28_axisc_register_slice' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_28_axisc_register_slice' (0#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' (0#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_28_axis_register_slice' (0#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_28_axis_register_slice__parameterized0' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector__parameterized0' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector__parameterized0' (0#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_28_axisc_register_slice__parameterized0' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_28_axisc_register_slice__parameterized0' (0#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis__parameterized0' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis__parameterized0' (0#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_28_axis_register_slice__parameterized0' (0#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_3/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_27_axis_dwidth_converter' (0#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_0/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6155] done synthesizing module 'bd_639e_0_vfb_0_0_axis_converter' (0#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/ip_0/synth/bd_639e_0_vfb_0_0_axis_converter.v:53]
+WARNING: [Synth 8-689] width (3) of port connection 'm_axis_tuser' does not match port width (6) of module 'bd_639e_0_vfb_0_0_axis_converter' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0/src/verilog/bd_639e_0_vfb_0_0_axis_dconverter.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'bd_639e_0_vfb_0_0_axis_dconverter' (0#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0/src/verilog/bd_639e_0_vfb_0_0_axis_dconverter.v:47]
+INFO: [Synth 8-6157] synthesizing module 'vfb_v1_0_22_op_inf' [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/hdl/vfb_v1_0_syn_rfs.v:3845]
+	Parameter VFB_TU_WIDTH bound to: 1 - type: integer 
+	Parameter VFB_TSB0_WIDTH bound to: 32 - type: integer 
+	Parameter VFB_TSB1_WIDTH bound to: 0 - type: integer 
+	Parameter VFB_TSB2_WIDTH bound to: 3 - type: integer 
+	Parameter AXIS_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter VFB_PXL_W bound to: 12 - type: integer 
+	Parameter VFB_PXL_W_BB bound to: 16 - type: integer 
+	Parameter VFB_DCONV_OWIDTH bound to: 16 - type: integer 
+	Parameter VFB_OP_DWIDTH bound to: 16 - type: integer 
+	Parameter VFB_OP_PIXELS bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vfb_v1_0_22_op_inf' (0#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/hdl/vfb_v1_0_syn_rfs.v:3845]
+INFO: [Synth 8-6155] done synthesizing module 'bd_639e_0_vfb_0_0_core' (0#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0_core.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'bd_639e_0_vfb_0_0' (0#1) [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0.v:52]
+WARNING: [Synth 8-6014] Unused sequential element first_beat_rcvd_reg was removed.  [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/hdl/vfb_v1_0_syn_rfs.v:3677]
+WARNING: [Synth 8-6014] Unused sequential element lbuffull_reg was removed.  [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0_core.v:3390]
+WARNING: [Synth 8-6014] Unused sequential element strm_lb_full_d1_reg was removed.  [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0_core.v:3357]
+WARNING: [Synth 8-6014] Unused sequential element strm_lb_fullvld_reg was removed.  [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0_core.v:3364]
+WARNING: [Synth 8-6014] Unused sequential element vfb_buffull_reg was removed.  [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0_core.v:3373]
+WARNING: [Synth 8-6014] Unused sequential element asyncfifofull_reg was removed.  [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0_core.v:3381]
+WARNING: [Synth 8-3848] Net m_axis_tdest in module/entity bd_639e_0_vfb_0_0_core does not have driver. [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0_core.v:140]
+WARNING: [Synth 8-7129] Port s_axis_tdata[15] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[14] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[13] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[12] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[31] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[30] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[29] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[28] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[27] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[26] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[25] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[24] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[23] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[22] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[21] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[20] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[19] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[18] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[17] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[16] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[15] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[14] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[13] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[12] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[11] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[10] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[31] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[30] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[29] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[28] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[27] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[26] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[25] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[24] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[23] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[22] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[21] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[20] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[19] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[18] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[17] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[16] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[15] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[14] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[13] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[12] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[11] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[10] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[9] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[8] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[7] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[6] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[5] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[4] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[3] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[2] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[1] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[0] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tuser[2] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tuser[1] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tkeep[1] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tkeep[0] in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sband_te in module vfb_v1_0_22_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module axis_register_slice_v1_1_28_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axis_register_slice_v1_1_28_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axis_register_slice_v1_1_28_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLKEN in module axis_register_slice_v1_1_28_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[1] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TDEST[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module axis_register_slice_v1_1_28_axisc_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axis_register_slice_v1_1_28_axisc_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axis_register_slice_v1_1_28_axisc_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLKEN in module axis_register_slice_v1_1_28_axisc_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[7] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[6] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[5] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[4] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[3] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[2] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[1] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TDEST[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port core_men_vfb in module bd_639e_0_vfb_0_0_core is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1450.133 ; gain = 522.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1450.133 ; gain = 522.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1450.133 ; gain = 522.805
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 1450.133 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.srcs/sources_1/ip/mipi_csi2_rx_subsystem_0/bd_0/ip/ip_4/bd_639e_0_vfb_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/bd_639e_0_vfb_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/bd_639e_0_vfb_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1518.820 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1521.398 ; gain = 2.578
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 1521.398 ; gain = 594.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tsbg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 1521.398 ; gain = 594.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/bd_639e_0_vfb_0_0_synth_1/dont_touch.xdc, line 20).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/axis_dconverter/axis_conv_inst. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 1521.398 ; gain = 594.070
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4490] FSM extraction disabled for register 'state_reg' through user attribute
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 1521.398 ; gain = 594.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 1     
+	  10 Input    8 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 1     
+	   8 Input    4 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 2     
++---Registers : 
+	              180 Bit    Registers := 2     
+	               64 Bit    Registers := 6     
+	               41 Bit    Registers := 2     
+	               32 Bit    Registers := 4     
+	               24 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 6     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 24    
++---Muxes : 
+	   2 Input  180 Bit        Muxes := 4     
+	   4 Input  176 Bit        Muxes := 2     
+	   4 Input   64 Bit        Muxes := 1     
+	   2 Input   64 Bit        Muxes := 3     
+	   4 Input   48 Bit        Muxes := 1     
+	   2 Input   41 Bit        Muxes := 2     
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 1     
+	   4 Input   24 Bit        Muxes := 1     
+	   4 Input   12 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 2     
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 3     
+	   5 Input    8 Bit        Muxes := 1     
+	   6 Input    8 Bit        Muxes := 1     
+	   4 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 6     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 40    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port core_men_vfb in module bd_639e_0_vfb_0_0_core is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:19 . Memory (MB): peak = 1521.398 ; gain = 594.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1521.398 ; gain = 594.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:24 . Memory (MB): peak = 1521.398 ; gain = 594.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:24 . Memory (MB): peak = 1521.398 ; gain = 594.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:28 . Memory (MB): peak = 1521.398 ; gain = 594.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:28 . Memory (MB): peak = 1521.398 ; gain = 594.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:28 . Memory (MB): peak = 1521.398 ; gain = 594.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:28 . Memory (MB): peak = 1521.398 ; gain = 594.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:28 . Memory (MB): peak = 1521.398 ; gain = 594.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:28 . Memory (MB): peak = 1521.398 ; gain = 594.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     2|
+|2     |LUT1   |     5|
+|3     |LUT2   |    21|
+|4     |LUT3   |    72|
+|5     |LUT4   |   107|
+|6     |LUT5   |    48|
+|7     |LUT6   |   206|
+|8     |FDRE   |   659|
+|9     |FDSE   |     1|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:28 . Memory (MB): peak = 1521.398 ; gain = 594.070
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:26 . Memory (MB): peak = 1521.398 ; gain = 522.805
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:28 . Memory (MB): peak = 1521.398 ; gain = 594.070
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1521.398 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1521.398 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: abc70033
+INFO: [Common 17-83] Releasing license: Synthesis
+52 Infos, 94 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:36 . Memory (MB): peak = 1521.398 ; gain = 1032.781
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/bd_639e_0_vfb_0_0_synth_1/bd_639e_0_vfb_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_639e_0_vfb_0_0, cache-ID = 5cf11d15c7b4ade3
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ethan/Documents/GitHub/Big-Crete-Calculator/Digital-Designs/Template/Template.runs/bd_639e_0_vfb_0_0_synth_1/bd_639e_0_vfb_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bd_639e_0_vfb_0_0_utilization_synth.rpt -pb bd_639e_0_vfb_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Oct  4 10:47:59 2023...
