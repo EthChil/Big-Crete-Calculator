@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "V3/Electrical Design V3/FPGA/DDR3 to FPGA connection.md",
+                "file": "V2/Architecture V2/Rev A Issues Log.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "V3/Electrical Design V3/FPGA/DDR3 to FPGA connection.md",
+                "file": "V2/Architecture V2/Rev A Issues Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,8 +232,10 @@
   },
   "active": "3c6804b22fc9e499",
   "lastOpenFiles": [
-    "V2/A35T Pin mapping.md",
+    "V2/Electrical Design V2/BOM V2 Rev 1 Electronics.md",
     "V2/Architecture V2/Rev A Issues Log.md",
+    "V3/Electrical Design V3/FPGA/DDR3 to FPGA connection.md",
+    "V2/A35T Pin mapping.md",
     "Design Journal.md",
     "Attachments/Pasted image 20230528220621.png",
     "Attachments/Pasted image 20230528220600.png",
@@ -262,9 +264,7 @@
     "V3/Electrical Design V3/FPGA/FPGA Clock.md",
     "V3/Electrical Design V3/FPGA/FPGA Board.md",
     "V3/Electrical Design V3/FPGA/FPGA AC7A200T-1SBG484C Pinout.md",
-    "V3/Electrical Design V3/FPGA/DDR3 to FPGA connection.md",
     "V3/Electrical Design V3/FPGA/Corsair DDR3L.md",
-    "V2/Electrical Design V2/BOM V2 Rev 1 Electronics.md",
     "V1/Electrical Design V1/LED + Driver.md",
     "V2/Electrical Design V2/Current Mirror Power Analysis.md",
     "V2/Electrical Design V2/LED Driver Board Design Journal.md",
