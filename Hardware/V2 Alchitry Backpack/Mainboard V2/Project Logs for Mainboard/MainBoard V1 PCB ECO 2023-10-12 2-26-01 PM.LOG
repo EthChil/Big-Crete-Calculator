@@ -1,0 +1,24 @@
+Added Component: Designator=J8(SAMTEC_SSM-120-L-SV-BE)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SSM-120-L-SV-BE/Samtec/view-part/2796009/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "612-SSM-120-L-SV-BE-K-TR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SSM-120-L-SV-BE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/SSM-120-L-SV-BE/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SSM-120-L-SV-BE/Samtec/view-part/2796009/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J8-01
+Added Pin To Net: NetName=+5 Pin=J8-02
+Added Pin To Net: NetName=LCD_CS Pin=J8-03
+Added Pin To Net: NetName=LCD_CD Pin=J8-04
+Added Pin To Net: NetName=LCD_WR Pin=J8-05
+Added Pin To Net: NetName=LCD_RD Pin=J8-06
+Added Pin To Net: NetName=D0 Pin=J8-13
+Added Pin To Net: NetName=D1 Pin=J8-14
+Added Pin To Net: NetName=D2 Pin=J8-15
+Added Pin To Net: NetName=D3 Pin=J8-16
+Added Pin To Net: NetName=D4 Pin=J8-17
+Added Pin To Net: NetName=D5 Pin=J8-18
+Added Pin To Net: NetName=D6 Pin=J8-19
+Added Pin To Net: NetName=D7 Pin=J8-20
+Added Member To Class: ClassName=Connectors Member=Component J8 SSM-120-L-SV-BE

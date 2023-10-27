@@ -1,0 +1,73 @@
+Removed Pin From Net: NetName=GND Pin=J6-5
+Removed Pin From Net: NetName=GND Pin=J6-6
+Removed Pin From Net: NetName=SWL4 Pin=J6-8
+Removed Pin From Net: NetName=LS4 Pin=J6-9
+Removed Pin From Net: NetName=LS9 Pin=J6-10
+Removed Pin From Net: NetName=LS14 Pin=J6-11
+Removed Pin From Net: NetName=+5 Pin=J6-12
+Removed Pin From Net: NetName=+5 Pin=J6-13
+Removed Pin From Net: NetName=SWL3 Pin=J6-14
+Removed Pin From Net: NetName=LS3 Pin=J6-15
+Removed Pin From Net: NetName=LS8 Pin=J6-16
+Removed Pin From Net: NetName=LS13 Pin=J6-17
+Removed Pin From Net: NetName=SWL2 Pin=J6-18
+Removed Pin From Net: NetName=LS2 Pin=J6-19
+Removed Pin From Net: NetName=SWL1 Pin=J7-7
+Removed Pin From Net: NetName=LS1 Pin=J7-8
+Removed Pin From Net: NetName=LS6 Pin=J7-9
+Removed Pin From Net: NetName=SWH0 Pin=J7-11
+Removed Pin From Net: NetName=SWH1 Pin=J7-12
+Removed Pin From Net: NetName=SWH2 Pin=J7-13
+Removed Pin From Net: NetName=SWH3 Pin=J7-14
+Removed Pin From Net: NetName=SWH4 Pin=J7-15
+Removed Pin From Net: NetName=SWH5 Pin=J7-16
+Removed Pin From Net: NetName=LS0 Pin=J7-18
+Removed Pin From Net: NetName=LS10 Pin=J7-20
+Change component parameters: Designator = "J6" ("J6"); Footprint = "M50-3132045"; UniqueID = "\CRUKUNKY" ("\CRUKUNKY")
+Change component parameters (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J7" ("J7"); Footprint = "M50-3132045"; UniqueID = "\GVQLAHAS" ("\GVQLAHAS")
+Change component parameters (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SWL4 Pin=J6-1
+Added Pin To Net: NetName=SWL4 Pin=J6-1
+Added Pin To Net: NetName=LS9 Pin=J6-2
+Added Pin To Net: NetName=LS9 Pin=J6-2
+Added Pin To Net: NetName=GND Pin=J6-8
+Added Pin To Net: NetName=GND Pin=J6-9
+Added Pin To Net: NetName=LS4 Pin=J6-10
+Added Pin To Net: NetName=SWL3 Pin=J6-11
+Added Pin To Net: NetName=LS14 Pin=J6-12
+Added Pin To Net: NetName=LS8 Pin=J6-13
+Added Pin To Net: NetName=SWH0 Pin=J6-15
+Added Pin To Net: NetName=LS13 Pin=J6-16
+Added Pin To Net: NetName=SWL2 Pin=J6-17
+Added Pin To Net: NetName=LS3 Pin=J6-19
+Added Pin To Net: NetName=SWH1 Pin=J7-7
+Added Pin To Net: NetName=SWL1 Pin=J7-8
+Added Pin To Net: NetName=LS2 Pin=J7-9
+Added Pin To Net: NetName=SWH2 Pin=J7-11
+Added Pin To Net: NetName=SWH3 Pin=J7-12
+Added Pin To Net: NetName=SWH4 Pin=J7-13
+Added Pin To Net: NetName=LS6 Pin=J7-14
+Added Pin To Net: NetName=SWH5 Pin=J7-15
+Added Pin To Net: NetName=LS1 Pin=J7-16
+Added Pin To Net: NetName=LS10 Pin=J7-18
+Added Pin To Net: NetName=LS0 Pin=J7-20
+Change Net Name : Old Net Name=AHS2 New Net Name=HS2
+Added Pin To Net: NetName=HS0 Pin=J3-49
+Added Pin To Net: NetName=HS0 Pin=J6-14
+Added Net: Name=HS0
+Added Pin To Net: NetName=HS1 Pin=J3-48
+Added Pin To Net: NetName=HS1 Pin=J6-4
+Added Net: Name=HS1
+Added Pin To Net: NetName=HS3 Pin=J3-23
+Added Pin To Net: NetName=HS3 Pin=J6-5
+Added Net: Name=HS3
+Added Pin To Net: NetName=HS4 Pin=J3-21
+Added Pin To Net: NetName=HS4 Pin=J6-18
+Added Net: Name=HS4
+Added Pin To Net: NetName=HS5 Pin=J2-28
+Added Pin To Net: NetName=HS5 Pin=J6-6
+Added Net: Name=HS5
+Added Member To Class: ClassName=Connectors Member=Component J9 SSM-120-L-SV-BE
+Added Room: Name=BatteryManagement
+Added Room: Name=Connectors

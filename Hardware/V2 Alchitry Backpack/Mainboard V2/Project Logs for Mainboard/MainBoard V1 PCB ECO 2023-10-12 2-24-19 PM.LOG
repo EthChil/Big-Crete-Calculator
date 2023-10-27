@@ -1,0 +1,19 @@
+Add Component: Footprint Not Found SAMTEC_SSM-120-L-SV-BE
+Add Pin To Net: Unknown Pin: Pin J?-01
+Add Pin To Net: Unknown Pin: Pin J?-02
+Add Pin To Net: Unknown Pin: Pin J?-03
+Add Pin To Net: Unknown Pin: Pin J?-04
+Add Pin To Net: Unknown Pin: Pin J?-05
+Add Pin To Net: Unknown Pin: Pin J?-06
+Add Pin To Net: Unknown Pin: Pin J?-13
+Add Pin To Net: Unknown Pin: Pin J?-14
+Add Pin To Net: Unknown Pin: Pin J?-15
+Add Pin To Net: Unknown Pin: Pin J?-16
+Add Pin To Net: Unknown Pin: Pin J?-17
+Add Pin To Net: Unknown Pin: Pin J?-18
+Add Pin To Net: Unknown Pin: Pin J?-19
+Add Pin To Net: Unknown Pin: Pin J?-20
+Add Class Member: Failed to add class member : Component J? SSM-120-L-SV-BE
+Added Room: Name=5VBoost
+Added Room: Name=BatteryManagement
+Added Room: Name=Connectors

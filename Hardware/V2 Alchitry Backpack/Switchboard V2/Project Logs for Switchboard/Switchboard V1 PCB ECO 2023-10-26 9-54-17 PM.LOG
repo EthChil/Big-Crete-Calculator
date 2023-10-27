@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=SWL0 Pin=J2-16
+Removed Pin From Net: NetName=LS1 Pin=J2-17
+Added Pin To Net: NetName=SWH4 Pin=J2-8
+Added Pin To Net: NetName=SWH5 Pin=J2-15
+Added Pin To Net: NetName=LS1 Pin=J2-16
+Added Pin To Net: NetName=SWL0 Pin=J2-17
+Added Room: Name=Connectors
+Added Room: Name=LED Driver and Switches

@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=J? NewDesignator=J6
+Change Component Designator: OldDesignator=J? NewDesignator=J7
+Add Component: Footprint Not Found HDR1X2
+Add Pin To Net: Unknown Pin: Pin P1-1
+Add Net: Net with name "Vbatt_raw" already exists
+Added Member To Class: ClassName=Connectors Member=Component J6 20pos passthru header 0.05" pitch
+Add Class Member: Failed to add class member : Component P1 Header 2

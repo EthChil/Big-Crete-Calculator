@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=LS3 Pin=J1-15
+Added Pin To Net: NetName=LS3 Pin=J1-19
+Added Room: Name=Connectors
+Added Room: Name=LED Driver and Switches

@@ -37,18 +37,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Journal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c6804b22fc9e499",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "V2/Architecture V2/Rev A Issues Log.md",
                 "mode": "source",
                 "source": false
@@ -116,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,19 +218,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3c6804b22fc9e499",
+  "active": "163ec3c308adeaf2",
   "lastOpenFiles": [
+    "V2/Electrical Design V2/LED Driver Board Design Journal.md",
+    "V2.5/List of Modifications.md",
+    "V2/Architecture V2/TOP Design.md",
+    "V2/Architecture V2/Power Architecture V2.md",
+    "V2/Architecture V2/Architecture Overview.md",
+    "V2/Electrical Design V2/Current Mirror Power Analysis.md",
     "V2/Electrical Design V2/BOM V2 Rev 1 Electronics.md",
     "V2/Architecture V2/Rev A Issues Log.md",
+    "V1/Electrical Design V1/LED + Driver.md",
+    "V2.5",
+    "Design Journal.md",
     "V3/Electrical Design V3/FPGA/DDR3 to FPGA connection.md",
     "V2/A35T Pin mapping.md",
-    "Design Journal.md",
     "Attachments/Pasted image 20230528220621.png",
     "Attachments/Pasted image 20230528220600.png",
     "Attachments/Pasted image 20230528215146.png",
     "Attachments/Pasted image 20230528215005.png",
-    "V2/Architecture V2/Architecture Overview.md",
-    "V2/Architecture V2/Power Architecture V2.md",
     "High Level Scope.md",
     "LTSpice Master Notes.md",
     "V1/Electrical Design V1/Datasheets/p2739.pdf",
@@ -254,7 +248,6 @@
     "V1/Electrical Design V1/Datasheets/1912111437_Slkor-SLKORMICRO-Elec-SS8550_C444726.pdf",
     "V1/Electrical Design V1/Datasheets/2005221001_Nexperia-74HC238D-653_C5620.pdf",
     "V1/Electrical Design V1/Datasheets/Alpha-Omega-Semicon-AOS-AO3401A_C15127.pdf",
-    "V1/Electrical Design V1/Datasheets/Changjiang-Electronics-Tech-CJ-1N4148WS_C2128.pdf",
     "V3/Electrical Design V3/FPGA/Attachments/Pasted image 20221022230642.png",
     "V3/Electrical Design V3/FPGA/Attachments/Pasted image 20221022230442.png",
     "V3/Electrical Design V3/FPGA/Attachments/Pasted image 20210714174230.png",
@@ -265,15 +258,11 @@
     "V3/Electrical Design V3/FPGA/FPGA Board.md",
     "V3/Electrical Design V3/FPGA/FPGA AC7A200T-1SBG484C Pinout.md",
     "V3/Electrical Design V3/FPGA/Corsair DDR3L.md",
-    "V1/Electrical Design V1/LED + Driver.md",
-    "V2/Electrical Design V2/Current Mirror Power Analysis.md",
-    "V2/Electrical Design V2/LED Driver Board Design Journal.md",
     "V2/Electrical Design V2/Untitled 1.md",
     "V3/Electrical Design V3/LED + Driver.md",
     "V3/Electrical Design V3/LCD Display.md",
     "V3/Electrical Design V3/Top Level Electrical.md",
     "V3/Electrical Design V3/Motherboard.md",
-    "V3/Electrical Design V3/Power Subcircuit.md",
     "Attachments/Pasted image 20230327185237.png",
     "V2/Electrical Design V2/Attachments/Pasted image 20230315141529.png",
     "Attachments/Pasted image 20230314152145.png",

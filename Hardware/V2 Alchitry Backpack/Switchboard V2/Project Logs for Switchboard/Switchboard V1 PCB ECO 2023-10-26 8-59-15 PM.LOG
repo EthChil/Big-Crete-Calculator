@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=LS0 Pin=J2-18
+Removed Pin From Net: NetName=LS10 Pin=J2-20
+Change component parameters: Designator = "J1" ("J1"); Footprint = "20 POS HEADER"; UniqueID = "\EZUZQJUY" ("\EZUZQJUY")
+Change component parameters (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J2" ("J2"); Footprint = "20 POS HEADER"; UniqueID = "\WYEULZCZ" ("\WYEULZCZ")
+Change component parameters (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=LS10 Pin=J2-18
+Added Pin To Net: NetName=LS0 Pin=J2-20
+Added Room: Name=Connectors
+Added Room: Name=LED Driver and Switches

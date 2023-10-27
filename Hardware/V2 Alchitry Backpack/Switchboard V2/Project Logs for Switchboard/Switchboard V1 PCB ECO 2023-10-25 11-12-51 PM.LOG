@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=GND Pin=J1-5
+Removed Pin From Net: NetName=GND Pin=J1-6
+Removed Pin From Net: NetName=SWL4 Pin=J1-8
+Removed Pin From Net: NetName=LS4 Pin=J1-9
+Removed Pin From Net: NetName=LS9 Pin=J1-10
+Removed Pin From Net: NetName=LS14 Pin=J1-11
+Removed Pin From Net: NetName=HS0 Pin=R30-2
+Removed Pin From Net: NetName=HS1 Pin=R31-2
+Removed Pin From Net: NetName=HS2 Pin=R32-2
+Removed Pin From Net: NetName=HS3 Pin=R33-2
+Removed Pin From Net: NetName=HS4 Pin=R34-2
+Removed Pin From Net: NetName=HS5 Pin=R35-2
+Removed Pin From Net: NetName=GND Pin=U4-5
+Removed Pin From Net: NetName=GND Pin=U4-8
+Removed Member From Class: ClassName=LED Driver and Switches Member=R30
+Removed Member From Class: ClassName=LED Driver and Switches Member=R31
+Removed Member From Class: ClassName=LED Driver and Switches Member=R32
+Removed Member From Class: ClassName=LED Driver and Switches Member=R33
+Removed Member From Class: ClassName=LED Driver and Switches Member=R34
+Removed Member From Class: ClassName=LED Driver and Switches Member=R35
+Removed Member From Class: ClassName=LED Driver and Switches Member=TP5
+Removed Member From Class: ClassName=LED Driver and Switches Member=TP7
+Removed Member From Class: ClassName=LED Driver and Switches Member=U4
+Added Pin To Net: NetName=HS0 Pin=J1-1
+Added Pin To Net: NetName=HS1 Pin=J1-2
+Added Pin To Net: NetName=HS2 Pin=J1-3
+Added Pin To Net: NetName=HS3 Pin=J1-4
+Added Pin To Net: NetName=HS4 Pin=J1-5
+Added Pin To Net: NetName=HS5 Pin=J1-6
+Added Pin To Net: NetName=GND Pin=J1-8
+Added Pin To Net: NetName=GND Pin=J1-9
+Added Pin To Net: NetName=SWL4 Pin=J1-10
+Added Pin To Net: NetName=LS4 Pin=J1-11
+Added Pin To Net: NetName=LS9 Pin=J1-12
+Added Pin To Net: NetName=LS14 Pin=J1-13
+Added Pin To Net: NetName=VBatt Pin=T18-2
+Added Pin To Net: NetName=VBatt Pin=T19-2
+Added Pin To Net: NetName=VBatt Pin=T20-2
+Added Pin To Net: NetName=VBatt Pin=T21-2
+Added Pin To Net: NetName=VBatt Pin=T22-2
+Added Pin To Net: NetName=VBatt Pin=T23-2
+Added Room: Name=Connectors
+Added Room: Name=LED Driver and Switches

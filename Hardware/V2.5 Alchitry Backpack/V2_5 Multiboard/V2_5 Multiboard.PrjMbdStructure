@@ -1,0 +1,4 @@
+Record=DiagramHierarchy|SourceDocument=Schematic.MbsDoc|Kind=Multi-board Schematic Module|Designator=PCB1|Source=..\..\V2 Alchitry Backpack\Mainboard V2\Mainboard.PrjPcb
+Record=SubProject|SourceDocument=Schematic.MbsDoc|ProjectPath=..\..\V2 Alchitry Backpack\Mainboard V2\Mainboard.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Schematic.MbsDoc|Kind=Multi-board Schematic Module|Designator=PCB2|Source=..\..\V2 Alchitry Backpack\Switchboard V2\Switchboard.PrjPcb
+Record=SubProject|SourceDocument=Schematic.MbsDoc|ProjectPath=..\..\V2 Alchitry Backpack\Switchboard V2\Switchboard.PrjPcb

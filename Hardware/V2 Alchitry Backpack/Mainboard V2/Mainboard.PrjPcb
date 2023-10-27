@@ -31,7 +31,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-IsProjectConflictPreventionWarningsEnabled=0
+IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
@@ -126,7 +126,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -137,7 +137,7 @@ GenerateClassCluster=0
 DocumentUniqueId=UHFUGVAM
 
 [Document6]
-DocumentPath=2020-09-26_17-27-19.PcbLib
+DocumentPath=..\..\..\..\..\GrabCAD\Altium Projs\Universal Library\2020-09-26_17-27-19.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -151,10 +151,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=IGOAITCV
 
 [Document7]
-DocumentPath=2020-09-26_17-27-19.SchLib
+DocumentPath=..\..\..\..\..\GrabCAD\Altium Projs\Universal Library\2020-09-26_17-27-19.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -168,109 +168,113 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=FKOFSZHG
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1-RoundHoles.TXT
+DocumentPath=Project Outputs for Mainboard\Design Rule Check - MainBoard V1.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1-SlotHoles.TXT
+DocumentPath=Project Outputs for Mainboard\MainBoard V1-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.DRR
+DocumentPath=Project Outputs for Mainboard\MainBoard V1-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.EXTREP
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.G1
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.G2
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.G1
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GBL
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.G2
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GBO
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GBP
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GBS
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GD1
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GG1
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GM4
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GM6
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GM4
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GM7
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GM6
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GM20
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GM7
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GM24
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GM20
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GPB
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GM24
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GPT
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GTL
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GTO
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GTP
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.GTS
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.LDP
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for Mainboard\MainBoard V1.REP
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument26]
+DocumentPath=Project Outputs for Mainboard\MainBoard V1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
 DocumentPath=Project Outputs for Mainboard\MainBoard V1.RUL
 DItemRevisionGUID=
 
@@ -283,6 +287,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_CoDesigner Mechatronic Panel]
+LastAcknowledgment=2023-10-27T17:51:22.0000000
 
 [OutputGroup1]
 Name=Netlist Outputs

@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=GND Pin=P1-1
+Removed Pin From Net: NetName=+5 Pin=P1-2
+Removed Pin From Net: NetName=LCD_CS Pin=P1-3
+Removed Pin From Net: NetName=LCD_CD Pin=P1-4
+Removed Pin From Net: NetName=LCD_WR Pin=P1-5
+Removed Pin From Net: NetName=LCD_RD Pin=P1-6
+Removed Pin From Net: NetName=D0 Pin=P1-13
+Removed Pin From Net: NetName=D1 Pin=P1-14
+Removed Pin From Net: NetName=D2 Pin=P1-15
+Removed Pin From Net: NetName=D3 Pin=P1-16
+Removed Pin From Net: NetName=D4 Pin=P1-17
+Removed Pin From Net: NetName=D5 Pin=P1-18
+Removed Pin From Net: NetName=D6 Pin=P1-19
+Removed Pin From Net: NetName=D7 Pin=P1-20
+Removed Pin From Net: NetName=Vbatt Pin=P2-1
+Removed Member From Class: ClassName=Connectors Member=P1
+Add Component: Footprint Not Found SAMTEC_SSM-120-L-SV-BE
+Add Pin To Net: Unknown Pin: Pin J?-01
+Add Pin To Net: Unknown Pin: Pin J?-02
+Add Pin To Net: Unknown Pin: Pin J?-03
+Add Pin To Net: Unknown Pin: Pin J?-04
+Add Pin To Net: Unknown Pin: Pin J?-05
+Add Pin To Net: Unknown Pin: Pin J?-06
+Add Pin To Net: Unknown Pin: Pin J?-13
+Add Pin To Net: Unknown Pin: Pin J?-14
+Add Pin To Net: Unknown Pin: Pin J?-15
+Add Pin To Net: Unknown Pin: Pin J?-16
+Add Pin To Net: Unknown Pin: Pin J?-17
+Add Pin To Net: Unknown Pin: Pin J?-18
+Add Pin To Net: Unknown Pin: Pin J?-19
+Add Pin To Net: Unknown Pin: Pin J?-20
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Pin To Net: NetName=NetP2_1 Pin=P2-1
+Added Pin To Net: NetName=NetP2_1 Pin=P3-1
+Added Net: Name=NetP2_1
+Add Class Member: Failed to add class member : Component J? SSM-120-L-SV-BE
+Added Room: Name=5VBoost
+Added Room: Name=BatteryManagement
+Added Room: Name=Connectors

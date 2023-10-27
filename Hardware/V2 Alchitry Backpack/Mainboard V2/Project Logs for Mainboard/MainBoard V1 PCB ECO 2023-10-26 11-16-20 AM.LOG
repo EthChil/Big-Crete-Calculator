@@ -1,0 +1,12 @@
+Added Component: Designator=J9(SAMTEC_SSM-120-L-SV-BE)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SSM-120-L-SV-BE/Samtec/view-part/2796009/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "612-SSM-120-L-SV-BE-K-TR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SSM-120-L-SV-BE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/SSM-120-L-SV-BE/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SSM-120-L-SV-BE/Samtec/view-part/2796009/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Connectors Member=Component J9 SSM-120-L-SV-BE
+Added Room: Name=BatteryManagement
+Added Room: Name=Connectors

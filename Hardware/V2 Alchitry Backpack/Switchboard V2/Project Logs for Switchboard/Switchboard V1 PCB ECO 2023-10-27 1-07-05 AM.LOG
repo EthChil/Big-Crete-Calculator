@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=HS1 Pin=J1-2
+Removed Pin From Net: NetName=HS3 Pin=J1-4
+Removed Pin From Net: NetName=HS4 Pin=J1-5
+Removed Pin From Net: NetName=SWL4 Pin=J1-10
+Removed Pin From Net: NetName=LS4 Pin=J1-11
+Removed Pin From Net: NetName=LS9 Pin=J1-12
+Removed Pin From Net: NetName=LS14 Pin=J1-13
+Removed Pin From Net: NetName=SWL3 Pin=J1-14
+Removed Pin From Net: NetName=HS0 Pin=J1-15
+Removed Pin From Net: NetName=SWH0 Pin=J1-16
+Removed Pin From Net: NetName=LS13 Pin=J1-17
+Removed Pin From Net: NetName=SWL2 Pin=J1-18
+Added Pin To Net: NetName=SWL4 Pin=J1-1
+Added Pin To Net: NetName=LS9 Pin=J1-2
+Added Pin To Net: NetName=HS1 Pin=J1-4
+Added Pin To Net: NetName=HS3 Pin=J1-5
+Added Pin To Net: NetName=LS4 Pin=J1-10
+Added Pin To Net: NetName=SWL3 Pin=J1-11
+Added Pin To Net: NetName=LS14 Pin=J1-12
+Added Pin To Net: NetName=LS8 Pin=J1-13
+Added Pin To Net: NetName=HS0 Pin=J1-14
+Added Pin To Net: NetName=SWH0 Pin=J1-15
+Added Pin To Net: NetName=LS13 Pin=J1-16
+Added Pin To Net: NetName=SWL2 Pin=J1-17
+Added Pin To Net: NetName=HS4 Pin=J1-18
+Added Room: Name=Connectors
+Added Room: Name=LED Driver and Switches

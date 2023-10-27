@@ -1,0 +1,10 @@
+Add Component: Footprint Not Found HDR1X2
+Add Pin To Net: Unknown Pin: Pin P1-1
+Add Pin To Net: Unknown Pin: Pin P1-2
+Added Pin To Net: NetName=Vbatt_raw Pin=P2-1
+Added Pin To Net: NetName=Vbatt_raw Pin=P3-1
+Added Member To Class: ClassName=Connectors Member=Component J6 20pos passthru header 0.05" pitch
+Added Member To Class: ClassName=Connectors Member=Component J7 20pos passthru header 0.05" pitch
+Add Class Member: Failed to add class member : Component P1 Header 2
+Added Room: Name=5VBoost
+Added Room: Name=BatteryManagement

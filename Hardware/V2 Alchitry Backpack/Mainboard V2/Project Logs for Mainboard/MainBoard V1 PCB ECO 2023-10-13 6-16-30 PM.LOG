@@ -1,0 +1,97 @@
+Removed Pin From Net: NetName=Vbatt Pin=C10-2
+Removed Pin From Net: NetName=AHS0 Pin=J6-1
+Removed Pin From Net: NetName=AHS1 Pin=J6-2
+Removed Pin From Net: NetName=AHS2 Pin=J6-3
+Removed Pin From Net: NetName=LED_EN Pin=J6-4
+Removed Pin From Net: NetName=GND Pin=J6-5
+Removed Pin From Net: NetName=GND Pin=J6-6
+Removed Pin From Net: NetName=GND Pin=J6-7
+Removed Pin From Net: NetName=SWL4 Pin=J6-8
+Removed Pin From Net: NetName=LS4 Pin=J6-9
+Removed Pin From Net: NetName=LS9 Pin=J6-10
+Removed Pin From Net: NetName=LS14 Pin=J6-11
+Removed Pin From Net: NetName=+5 Pin=J6-12
+Removed Pin From Net: NetName=+5 Pin=J6-13
+Removed Pin From Net: NetName=SWL3 Pin=J6-14
+Removed Pin From Net: NetName=LS3 Pin=J6-15
+Removed Pin From Net: NetName=LS8 Pin=J6-16
+Removed Pin From Net: NetName=LS13 Pin=J6-17
+Removed Pin From Net: NetName=SWL2 Pin=J6-18
+Removed Pin From Net: NetName=LS2 Pin=J6-19
+Removed Pin From Net: NetName=LS7 Pin=J6-20
+Removed Pin From Net: NetName=GND Pin=J7-1
+Removed Pin From Net: NetName=Vbatt Pin=J7-3
+Removed Pin From Net: NetName=Vbatt Pin=J7-4
+Removed Pin From Net: NetName=LS12 Pin=J7-6
+Removed Pin From Net: NetName=SWL1 Pin=J7-7
+Removed Pin From Net: NetName=LS1 Pin=J7-8
+Removed Pin From Net: NetName=LS6 Pin=J7-9
+Removed Pin From Net: NetName=LS11 Pin=J7-10
+Removed Pin From Net: NetName=SWH0 Pin=J7-11
+Removed Pin From Net: NetName=SWH1 Pin=J7-12
+Removed Pin From Net: NetName=SWH2 Pin=J7-13
+Removed Pin From Net: NetName=SWH3 Pin=J7-14
+Removed Pin From Net: NetName=SWH4 Pin=J7-15
+Removed Pin From Net: NetName=SWH5 Pin=J7-16
+Removed Pin From Net: NetName=SWL0 Pin=J7-17
+Removed Pin From Net: NetName=LS0 Pin=J7-18
+Removed Pin From Net: NetName=LS5 Pin=J7-19
+Removed Pin From Net: NetName=LS10 Pin=J7-20
+Removed Pin From Net: NetName=Vbatt Pin=U1-4
+Removed Member From Class: ClassName=Connectors Member=J6
+Removed Member From Class: ClassName=Connectors Member=J7
+Added Component: Designator=J?(M50-3132045)
+Added Component: Designator=J?(M50-3132045)
+Add Component: Footprint Not Found HDR1X2
+Added Pin To Net: NetName=AHS0 Pin=J?-1
+Added Pin To Net: NetName=AHS0 Pin=J?-1
+Added Pin To Net: NetName=GND Pin=J?-1
+Added Pin To Net: NetName=GND Pin=J?-1
+Added Pin To Net: NetName=AHS1 Pin=J?-2
+Added Pin To Net: NetName=AHS1 Pin=J?-2
+Added Pin To Net: NetName=AHS2 Pin=J?-3
+Added Pin To Net: NetName=Vbatt Pin=J?-3
+Added Pin To Net: NetName=LED_EN Pin=J?-4
+Added Pin To Net: NetName=Vbatt Pin=J?-4
+Added Pin To Net: NetName=GND Pin=J?-5
+Added Pin To Net: NetName=GND Pin=J?-6
+Added Pin To Net: NetName=LS12 Pin=J?-6
+Added Pin To Net: NetName=GND Pin=J?-7
+Added Pin To Net: NetName=SWL1 Pin=J?-7
+Added Pin To Net: NetName=LS1 Pin=J?-8
+Added Pin To Net: NetName=SWL4 Pin=J?-8
+Added Pin To Net: NetName=LS4 Pin=J?-9
+Added Pin To Net: NetName=LS6 Pin=J?-9
+Added Pin To Net: NetName=LS9 Pin=J?-10
+Added Pin To Net: NetName=LS11 Pin=J?-10
+Added Pin To Net: NetName=LS14 Pin=J?-11
+Added Pin To Net: NetName=SWH0 Pin=J?-11
+Added Pin To Net: NetName=+5 Pin=J?-12
+Added Pin To Net: NetName=SWH1 Pin=J?-12
+Added Pin To Net: NetName=+5 Pin=J?-13
+Added Pin To Net: NetName=SWH2 Pin=J?-13
+Added Pin To Net: NetName=SWH3 Pin=J?-14
+Added Pin To Net: NetName=SWL3 Pin=J?-14
+Added Pin To Net: NetName=LS3 Pin=J?-15
+Added Pin To Net: NetName=SWH4 Pin=J?-15
+Added Pin To Net: NetName=LS8 Pin=J?-16
+Added Pin To Net: NetName=SWH5 Pin=J?-16
+Added Pin To Net: NetName=LS13 Pin=J?-17
+Added Pin To Net: NetName=SWL0 Pin=J?-17
+Added Pin To Net: NetName=LS0 Pin=J?-18
+Added Pin To Net: NetName=SWL2 Pin=J?-18
+Added Pin To Net: NetName=LS2 Pin=J?-19
+Added Pin To Net: NetName=LS5 Pin=J?-19
+Added Pin To Net: NetName=LS7 Pin=J?-20
+Added Pin To Net: NetName=LS10 Pin=J?-20
+Add Pin To Net: Unknown Pin: Pin P?-1
+Added Pin To Net: NetName=Vbatt_raw Pin=C10-2
+Added Pin To Net: NetName=Vbatt_raw Pin=U1-4
+Added Net: Name=Vbatt_raw
+Add Net: Net with name "Vbatt_raw" already exists
+Added Member To Class: ClassName=Connectors Member=Component J? 20pos passthru header 0.05" pitch
+Added Member To Class: ClassName=Connectors Member=Component J? 20pos passthru header 0.05" pitch
+Add Class Member: Failed to add class member : Component P? Header 2
+Added Room: Name=5VBoost
+Added Room: Name=BatteryManagement
+Added Room: Name=Connectors
