@@ -289,7 +289,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_CoDesigner Mechatronic Panel]
-LastAcknowledgment=2023-10-27T17:51:22.0000000
+LastAcknowledgment=2023-11-01T20:06:26.0000000
 
 [OutputGroup1]
 Name=Netlist Outputs

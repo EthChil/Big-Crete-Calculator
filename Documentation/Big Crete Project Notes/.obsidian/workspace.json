@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "V2/Architecture V2/Rev A Issues Log.md",
+                "file": "V2/Electrical Design V2/BOM V2 Rev 1 Electronics.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "V2/Architecture V2/Rev A Issues Log.md",
+                "file": "V2/Electrical Design V2/BOM V2 Rev 1 Electronics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,6 +220,7 @@
   },
   "active": "163ec3c308adeaf2",
   "lastOpenFiles": [
+    "V2/Architecture V2/Rev A Issues Log.md",
     "V2/Electrical Design V2/LED Driver Board Design Journal.md",
     "V2.5/List of Modifications.md",
     "V2/Architecture V2/TOP Design.md",
@@ -227,7 +228,6 @@
     "V2/Architecture V2/Architecture Overview.md",
     "V2/Electrical Design V2/Current Mirror Power Analysis.md",
     "V2/Electrical Design V2/BOM V2 Rev 1 Electronics.md",
-    "V2/Architecture V2/Rev A Issues Log.md",
     "V1/Electrical Design V1/LED + Driver.md",
     "V2.5",
     "Design Journal.md",
