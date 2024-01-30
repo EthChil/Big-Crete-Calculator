@@ -1,0 +1,4 @@
+Circuit: * C:\Users\ethan\Documents\GitHub\Big-Crete-Calculator\Hardware\V1 Prototype Boards\Simulations\Draft3.asc
+
+Fatal Error: Unknown subcircuit called in:
+   xu1 n002 n001 p001 p002 n001 opamp2

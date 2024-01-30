@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: MainBoard V1.GBR   2023-04-12  12:25:15 AM
+Gerber File Extension Report For: MainBoard V1.GBR   2024-01-30  12:44:21 AM
 ------------------------------------------------------------------------------------------
 
 
@@ -16,13 +16,16 @@ Layer Extension     Layer Description
 .GBS                Bottom Solder                           
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
-.GM4                Top Tenting                             
-.GM6                Bottom Tenting                          
-.GM7                Board Shape                             
+.GM1                Mechanical 1                            
+.GM13               Mechanical 13                           
+.GM15               Mechanical 15                           
 .GM20               Bottom Assembly                         
+.GM21               Bottom Courtyard                        
+.GM23               Bottom 3D Body                          
 .GM24               Bottom Component Center                 
 .GPT                Top Pad Master                          
 .GPB                Bottom Pad Master                       
 .GD1                Drill Drawing                           
 .GG1                Drill Guide                             
+.GM                 Profile                                 
 ------------------------------------------------------------------------------------------

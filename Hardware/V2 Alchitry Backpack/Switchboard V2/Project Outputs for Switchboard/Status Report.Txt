@@ -1,12 +1,13 @@
 Output: NC Drill Files
 Type  : NC Drill
 From  : Project [Switchboard.PrjPcb]
-   Generated File[Switchboard V1.TXT]
+   Generated File[Switchboard V1-RoundHoles.TXT]
+   Generated File[Switchboard V1-SquareHoles.TXT]
    Generated File[Switchboard V1.LDP]
    Generated File[Switchboard V1.DRR]
 
 
-Files Generated   : 3
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 12:39:53 AM On 2023-04-12
+Finished Output Generation At 12:41:49 AM On 2024-01-30
